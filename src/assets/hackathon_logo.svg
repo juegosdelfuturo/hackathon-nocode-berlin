@@ -1,0 +1,11 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="5" width="30" height="30" rx="6" fill="url(#logoGradient)" />
+  <path d="M8 15 L15 25 L22 15" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="38" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#0a0a0a">HN<tspan fill="#2563eb">.v1</tspan></text>
+</svg>

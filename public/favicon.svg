@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#1a1f2e"/>
+  <text x="8" y="30" font-family="Arial Black, sans-serif" font-size="18" font-weight="900" fill="white" letter-spacing="-0.5">RX</text>
+  <text x="8" y="52" font-family="Arial Black, sans-serif" font-size="14" font-weight="900" fill="#4A7CF7" letter-spacing="-0.5">NC</text>
+</svg>
