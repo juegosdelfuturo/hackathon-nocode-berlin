@@ -836,3 +836,86 @@ section {
     padding: 1.25rem 1.25rem;
   }
 }
+
+/* === Contact & Organizers === */
+
+.contact-banner {
+  display: inline-block;
+  border: 1px solid var(--border);
+  padding: 1rem 5rem;
+  margin-top: 2rem;
+  background: #fff;
+}
+
+.contact-banner h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--fg);
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.organizers-grid {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.organizer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.organizer-avatar {
+  width: 250px;
+  height: 250px;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+
+.organizer-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: inherit;
+}
+
+.organizer-social {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #3b82f6;
+  font-size: 1.1rem;
+}
+
+.organizer-social a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.organizer-social a:hover, .organizer-link:hover {
+  text-decoration: underline;
+}
+
+.organizer-icon {
+  fill: currentColor;
+}
+
+@media (max-width: 768px) {
+  .organizers-grid {
+    gap: 3rem;
+  }
+  .contact-banner {
+    padding: 1rem 2rem;
+  }
+  .contact-banner h2 {
+    font-size: 2.5rem;
+  }
+}

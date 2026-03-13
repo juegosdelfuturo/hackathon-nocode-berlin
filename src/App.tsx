@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { supabase } from './supabaseClient';
-import { Rocket, ArrowRight, Calendar, Zap, Target, Bot, Code2, Users } from 'lucide-react';
+import { Rocket, ArrowRight, Calendar, Zap, Target, Bot, Code2, Users, Linkedin } from 'lucide-react';
 
 const App: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -74,10 +74,10 @@ const App: React.FC = () => {
 
       {/* Hero */}
       <section className="hero container animate-up">
-        <span className="card-tag mono">Berlin | 21–22 June 2026</span>
+        <span className="card-tag mono">Berlin | 13 & 14 June 2026</span>
         <h1 style={{ marginTop: '2rem' }}>FOR THOSE WHO <br /> <span>BUILD</span> THE FUTURE WITHOUT CODE.</h1>
         <p>
-          Join us for a 48-hour robotics challenge where AI brains meet robotic bodies — using no-code tools to solve real-world problems.
+          Join us for a 48 hour robotics challenge where AI brains meet robotic bodies using no code tools to solve real world problems.
         </p>
         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
           <button onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })} className="btn">
@@ -94,7 +94,7 @@ const App: React.FC = () => {
               <Calendar size={22} />
               <div>
                 <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>WHEN</div>
-                <div className="date-banner-value">21–22 JUNE 2026</div>
+                <div className="date-banner-value">13 & 14 JUNE 2026</div>
               </div>
             </div>
             <div className="date-banner-divider" />
@@ -102,7 +102,7 @@ const App: React.FC = () => {
               <Zap size={22} />
               <div>
                 <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>FORMAT</div>
-                <div className="date-banner-value">48-HOUR HACKATHON</div>
+                <div className="date-banner-value">48 HOUR HACKATHON</div>
               </div>
             </div>
             <div className="date-banner-divider" />
@@ -110,7 +110,7 @@ const App: React.FC = () => {
               <Bot size={22} />
               <div>
                 <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>THEME</div>
-                <div className="date-banner-value">ROBOTICS × NO-CODE</div>
+                <div className="date-banner-value">ROBOTICS × NO CODE</div>
               </div>
             </div>
             <div className="date-banner-divider" />
@@ -230,7 +230,7 @@ const App: React.FC = () => {
               <span className="card-tag mono">01 / THE MISSION</span>
               <h2>THE FUTURE ISN'T JUST ROBOTS.<br />IT'S WHO GETS TO CONTROL THEM.</h2>
               <p style={{ marginTop: '1.5rem', maxWidth: '720px', color: 'var(--muted)', fontSize: '1.1rem' }}>
-                For decades, the power to build physical automation was held by a few. Today, we're giving that power to everyone. Join us to bridge the gap between AI brains and robotic bodies — using no-code tools to solve real-world problems in 48 hours.
+                For decades, the power to build physical automation was held by a few. Today, we're giving that power to everyone. Join us to bridge the gap between AI brains and robotic bodies using no code tools to solve real world problems in 48 hours.
               </p>
             </div>
 
@@ -244,9 +244,9 @@ const App: React.FC = () => {
 
             <div className="card">
               <Code2 size={32} style={{ marginBottom: '1.5rem', color: 'var(--accent)' }} />
-              <h3>NO-CODE POWER</h3>
+              <h3>NO CODE POWER</h3>
               <p style={{ marginTop: '1rem', color: 'var(--muted)' }}>
-                You don't need to touch a compiler. Use the best no-code and AI tools to build automation pipelines that talk to real robots.
+                You don't need to touch a compiler. Use the best no code and AI tools to build automation pipelines that talk to real robots.
               </p>
             </div>
           </div>
@@ -277,7 +277,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <p style={{ marginTop: '3rem', color: 'var(--muted)', maxWidth: '700px', fontSize: '1rem' }}>
-            In 2025, Europe hosted hundreds of software hackathons — but robotics representation remains minimal. There is a massive opportunity to lead the accessible robotics revolution in Berlin.
+            In 2025, Europe hosted hundreds of software hackathons but robotics representation remains minimal. There is a massive opportunity to lead the accessible robotics revolution in Berlin.
           </p>
         </div>
       </section>
@@ -292,7 +292,7 @@ const App: React.FC = () => {
               <Users size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
               <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>GATHER TALENT</h3>
               <p style={{ color: 'var(--muted)', fontSize: '0.95rem' }}>
-                We bring experts together to solve real-world problems. The perfect place to launch new ideas and find the best talent in AI and Robotics.
+                We bring experts together to solve real world problems. The perfect place to launch new ideas and find the best talent in AI and Robotics.
               </p>
             </div>
             <div className="info-card objective-card">
@@ -322,25 +322,25 @@ const App: React.FC = () => {
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>THE REWARDS.</h2>
           <div className="prize-pool-banner">
             <div className="prize-pool-amount">€1,500</div>
-            <div className="prize-pool-label mono">IN PRIZES — TO BE DISTRIBUTED AMONG TOP 3 TEAMS</div>
+            <div className="prize-pool-label mono">IN PRIZES  TO BE DISTRIBUTED AMONG TOP 3 TEAMS</div>
           </div>
           <div className="prizes-grid">
             <div className="prize-card">
               <div className="prize-icon">🥇</div>
               <div className="mono prize-place">1ST PLACE</div>
-              <div className="prize-coming-soon-badge">AMOUNT — COMING SOON</div>
+              <div className="prize-coming-soon-badge">AMOUNT COMING SOON</div>
               <div className="prize-shimmer-lines"><div /><div /></div>
             </div>
             <div className="prize-card">
               <div className="prize-icon">🥈</div>
               <div className="mono prize-place">2ND PLACE</div>
-              <div className="prize-coming-soon-badge">AMOUNT — COMING SOON</div>
+              <div className="prize-coming-soon-badge">AMOUNT COMING SOON</div>
               <div className="prize-shimmer-lines"><div /><div /></div>
             </div>
             <div className="prize-card">
               <div className="prize-icon">🥉</div>
               <div className="mono prize-place">3RD PLACE</div>
-              <div className="prize-coming-soon-badge">AMOUNT — COMING SOON</div>
+              <div className="prize-coming-soon-badge">AMOUNT COMING SOON</div>
               <div className="prize-shimmer-lines"><div /><div /></div>
             </div>
           </div>
@@ -400,10 +400,48 @@ const App: React.FC = () => {
           <div className="info-cards" style={{ marginTop: '3rem' }}>
             <div className="info-card venue-card" style={{ textAlign: 'center', minHeight: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <div className="venue-question">?</div>
-              <span className="mono" style={{ color: 'var(--muted)', marginTop: '1.5rem', fontSize: '0.7rem' }}>LOCATION — COMING SOON</span>
+              <span className="mono" style={{ color: 'var(--muted)', marginTop: '1.5rem', fontSize: '0.7rem' }}>LOCATION COMING SOON</span>
               <p style={{ color: 'var(--muted)', marginTop: '1rem', fontSize: '0.9rem', maxWidth: '400px' }}>
                 We're finalising the perfect space. Stay tuned for the big reveal.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── ORGANIZERS / CONTACT ─── */}
+      <section id="contact" className="info-section">
+        <div className="container" style={{ textAlign: 'center' }}>
+          <div className="contact-banner">
+            <h2>Contact</h2>
+          </div>
+          <p style={{ color: 'var(--muted)', marginTop: '2rem', marginBottom: '4rem', fontSize: '1rem' }}>
+            If you want to collaborate, contact us.
+          </p>
+
+          <div className="organizers-grid">
+            {/* Beñat */}
+            <div className="organizer-card">
+              <div className="organizer-avatar avatar-benat"></div>
+              <a href="mailto:benat@team-nexio.com" className="organizer-link">
+                benat@team-nexio.com
+              </a>
+              <div className="organizer-social">
+                <Linkedin size={20} className="organizer-icon" />
+                <a href="https://www.linkedin.com/in/be%C3%B1at-zuazubizkar-aizpurua-013532335/" target="_blank" rel="noreferrer">Beñat Zuazubizcar</a>
+              </div>
+            </div>
+
+            {/* Pedro */}
+            <div className="organizer-card">
+              <div className="organizer-avatar avatar-pedro"></div>
+              <a href="mailto:pedro@team-nexio.com" className="organizer-link">
+                pedro@team-nexio.com
+              </a>
+              <div className="organizer-social">
+                <Linkedin size={20} className="organizer-icon" />
+                <a href="https://www.linkedin.com/in/pedrosanmi/" target="_blank" rel="noreferrer">Pedro San Miguel</a>
+              </div>
             </div>
           </div>
         </div>
@@ -413,7 +451,7 @@ const App: React.FC = () => {
       <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--border)' }}>
         <div className="container nav-inner">
           <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>
-            © 2026 NO-CODE HACKATHON. ALL RIGHTS RESERVED.
+            © 2026 NO CODE HACKATHON. ALL RIGHTS RESERVED.
           </div>
           <div style={{ display: 'flex', gap: '2rem' }}>
             {/* Social links removed */}
