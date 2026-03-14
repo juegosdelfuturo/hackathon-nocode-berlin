@@ -75,8 +75,9 @@ const App: React.FC = () => {
       {/* Header */}
       <header>
         <div className="container nav-inner">
-          <a href="/" className="logo">
-            <img src="/src/assets/robotics_x_nocode_logo.svg" alt="Robotics X No Code" style={{ height: '52px' }} />
+          <a href="/" className="logo" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', fontSize: '1.5rem', fontWeight: 800, fontFamily: 'var(--font-heading)' }}>
+            <span style={{ color: 'var(--fg)' }}>ROBOTICS × </span>
+            <span style={{ color: 'var(--accent)', marginLeft: '10px' }}>NO CODE</span>
           </a>
 
 
@@ -309,7 +310,7 @@ const App: React.FC = () => {
       {/* ─── PRIZES ─── */}
       <section id="prizes" style={{ borderTop: '1px solid var(--border)', background: '#fff' }}>
         <div className="container">
-          <span className="card-tag mono">05 / PRIZES</span>
+          <span className="card-tag mono">04 / PRIZES</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>THE REWARDS.</h2>
           <div className="prize-pool-banner">
             <div className="prize-pool-amount">€1,500</div>
@@ -345,7 +346,7 @@ const App: React.FC = () => {
       {/* ─── SPONSORS — Static ─── */}
       <section style={{ padding: '5rem 0', borderTop: '1px solid var(--border)', background: 'var(--bg)' }}>
         <div className="container" style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
-          <span className="card-tag mono">06 / SPONSORS</span>
+          <span className="card-tag mono">07 / SPONSORS</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>BACKED BY</h2>
         </div>
         <div className="sponsors-static-grid">
@@ -364,7 +365,7 @@ const App: React.FC = () => {
       {/* ─── JUDGES ─── */}
       <section className="info-section">
         <div className="container">
-          <span className="card-tag mono">02 / JUDGES</span>
+          <span className="card-tag mono">05 / JUDGES</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>MEET THE PANEL</h2>
           <div className="info-cards">
             {[1, 2, 3, 4].map((i) => (
@@ -386,7 +387,7 @@ const App: React.FC = () => {
       {/* ─── VENUE ─── */}
       <section className="info-section" style={{ background: '#fff' }}>
         <div className="container">
-          <span className="card-tag mono">03 / VENUE</span>
+          <span className="card-tag mono">06 / VENUE</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>WHERE IT HAPPENS</h2>
           <div className="info-cards" style={{ marginTop: '3rem' }}>
             <div className="info-card venue-card" style={{ textAlign: 'center', minHeight: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
