@@ -351,10 +351,10 @@ const App: React.FC = () => {
         </div>
         <div className="sponsors-static-grid">
           <div className="logo-item-static">
-            <img src="/src/assets/mondragon_logo_final.png" alt="Mondragon Unibertsitatea" style={{ height: '3.5rem' }} />
+            <img src="/assets/mondragon_logo_final.png" alt="Mondragon Unibertsitatea" style={{ height: '3.5rem' }} />
           </div>
           <div className="logo-item-static">
-            <img src="/src/assets/travelling_u_logo.png" alt="Travelling U" style={{ height: '4rem' }} />
+            <img src="/assets/travelling_u_logo.png" alt="Travelling U" style={{ height: '4rem' }} />
           </div>
           <div className="logo-item-soon-static">COMING SOON</div>
           <div className="logo-item-soon-static">COMING SOON</div>
