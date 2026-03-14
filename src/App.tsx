@@ -162,7 +162,7 @@ const App: React.FC = () => {
           <div className="grid">
             <div className="card full form-container">
               <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-                <span className="card-tag mono">02 / REGISTRATION</span>
+                <span className="card-tag mono">01 / REGISTRATION</span>
                 <h2 style={{ fontSize: '3rem', marginBottom: '3rem', color: 'var(--fg)' }}>JOIN THE WAITLIST.</h2>
 
                 {submitted ? (
@@ -247,7 +247,7 @@ const App: React.FC = () => {
         <div className="container">
           <div className="grid">
             <div className="card full">
-              <span className="card-tag mono">01 / THE MISSION</span>
+              <span className="card-tag mono">02 / THE MISSION</span>
               <h2>THE FUTURE ISN'T JUST ROBOTS.<br />IT'S WHO GETS TO CONTROL THEM.</h2>
               <p style={{ marginTop: '1.5rem', maxWidth: '720px', color: 'var(--muted)', fontSize: '1.1rem' }}>
                 For decades, the power to build physical automation was held by a few. Today, we're giving that power to everyone. Join us to bridge the gap between AI brains and robotic bodies using no code tools to solve real world problems in 48 hours.
@@ -346,7 +346,7 @@ const App: React.FC = () => {
       {/* ─── SPONSORS — Static ─── */}
       <section style={{ padding: '5rem 0', borderTop: '1px solid var(--border)', background: 'var(--bg)' }}>
         <div className="container" style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
-          <span className="card-tag mono">07 / SPONSORS</span>
+          <span className="card-tag mono">05 / SPONSORS</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>BACKED BY</h2>
         </div>
         <div className="sponsors-static-grid">
@@ -365,7 +365,7 @@ const App: React.FC = () => {
       {/* ─── JUDGES ─── */}
       <section className="info-section">
         <div className="container">
-          <span className="card-tag mono">05 / JUDGES</span>
+          <span className="card-tag mono">06 / JUDGES</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>MEET THE PANEL</h2>
           <div className="info-cards">
             {[1, 2, 3, 4].map((i) => (
@@ -387,7 +387,7 @@ const App: React.FC = () => {
       {/* ─── VENUE ─── */}
       <section className="info-section" style={{ background: '#fff' }}>
         <div className="container">
-          <span className="card-tag mono">06 / VENUE</span>
+          <span className="card-tag mono">07 / VENUE</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>WHERE IT HAPPENS</h2>
           <div className="info-cards" style={{ marginTop: '3rem' }}>
             <div className="info-card venue-card" style={{ textAlign: 'center', minHeight: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
