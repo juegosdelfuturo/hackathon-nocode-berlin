@@ -12,6 +12,7 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [bannerVisible, setBannerVisible] = useState(true);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -54,6 +55,23 @@ const App: React.FC = () => {
 
   return (
     <div className="landing">
+      {/* Top Banner Marquee */}
+      {bannerVisible && (
+        <div className="top-banner">
+          <div className="banner-marquee">
+            <div className="banner-content">
+              <span>OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • </span>
+            </div>
+            <div className="banner-content">
+              <span>OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • </span>
+            </div>
+          </div>
+          <button className="banner-close" onClick={() => setBannerVisible(false)}>
+            ×
+          </button>
+        </div>
+      )}
+
       {/* Header */}
       <header>
         <div className="container nav-inner">
@@ -74,7 +92,7 @@ const App: React.FC = () => {
 
       {/* Hero */}
       <section className="hero container animate-up">
-        <span className="card-tag mono">Berlin | 13 & 14 June 2026</span>
+        <span className="card-tag mono">Berlin | 20 & 21 June 2026</span>
         <h1 style={{ marginTop: '2rem' }}>FOR THOSE WHO <br /> <span>BUILD</span> THE FUTURE WITHOUT CODE.</h1>
         <p>
           Join us for a 48 hour robotics challenge where AI brains meet robotic bodies using no code tools to solve real world problems.
@@ -94,7 +112,7 @@ const App: React.FC = () => {
               <Calendar size={22} />
               <div>
                 <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>WHEN</div>
-                <div className="date-banner-value">13 & 14 JUNE 2026</div>
+                <div className="date-banner-value">20 & 21 JUNE 2026</div>
               </div>
             </div>
             <div className="date-banner-divider" />
@@ -163,7 +181,7 @@ const App: React.FC = () => {
                         type="text"
                         name="name"
                         className="input"
-                        placeholder="John Doe"
+                        placeholder=""
                         required
                         value={formData.name}
                         onChange={handleChange}
@@ -176,7 +194,7 @@ const App: React.FC = () => {
                         type="email"
                         name="email"
                         className="input"
-                        placeholder="john@example.com"
+                        placeholder=""
                         required
                         value={formData.email}
                         onChange={handleChange}
@@ -189,7 +207,7 @@ const App: React.FC = () => {
                         type="url"
                         name="linkedin"
                         className="input"
-                        placeholder="https://linkedin.com/in/..."
+                        placeholder=""
                         required
                         value={formData.linkedin}
                         onChange={handleChange}
@@ -202,7 +220,7 @@ const App: React.FC = () => {
                         type="text"
                         name="work_position"
                         className="input"
-                        placeholder="Product Manager, Founder, Designer..."
+                        placeholder=""
                         required
                         value={formData.work_position}
                         onChange={handleChange}
@@ -221,6 +239,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </section>
+
 
       {/* Grid Section - About */}
       <section id="about" style={{ borderTop: '1px solid var(--border)', background: '#fff' }}>
@@ -253,34 +272,6 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* ─── TRENDS ─── */}
-      <section style={{ borderTop: '1px solid var(--border)', background: 'var(--bg)' }}>
-        <div className="container">
-          <span className="card-tag mono">02 / TRENDS</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', marginBottom: '3rem' }}>THE INDUSTRY HAS SHIFTED.</h2>
-          <div className="trends-grid">
-            <div className="trend-stat">
-              <div className="trend-number">4.6M</div>
-              <div className="trend-label">Operational robots worldwide</div>
-            </div>
-            <div className="trend-stat">
-              <div className="trend-number">$132B</div>
-              <div className="trend-label">Global robotics market size</div>
-            </div>
-            <div className="trend-stat">
-              <div className="trend-number">65%</div>
-              <div className="trend-label">Manipulation error reduction via VLA Models</div>
-            </div>
-            <div className="trend-stat">
-              <div className="trend-number">100K</div>
-              <div className="trend-label">Humanoid units projected by 2027</div>
-            </div>
-          </div>
-          <p style={{ marginTop: '3rem', color: 'var(--muted)', maxWidth: '700px', fontSize: '1rem' }}>
-            In 2025, Europe hosted hundreds of software hackathons but robotics representation remains minimal. There is a massive opportunity to lead the accessible robotics revolution in Berlin.
-          </p>
-        </div>
-      </section>
 
       {/* ─── OBJECTIVES ─── */}
       <section style={{ borderTop: '1px solid var(--border)', background: '#fff' }}>
@@ -362,11 +353,11 @@ const App: React.FC = () => {
             <img src="/src/assets/mondragon_logo_final.png" alt="Mondragon Unibertsitatea" style={{ height: '3.5rem' }} />
           </div>
           <div className="logo-item-static">
-            <img src="/src/assets/travelling_u_logo.webp" alt="Travelling U" style={{ height: '4rem' }} />
+            <img src="/src/assets/travelling_u_logo.png" alt="Travelling U" style={{ height: '4rem' }} />
           </div>
-          <div className="logo-item-soon-static" title="Your logo here" />
-          <div className="logo-item-soon-static" title="Your logo here" />
-          <div className="logo-item-soon-static" title="Your logo here" />
+          <div className="logo-item-soon-static">COMING SOON</div>
+          <div className="logo-item-soon-static">COMING SOON</div>
+          <div className="logo-item-soon-static">COMING SOON</div>
         </div>
       </section>
 
@@ -420,18 +411,6 @@ const App: React.FC = () => {
           </p>
 
           <div className="organizers-grid">
-            {/* Beñat */}
-            <div className="organizer-card">
-              <div className="organizer-avatar avatar-benat"></div>
-              <a href="mailto:benat@team-nexio.com" className="organizer-link">
-                benat@team-nexio.com
-              </a>
-              <div className="organizer-social">
-                <Linkedin size={20} className="organizer-icon" />
-                <a href="https://www.linkedin.com/in/be%C3%B1at-zuazubizkar-aizpurua-013532335/" target="_blank" rel="noreferrer">Beñat Zuazubizcar</a>
-              </div>
-            </div>
-
             {/* Pedro */}
             <div className="organizer-card">
               <div className="organizer-avatar avatar-pedro"></div>
@@ -441,6 +420,18 @@ const App: React.FC = () => {
               <div className="organizer-social">
                 <Linkedin size={20} className="organizer-icon" />
                 <a href="https://www.linkedin.com/in/pedrosanmi/" target="_blank" rel="noreferrer">Pedro San Miguel</a>
+              </div>
+            </div>
+
+            {/* Beñat */}
+            <div className="organizer-card">
+              <div className="organizer-avatar avatar-benat"></div>
+              <a href="mailto:benat@team-nexio.com" className="organizer-link">
+                benat@team-nexio.com
+              </a>
+              <div className="organizer-social">
+                <Linkedin size={20} className="organizer-icon" />
+                <a href="https://www.linkedin.com/in/be%C3%B1at-zuazubizkar-aizpurua-013532335/" target="_blank" rel="noreferrer">Beñat Zuazubizcar</a>
               </div>
             </div>
           </div>

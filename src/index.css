@@ -452,6 +452,7 @@ section {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 /* ─── EARLY ACCESS BANNER ─── */
@@ -545,6 +546,13 @@ section {
   background: var(--border);
   border-radius: 4px;
   animation: pulse-fade 2.5s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
 }
 
 /* ─── DATE BANNER ─── */
@@ -880,6 +888,14 @@ section {
   margin-bottom: 1rem;
 }
 
+.avatar-benat {
+  background-image: url('/src/assets/benat.png');
+}
+
+.avatar-pedro {
+  background-image: url('/src/assets/pedro.png');
+}
+
 .organizer-link {
   color: #3b82f6;
   text-decoration: none;
@@ -908,6 +924,67 @@ section {
   fill: currentColor;
 }
 
+/* ─── TOP BANNER MARQUEE ─── */
+.top-banner {
+  background: var(--accent);
+  color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.banner-marquee {
+  display: flex;
+  width: max-content;
+  white-space: nowrap;
+}
+
+.banner-content {
+  display: flex;
+  animation: banner-scroll 30s linear infinite;
+}
+
+.banner-content span {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0 4rem;
+  letter-spacing: 0.1em;
+}
+
+.banner-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: -10px 0 20px rgba(37, 99, 235, 1);
+}
+
+.banner-close:hover {
+  background: #1d4ed8;
+}
+
+@keyframes banner-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
 @media (max-width: 768px) {
   .organizers-grid {
     gap: 3rem;
@@ -917,5 +994,8 @@ section {
   }
   .contact-banner h2 {
     font-size: 2.5rem;
+  }
+  .hide-mobile {
+    display: none;
   }
 }
