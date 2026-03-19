@@ -137,7 +137,15 @@ const App: React.FC = () => {
               <Users size={22} />
               <div>
                 <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>LOCATION</div>
-                <div className="date-banner-value">BERLIN, GERMANY</div>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=Lohm%C3%BChlenstra%C3%9Fe+65%2C+12435+Berlin" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="date-banner-value"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  LOHMÜHLENSTR. 65, 12435 BERLIN
+                </a>
               </div>
             </div>
           </div>
@@ -343,22 +351,43 @@ const App: React.FC = () => {
       </section>
 
 
-      {/* ─── SPONSORS — Static ─── */}
-      <section style={{ padding: '5rem 0', borderTop: '1px solid var(--border)', background: 'var(--bg)' }}>
-        <div className="container" style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
-          <span className="card-tag mono">05 / SPONSORS</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>BACKED BY</h2>
+      {/* ─── PARTNERS MARQUEE ─── */}
+      <section style={{ borderTop: '1px solid var(--border)', background: '#fff', padding: '6rem 0' }}>
+        <div className="container" style={{ marginBottom: '4rem' }}>
+          <span className="card-tag mono">05 / PARTNERS</span>
+          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>SUPPORTED BY INNOVATION LEADERS</h2>
         </div>
-        <div className="sponsors-static-grid">
-          <div className="logo-item-static">
-            <img src="/assets/mondragon_logo_final.png" alt="Mondragon Unibertsitatea" style={{ height: '3.5rem' }} />
+        
+        <div className="partners-marquee-container">
+          <div className="partners-marquee-content">
+            {/* First set of logos */}
+            <div className="partner-logo-item">
+              <img src="/assets/mondragon_logo_final.png" alt="Mondragon Unibertsitatea" />
+            </div>
+            <div className="partner-logo-item">
+              <img src="/assets/travelling_u_logo.png" alt="Travelling U" />
+            </div>
+            <div className="partner-logo-item">
+              <img src="/assets/cic_logo.png" alt="CIC Berlin" />
+            </div>
+            <div className="partner-soon-tag">KEY PARTNER REVEALING SOON</div>
+            <div className="partner-soon-tag">TECH PARTNER REVEALING SOON</div>
+            <div className="partner-soon-tag">COMMUNITY REVEALING SOON</div>
+
+            {/* Duplicate for infinite effect */}
+            <div className="partner-logo-item">
+              <img src="/assets/mondragon_logo_final.png" alt="Mondragon Unibertsitatea" />
+            </div>
+            <div className="partner-logo-item">
+              <img src="/assets/travelling_u_logo.png" alt="Travelling U" />
+            </div>
+            <div className="partner-logo-item">
+              <img src="/assets/cic_logo.png" alt="CIC Berlin" />
+            </div>
+            <div className="partner-soon-tag">KEY PARTNER REVEALING SOON</div>
+            <div className="partner-soon-tag">TECH PARTNER REVEALING SOON</div>
+            <div className="partner-soon-tag">COMMUNITY REVEALING SOON</div>
           </div>
-          <div className="logo-item-static">
-            <img src="/assets/travelling_u_logo.png" alt="Travelling U" style={{ height: '4rem' }} />
-          </div>
-          <div className="logo-item-soon-static">COMING SOON</div>
-          <div className="logo-item-soon-static">COMING SOON</div>
-          <div className="logo-item-soon-static">COMING SOON</div>
         </div>
       </section>
 
@@ -388,13 +417,34 @@ const App: React.FC = () => {
       <section className="info-section" style={{ background: '#fff' }}>
         <div className="container">
           <span className="card-tag mono">07 / VENUE</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>WHERE IT HAPPENS</h2>
+          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', display: 'flex', alignItems: 'baseline', gap: '1.5rem', flexWrap: 'wrap' }}>
+            WHERE IT HAPPENS
+            <span style={{ fontSize: '0.9rem', fontWeight: 400, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
+              CIC INNOVATION CAMPUS
+            </span>
+          </h2>
           <div className="info-cards" style={{ marginTop: '3rem' }}>
-            <div className="info-card venue-card" style={{ textAlign: 'center', minHeight: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-              <div className="venue-question">?</div>
-              <span className="mono" style={{ color: 'var(--muted)', marginTop: '1.5rem', fontSize: '0.7rem' }}>LOCATION COMING SOON</span>
-              <p style={{ color: 'var(--muted)', marginTop: '1rem', fontSize: '0.9rem', maxWidth: '400px' }}>
-                We're finalising the perfect space. Stay tuned for the big reveal.
+            <div className="info-card venue-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+              <div className="venue-images">
+                <div className="venue-img-container">
+                  <img src="/assets/CIC_CAMPUS_PIC_1.webp" alt="CIC Campus Berlin 1" />
+                </div>
+                <div className="venue-img-container">
+                  <img src="/assets/CIC_CAMPUS_PIC_2.webp" alt="CIC Campus Berlin 2" />
+                </div>
+              </div>
+              <div className="venue-location-name">CIC CAMPUS BERLIN</div>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Lohm%C3%BChlenstra%C3%9Fe+65%2C+12435+Berlin" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="venue-address"
+                style={{ textDecoration: 'none', display: 'block' }}
+              >
+                Lohmühlenstraße 65, 12435 Berlin
+              </a>
+              <p style={{ color: 'var(--muted)', marginTop: '1rem', fontSize: '0.9rem', maxWidth: '600px' }}>
+                Join us at the CIC Campus in Berlin, a hub for innovation and entrepreneurship. We've secured this world-class space to provide the perfect environment for building the future of robotics.
               </p>
             </div>
           </div>
