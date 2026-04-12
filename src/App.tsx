@@ -84,7 +84,7 @@ const App: React.FC = () => {
           <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
             <a href="#about" className="mono" style={{ textDecoration: 'none', color: 'var(--muted)', fontSize: '0.7rem' }}>ABOUT</a>
             <a href="#prizes" className="mono" style={{ textDecoration: 'none', color: 'var(--muted)', fontSize: '0.7rem' }}>PRIZES</a>
-            <a href="#register" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.7rem' }}>
+            <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.7rem' }}>
               REGISTER
             </a>
           </div>
@@ -99,9 +99,9 @@ const App: React.FC = () => {
           Join us for a 48 hour robotics challenge where AI brains meet robotic bodies using no code tools to solve real world problems.
         </p>
         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
-          <button onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })} className="btn">
-            JOIN THE WAITLIST <ArrowRight size={18} style={{ marginLeft: '10px' }} />
-          </button>
+          <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn" style={{ textDecoration: 'none' }}>
+            REGISTER ON LUMA <ArrowRight size={18} style={{ marginLeft: '10px' }} />
+          </a>
         </div>
       </section>
 
@@ -158,9 +158,9 @@ const App: React.FC = () => {
           <span className="mono" style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.5)', letterSpacing: '0.2em' }}>👁 EXCLUSIVE</span>
           <h2 className="early-access-title">If you're seeing this,<br />you have <span>Early Access.</span></h2>
           <p className="early-access-sub">You're one of the first to know. Secure your spot before we open to the public.</p>
-          <button onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })} className="btn early-access-btn">
+          <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn early-access-btn" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
             CLAIM YOUR SPOT <ArrowRight size={18} style={{ marginLeft: '10px' }} />
-          </button>
+          </a>
         </div>
       </section>
 
@@ -171,7 +171,15 @@ const App: React.FC = () => {
             <div className="card full form-container">
               <div style={{ maxWidth: '600px', margin: '0 auto' }}>
                 <span className="card-tag mono">01 / REGISTRATION</span>
-                <h2 style={{ fontSize: '3rem', marginBottom: '3rem', color: 'var(--fg)' }}>JOIN THE WAITLIST.</h2>
+                <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem', color: 'var(--fg)' }}>REGISTER NOW.</h2>
+                <div style={{ marginBottom: '3rem' }}>
+                  <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', padding: '1rem 2rem' }}>
+                    OPEN LUMA REGISTRATION <ArrowRight size={18} style={{ marginLeft: '10px' }} />
+                  </a>
+                </div>
+                <div style={{ borderTop: '1px solid var(--border)', paddingTop: '2rem', marginTop: '2rem' }}>
+                  <p style={{ color: 'var(--muted)', marginBottom: '1.5rem', fontSize: '0.9rem' }}>Or join our internal waitlist to stay updated:</p>
+                </div>
 
                 {submitted ? (
                   <div className="animate-up" style={{ padding: '3rem', border: '1px solid var(--accent)', textAlign: 'center', background: '#fff' }}>
@@ -370,9 +378,18 @@ const App: React.FC = () => {
             <div className="partner-logo-item">
               <img src="/assets/cic_logo.png" alt="CIC Berlin" />
             </div>
+            <div className="partner-logo-item">
+              <img src="/assets/hf-logo.png" alt="Hugging Face" style={{ height: '50px' }} />
+            </div>
+
+            <div className="partner-logo-item">
+              <img src="/assets/logo_42_berlin_v2.svg" alt="42 Berlin" style={{ height: '50px' }} />
+            </div>
             <div className="partner-soon-tag">KEY PARTNER REVEALING SOON</div>
-            <div className="partner-soon-tag">TECH PARTNER REVEALING SOON</div>
             <div className="partner-soon-tag">COMMUNITY REVEALING SOON</div>
+            <div className="partner-soon-tag">SPONSOR REVEALING SOON</div>
+            <div className="partner-soon-tag">ECOSYSTEM PARTNER REVEALING SOON</div>
+            <div className="partner-soon-tag">MEDIA PARTNER REVEALING SOON</div>
 
             {/* Duplicate for infinite effect */}
             <div className="partner-logo-item">
@@ -384,9 +401,17 @@ const App: React.FC = () => {
             <div className="partner-logo-item">
               <img src="/assets/cic_logo.png" alt="CIC Berlin" />
             </div>
+            <div className="partner-logo-item">
+              <img src="/assets/hf-logo.png" alt="Hugging Face" style={{ height: '50px' }} />
+            </div>
+            <div className="partner-logo-item">
+              <img src="/assets/logo_42_berlin_v2.svg" alt="42 Berlin" style={{ height: '50px' }} />
+            </div>
             <div className="partner-soon-tag">KEY PARTNER REVEALING SOON</div>
-            <div className="partner-soon-tag">TECH PARTNER REVEALING SOON</div>
             <div className="partner-soon-tag">COMMUNITY REVEALING SOON</div>
+            <div className="partner-soon-tag">SPONSOR REVEALING SOON</div>
+            <div className="partner-soon-tag">ECOSYSTEM PARTNER REVEALING SOON</div>
+            <div className="partner-soon-tag">MEDIA PARTNER REVEALING SOON</div>
           </div>
         </div>
       </section>
@@ -397,7 +422,7 @@ const App: React.FC = () => {
           <span className="card-tag mono">06 / JUDGES</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>MEET THE PANEL</h2>
           <div className="info-cards">
-            {[1, 2, 3, 4].map((i) => (
+            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
               <div key={i} className="info-card info-card-soon">
                 <div className="soon-avatar" />
                 <div style={{ width: '100%' }}>
