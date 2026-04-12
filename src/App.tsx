@@ -12,7 +12,6 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [bannerVisible, setBannerVisible] = useState(true);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -55,35 +54,17 @@ const App: React.FC = () => {
 
   return (
     <div className="landing">
-      {/* Top Banner Marquee */}
-      {bannerVisible && (
-        <div className="top-banner">
-          <div className="banner-marquee">
-            <div className="banner-content">
-              <span>OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • </span>
-            </div>
-            <div className="banner-content">
-              <span>OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • OVER €1,500 IN PRIZES • </span>
-            </div>
-          </div>
-          <button className="banner-close" onClick={() => setBannerVisible(false)}>
-            ×
-          </button>
-        </div>
-      )}
-
       {/* Header */}
       <header>
         <div className="container nav-inner">
           <a href="/" className="logo" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', fontSize: '1.5rem', fontWeight: 800, fontFamily: 'var(--font-heading)' }}>
             <span style={{ color: 'var(--fg)' }}>ROBOTICS × </span>
-            <span style={{ color: 'var(--accent)', marginLeft: '10px' }}>NO CODE</span>
+            <span style={{ color: 'var(--accent)', marginLeft: '10px' }}>AI</span>
           </a>
 
 
           <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
             <a href="#about" className="mono" style={{ textDecoration: 'none', color: 'var(--muted)', fontSize: '0.7rem' }}>ABOUT</a>
-            <a href="#prizes" className="mono" style={{ textDecoration: 'none', color: 'var(--muted)', fontSize: '0.7rem' }}>PRIZES</a>
             <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.7rem' }}>
               REGISTER
             </a>
@@ -129,7 +110,7 @@ const App: React.FC = () => {
               <Bot size={22} />
               <div>
                 <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>THEME</div>
-                <div className="date-banner-value">ROBOTICS × NO CODE</div>
+                <div className="date-banner-value">ROBOTICS × AI</div>
               </div>
             </div>
             <div className="date-banner-divider" />
@@ -322,47 +303,10 @@ const App: React.FC = () => {
       </section>
 
 
-
-      {/* ─── PRIZES ─── */}
-      <section id="prizes" style={{ borderTop: '1px solid var(--border)', background: '#fff' }}>
-        <div className="container">
-          <span className="card-tag mono">04 / PRIZES</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>THE REWARDS.</h2>
-          <div className="prize-pool-banner">
-            <div className="prize-pool-amount">€1,500</div>
-            <div className="prize-pool-label mono">IN PRIZES  TO BE DISTRIBUTED AMONG TOP 3 TEAMS</div>
-          </div>
-          <div className="prizes-grid">
-            <div className="prize-card">
-              <div className="prize-icon">🥇</div>
-              <div className="mono prize-place">1ST PLACE</div>
-              <div className="prize-coming-soon-badge">AMOUNT COMING SOON</div>
-              <div className="prize-shimmer-lines"><div /><div /></div>
-            </div>
-            <div className="prize-card">
-              <div className="prize-icon">🥈</div>
-              <div className="mono prize-place">2ND PLACE</div>
-              <div className="prize-coming-soon-badge">AMOUNT COMING SOON</div>
-              <div className="prize-shimmer-lines"><div /><div /></div>
-            </div>
-            <div className="prize-card">
-              <div className="prize-icon">🥉</div>
-              <div className="mono prize-place">3RD PLACE</div>
-              <div className="prize-coming-soon-badge">AMOUNT COMING SOON</div>
-              <div className="prize-shimmer-lines"><div /><div /></div>
-            </div>
-          </div>
-          <p style={{ marginTop: '2rem', color: 'var(--muted)', fontSize: '0.85rem' }}>
-            Prize breakdown will be revealed progressively. Follow our channels to stay updated.
-          </p>
-        </div>
-      </section>
-
-
       {/* ─── PARTNERS MARQUEE ─── */}
       <section style={{ borderTop: '1px solid var(--border)', background: '#fff', padding: '6rem 0' }}>
         <div className="container" style={{ marginBottom: '4rem' }}>
-          <span className="card-tag mono">05 / PARTNERS</span>
+          <span className="card-tag mono">04 / PARTNERS</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>SUPPORTED BY INNOVATION LEADERS</h2>
         </div>
         
@@ -419,7 +363,7 @@ const App: React.FC = () => {
       {/* ─── JUDGES ─── */}
       <section className="info-section">
         <div className="container">
-          <span className="card-tag mono">06 / JUDGES</span>
+          <span className="card-tag mono">05 / JUDGES</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>MEET THE PANEL</h2>
           <div className="info-cards">
             {[1, 2, 3, 4, 5, 6, 7].map((i) => (
@@ -441,7 +385,7 @@ const App: React.FC = () => {
       {/* ─── VENUE ─── */}
       <section className="info-section" style={{ background: '#fff' }}>
         <div className="container">
-          <span className="card-tag mono">07 / VENUE</span>
+          <span className="card-tag mono">06 / VENUE</span>
           <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', display: 'flex', alignItems: 'baseline', gap: '1.5rem', flexWrap: 'wrap' }}>
             WHERE IT HAPPENS
             <span style={{ fontSize: '0.9rem', fontWeight: 400, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
@@ -518,7 +462,7 @@ const App: React.FC = () => {
       <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--border)' }}>
         <div className="container nav-inner">
           <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>
-            © 2026 NO CODE HACKATHON. ALL RIGHTS RESERVED.
+            © 2026 ROBOTICS × AI HACKATHON. ALL RIGHTS RESERVED.
           </div>
           <div style={{ display: 'flex', gap: '2rem' }}>
             {/* Social links removed */}
