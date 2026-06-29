@@ -1,29 +1,26 @@
 import React, { useState, useEffect } from 'react';
-import { Rocket, ArrowRight, Calendar, Zap, Target, Bot, Code2, Users, Linkedin, Clock, Trophy } from 'lucide-react';
+import { LogIn, LogOut, Menu, X, Lock } from 'lucide-react';
+import HomePage from './pages/HomePage';
+import PartnerLandingPage from './pages/PartnerLandingPage';
+import PartnerDashboard from './pages/PartnerDashboard';
+import AdminDashboard from './pages/AdminDashboard';
+import LoginModal from './components/LoginModal';
+import RegistrationModal from './components/RegistrationModal';
+import { supabase } from './supabaseClient';
 
-const PARTNER_LOGOS = [
-  { file: 'Logo ITQ con eslogan.png', needsBg: false },
-  { file: 'apify.svg', needsBg: false },
-  { file: 'cic.png', needsBg: false },
-  { file: 'huggingface.webp', needsBg: false },
-  { file: 'lovable.png', needsBg: false },
-  { file: 'migrapreneur-community-logo-black.svg', needsBg: true },
-  { file: 'mybotshop.png', needsBg: false },
-  { file: 'n8nlogo.png', needsBg: false },
-  { file: 'normacore.png', needsBg: false },
-  { file: 'spiced.png', needsBg: false },
-];
+type Page = 'home' | 'partners' | 'admin';
 
+interface AuthUser { email: string; }
 
 const LEGAL_CONTENT = {
   privacy: {
     title: "Privacy Policy",
     html: `
       <h4>Identification of the data controller:</h4>
-      <p>Asociación Estudiantil Junior Empresa NEXIO (hereinafter “NEXIO”) with NIF ID G75579508 and domicile in Paseo Uribitarte 6, 48001 Bilbao (Bizkaia). Contact: contact@team-nexio.com</p>
+      <p>Asociación Estudiantil Junior Empresa NEXIO (hereinafter "NEXIO") with NIF ID G75579508 and domicile in Paseo Uribitarte 6, 48001 Bilbao (Bizkaia). Contact: contact@team-nexio.com</p>
 
       <h4>Who is responsible for the processing of your data?</h4>
-      <p>This privacy policy applies to all personal data that the data subject provides to NEXIO, as well as to any natural person interested in the activities and services that NEXIO offers through its web pages and through any other means of communication. The purpose of NEXIO’s Privacy Policy is to give transparency to information on how we process your personal data in compliance with the current data protection regulations.</p>
+      <p>This privacy policy applies to all personal data that the data subject provides to NEXIO, as well as to any natural person interested in the activities and services that NEXIO offers through its web pages and through any other means of communication. The purpose of NEXIO's Privacy Policy is to give transparency to information on how we process your personal data in compliance with the current data protection regulations.</p>
 
       <h4>For what purpose do we process your personal data and with what legitimacy?</h4>
       <p>NEXIO has a Record of Processing Activities where each of the following processing carried out as the data controller are detailed:</p>
@@ -116,409 +113,240 @@ const LEGAL_CONTENT = {
 
 type LegalKey = keyof typeof LEGAL_CONTENT;
 
+// ─── SHARED HEADER ────────────────────────────────────────────────────────────
+function PlatformHeader({
+  currentPage,
+  onNavigate,
+  onLoginClick,
+  authUser,
+  onLogout,
+}: {
+  currentPage: Page;
+  onNavigate: (p: Page) => void;
+  onLoginClick: () => void;
+  authUser: AuthUser | null;
+  onLogout: () => void;
+}) {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  return (
+    <header className="platform-header">
+      <div className="container nav-inner">
+        {/* Logo */}
+        <button className="logo-brand hacklab-logo-link" onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+          <img src="/logos/hacklab.png" alt="HackLab" className="hacklab-logo-img" />
+        </button>
+
+        {/* Desktop nav */}
+        <nav className="platform-nav">
+          <button className={`platform-nav-link ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}>
+            Hackathons
+          </button>
+          <button className={`platform-nav-link ${currentPage === 'partners' ? 'active' : ''}`} onClick={() => onNavigate('partners')}>
+            FOR PARTNERS
+          </button>
+        </nav>
+
+        <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+          {authUser ? (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <span className="nav-user-pill">
+                <span className="nav-user-dot" />
+                {authUser.email.split('@')[0]}
+              </span>
+              <button className="btn btn-sm login-trigger-btn" onClick={onLogout} title="Sign out">
+                <LogOut size={14} />
+              </button>
+            </div>
+          ) : (
+            <button className="btn btn-sm login-trigger-btn" onClick={onLoginClick}>
+              <LogIn size={14} style={{ marginRight: '0.4rem' }} />
+              LOGIN
+            </button>
+          )}
+          <button className="mobile-menu-btn" onClick={() => setMobileOpen(!mobileOpen)}>
+            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile menu */}
+      {mobileOpen && (
+        <div className="mobile-menu">
+          <button className="mobile-menu-item" onClick={() => { onNavigate('home'); setMobileOpen(false); }}>Hackathons</button>
+          <button className="mobile-menu-item" onClick={() => { onNavigate('partners'); setMobileOpen(false); }}>FOR PARTNERS</button>
+          {authUser
+            ? <button className="mobile-menu-item" onClick={() => { onLogout(); setMobileOpen(false); }}>SIGN OUT</button>
+            : <button className="mobile-menu-item login-trigger" onClick={() => { onLoginClick(); setMobileOpen(false); }}>LOGIN</button>
+          }
+        </div>
+      )}
+    </header>
+  );
+}
+
+// ─── LOGIN WALL (for protected pages) ────────────────────────────────────────
+function LoginWall({ onLoginClick }: { onLoginClick: () => void }) {
+  return (
+    <div className="login-wall">
+      <div className="login-wall-inner">
+        <div className="login-wall-icon">
+          <Lock size={36} />
+        </div>
+        <h2>Access restricted</h2>
+        <p>This section is restricted to the HackLab partners and team.<br />Please sign in with your account.</p>
+        <button className="btn" onClick={onLoginClick}>
+          <LogIn size={15} style={{ marginRight: '0.5rem' }} />
+          SIGN IN
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// ─── ROOT APP ─────────────────────────────────────────────────────────────────
 const App: React.FC = () => {
+  const [currentPage, setCurrentPage] = useState<Page>('home');
   const [activeLegalDoc, setActiveLegalDoc] = useState<LegalKey | null>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+  const [showRegistration, setShowRegistration] = useState(false);
+  const [authUser, setAuthUser] = useState<AuthUser | null>(null);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [subscriptionTier, setSubscriptionTier] = useState<'none' | 'data_partner' | 'track_partner'>('none');
 
   useEffect(() => {
     const hasConsented = localStorage.getItem('cookieConsent');
-    if (!hasConsented) {
-      setShowCookieBanner(true);
-    }
+    if (!hasConsented) setShowCookieBanner(true);
+
+    // Get initial session — no localStorage admin bypass
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
+      if (session?.user) {
+        const { data } = await supabase.from('partners').select('subscription_tier, status').eq('email', session.user.email).single();
+        if (data && data.status !== 'PENDING' && data.status !== 'REJECTED') {
+          setAuthUser({ email: session.user.email || '' });
+          setSubscriptionTier(data.subscription_tier as any);
+        } else {
+          setAuthUser(null);
+          setSubscriptionTier('none');
+        }
+      } else {
+        setAuthUser(null);
+        setIsAdmin(false);
+        setSubscriptionTier('none');
+      }
+    });
+
+    // Listen for auth changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
+      if (session?.user) {
+        const { data } = await supabase.from('partners').select('subscription_tier, status').eq('email', session.user.email).single();
+        if (data && data.status !== 'PENDING' && data.status !== 'REJECTED') {
+          setAuthUser({ email: session.user.email || '' });
+          setSubscriptionTier(data.subscription_tier as any);
+        } else {
+          setAuthUser(null);
+          setSubscriptionTier('none');
+        }
+      } else {
+        setAuthUser(null);
+        setIsAdmin(false);
+        setSubscriptionTier('none');
+      }
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
   }, []);
 
-  const handleCookieConsent = (accept: boolean) => {
-    localStorage.setItem('cookieConsent', accept ? 'accepted' : 'declined');
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setAuthUser(null);
+    setIsAdmin(false);
+    setSubscriptionTier('none');
+    setCurrentPage('home');
+  };
+
+  const [consentCookies, setConsentCookies] = React.useState(false);
+  const [consentData, setConsentData] = React.useState(false);
+
+  const handleCookieConsent = () => {
+    if (!consentCookies || !consentData) return;
+    localStorage.setItem('cookieConsent', 'accepted');
+    localStorage.setItem('dataConsent', 'accepted');
     setShowCookieBanner(false);
   };
 
+  const navigateTo = (page: Page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSubscribe = (tier: 'data_partner' | 'track_partner') => {
+    // Fake stripe checkout logic
+    const prices = {
+      data_partner: 2500,
+      track_partner: 4500
+    };
+    alert(`Redirecting to Checkout for ${tier.toUpperCase()} plan (€${prices[tier]})...`);
+  };
+
   return (
-    <div className="landing">
-      {/* Header */}
-      <header>
-        <div className="container nav-inner">
-          <a href="/" className="logo-brand hacklab-logo-link">
-            <img src="/logos/hacklab.png" alt="HackLab" className="hacklab-logo-img" />
-          </a>
+    <div style={{ minHeight: '100vh', background: 'var(--bg)' }}>
+      <PlatformHeader
+        currentPage={currentPage}
+        onNavigate={navigateTo}
+        onLoginClick={() => setShowLogin(true)}
+        authUser={authUser}
+        onLogout={handleLogout}
+      />
 
-          <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
-            <a href="#about" className="mono" style={{ textDecoration: 'none', color: 'var(--muted)', fontSize: '0.7rem' }}>ABOUT</a>
-            <a href="#schedule" className="mono" style={{ textDecoration: 'none', color: 'var(--muted)', fontSize: '0.7rem' }}>SCHEDULE</a>
-            <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm">
-              REGISTER
-            </a>
-          </div>
-        </div>
-      </header>
+      {currentPage === 'home' && (
+        <HomePage 
+          onLegalClick={setActiveLegalDoc} 
+          onRegisterClick={() => setShowRegistration(true)} 
+        />
+      )}
+      
+      {currentPage === 'partners' && (
+        authUser ? <PartnerDashboard subscriptionTier={subscriptionTier as any} onSubscribeClick={handleSubscribe as any} partnerEmail={authUser.email} /> : <PartnerLandingPage onLoginClick={() => setShowLogin(true)} />
+      )}
 
-      {/* Hero */}
-      <section className="hero container animate-up">
-        <span className="card-tag mono">Berlin | 20 &amp; 21 June 2026</span>
-        <h1 style={{ marginTop: '2rem' }}>FOR THOSE WHO <br /> <span>BUILD</span> THE FUTURE WITHOUT CODE.</h1>
-        <p>
-          Join us for the first edition of the Berlin Robotics × Agentic AI Hackathon, a weekend of innovation, collaboration, and building the future of robotics. Whether you're a robotics engineer, software dev, designer, or entrepreneur, this is your playground.
-        </p>
-        <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
-          <a href="https://luma.com/1857f2wa?tk=hUbfYk" target="_blank" rel="noopener noreferrer" className="btn" style={{ textDecoration: 'none' }}>
-            REGISTER ON LUMA <ArrowRight size={18} style={{ marginLeft: '10px' }} />
-          </a>
-        </div>
-      </section>
+      {currentPage === 'admin' && (
+        isAdmin || authUser
+          ? <AdminDashboard onLogout={handleLogout} />
+          : <LoginWall onLoginClick={() => setShowLogin(true)} />
+      )}
 
-      {/* ─── EVENT DATE BANNER ─── */}
-      <section className="date-banner">
-        <div className="container">
-          <div className="date-banner-inner">
-            <div className="date-banner-item">
-              <Calendar size={22} />
-              <div>
-                <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>WHEN</div>
-                <div className="date-banner-value">20 &amp; 21 JUNE 2026</div>
-              </div>
-            </div>
-            <div className="date-banner-divider" />
-            <div className="date-banner-item">
-              <Zap size={22} />
-              <div>
-                <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>FORMAT</div>
-                <div className="date-banner-value">48 HOUR HACKATHON</div>
-              </div>
-            </div>
-            <div className="date-banner-divider" />
-            <div className="date-banner-item">
-              <Bot size={22} />
-              <div>
-                <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>THEME</div>
-                <div className="date-banner-value">ROBOTICS × AI</div>
-              </div>
-            </div>
-            <div className="date-banner-divider" />
-            <div className="date-banner-item">
-              <Users size={22} />
-              <div>
-                <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '0.25rem' }}>LOCATION</div>
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=Lohm%C3%BChlenstra%C3%9Fe+65%2C+12435+Berlin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="date-banner-value"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
-                >
-                  LOHMÜHLENSTR. 65, 12435 BERLIN
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Login Modal */}
+      {showLogin && (
+        <LoginModal
+          onClose={() => setShowLogin(false)}
+          onSuccess={(adminFlag, adminEmail) => {
+            if (adminFlag) {
+              setIsAdmin(true);
+              if (adminEmail) {
+                setAuthUser({ email: adminEmail });
+              }
+              navigateTo('admin');
+            } else {
+              if (currentPage === 'home' || currentPage === 'partners') navigateTo('partners');
+            }
+          }}
+        />
+      )}
 
-      {/* Grid Section - About */}
-      <section id="about" style={{ borderTop: '1px solid var(--border)' }}>
-        <div className="container">
-          <div className="grid">
-            <div className="card full">
-              <div className="console-brand">SYS // AIB | RB</div>
-              <div className="console-screen">
-                <span className="card-tag mono">02 / THE MISSION</span>
-                <h2>BRIDGE THE GAP BETWEEN<br />AI BRAINS AND ROBOTIC BODIES.</h2>
-                <p style={{ marginTop: '1.5rem', maxWidth: '720px', fontSize: '1.1rem' }}>
-                  Our goal is to merge Robotics with Agentic AI to engineer functional, real-world solutions that generate a meaningful and tangible impact on society. Connect with Europe's most ambitious builders and turn your wildest ideas into functional prototypes.
-                </p>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="console-brand">SYS // AIB | RB</div>
-              <div className="console-screen">
-                <Bot size={32} style={{ marginBottom: '1.5rem', color: 'var(--accent)' }} />
-                <h3>AGENTIC AI + ROBOTICS</h3>
-                <p style={{ marginTop: '1rem' }}>
-                  Decide whether to work on no-code solutions or physical robotic integrations. Work hands-on with cutting-edge hardware, the sky is the limit.
-                </p>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="console-brand">SYS // AIB | RB</div>
-              <div className="console-screen">
-                <Code2 size={32} style={{ marginBottom: '1.5rem', color: 'var(--accent)' }} />
-                <h3>NO CODE POWER</h3>
-                <p style={{ marginTop: '1rem' }}>
-                  You don't need to touch a compiler. Use the best no-code and AI tools to build automation pipelines that talk to real robots.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── OBJECTIVES ─── */}
-      <section style={{ borderTop: '1px solid var(--border)' }}>
-        <div className="container">
-          <span className="card-tag mono">03 / OBJECTIVES</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', marginBottom: '3rem' }}>WHAT WE ARE BUILDING TOGETHER.</h2>
-          <div className="info-cards">
-            <div className="info-card objective-card">
-              <div className="console-brand">SYS // AIB | RB</div>
-              <div className="console-screen">
-                <Users size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
-                <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>GATHER TALENT</h3>
-                <p style={{ fontSize: '0.95rem' }}>
-                  We bring experts together to solve real world problems. The perfect place to launch new ideas and find the best talent in AI and Robotics.
-                </p>
-              </div>
-            </div>
-            <div className="info-card objective-card">
-              <div className="console-brand">SYS // AIB | RB</div>
-              <div className="console-screen">
-                <Rocket size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
-                <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>LAUNCHING STARTUPS</h3>
-                <p style={{ fontSize: '0.95rem' }}>
-                  Be the launchpad for people to build the pathway to a successful robotics startup in Berlin's innovation ecosystem.
-                </p>
-              </div>
-            </div>
-            <div className="info-card objective-card">
-              <div className="console-brand">SYS // AIB | RB</div>
-              <div className="console-screen">
-                <Target size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
-                <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>VISIBILITY</h3>
-                <p style={{ fontSize: '0.95rem' }}>
-                  Connect your products and services directly with a community of AI and Robotics specialists at the forefront of the Berlin innovation scene.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── SCHEDULE ─── */}
-      <section id="schedule" style={{ borderTop: '1px solid var(--border)' }}>
-        <div className="container">
-          <span className="card-tag mono">04 / SCHEDULE</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', marginBottom: '3rem' }}>TWO DAYS. ONE MISSION.</h2>
-          <div className="schedule-grid">
-            {/* Day 1 */}
-            <div className="schedule-day">
-              <div className="schedule-day-header">
-                <Calendar size={20} style={{ color: 'var(--accent)' }} />
-                <div className="schedule-day-title">SATURDAY, JUNE 20TH</div>
-              </div>
-              <div className="schedule-items">
-                <div className="schedule-item">
-                  <span className="schedule-time mono">10:00</span>
-                  <span className="schedule-event">Doors Open &amp; Networking</span>
-                </div>
-                <div className="schedule-item">
-                  <span className="schedule-time mono">10:30</span>
-                  <span className="schedule-event">Opening Ceremony &amp; Matchmaking</span>
-                </div>
-                <div className="schedule-item">
-                  <span className="schedule-time mono">12:30</span>
-                  <span className="schedule-event">Lunch &amp; Networking</span>
-                </div>
-                <div className="schedule-item">
-                  <span className="schedule-time mono">18:30</span>
-                  <span className="schedule-event">Dinner &amp; Late-night Hacking</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Day 2 */}
-            <div className="schedule-day">
-              <div className="schedule-day-header">
-                <Trophy size={20} style={{ color: 'var(--accent)' }} />
-                <div className="schedule-day-title">SUNDAY, JUNE 21ST</div>
-              </div>
-              <div className="schedule-items">
-                <div className="schedule-item">
-                  <span className="schedule-time mono">12:30</span>
-                  <span className="schedule-event">Lunch</span>
-                </div>
-                <div className="schedule-item schedule-item-highlight">
-                  <span className="schedule-time mono">15:00</span>
-                  <span className="schedule-event">Project Submission Deadline 🏁</span>
-                </div>
-                <div className="schedule-item">
-                  <span className="schedule-time mono">16:00</span>
-                  <span className="schedule-event">Announcement of Finalists</span>
-                </div>
-                <div className="schedule-item">
-                  <span className="schedule-time mono">16:15</span>
-                  <span className="schedule-event">Finalist Pitches</span>
-                </div>
-                <div className="schedule-item schedule-item-highlight">
-                  <span className="schedule-time mono">17:30</span>
-                  <span className="schedule-event">Award Ceremony &amp; Closing Drinks 🏆</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── WHY PARTICIPATE ─── */}
-      <section style={{ borderTop: '1px solid var(--border)' }}>
-        <div className="container">
-          <span className="card-tag mono">05 / WHY PARTICIPATE</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', marginBottom: '3rem' }}>WHAT YOU GAIN.</h2>
-          <div className="info-cards">
-            <div className="info-card objective-card">
-              <Zap size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
-              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>HANDS-ON INNOVATION</h3>
-              <p style={{ color: 'var(--muted)', fontSize: '0.95rem' }}>
-                Work directly with no code tools and real robotics hardware. Build prototypes that actually move and think.
-              </p>
-            </div>
-
-            <div className="info-card objective-card">
-              <Clock size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
-              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>HIGH-LEVEL NETWORKING</h3>
-              <p style={{ color: 'var(--muted)', fontSize: '0.95rem' }}>
-                Connect with top-tier investors, potential co-founders, and Europe's most ambitious builders.
-              </p>
-            </div>
-            <div className="info-card objective-card">
-              <Trophy size={28} style={{ color: 'var(--accent)', marginBottom: '1.25rem' }} />
-              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>SHOWCASE YOUR TALENT</h3>
-              <p style={{ color: 'var(--muted)', fontSize: '0.95rem' }}>
-                Present your project to a jury of tech pioneers and gain visibility in Berlin's innovation scene.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── PARTNERS MARQUEE ─── */}
-      <section style={{ borderTop: '1px solid var(--border)', padding: '6rem 0' }}>
-        <div className="container" style={{ marginBottom: '4rem' }}>
-          <span className="card-tag mono">06 / PARTNERS</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>SUPPORTED BY INNOVATION LEADERS</h2>
-        </div>
-
-        <div className="partners-marquee-container">
-          <div className="partners-marquee-content">
-            {PARTNER_LOGOS.map(({ file, needsBg }, idx) => (
-              <div key={`logo-1-${idx}`} className="partner-logo-item">
-                <img src={`/logos/${file}`} alt={`Partner ${idx}`} className={needsBg ? 'logo-needs-bg' : ''} />
-              </div>
-            ))}
-            {/* Duplicate for infinite scroll effect */}
-            {PARTNER_LOGOS.map(({ file, needsBg }, idx) => (
-              <div key={`logo-2-${idx}`} className="partner-logo-item">
-                <img src={`/logos/${file}`} alt={`Partner ${idx}`} className={needsBg ? 'logo-needs-bg' : ''} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── JUDGES ─── */}
-      <section className="info-section">
-        <div className="container">
-          <span className="card-tag mono">07 / JUDGES</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem' }}>MEET THE PANEL</h2>
-          <div className="info-cards">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="info-card info-card-soon">
-                <div className="soon-avatar" />
-                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--muted)' }}>
-                  PANEL MEMBER 0{i}
-                </div>
-                <span className="soon-badge">COMING SOON</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── VENUE ─── */}
-      <section className="info-section" style={{ borderTop: '1px solid var(--border)' }}>
-        <div className="container">
-          <span className="card-tag mono">08 / VENUE</span>
-          <h2 style={{ marginTop: '0.5rem', fontSize: '2rem', display: 'flex', alignItems: 'baseline', gap: '1.5rem', flexWrap: 'wrap' }}>
-            WHERE IT HAPPENS
-            <span style={{ fontSize: '0.9rem', fontWeight: 400, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-              CIC INNOVATION CAMPUS
-            </span>
-          </h2>
-          <div className="info-cards" style={{ marginTop: '3rem' }}>
-            <div className="info-card venue-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-              <div className="venue-images">
-                <div className="venue-img-container">
-                  <img src="/assets/CIC_CAMPUS_PIC_1.webp" alt="CIC Campus Berlin 1" />
-                </div>
-                <div className="venue-img-container">
-                  <img src="/assets/CIC_CAMPUS_PIC_2.webp" alt="CIC Campus Berlin 2" />
-                </div>
-              </div>
-              <div className="venue-location-name">CIC CAMPUS BERLIN</div>
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=Lohm%C3%BChlenstra%C3%9Fe+65%2C+12435+Berlin"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="venue-address"
-                style={{ textDecoration: 'none', display: 'block' }}
-              >
-                Lohmühlenstraße 65, 12435 Berlin
-              </a>
-              <p style={{ color: 'var(--muted)', marginTop: '1rem', fontSize: '0.9rem', maxWidth: '600px' }}>
-                Join us at the CIC Campus in Berlin, a hub for innovation and entrepreneurship. We've secured this world-class space to provide the perfect environment for building the future of robotics.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── CONTACT ─── */}
-      <section id="contact" className="info-section">
-        <div className="container" style={{ textAlign: 'center' }}>
-          <div className="contact-banner">
-            <h2>Contact</h2>
-          </div>
-          <p style={{ color: 'var(--muted)', marginTop: '2rem', marginBottom: '4rem', fontSize: '1rem' }}>
-            If you want to collaborate, contact us.
-          </p>
-
-          <div className="organizers-grid">
-            <div className="organizer-card">
-              <div className="organizer-avatar avatar-pedro"></div>
-              <a href="mailto:pedro@team-nexio.com" className="organizer-link">
-                pedro@team-nexio.com
-              </a>
-              <div className="organizer-social">
-                <Linkedin size={20} className="organizer-icon" />
-                <a href="https://www.linkedin.com/in/pedrosanmi/" target="_blank" rel="noreferrer">Pedro San Miguel</a>
-              </div>
-            </div>
-
-            <div className="organizer-card">
-              <div className="organizer-avatar avatar-benat"></div>
-              <a href="mailto:benat@team-nexio.com" className="organizer-link">
-                benat@team-nexio.com
-              </a>
-              <div className="organizer-social">
-                <Linkedin size={20} className="organizer-icon" />
-                <a href="https://www.linkedin.com/in/be%C3%B1at-zuazubizkar-aizpurua-013532335/" target="_blank" rel="noreferrer">Beñat Zuazubizcar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--border)' }}>
-        <div className="container nav-inner">
-          <div className="mono" style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>
-            © 2026 ROBOTICS × AI HACKATHON. ALL RIGHTS RESERVED.
-          </div>
-          <div style={{ display: 'flex', gap: '2rem' }}>
-            <button onClick={() => setActiveLegalDoc('legal')} className="legal-link">Legal Notice</button>
-            <button onClick={() => setActiveLegalDoc('privacy')} className="legal-link">Privacy Policy</button>
-            <button onClick={() => setActiveLegalDoc('cookies')} className="legal-link">Cookies Policy</button>
-          </div>
-        </div>
-      </footer>
+      {/* Registration Modal */}
+      {showRegistration && (
+        <RegistrationModal
+          onClose={() => setShowRegistration(false)}
+          onSuccess={() => {
+            alert('Successfully registered for HackLab! Your profile has been created.');
+            setShowRegistration(false);
+          }}
+        />
+      )}
 
       {/* Legal Modal */}
       {activeLegalDoc && (
@@ -531,18 +359,80 @@ const App: React.FC = () => {
         </div>
       )}
 
-      {/* Cookie Banner */}
+      {/* Cookie & Consent Modal - Full Screen Blocking */}
       {showCookieBanner && (
-        <div className="cookie-banner-wrapper">
-          <div className="cookie-banner-content">
-            <div className="cookie-banner-info">
-              <h3>Cookies Consent</h3>
-              <p>We use cookies to improve your experience. You must accept our cookies policy to navigate the website.</p>
+        <div className="cookie-modal-overlay">
+          <div className="cookie-modal-content">
+            {/* Accent top bar */}
+            <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '3px', background: 'linear-gradient(90deg, var(--accent), #7c3aed)' }} />
+
+            {/* Header */}
+            <div className="cookie-modal-header">
+              <div className="cookie-modal-icon">🔒</div>
+              <div>
+                <h2 className="cookie-modal-title">Privacy & Data Consent</h2>
+                <p style={{ color: 'var(--muted)', fontSize: '0.8rem', margin: 0 }}>Required before accessing HackLab Robotics</p>
+              </div>
             </div>
-            <div className="cookie-banner-btns">
-              <button onClick={() => handleCookieConsent(true)} className="btn btn-sm">Accept All</button>
-              <button onClick={() => handleCookieConsent(false)} className="btn btn-secondary btn-sm" style={{ marginLeft: '1rem' }}>Decline</button>
+
+            {/* Description */}
+            <p style={{ color: 'var(--muted)', lineHeight: '1.7', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
+              HackLab Robotics collects and processes personal data in accordance with the <strong style={{ color: 'var(--fg)' }}>General Data Protection Regulation (GDPR)</strong> and applicable Spanish data protection law. To continue, you must review and accept the following:
+            </p>
+
+            {/* Consent checkboxes */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
+
+              {/* Checkbox 1 – Cookies */}
+              <label className={`cookie-option ${consentCookies ? 'selected' : ''}`}>
+                <input
+                  type="checkbox"
+                  checked={consentCookies}
+                  onChange={e => setConsentCookies(e.target.checked)}
+                  className="cookie-option-checkbox"
+                />
+                <div>
+                  <div style={{ fontWeight: 600, color: 'var(--fg)', marginBottom: '0.3rem', fontSize: '0.9rem' }}>🍪 Cookies & Analytics</div>
+                  <div style={{ color: 'var(--muted)', fontSize: '0.82rem', lineHeight: '1.5' }}>
+                    I accept the use of essential and analytical cookies necessary for the proper functioning of the website, user session management, and platform improvement. These cookies do not track you across third-party sites.
+                  </div>
+                </div>
+              </label>
+
+              {/* Checkbox 2 – Recruiting data */}
+              <label className={`cookie-option ${consentData ? 'selected' : ''}`}>
+                <input
+                  type="checkbox"
+                  checked={consentData}
+                  onChange={e => setConsentData(e.target.checked)}
+                  className="cookie-option-checkbox"
+                />
+                <div>
+                  <div style={{ fontWeight: 600, color: 'var(--fg)', marginBottom: '0.3rem', fontSize: '0.9rem' }}>🏢 Sharing with Recruiting Partners</div>
+                  <div style={{ color: 'var(--muted)', fontSize: '0.82rem', lineHeight: '1.5' }}>
+                    I explicitly consent (pursuant to <strong style={{ color: 'var(--fg)' }}>Art. 6(1)(a) GDPR</strong>) to HackLab Robotics collecting, storing, and sharing my personal and professional data (including name, email, skills, and portfolio) with verified recruiting companies and challenge sponsors participating in HackLab events. I understand I may withdraw this consent at any time by contacting <strong style={{ color: 'var(--fg)' }}>contact@team-nexio.com</strong>.
+                  </div>
+                </div>
+              </label>
             </div>
+
+            {/* Legal note */}
+            <p style={{ color: 'var(--muted)', fontSize: '0.75rem', lineHeight: '1.5', marginBottom: '1.5rem', borderTop: '1px solid var(--border)', paddingTop: '1rem' }}>
+              Data controller: <strong style={{ color: 'var(--fg)' }}>Asociación Estudiantil Junior Empresa NEXIO</strong>, NIF G75579508, Paseo Uribitarte 6, 48001 Bilbao. You have the right to access, rectify, delete, restrict, object, and port your data. Contact: contact@team-nexio.com.
+            </p>
+
+            {/* CTA */}
+            <button
+              onClick={handleCookieConsent}
+              disabled={!consentCookies || !consentData}
+              className="btn"
+              style={{ width: '100%', justifyContent: 'center', opacity: (!consentCookies || !consentData) ? 0.4 : 1, cursor: (!consentCookies || !consentData) ? 'not-allowed' : 'pointer', transition: 'opacity 0.2s' }}
+            >
+              Accept & Enter HackLab Robotics
+            </button>
+            {(!consentCookies || !consentData) && (
+              <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: '0.75rem', marginTop: '0.75rem' }}>You must accept both consents to access the platform.</p>
+            )}
           </div>
         </div>
       )}
