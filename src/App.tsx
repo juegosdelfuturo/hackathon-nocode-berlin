@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { Menu, X, Lock } from 'lucide-react';
 import HomePage from './pages/HomePage';
-import OpportunitiesPage from './pages/OpportunitiesPage';
-import AdminDashboard from './pages/AdminDashboard';
-import LoginModal from './components/LoginModal';
-import RegistrationModal from './components/RegistrationModal';
 import { supabase } from './supabaseClient';
+
+// Lazy-load heavy pages that are not needed on first paint
+const OpportunitiesPage = lazy(() => import('./pages/OpportunitiesPage'));
+const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
+const LoginModal = lazy(() => import('./components/LoginModal'));
+const RegistrationModal = lazy(() => import('./components/RegistrationModal'));
+
 
 type Page = 'home' | 'opportunities' | 'admin';
 
@@ -263,42 +266,48 @@ const App: React.FC = () => {
       )}
       
       {currentPage === 'opportunities' && (
-        <OpportunitiesPage onLegalClick={setActiveLegalDoc} />
+        <Suspense fallback={null}>
+          <OpportunitiesPage onLegalClick={setActiveLegalDoc} />
+        </Suspense>
       )}
 
       {currentPage === 'admin' && (
         isAdmin || authUser
-          ? <AdminDashboard onLogout={handleLogout} />
+          ? <Suspense fallback={null}><AdminDashboard onLogout={handleLogout} /></Suspense>
           : <LoginWall onLoginClick={() => setShowLogin(true)} />
       )}
 
       {/* Login Modal */}
       {showLogin && (
-        <LoginModal
-          onClose={() => setShowLogin(false)}
-          onSuccess={(adminFlag, adminEmail) => {
-            if (adminFlag) {
-              setIsAdmin(true);
-              if (adminEmail) {
-                setAuthUser({ email: adminEmail });
+        <Suspense fallback={null}>
+          <LoginModal
+            onClose={() => setShowLogin(false)}
+            onSuccess={(adminFlag, adminEmail) => {
+              if (adminFlag) {
+                setIsAdmin(true);
+                if (adminEmail) {
+                  setAuthUser({ email: adminEmail });
+                }
+                navigateTo('admin');
+              } else {
+                navigateTo('home');
               }
-              navigateTo('admin');
-            } else {
-              navigateTo('home');
-            }
-          }}
-        />
+            }}
+          />
+        </Suspense>
       )}
 
       {/* Registration Modal */}
       {showRegistration && (
-        <RegistrationModal
-          onClose={() => setShowRegistration(false)}
-          onSuccess={() => {
-            alert('Successfully registered for HackLab! Your profile has been created.');
-            setShowRegistration(false);
-          }}
-        />
+        <Suspense fallback={null}>
+          <RegistrationModal
+            onClose={() => setShowRegistration(false)}
+            onSuccess={() => {
+              alert('Successfully registered for HackLab! Your profile has been created.');
+              setShowRegistration(false);
+            }}
+          />
+        </Suspense>
       )}
 
       {/* Legal Modal */}
