@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { LogIn, LogOut, Menu, X, Lock } from 'lucide-react';
+import { Menu, X, Lock } from 'lucide-react';
 import HomePage from './pages/HomePage';
-import PartnerLandingPage from './pages/PartnerLandingPage';
-import PartnerDashboard from './pages/PartnerDashboard';
+import OpportunitiesPage from './pages/OpportunitiesPage';
 import AdminDashboard from './pages/AdminDashboard';
 import LoginModal from './components/LoginModal';
 import RegistrationModal from './components/RegistrationModal';
 import { supabase } from './supabaseClient';
 
-type Page = 'home' | 'partners' | 'admin';
+type Page = 'home' | 'opportunities' | 'admin';
 
 interface AuthUser { email: string; }
 
@@ -117,15 +116,9 @@ type LegalKey = keyof typeof LEGAL_CONTENT;
 function PlatformHeader({
   currentPage,
   onNavigate,
-  onLoginClick,
-  authUser,
-  onLogout,
 }: {
   currentPage: Page;
   onNavigate: (p: Page) => void;
-  onLoginClick: () => void;
-  authUser: AuthUser | null;
-  onLogout: () => void;
 }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -133,8 +126,8 @@ function PlatformHeader({
     <header className="platform-header">
       <div className="container nav-inner">
         {/* Logo */}
-        <button className="logo-brand hacklab-logo-link" onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <img src="/logos/hacklab.png" alt="HackLab" className="hacklab-logo-img" />
+        <button className="logo-brand hacklab-logo-link" onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} aria-label="HackLab Home">
+          <img src="/logos/hacklab.webp" alt="HackLab" className="hacklab-logo-img" width={80} height={80} decoding="async" />
         </button>
 
         {/* Desktop nav */}
@@ -142,29 +135,13 @@ function PlatformHeader({
           <button className={`platform-nav-link ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}>
             Hackathons
           </button>
-          <button className={`platform-nav-link ${currentPage === 'partners' ? 'active' : ''}`} onClick={() => onNavigate('partners')}>
-            FOR PARTNERS
+          <button className={`platform-nav-link ${currentPage === 'opportunities' ? 'active' : ''}`} onClick={() => onNavigate('opportunities')}>
+            Opportunities
           </button>
         </nav>
 
         <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-          {authUser ? (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-              <span className="nav-user-pill">
-                <span className="nav-user-dot" />
-                {authUser.email.split('@')[0]}
-              </span>
-              <button className="btn btn-sm login-trigger-btn" onClick={onLogout} title="Sign out">
-                <LogOut size={14} />
-              </button>
-            </div>
-          ) : (
-            <button className="btn btn-sm login-trigger-btn" onClick={onLoginClick}>
-              <LogIn size={14} style={{ marginRight: '0.4rem' }} />
-              LOGIN
-            </button>
-          )}
-          <button className="mobile-menu-btn" onClick={() => setMobileOpen(!mobileOpen)}>
+          <button className="mobile-menu-btn" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle navigation menu">
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
@@ -174,11 +151,7 @@ function PlatformHeader({
       {mobileOpen && (
         <div className="mobile-menu">
           <button className="mobile-menu-item" onClick={() => { onNavigate('home'); setMobileOpen(false); }}>Hackathons</button>
-          <button className="mobile-menu-item" onClick={() => { onNavigate('partners'); setMobileOpen(false); }}>FOR PARTNERS</button>
-          {authUser
-            ? <button className="mobile-menu-item" onClick={() => { onLogout(); setMobileOpen(false); }}>SIGN OUT</button>
-            : <button className="mobile-menu-item login-trigger" onClick={() => { onLoginClick(); setMobileOpen(false); }}>LOGIN</button>
-          }
+          <button className="mobile-menu-item" onClick={() => { onNavigate('opportunities'); setMobileOpen(false); }}>Opportunities</button>
         </div>
       )}
     </header>
@@ -196,13 +169,13 @@ function LoginWall({ onLoginClick }: { onLoginClick: () => void }) {
         <h2>Access restricted</h2>
         <p>This section is restricted to the HackLab partners and team.<br />Please sign in with your account.</p>
         <button className="btn" onClick={onLoginClick}>
-          <LogIn size={15} style={{ marginRight: '0.5rem' }} />
           SIGN IN
         </button>
       </div>
     </div>
   );
 }
+
 
 // ─── ROOT APP ─────────────────────────────────────────────────────────────────
 const App: React.FC = () => {
@@ -213,7 +186,6 @@ const App: React.FC = () => {
   const [showRegistration, setShowRegistration] = useState(false);
   const [authUser, setAuthUser] = useState<AuthUser | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
-  const [subscriptionTier, setSubscriptionTier] = useState<'none' | 'data_partner' | 'track_partner'>('none');
 
   useEffect(() => {
     const hasConsented = localStorage.getItem('cookieConsent');
@@ -225,15 +197,12 @@ const App: React.FC = () => {
         const { data } = await supabase.from('partners').select('subscription_tier, status').eq('email', session.user.email).single();
         if (data && data.status !== 'PENDING' && data.status !== 'REJECTED') {
           setAuthUser({ email: session.user.email || '' });
-          setSubscriptionTier(data.subscription_tier as any);
         } else {
           setAuthUser(null);
-          setSubscriptionTier('none');
         }
       } else {
         setAuthUser(null);
         setIsAdmin(false);
-        setSubscriptionTier('none');
       }
     });
 
@@ -243,15 +212,12 @@ const App: React.FC = () => {
         const { data } = await supabase.from('partners').select('subscription_tier, status').eq('email', session.user.email).single();
         if (data && data.status !== 'PENDING' && data.status !== 'REJECTED') {
           setAuthUser({ email: session.user.email || '' });
-          setSubscriptionTier(data.subscription_tier as any);
         } else {
           setAuthUser(null);
-          setSubscriptionTier('none');
         }
       } else {
         setAuthUser(null);
         setIsAdmin(false);
-        setSubscriptionTier('none');
       }
     });
 
@@ -264,7 +230,6 @@ const App: React.FC = () => {
     await supabase.auth.signOut();
     setAuthUser(null);
     setIsAdmin(false);
-    setSubscriptionTier('none');
     setCurrentPage('home');
   };
 
@@ -283,23 +248,11 @@ const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleSubscribe = (tier: 'data_partner' | 'track_partner') => {
-    // Fake stripe checkout logic
-    const prices = {
-      data_partner: 2500,
-      track_partner: 4500
-    };
-    alert(`Redirecting to Checkout for ${tier.toUpperCase()} plan (€${prices[tier]})...`);
-  };
-
   return (
     <div style={{ minHeight: '100vh', background: 'var(--bg)' }}>
       <PlatformHeader
         currentPage={currentPage}
         onNavigate={navigateTo}
-        onLoginClick={() => setShowLogin(true)}
-        authUser={authUser}
-        onLogout={handleLogout}
       />
 
       {currentPage === 'home' && (
@@ -309,8 +262,8 @@ const App: React.FC = () => {
         />
       )}
       
-      {currentPage === 'partners' && (
-        authUser ? <PartnerDashboard subscriptionTier={subscriptionTier as any} onSubscribeClick={handleSubscribe as any} partnerEmail={authUser.email} /> : <PartnerLandingPage onLoginClick={() => setShowLogin(true)} />
+      {currentPage === 'opportunities' && (
+        <OpportunitiesPage onLegalClick={setActiveLegalDoc} />
       )}
 
       {currentPage === 'admin' && (
@@ -331,7 +284,7 @@ const App: React.FC = () => {
               }
               navigateTo('admin');
             } else {
-              if (currentPage === 'home' || currentPage === 'partners') navigateTo('partners');
+              navigateTo('home');
             }
           }}
         />

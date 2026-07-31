@@ -1,33 +1,33 @@
-import { ArrowRight, Zap, Users, Trophy } from 'lucide-react';
+import { ArrowRight, Zap, Users, Trophy, FileText } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 type LegalKey = 'privacy' | 'cookies' | 'legal';
 
 const HACKATHON_PHOTOS = [
-  { src: '/hackathon1.png', caption: 'Participants listening to keynote presentations' },
-  { src: '/hackathon2.png', caption: 'Teams working on robotics hardware' },
-  { src: '/hackathon3.png', caption: 'Late-night hacking sessions in full swing' },
+  { src: '/hackathon1.webp', caption: 'Participants listening to keynote presentations' },
+  { src: '/hackathon2.webp', caption: 'Teams working on robotics hardware' },
+  { src: '/hackathon3.webp', caption: 'Late-night hacking sessions in full swing' },
 ];
 
 const PARTNER_LOGOS = [
-  { file: 'Logo ITQ con eslogan.png', needsBg: false },
-  { file: 'apify.svg', needsBg: false },
-  { file: 'cic.png', needsBg: false },
-  { file: 'huggingface.webp', needsBg: false },
-  { file: 'lovable.png', needsBg: false },
-  { file: 'migrapreneur-community-logo-black.svg', needsBg: true },
-  { file: 'mybotshop.png', needsBg: false },
-  { file: 'n8nlogo.png', needsBg: false },
-  { file: 'normacore.png', needsBg: false, style: { transform: 'scale(1.5)' } },
-  { file: 'spiced.png', needsBg: false, style: { transform: 'scale(1.5)' } },
-  { file: 'redbull.png', needsBg: false },
-  { file: 'konvo.png', needsBg: false },
-  { file: 'basquetrade.png', needsBg: false, style: { transform: 'scale(1.5)' } },
-  { file: 'pdm_gelbe_seiten.png', needsBg: false },
-  { file: 'marso.png', needsBg: false },
-  { file: 'mistral.png', needsBg: false },
-  { file: 'aws_builder_center.png', needsBg: false },
-  { file: 'ibc.png', needsBg: false, style: { transform: 'scale(1.4)' } },
+  { file: 'Logo ITQ con eslogan.webp', name: 'ITQ', width: 120, height: 16, needsBg: false },
+  { file: 'apify.svg', name: 'Apify', width: 120, height: 32, needsBg: false },
+  { file: 'cic.webp', name: 'CIC', width: 78, height: 40, needsBg: false },
+  { file: 'huggingface.webp', name: 'Hugging Face', width: 120, height: 32, needsBg: false },
+  { file: 'lovable.webp', name: 'Lovable', width: 120, height: 20, needsBg: false },
+  { file: 'migrapreneur-community-logo-black.svg', name: 'Migrapreneur', width: 120, height: 40, needsBg: true },
+  { file: 'mybotshop.webp', name: 'MyBotShop', width: 103, height: 40, needsBg: false },
+  { file: 'n8nlogo.webp', name: 'n8n', width: 108, height: 40, needsBg: false },
+  { file: 'normacore.webp', name: 'Normacore', width: 40, height: 40, needsBg: false, style: { transform: 'scale(1.5)' } },
+  { file: 'spiced.webp', name: 'Spiced Academy', width: 40, height: 40, needsBg: false, style: { transform: 'scale(1.5)' } },
+  { file: 'redbull.webp', name: 'Red Bull', width: 120, height: 19, needsBg: false },
+  { file: 'konvo.webp', name: 'Konvo', width: 120, height: 29, needsBg: false },
+  { file: 'basquetrade.webp', name: 'Basquetrade', width: 120, height: 20, needsBg: false, style: { transform: 'scale(1.5)' } },
+  { file: 'pdm_gelbe_seiten.webp', name: 'Gelbe Seiten', width: 120, height: 30, needsBg: false },
+  { file: 'marso.webp', name: 'Marso', width: 93, height: 40, needsBg: false },
+  { file: 'mistral.webp', name: 'Mistral AI', width: 120, height: 27, needsBg: false },
+  { file: 'aws_builder_center.webp', name: 'AWS Builder Center', width: 120, height: 19, needsBg: false },
+  { file: 'ibc.webp', name: 'IBC', width: 40, height: 40, needsBg: false, style: { transform: 'scale(1.4)' } },
 ];
 
 export default function HomePage({ 
@@ -38,206 +38,164 @@ export default function HomePage({
   onRegisterClick: () => void;
 }) {
   const [activeSlide, setActiveSlide] = useState(0);
-  const [fading, setFading] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setFading(true);
-      setTimeout(() => {
-        setActiveSlide(prev => (prev + 1) % HACKATHON_PHOTOS.length);
-        setFading(false);
-      }, 400);
-    }, 3500);
+      setActiveSlide(prev => (prev + 1) % HACKATHON_PHOTOS.length);
+    }, 4000);
     return () => clearInterval(timer);
   }, []);
 
   return (
-    <div className="landing">
-      {/* Hero */}
-      <section className="hero container animate-up" style={{ textAlign: 'left' }}>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: '4rem',
-          alignItems: 'center',
-        }}>
-          {/* Left: text */}
-          <div>
-            <span className="card-tag mono">HackLab Community</span>
-            <h1 style={{ marginTop: '2rem', textAlign: 'left' }}>THE BEST <br /> <span>ROBOTICS COMPETITIONS</span> FOR COMPANIES.</h1>
-            <p style={{ textAlign: 'left' }}>
+    <div className="brutal-wrapper">
+      
+      {/* ─── HERO & CAROUSEL (MIXED SPLIT) ─── */}
+      <section className="brutal-hero-mixed">
+        {/* Left: Text Content */}
+        <div className="brutal-hero-content">
+          <h1 className="brutal-huge-title">
+            THE BEST<br />
+            <span className="brutal-accent-text">ROBOTICS COMPETITIONS</span><br />
+            FOR COMPANIES
+          </h1>
+
+          <div className="brutal-hero-bottom">
+            <p className="brutal-lead-text">
               We organize high-impact robotics competitions where top engineers, designers, and innovators solve real-world challenges for leading tech companies. Join us to discover breakthrough solutions and elite talent.
             </p>
-            <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'flex-start' }}>
-              <button className="btn" onClick={onRegisterClick}>
-                REGISTER TO JOIN THE COMMUNITY <ArrowRight size={18} style={{ marginLeft: '10px' }} />
-              </button>
+            <button className="brutal-primary-btn" onClick={onRegisterClick}>
+              JOIN THE COMMUNITY <ArrowRight size={20} />
+            </button>
+          </div>
+        </div>
+
+        {/* Right: Carousel */}
+        <div className="brutal-hero-carousel">
+          <div className="brutal-image-wrapper">
+            <img
+              src={HACKATHON_PHOTOS[activeSlide].src}
+              alt={HACKATHON_PHOTOS[activeSlide].caption}
+              className="brutal-hero-img"
+              width={771}
+              height={285}
+              fetchPriority={activeSlide === 0 ? 'high' : 'auto'}
+              decoding="async"
+            />
+            <div className="brutal-image-caption">
+              {HACKATHON_PHOTOS[activeSlide].caption}
             </div>
           </div>
-
-          {/* Right: auto carousel */}
-          <div style={{ position: 'relative' }}>
-            <div style={{
-              borderRadius: '16px',
-              overflow: 'hidden',
-              border: '1px solid var(--border)',
-              boxShadow: '0 30px 60px rgba(0,0,0,0.4)',
-              aspectRatio: '16/9',
-              position: 'relative',
-              background: '#000',
-            }}>
-              <img
-                src={HACKATHON_PHOTOS[activeSlide].src}
-                alt={HACKATHON_PHOTOS[activeSlide].caption}
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  opacity: fading ? 0 : 1,
-                  transition: 'opacity 0.4s ease',
-                  display: 'block',
-                }}
+          <div className="brutal-carousel-controls">
+            {HACKATHON_PHOTOS.map((photo, i) => (
+              <button
+                key={i}
+                onClick={() => setActiveSlide(i)}
+                className={`brutal-dot ${i === activeSlide ? 'active' : ''}`}
+                aria-label={`Go to slide ${i + 1}: ${photo.caption}`}
               />
-              {/* Gradient overlay */}
-              <div style={{
-                position: 'absolute', bottom: 0, left: 0, right: 0,
-                background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
-                padding: '1.5rem 1rem 1rem',
-              }}>
-                <p style={{ color: 'rgba(255,255,255,0.85)', fontSize: '0.8rem', margin: 0, fontFamily: 'var(--font-mono)' }}>
-                  {HACKATHON_PHOTOS[activeSlide].caption}
-                </p>
-              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── EDITIONS WIDGET ─── */}
+      <section className="editions-section">
+        <h2>EDITIONS</h2>
+        
+        <div className="edition-widget">
+          <div className="brutal-stats-grid">
+            {/* Main Info */}
+            <div className="brutal-stat-cell brutal-col-span-2">
+              <span className="brutal-mono-tag">EDITION #1 • JUNE 2026</span>
+              <h3 className="brutal-stat-title">Berlin Robotics × Agentic AI Hackathon</h3>
+              <p className="brutal-stat-desc">
+                A weekend of innovation where 100+ top robotics engineers, software devs, and designers converged in Berlin to build the future of physical autonomous systems.
+              </p>
             </div>
-            {/* Dots */}
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginTop: '1rem' }}>
-              {HACKATHON_PHOTOS.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => { setFading(true); setTimeout(() => { setActiveSlide(i); setFading(false); }, 400); }}
-                  style={{
-                    width: i === activeSlide ? '24px' : '8px',
-                    height: '8px',
-                    borderRadius: '4px',
-                    border: 'none',
-                    background: i === activeSlide ? 'var(--accent)' : 'var(--border)',
-                    cursor: 'pointer',
-                    padding: 0,
-                    transition: 'all 0.3s ease',
-                  }}
+
+            {/* Stats */}
+            <div className="brutal-stat-cell">
+              <FileText size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">600+</div>
+              <div className="brutal-stat-label">Applications</div>
+            </div>
+            <div className="brutal-stat-cell">
+              <Users size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">120+</div>
+              <div className="brutal-stat-label">Participants</div>
+            </div>
+            <div className="brutal-stat-cell">
+              <Zap size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">24</div>
+              <div className="brutal-stat-label">Projects Built</div>
+            </div>
+            <div className="brutal-stat-cell">
+              <Trophy size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">€5K+</div>
+              <div className="brutal-stat-label">In Prizes</div>
+            </div>
+
+            {/* Sponsors */}
+            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderBottom: 'none' }}>
+              <h4 className="brutal-mono-title">CHALLENGES BY</h4>
+              <ul className="brutal-sponsor-list" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: '3rem' }}>
+                <li>n8n</li>
+                <li>Hugging Face</li>
+                <li>Normacore</li>
+                <li>ITQ</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── PARTNERS MARQUEE ─── */}
+      <section className="brutal-marquee-section">
+        <h2 className="brutal-marquee-header">TRUSTED BY INNOVATIVE COMPANIES</h2>
+        <div className="brutal-marquee-container">
+          <div className="brutal-marquee-content">
+            {PARTNER_LOGOS.map((logo, i) => (
+              <div key={i} className="brutal-partner-item">
+                <img 
+                  src={`/logos/${logo.file}`} 
+                  alt={logo.name} 
+                  className={logo.needsBg ? 'logo-needs-bg' : ''}
+                  width={logo.width}
+                  height={logo.height}
+                  loading="lazy"
+                  decoding="async"
+                  style={logo.style} 
                 />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── PREVIOUS HACKATHONS ─── */}
-      <section className="previous-hackathons">
-        <div className="container" style={{ padding: '4rem 0' }}>
-          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h2 style={{ fontSize: '2rem', fontFamily: 'var(--font-heading)', color: 'var(--fg)' }}>Previous Editions</h2>
-            <p style={{ color: 'var(--muted)', marginTop: '0.5rem' }}>See the impact of our past hackathons.</p>
-          </div>
-
-          <div style={{ 
-            background: 'var(--card-bg)', 
-            border: '1px solid var(--border)', 
-            borderRadius: '12px', 
-            padding: '2.5rem',
-            maxWidth: '900px',
-            margin: '0 auto',
-            boxShadow: '0 20px 40px rgba(0,0,0,0.3)',
-            position: 'relative',
-            overflow: 'hidden'
-          }}>
-            <div style={{ 
-              position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: 'var(--accent)' 
-            }} />
-            
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '2rem' }}>
-              <div>
-                <span className="card-tag mono" style={{ marginBottom: '1rem', display: 'inline-block' }}>EDITION #1 • JUNE 2026</span>
-                <h3 style={{ fontSize: '1.75rem', fontFamily: 'var(--font-heading)', color: 'var(--fg)', marginBottom: '1rem' }}>
-                  Berlin Robotics × Agentic AI Hackathon
-                </h3>
-                <p style={{ color: 'var(--muted)', lineHeight: '1.6', maxWidth: '500px', marginBottom: '1.5rem' }}>
-                  A weekend of innovation where 100+ top robotics engineers, software devs, and designers converged in Berlin to build the future of physical autonomous systems.
-                </p>
-                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--fg)', fontSize: '0.85rem' }}>
-                    <Users size={16} color="var(--accent)" /> 120+ Participants
-                  </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--fg)', fontSize: '0.85rem' }}>
-                    <Zap size={16} color="var(--accent)" /> 24 Projects Built
-                  </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--fg)', fontSize: '0.85rem' }}>
-                    <Trophy size={16} color="var(--accent)" /> €5,000+ Prizes
-                  </div>
-                </div>
               </div>
-              
-              <div style={{ 
-                background: 'rgba(0,102,255,0.05)', 
-                border: '1px solid rgba(0,102,255,0.2)', 
-                borderRadius: '8px', 
-                padding: '1.5rem',
-                minWidth: '250px'
-              }}>
-                <h4 style={{ color: 'var(--fg)', fontSize: '0.9rem', marginBottom: '1rem', fontFamily: 'var(--font-mono)' }}>CHALLENGES BY:</h4>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                  <div style={{ color: 'var(--muted)', fontSize: '0.85rem' }}>• n8n</div>
-                  <div style={{ color: 'var(--muted)', fontSize: '0.85rem' }}>• Hugging Face</div>
-                  <div style={{ color: 'var(--muted)', fontSize: '0.85rem' }}>• Normacore</div>
-                  <div style={{ color: 'var(--muted)', fontSize: '0.85rem' }}>• ITQ</div>
-                </div>
+            ))}
+            {/* Duplicate for infinite scroll */}
+            {PARTNER_LOGOS.map((logo, i) => (
+              <div key={`dup-${i}`} className="brutal-partner-item">
+                <img 
+                  src={`/logos/${logo.file}`} 
+                  alt={logo.name} 
+                  className={logo.needsBg ? 'logo-needs-bg' : ''}
+                  width={logo.width}
+                  height={logo.height}
+                  loading="lazy"
+                  decoding="async"
+                  style={logo.style} 
+                />
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── PARTNERS ─── */}
-      <section className="partners">
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ marginBottom: '2rem' }}>TRUSTED BY INNOVATIVE COMPANIES</h2>
-          <div className="partners-marquee-container">
-            <div className="partners-marquee-content">
-              {PARTNER_LOGOS.map((logo, i) => (
-                <div key={i} className="partner-logo-item">
-                  <img 
-                    src={`/logos/${logo.file}`} 
-                    alt={`Partner ${i + 1}`} 
-                    className={logo.needsBg ? 'logo-needs-bg' : ''}
-                    style={logo.style} 
-                  />
-                </div>
-              ))}
-              {/* Duplicate for infinite scroll */}
-              {PARTNER_LOGOS.map((logo, i) => (
-                <div key={`dup-${i}`} className="partner-logo-item">
-                  <img 
-                    src={`/logos/${logo.file}`} 
-                    alt={`Partner ${i + 1}`} 
-                    className={logo.needsBg ? 'logo-needs-bg' : ''}
-                    style={logo.style} 
-                  />
-                </div>
-              ))}
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="footer">
-        <div className="container">
-          <div className="footer-links">
-            <button className="footer-link" onClick={() => onLegalClick('privacy')}>Privacy Policy</button>
-            <button className="footer-link" onClick={() => onLegalClick('cookies')}>Cookies Policy</button>
-            <button className="footer-link" onClick={() => onLegalClick('legal')}>Legal Notice</button>
+      <footer className="brutal-footer">
+        <div className="brutal-footer-inner">
+          <div className="brutal-footer-links">
+            <button onClick={() => onLegalClick('privacy')}>Privacy Policy</button>
+            <button onClick={() => onLegalClick('cookies')}>Cookies Policy</button>
+            <button onClick={() => onLegalClick('legal')}>Legal Notice</button>
           </div>
-          <div style={{ marginTop: '2rem', fontSize: '0.8rem', color: 'var(--muted)' }}>
+          <div className="brutal-footer-copy">
             © 2026 HackLab. All rights reserved.
           </div>
         </div>
