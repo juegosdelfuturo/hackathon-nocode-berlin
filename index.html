@@ -45,6 +45,7 @@
     @media(max-width:768px){.brutal-hero-mixed{grid-template-columns:1fr;min-height:auto}.brutal-hero-content{padding:2rem 1.25rem;border-right:none;border-bottom:1px solid var(--border)}.brutal-hero-carousel{height:220px}.brutal-huge-title{font-size:clamp(1.8rem,8vw,3rem)}}
   </style>
   <title>Hacklab Robotics</title>
+  <script type="module" src="/src/main.tsx"></script>
 </head>
 
 <body>
@@ -81,28 +82,36 @@
       </section>
     </div>
   </div>
-  <script type="module" src="/src/main.tsx"></script>
-  <!-- Google Analytics & Tag Manager deferred after page load -->
+  <!-- Google Analytics & Tag Manager loaded lazily on interaction or idle -->
   <script>
-    window.addEventListener('load', function() {
-      // Google Analytics (gtag.js)
-      var gaScript = document.createElement('script');
-      gaScript.async = true;
-      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KZV36DKHYF';
-      document.head.appendChild(gaScript);
-      gaScript.onload = function() {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-KZV36DKHYF');
-      };
-      // Google Tag Manager
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NB5QD5N6');
-    });
+    (function() {
+      var loaded = false;
+      function loadAnalytics() {
+        if (loaded) return;
+        loaded = true;
+        var events = ['keydown', 'scroll', 'mouseover', 'touchstart', 'click', 'mousemove', 'pointerdown'];
+        events.forEach(function(e) { window.removeEventListener(e, loadAnalytics, { passive: true }); });
+        
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KZV36DKHYF';
+        document.head.appendChild(gaScript);
+        gaScript.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-KZV36DKHYF');
+        };
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NB5QD5N6');
+      }
+      var events = ['keydown', 'scroll', 'mouseover', 'touchstart', 'click', 'mousemove', 'pointerdown'];
+      events.forEach(function(e) { window.addEventListener(e, loadAnalytics, { passive: true, once: true }); });
+      setTimeout(loadAnalytics, 4500);
+    })();
   </script>
   <!-- GTM noscript fallback -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB5QD5N6"
