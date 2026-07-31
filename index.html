@@ -40,13 +40,47 @@
     .brutal-hero-carousel{position:relative;overflow:hidden;background:var(--card-bg)}
     .brutal-image-wrapper{width:100%;height:100%;position:relative}
     .brutal-hero-img{width:100%;height:100%;object-fit:cover;display:block}
+    .brutal-hero-bottom{display:flex;flex-direction:column;gap:1.5rem}
+    .logo-brand{text-decoration:none;display:flex;align-items:center;gap:.5rem}
     @media(max-width:768px){.brutal-hero-mixed{grid-template-columns:1fr;min-height:auto}.brutal-hero-content{padding:2rem 1.25rem;border-right:none;border-bottom:1px solid var(--border)}.brutal-hero-carousel{height:220px}.brutal-huge-title{font-size:clamp(1.8rem,8vw,3rem)}}
   </style>
   <title>Hacklab Robotics</title>
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <!-- Pre-rendered skeleton: visible immediately, replaced by React on mount -->
+    <header class="platform-header">
+      <div class="nav-inner">
+        <button class="logo-brand hacklab-logo-link" style="background:none;border:none;cursor:pointer;padding:0" aria-label="HackLab Home">
+          <img src="/logos/hacklab.webp" alt="HackLab" class="hacklab-logo-img" width="160" height="80" fetchpriority="high" decoding="sync" />
+        </button>
+        <nav class="platform-nav">
+          <button class="platform-nav-link active">HOME</button>
+          <button class="platform-nav-link">OPPORTUNITIES</button>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Open navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </header>
+    <div class="brutal-wrapper">
+      <section class="brutal-hero-mixed">
+        <div class="brutal-hero-content">
+          <h1 class="brutal-huge-title">THE BEST<br/><span class="brutal-accent-text">ROBOTICS COMPETITIONS</span><br/>FOR COMPANIES</h1>
+          <div class="brutal-hero-bottom">
+            <p class="brutal-lead-text">We organize high-impact robotics competitions where top engineers, designers, and innovators solve real-world challenges for leading tech companies. Join us to discover breakthrough solutions and elite talent.</p>
+            <button class="brutal-primary-btn">JOIN THE COMMUNITY →</button>
+          </div>
+        </div>
+        <div class="brutal-hero-carousel">
+          <div class="brutal-image-wrapper">
+            <img src="/hackathon1.webp" alt="Participants listening to keynote presentations" class="brutal-hero-img" width="771" height="285" fetchpriority="high" decoding="sync" />
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
   <script type="module" src="/src/main.tsx"></script>
   <!-- Google Analytics & Tag Manager deferred after page load -->
   <script>
