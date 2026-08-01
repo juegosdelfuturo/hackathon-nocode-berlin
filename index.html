@@ -8,19 +8,18 @@
   <meta name="description" content="HackLab Robotics organizes premier robotics hackathons and competitions, connecting elite engineers with leading tech companies to solve real-world challenges." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link rel="preload" as="image" href="/hackathon1.webp" type="image/webp" fetchpriority="high" />
-  <link rel="preload" as="image" href="/hackathon2.webp" type="image/webp" fetchpriority="high" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" />
-  </noscript>
-  <!-- Critical CSS inline to avoid render-blocking -->
+  <!-- Google Fonts loaded async to avoid render-blocking -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@700;800;900&family=Montserrat:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" onload="this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@700;800;900&family=Montserrat:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
+  <!-- Critical CSS inline to avoid layout shifts -->
   <style>
-    :root{--bg:#09090b;--fg:#f4f4f5;--accent:#0066ff;--muted:#8e8e93;--border:#1e1e22;--card-bg:#121214;--font-sans:'Montserrat',sans-serif;--font-heading:'Cabinet Grotesk',sans-serif;--font-mono:'JetBrains Mono',monospace}
+    :root{--bg:#09090b;--fg:#f4f4f5;--accent:#0066ff;--muted:#8e8e93;--border:#1e1e22;--card-bg:#121214;--font-sans:'Montserrat',system-ui,sans-serif;--font-heading:'Cabinet Grotesk',system-ui,sans-serif;--font-mono:'JetBrains Mono',ui-monospace,monospace}
     *{box-sizing:border-box;margin:0;padding:0}
     body{background-color:var(--bg);color:var(--fg);font-family:var(--font-sans);line-height:1.5;-webkit-font-smoothing:antialiased}
     h1,h2,h3{font-family:var(--font-heading);font-weight:700;letter-spacing:-.03em;line-height:1.1}
-    .platform-header{padding:0;border-bottom:1px solid var(--border);background:var(--bg);position:relative;z-index:500}
+    .platform-header{height:82px;padding:0;border-bottom:1px solid var(--border);background:var(--bg);position:relative;z-index:500}
     .platform-header .nav-inner{padding:1rem 2rem;max-width:1100px;margin:0 auto}
     .nav-inner{display:flex;justify-content:space-between;align-items:center}
     .hacklab-logo-img{height:80px;width:auto;object-fit:contain;display:block}
@@ -31,18 +30,18 @@
     .mobile-menu-btn{display:none;background:none;border:none;color:var(--fg);cursor:pointer;padding:.4rem}
     @media(max-width:768px){.mobile-menu-btn{display:flex}.platform-nav{display:none}}
     .brutal-wrapper{background:var(--bg);min-height:100vh}
-    .brutal-hero-mixed{display:grid;grid-template-columns:1fr 1fr;min-height:calc(100vh - 82px);border-bottom:1px solid var(--border)}
-    .brutal-hero-content{padding:3rem 2.5rem;display:flex;flex-direction:column;justify-content:space-between;border-right:1px solid var(--border)}
+    .brutal-hero-mixed{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--border);contain:layout style}
+    .brutal-hero-content{padding:3rem 2.5rem;display:flex;flex-direction:column;justify-content:space-between;border-right:1px solid var(--border);min-height:420px;contain:layout}
     .brutal-huge-title{font-family:var(--font-heading);font-weight:900;font-size:clamp(2rem,5vw,4.5rem);line-height:1;letter-spacing:-.04em;text-transform:uppercase;color:var(--fg)}
     .brutal-accent-text{color:var(--accent)}
     .brutal-lead-text{font-size:.95rem;color:var(--muted);line-height:1.7;max-width:420px;margin-bottom:2rem}
     .brutal-primary-btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--accent);color:#fff;border:2px solid var(--accent);font-family:var(--font-mono);font-size:.75rem;letter-spacing:.1em;padding:.85rem 1.5rem;font-weight:700;cursor:pointer;transition:all .25s;text-transform:uppercase}
-    .brutal-hero-carousel{position:relative;overflow:hidden;background:var(--card-bg)}
+    .brutal-hero-carousel{position:relative;overflow:hidden;background:var(--card-bg);contain:layout}
     .brutal-image-wrapper{width:100%;height:100%;position:relative}
     .brutal-hero-img{width:100%;height:100%;object-fit:cover;display:block}
     .brutal-hero-bottom{display:flex;flex-direction:column;gap:1.5rem}
     .logo-brand{text-decoration:none;display:flex;align-items:center;gap:.5rem}
-    @media(max-width:768px){.brutal-hero-mixed{grid-template-columns:1fr;min-height:auto}.brutal-hero-content{padding:2rem 1.25rem;border-right:none;border-bottom:1px solid var(--border)}.brutal-hero-carousel{height:220px}.brutal-huge-title{font-size:clamp(1.8rem,8vw,3rem)}}
+    @media(max-width:768px){.brutal-hero-mixed{grid-template-columns:1fr}.brutal-hero-content{padding:2rem 1.25rem;border-right:none;border-bottom:1px solid var(--border);min-height:auto}.brutal-hero-carousel{height:240px}.brutal-huge-title{font-size:clamp(1.75rem,8vw,2.8rem)}}
   </style>
   <title>Hacklab Robotics</title>
   <script type="module" src="/src/main.tsx"></script>

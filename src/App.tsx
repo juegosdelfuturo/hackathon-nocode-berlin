@@ -96,6 +96,10 @@ const App: React.FC = () => {
     let subObj: { unsubscribe: () => void } | null = null;
 
     const initAuth = async () => {
+      // Only import Supabase on initial load if an auth token exists in localStorage
+      const hasAuthToken = Object.keys(localStorage).some(k => k.includes('auth-token') || k.startsWith('sb-'));
+      if (!hasAuthToken) return;
+
       try {
         const { supabase } = await import('./supabaseClient');
         const { data: { session } } = await supabase.auth.getSession();

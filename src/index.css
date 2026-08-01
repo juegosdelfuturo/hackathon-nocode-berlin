@@ -2989,6 +2989,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
 }
 
 .brutal-hero-carousel {
@@ -3020,7 +3021,7 @@ section {
   line-height: 0.95;
   letter-spacing: -0.04em;
   color: var(--fg);
-  margin: 0 0 3rem 0;
+  margin: 0 0 2.5rem 0;
   text-transform: uppercase;
 }
 
@@ -3037,8 +3038,8 @@ section {
 
 .brutal-lead-text {
   font-family: var(--font-mono);
-  font-size: 1.25rem;
-  line-height: 1.6;
+  font-size: clamp(0.85rem, 2vw, 1.1rem);
+  line-height: 1.65;
   max-width: 600px;
   color: var(--muted);
   margin: 0;
@@ -3049,15 +3050,16 @@ section {
   color: var(--bg);
   border: none;
   font-family: var(--font-mono);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 1.25rem 2rem;
-  display: flex;
+  padding: 1.1rem 2rem;
+  display: inline-flex;
   align-items: center;
   gap: 1rem;
   cursor: pointer;
   text-transform: uppercase;
   transition: all 0.3s;
+  align-self: flex-start;
 }
 
 .brutal-primary-btn:hover {
@@ -3337,17 +3339,25 @@ section {
 }
 
 @media (max-width: 768px) {
-  .brutal-hero-content { padding: 3rem 2rem; }
-  .brutal-hero-carousel { padding: 3rem 2rem; }
-  .brutal-image-caption { padding: 1rem 2rem; }
-  .brutal-carousel-controls { padding: 1.5rem 0 0 0; }
+  .brutal-hero-content { padding: 2.5rem 1.5rem; gap: 1.5rem; }
+  .brutal-hero-carousel { padding: 0; height: 260px; }
+  .brutal-image-caption { padding: 0.75rem 1.25rem; font-size: 0.75rem; }
+  .brutal-carousel-controls { padding: 1rem 1.5rem 1.5rem; }
+  .brutal-huge-title { font-size: clamp(1.75rem, 7vw, 2.5rem); margin: 0 0 1.5rem 0; }
+  .brutal-lead-text { font-size: 0.875rem; }
+  .brutal-primary-btn { font-size: 0.85rem; padding: 0.9rem 1.5rem; align-self: stretch; justify-content: center; }
   .brutal-grid-header { padding: 3rem 2rem; }
   .brutal-stats-grid { grid-template-columns: 1fr; }
   .brutal-col-span-2 { grid-column: span 1; }
   .brutal-stat-cell {
     border-right: none !important;
-    padding: 3rem 2rem;
+    padding: 1.5rem;
   }
-  .brutal-footer-inner { flex-direction: column; gap: 1.5rem; align-items: flex-start; }
-  .brutal-footer { padding: 2rem; }
+  .editions-section { padding: 3rem 1.5rem; }
+  .editions-section h2 { margin: 0 0 2rem 0; font-size: 1.75rem; }
+  .brutal-footer-inner { flex-direction: column; gap: 1.25rem; align-items: flex-start; }
+  .brutal-footer { padding: 1.75rem 1.5rem; }
+  .brutal-footer-links { gap: 1rem; flex-wrap: wrap; }
+  .brutal-footer-links button { font-size: 0.75rem; }
+  .brutal-marquee-section { padding: 2rem 0; }
 }
