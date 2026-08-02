@@ -101,7 +101,8 @@ export default function HomePage({
       {/* ─── EDITIONS WIDGET ─── */}
       <section className="editions-section">
         <h2>EDITIONS</h2>
-        
+
+        {/* Edition #1 */}
         <div className="edition-widget">
           <div className="brutal-stats-grid">
             {/* Main Info */}
@@ -144,6 +145,54 @@ export default function HomePage({
                 <li>Normacore</li>
                 <li>ITQ</li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Edition #2 */}
+        <div className="edition-widget edition-upcoming" style={{ marginTop: '2rem', position: 'relative', overflow: 'hidden' }}>
+          {/* Upcoming glow badge */}
+          <div className="edition-upcoming-badge">COMING SOON</div>
+          <div className="brutal-stats-grid">
+            {/* Main Info */}
+            <div className="brutal-stat-cell brutal-col-span-2">
+              <span className="brutal-mono-tag" style={{ color: 'var(--accent)' }}>EDITION #2 • NOVEMBER 2026</span>
+              <h3 className="brutal-stat-title">Berlin Robotics × Agentic AI Hackathon II</h3>
+              <p className="brutal-stat-desc">
+                The second edition returns to Berlin with bigger challenges, <strong>€10,000+ in total prizes</strong> (cash, robotics hardware, cloud credits & more), and an expanded hardware playground. Push the limits of autonomous systems and agentic AI — applications open now.
+              </p>
+            </div>
+
+            {/* Stats / Targets */}
+            <div className="brutal-stat-cell">
+              <FileText size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">1 000+</div>
+              <div className="brutal-stat-label">Expected Applications</div>
+            </div>
+            <div className="brutal-stat-cell">
+              <Users size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">150+</div>
+              <div className="brutal-stat-label">Participants</div>
+            </div>
+            <div className="brutal-stat-cell">
+              <Zap size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">30+</div>
+              <div className="brutal-stat-label">Projects</div>
+            </div>
+            <div className="brutal-stat-cell">
+              <Trophy size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">€10K+</div>
+              <div className="brutal-stat-label">Cash, Hardware & Credits</div>
+            </div>
+
+            {/* CTA */}
+            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1rem', borderBottom: 'none' }}>
+              <p style={{ color: 'var(--muted)', fontSize: '0.9rem', margin: 0 }}>
+                Secure your spot before applications close. Limited seats available.
+              </p>
+              <button className="brutal-primary-btn" onClick={onRegisterClick} id="signup-edition2">
+                SIGN UP NOW <ArrowRight size={18} />
+              </button>
             </div>
           </div>
         </div>

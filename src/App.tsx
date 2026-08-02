@@ -82,7 +82,12 @@ function LoginWall({ onLoginClick }: { onLoginClick: () => void }) {
 
 // ─── ROOT APP ─────────────────────────────────────────────────────────────────
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<Page>('home');
+  const getInitialPage = (): Page => {
+    if (window.location.hash === '#articles') return 'articles';
+    return 'home';
+  };
+
+  const [currentPage, setCurrentPage] = useState<Page>(getInitialPage());
   const [activeLegalDoc, setActiveLegalDoc] = useState<LegalKey | null>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
   const [showLogin, setShowLogin] = useState(false);

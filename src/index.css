@@ -3318,6 +3318,26 @@ section {
   color: var(--muted);
 }
 
+.edition-upcoming {
+  border: 1px solid rgba(0, 102, 255, 0.3);
+  background: radial-gradient(circle at top right, rgba(0, 102, 255, 0.08), transparent 60%);
+}
+
+.edition-upcoming-badge {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .brutal-hero-mixed {
