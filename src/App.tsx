@@ -5,12 +5,13 @@ import { LEGAL_CONTENT, type LegalKey } from './data/legalContent';
 
 // Lazy-load heavy pages that are not needed on first paint
 const OpportunitiesPage = lazy(() => import('./pages/OpportunitiesPage'));
+const ArticlesPage = lazy(() => import('./pages/ArticlesPage'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
 const LoginModal = lazy(() => import('./components/LoginModal'));
 const RegistrationModal = lazy(() => import('./components/RegistrationModal'));
 
 
-type Page = 'home' | 'opportunities' | 'admin';
+type Page = 'home' | 'opportunities' | 'articles' | 'admin';
 
 interface AuthUser { email: string; }
 
@@ -40,6 +41,9 @@ function PlatformHeader({
           <button className={`platform-nav-link ${currentPage === 'opportunities' ? 'active' : ''}`} onClick={() => onNavigate('opportunities')}>
             Opportunities
           </button>
+          <button className={`platform-nav-link ${currentPage === 'articles' ? 'active' : ''}`} onClick={() => onNavigate('articles')}>
+            Articles
+          </button>
         </nav>
 
         <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
@@ -54,6 +58,7 @@ function PlatformHeader({
         <div className="mobile-menu">
           <button className="mobile-menu-item" onClick={() => { onNavigate('home'); setMobileOpen(false); }}>Hackathons</button>
           <button className="mobile-menu-item" onClick={() => { onNavigate('opportunities'); setMobileOpen(false); }}>Opportunities</button>
+          <button className="mobile-menu-item" onClick={() => { onNavigate('articles'); setMobileOpen(false); }}>Articles</button>
         </div>
       )}
     </header>
@@ -186,6 +191,15 @@ const App: React.FC = () => {
       {currentPage === 'opportunities' && (
         <Suspense fallback={null}>
           <OpportunitiesPage onLegalClick={setActiveLegalDoc} />
+        </Suspense>
+      )}
+
+      {currentPage === 'articles' && (
+        <Suspense fallback={null}>
+          <ArticlesPage 
+            onLegalClick={setActiveLegalDoc} 
+            onRegisterClick={() => setShowRegistration(true)} 
+          />
         </Suspense>
       )}
 
