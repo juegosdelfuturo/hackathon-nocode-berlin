@@ -41,9 +41,6 @@ function PlatformHeader({
           <button className={`platform-nav-link ${currentPage === 'opportunities' ? 'active' : ''}`} onClick={() => onNavigate('opportunities')}>
             Opportunities
           </button>
-          <button className={`platform-nav-link ${currentPage === 'articles' ? 'active' : ''}`} onClick={() => onNavigate('articles')}>
-            Articles
-          </button>
         </nav>
 
         <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
@@ -58,7 +55,6 @@ function PlatformHeader({
         <div className="mobile-menu">
           <button className="mobile-menu-item" onClick={() => { onNavigate('home'); setMobileOpen(false); }}>Hackathons</button>
           <button className="mobile-menu-item" onClick={() => { onNavigate('opportunities'); setMobileOpen(false); }}>Opportunities</button>
-          <button className="mobile-menu-item" onClick={() => { onNavigate('articles'); setMobileOpen(false); }}>Articles</button>
         </div>
       )}
     </header>
