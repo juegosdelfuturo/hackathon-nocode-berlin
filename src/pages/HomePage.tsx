@@ -171,7 +171,7 @@ export default function HomePage({
             </div>
             <div className="brutal-stat-cell">
               <Users size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">150+</div>
+              <div className="brutal-stat-val">200+</div>
               <div className="brutal-stat-label">Participants</div>
             </div>
             <div className="brutal-stat-cell">
