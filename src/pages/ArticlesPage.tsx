@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ARTICLES_DATA, type Article } from '../data/articlesData';
-import { ArrowRight, ArrowLeft, BookOpen, ShieldCheck, Quote, HelpCircle, Award } from 'lucide-react';
+import { ArrowRight, ArrowLeft, BookOpen, ShieldCheck, Quote, HelpCircle } from 'lucide-react';
 
 export default function ArticlesPage({
   onRegisterClick,
@@ -131,11 +131,11 @@ export default function ArticlesPage({
               </div>
 
               <h1 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', fontWeight: 800, lineHeight: 1.2, marginBottom: '1.25rem', color: 'var(--fg)' }}>
-                {selectedArticle.title}
+                {selectedArticle.titleEn || selectedArticle.title}
               </h1>
 
               <p style={{ fontSize: '1.1rem', color: 'var(--muted)', lineHeight: 1.7, marginBottom: '1.5rem', maxWidth: '850px' }}>
-                {selectedArticle.excerpt}
+                {selectedArticle.excerptEn || selectedArticle.excerpt}
               </p>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', fontSize: '0.85rem', color: 'var(--muted)', flexWrap: 'wrap' }}>
@@ -183,9 +183,12 @@ export default function ArticlesPage({
             )}
 
             {/* ARTICLE BODY */}
+            <style>{`.article-body-content p { margin-bottom: 1.5em; }`}</style>
             <div
               className="article-body-content"
-              dangerouslySetInnerHTML={{ __html: selectedArticle.contentHtml }}
+              dangerouslySetInnerHTML={{ 
+                __html: selectedArticle.contentHtmlEn || selectedArticle.contentHtml
+              }}
               style={{ lineHeight: 1.8, fontSize: '1rem', color: '#d1d1d6', marginBottom: '3rem' }}
             />
 
@@ -211,23 +214,7 @@ export default function ArticlesPage({
               </div>
             )}
 
-            {/* FIRST PERSON EXPERIENCE NOTE */}
-            {selectedArticle.firstPersonNote && selectedArticle.firstPersonNote.note && (
-              <div style={{ background: 'rgba(0,102,255,0.06)', border: '1px solid rgba(0,102,255,0.2)', padding: '1.5rem', borderRadius: '8px', marginBottom: '3rem' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                  <Award size={18} style={{ color: 'var(--accent)' }} />
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', fontWeight: 700, color: 'var(--accent)', letterSpacing: '0.05em' }}>
-                    FIRST-PERSON EXPERIENCE RECORD
-                  </span>
-                </div>
-                <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.92rem', color: 'var(--fg)', lineHeight: 1.6 }}>
-                  "{selectedArticle.firstPersonNote.note}"
-                </p>
-                <div style={{ fontSize: '0.78rem', color: 'var(--muted)', textAlign: 'right' }}>
-                  — {selectedArticle.firstPersonNote.author} {selectedArticle.firstPersonNote.role && `(${selectedArticle.firstPersonNote.role})`}
-                </div>
-              </div>
-            )}
+            {/* FIRST PERSON EXPERIENCE NOTE REMOVED */}
 
             {/* PEOPLE ALSO ASK BLOCK */}
             {selectedArticle.paaQuestions && selectedArticle.paaQuestions.length > 0 && (
@@ -296,8 +283,8 @@ export default function ArticlesPage({
             {/* FEATURED STATS BANNER */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginBottom: '3rem' }}>
               <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', padding: '1.25rem', borderRadius: '8px' }}>
-                <div style={{ color: 'var(--accent)', fontSize: '1.8rem', fontWeight: 900, fontFamily: 'var(--font-heading)' }}>5/5</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--muted)', fontWeight: 600 }}>Full GEO Articles</div>
+                <div style={{ color: 'var(--accent)', fontSize: '1.8rem', fontWeight: 900, fontFamily: 'var(--font-heading)' }}>9</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--muted)', fontWeight: 600 }}>Research Reports</div>
               </div>
               <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', padding: '1.25rem', borderRadius: '8px' }}>
                 <div style={{ color: 'var(--accent)', fontSize: '1.8rem', fontWeight: 900, fontFamily: 'var(--font-heading)' }}>85%</div>
@@ -347,11 +334,11 @@ export default function ArticlesPage({
                   </div>
 
                   <h2 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--fg)', marginBottom: '0.75rem', lineHeight: 1.3 }}>
-                    {article.title}
+                    {article.titleEn || article.title}
                   </h2>
 
                   <p style={{ fontSize: '0.92rem', color: 'var(--muted)', lineHeight: 1.6, marginBottom: '1.25rem', maxWidth: '900px' }}>
-                    {article.excerpt}
+                    {article.excerptEn || article.excerpt}
                   </p>
 
                   {/* KEY STAT PREVIEW */}

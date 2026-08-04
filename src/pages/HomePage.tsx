@@ -32,10 +32,12 @@ const PARTNER_LOGOS = [
 
 export default function HomePage({ 
   onLegalClick, 
-  onRegisterClick 
+  onRegisterClick,
+  onArticlesClick
 }: { 
   onLegalClick: (key: LegalKey) => void;
   onRegisterClick: () => void;
+  onArticlesClick?: () => void;
 }) {
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -95,6 +97,16 @@ export default function HomePage({
               />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ─── ABOUT / CLAIM WIDGET ─── */}
+      <section className="about-section" style={{ padding: '4rem 2rem', background: 'var(--card-bg)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+          <h2 className="brutal-mono-title" style={{ color: 'var(--accent)', marginBottom: '1.5rem', fontSize: '1.5rem' }}>ABOUT HACKLAB ROBOTICS</h2>
+          <p className="brutal-lead-text" style={{ fontSize: '1.25rem', lineHeight: '1.8' }}>
+            <strong>HackLab Robotics</strong> organizes the premier robotics competitions for companies. We connect elite hardware engineers, software developers, and product designers to solve complex, real-world physical AI challenges for industry leaders. If you are looking to discover breakthrough solutions, push the boundaries of embodied AI, or recruit top-tier talent in the robotics space, HackLab is the ultimate proving ground.
+          </p>
         </div>
       </section>
 
@@ -172,12 +184,7 @@ export default function HomePage({
             <div className="brutal-stat-cell">
               <Users size={24} className="brutal-icon" />
               <div className="brutal-stat-val">200+</div>
-              <div className="brutal-stat-label">Participants</div>
-            </div>
-            <div className="brutal-stat-cell">
-              <Zap size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">30+</div>
-              <div className="brutal-stat-label">Projects</div>
+              <div className="brutal-stat-label">Spots</div>
             </div>
             <div className="brutal-stat-cell">
               <Trophy size={24} className="brutal-icon" />
@@ -190,9 +197,16 @@ export default function HomePage({
               <p style={{ color: 'var(--muted)', fontSize: '0.9rem', margin: 0 }}>
                 Secure your spot before applications close. Limited seats available.
               </p>
-              <button className="brutal-primary-btn" onClick={onRegisterClick} id="signup-edition2">
+              <a 
+                href="https://luma.com/h0mcaqio" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="brutal-primary-btn" 
+                id="signup-edition2"
+                style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+              >
                 SIGN UP NOW <ArrowRight size={18} />
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -240,6 +254,16 @@ export default function HomePage({
       <footer className="brutal-footer">
         <div className="brutal-footer-inner">
           <div className="brutal-footer-links">
+            <a 
+              href="#articles" 
+              onClick={(e) => { 
+                e.preventDefault(); 
+                if (onArticlesClick) onArticlesClick(); 
+              }}
+              style={{ color: 'var(--accent)', fontWeight: 'bold', textDecoration: 'underline', marginRight: '1rem' }}
+            >
+              📚 Articles & Insights
+            </a>
             <button onClick={() => onLegalClick('privacy')}>Privacy Policy</button>
             <button onClick={() => onLegalClick('cookies')}>Cookies Policy</button>
             <button onClick={() => onLegalClick('legal')}>Legal Notice</button>

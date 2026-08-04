@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Specifically allow major AI search bots
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
