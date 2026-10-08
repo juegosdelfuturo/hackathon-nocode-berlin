@@ -93,15 +93,14 @@ const App: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState<Page>(getInitialPage());
   const [activeLegalDoc, setActiveLegalDoc] = useState<LegalKey | null>(null);
-  const [showCookieBanner, setShowCookieBanner] = useState(false);
+
   const [showLogin, setShowLogin] = useState(false);
   const [showRegistration, setShowRegistration] = useState(false);
   const [authUser, setAuthUser] = useState<AuthUser | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
 
   useEffect(() => {
-    const hasConsented = localStorage.getItem('cookieConsent');
-    if (!hasConsented) setShowCookieBanner(true);
+
 
     let subObj: { unsubscribe: () => void } | null = null;
 
@@ -164,15 +163,7 @@ const App: React.FC = () => {
     setCurrentPage('home');
   };
 
-  const [consentCookies, setConsentCookies] = React.useState(false);
-  const [consentData, setConsentData] = React.useState(false);
 
-  const handleCookieConsent = () => {
-    if (!consentCookies || !consentData) return;
-    localStorage.setItem('cookieConsent', 'accepted');
-    localStorage.setItem('dataConsent', 'accepted');
-    setShowCookieBanner(false);
-  };
 
   const navigateTo = (page: Page) => {
     setCurrentPage(page);
@@ -255,84 +246,6 @@ const App: React.FC = () => {
             <button className="modal-close" onClick={() => setActiveLegalDoc(null)}>×</button>
             <h2>{LEGAL_CONTENT[activeLegalDoc].title}</h2>
             <div className="modal-body" dangerouslySetInnerHTML={{ __html: LEGAL_CONTENT[activeLegalDoc].html }} />
-          </div>
-        </div>
-      )}
-
-      {/* Cookie & Consent Modal - Full Screen Blocking */}
-      {showCookieBanner && (
-        <div className="cookie-modal-overlay">
-          <div className="cookie-modal-content">
-            {/* Accent top bar */}
-            <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '3px', background: 'linear-gradient(90deg, var(--accent), #7c3aed)' }} />
-
-            {/* Header */}
-            <div className="cookie-modal-header">
-              <div className="cookie-modal-icon">🔒</div>
-              <div>
-                <h2 className="cookie-modal-title">Privacy & Data Consent</h2>
-                <p style={{ color: 'var(--muted)', fontSize: '0.8rem', margin: 0 }}>Required before accessing HackLab Robotics</p>
-              </div>
-            </div>
-
-            {/* Description */}
-            <p style={{ color: 'var(--muted)', lineHeight: '1.7', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-              HackLab Robotics collects and processes personal data in accordance with the <strong style={{ color: 'var(--fg)' }}>General Data Protection Regulation (GDPR)</strong> and applicable Spanish data protection law. To continue, you must review and accept the following:
-            </p>
-
-            {/* Consent checkboxes */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
-
-              {/* Checkbox 1 – Cookies */}
-              <label className={`cookie-option ${consentCookies ? 'selected' : ''}`}>
-                <input
-                  type="checkbox"
-                  checked={consentCookies}
-                  onChange={e => setConsentCookies(e.target.checked)}
-                  className="cookie-option-checkbox"
-                />
-                <div>
-                  <div style={{ fontWeight: 600, color: 'var(--fg)', marginBottom: '0.3rem', fontSize: '0.9rem' }}>🍪 Cookies & Analytics</div>
-                  <div style={{ color: 'var(--muted)', fontSize: '0.82rem', lineHeight: '1.5' }}>
-                    I accept the use of essential and analytical cookies necessary for the proper functioning of the website, user session management, and platform improvement. These cookies do not track you across third-party sites.
-                  </div>
-                </div>
-              </label>
-
-              {/* Checkbox 2 – Recruiting data */}
-              <label className={`cookie-option ${consentData ? 'selected' : ''}`}>
-                <input
-                  type="checkbox"
-                  checked={consentData}
-                  onChange={e => setConsentData(e.target.checked)}
-                  className="cookie-option-checkbox"
-                />
-                <div>
-                  <div style={{ fontWeight: 600, color: 'var(--fg)', marginBottom: '0.3rem', fontSize: '0.9rem' }}>🏢 Sharing with Recruiting Partners</div>
-                  <div style={{ color: 'var(--muted)', fontSize: '0.82rem', lineHeight: '1.5' }}>
-                    I explicitly consent (pursuant to <strong style={{ color: 'var(--fg)' }}>Art. 6(1)(a) GDPR</strong>) to HackLab Robotics collecting, storing, and sharing my personal and professional data (including name, email, skills, and portfolio) with verified recruiting companies and challenge sponsors participating in HackLab events. I understand I may withdraw this consent at any time by contacting <strong style={{ color: 'var(--fg)' }}>contact@team-nexio.com</strong>.
-                  </div>
-                </div>
-              </label>
-            </div>
-
-            {/* Legal note */}
-            <p style={{ color: 'var(--muted)', fontSize: '0.75rem', lineHeight: '1.5', marginBottom: '1.5rem', borderTop: '1px solid var(--border)', paddingTop: '1rem' }}>
-              Data controller: <strong style={{ color: 'var(--fg)' }}>Asociación Estudiantil Junior Empresa NEXIO</strong>, NIF G75579508, Paseo Uribitarte 6, 48001 Bilbao. You have the right to access, rectify, delete, restrict, object, and port your data. Contact: contact@team-nexio.com.
-            </p>
-
-            {/* CTA */}
-            <button
-              onClick={handleCookieConsent}
-              disabled={!consentCookies || !consentData}
-              className="btn"
-              style={{ width: '100%', justifyContent: 'center', opacity: (!consentCookies || !consentData) ? 0.4 : 1, cursor: (!consentCookies || !consentData) ? 'not-allowed' : 'pointer', transition: 'opacity 0.2s' }}
-            >
-              Accept & Enter HackLab Robotics
-            </button>
-            {(!consentCookies || !consentData) && (
-              <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: '0.75rem', marginTop: '0.75rem' }}>You must accept both consents to access the platform.</p>
-            )}
           </div>
         </div>
       )}

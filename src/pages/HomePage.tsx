@@ -104,8 +104,8 @@ export default function HomePage({
       <section className="about-section" style={{ padding: '4rem 2rem', background: 'var(--card-bg)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
           <h2 className="brutal-mono-title" style={{ color: 'var(--accent)', marginBottom: '1.5rem', fontSize: '1.5rem' }}>ABOUT HACKLAB ROBOTICS</h2>
-          <p className="brutal-lead-text" style={{ fontSize: '1.25rem', lineHeight: '1.8' }}>
-            <strong>HackLab Robotics</strong> organizes the premier robotics competitions for companies. We connect elite hardware engineers, software developers, and product designers to solve complex, real-world physical AI challenges for industry leaders. If you are looking to discover breakthrough solutions, push the boundaries of embodied AI, or recruit top-tier talent in the robotics space, HackLab is the ultimate proving ground.
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: '1.25rem', lineHeight: '1.8', color: 'var(--muted)', margin: 0 }}>
+            <strong style={{ color: 'var(--fg)' }}>HackLab Robotics</strong> organizes the premier robotics competitions for companies. We connect elite hardware engineers, software developers, and product designers to solve complex, real-world physical AI challenges for industry leaders. If you are looking to discover breakthrough solutions, push the boundaries of embodied AI, or recruit top-tier talent in the robotics space, HackLab is the ultimate proving ground.
           </p>
         </div>
       </section>
