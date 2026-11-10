@@ -3383,3 +3383,108 @@ section {
   .brutal-footer-links button { font-size: 0.75rem; }
   .brutal-marquee-section { padding: 2rem 0; }
 }
+
+/* ─── Edition #2: tracks + partners ─── */
+.edition-tracks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.edition-tracks li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.edition-tracks strong {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--fg);
+}
+
+.edition-tracks span {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.edition-tracks .edition-track-num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.edition-cohost {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.edition-cohost img {
+  height: 32px;
+  width: auto;
+}
+
+.edition-partner-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.edition-partner-grid li {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.edition-partner-grid li:hover {
+  border-color: rgba(0, 102, 255, 0.5);
+  background: rgba(0, 102, 255, 0.06);
+}
+
+.edition-partner-grid img {
+  max-width: 100%;
+  max-height: 28px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.edition-logo-mono {
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 1024px) {
+  .edition-tracks { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 640px) {
+  .edition-tracks { grid-template-columns: 1fr; }
+  .edition-partner-grid { grid-template-columns: repeat(2, 1fr); }
+  .edition-partner-grid li { height: 64px; padding: 0 0.75rem; }
+}
+
+@media (max-width: 640px) {
+  .edition-upcoming-badge {
+    position: static;
+    display: inline-block;
+    margin: 1.5rem 0 0 1.5rem;
+  }
+}
