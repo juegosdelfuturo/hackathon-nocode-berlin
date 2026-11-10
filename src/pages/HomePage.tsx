@@ -57,6 +57,7 @@ const EDITION2_PARTNERS = [
   { file: 'openelab.png', name: 'OpenELab', mono: true, h: 40 },
   { file: 'mybotshop.webp', name: 'MyBotShop', mono: false, h: 34 },
   { file: 'linkup.svg', name: 'Linkup', mono: false },
+  { file: 'redbull.webp', name: 'Red Bull', mono: false },
 ];
 
 // Edition #1 sponsors, as listed in the Edition #1 impact report (8 of the 14 sponsors).
