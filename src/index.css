@@ -3488,3 +3488,7 @@ section {
     margin: 1.5rem 0 0 1.5rem;
   }
 }
+
+/* Nav items are real links (crawlable by search engines and agents) */
+a.platform-nav-link, a.mobile-menu-item { text-decoration: none; display: inline-block; }
+a.mobile-menu-item { display: block; }
