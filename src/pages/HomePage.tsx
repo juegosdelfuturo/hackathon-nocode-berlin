@@ -59,6 +59,18 @@ const EDITION2_PARTNERS = [
   { file: 'linkup.svg', name: 'Linkup', mono: false },
 ];
 
+// Edition #1 sponsors, as listed in the Edition #1 impact report (8 of the 14 sponsors).
+const EDITION1_PARTNERS = [
+  { file: 'normacore.webp', name: 'Norma Core', mono: true, h: 52 },
+  { file: 'huggingface.webp', name: 'Hugging Face', mono: false },
+  { file: 'n8nlogo.webp', name: 'n8n', mono: true, h: 56 },
+  { file: 'lovable.webp', name: 'Lovable', mono: false },
+  { file: 'marso.webp', name: 'Marso Robotics', mono: false, h: 40 },
+  { file: 'mistral.webp', name: 'Mistral AI', mono: false },
+  { file: 'Logo ITQ con eslogan.webp', name: 'ITQ', mono: true, h: 26 },
+  { file: 'redbull.webp', name: 'Red Bull', mono: false },
+];
+
 const EDITION2_TRACKS = [
   { name: 'AI Infrastructure', desc: 'Agents, pipelines and the infrastructure that connects models to machines.' },
   { name: 'Industrial Robotics Simulation', desc: 'Train and test in simulation, then bring it to real hardware.' },
@@ -155,10 +167,10 @@ export default function HomePage({
           <div className="brutal-stats-grid">
             {/* Main Info */}
             <div className="brutal-stat-cell brutal-col-span-2">
-              <span className="brutal-mono-tag">EDITION #1 • JUNE 2026</span>
+              <span className="brutal-mono-tag">EDITION #1 • 20–21 JUNE 2026</span>
               <h3 className="brutal-stat-title">Berlin Robotics × Agentic AI Hackathon</h3>
               <p className="brutal-stat-desc">
-                A weekend of innovation where 100+ top robotics engineers, software devs, and designers converged in Berlin to build the future of physical autonomous systems.
+                36 hours of non-stop building at CIC Berlin. Out of 600+ applicants we selected 130 builders: robotics students, ML engineers, robotics professionals and university researchers. Around 20 teams went from idea to a working demo in front of judges and sponsors, and <strong>5 participants were hired by sponsor companies</strong> after the event.
               </p>
             </div>
 
@@ -170,28 +182,36 @@ export default function HomePage({
             </div>
             <div className="brutal-stat-cell">
               <Users size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">120+</div>
-              <div className="brutal-stat-label">Participants</div>
+              <div className="brutal-stat-val">130</div>
+              <div className="brutal-stat-label">Builders Selected</div>
             </div>
             <div className="brutal-stat-cell">
               <Zap size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">24</div>
-              <div className="brutal-stat-label">Projects Built</div>
+              <div className="brutal-stat-val">~20</div>
+              <div className="brutal-stat-label">Solutions Demoed</div>
             </div>
             <div className="brutal-stat-cell">
               <Trophy size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">€5K+</div>
-              <div className="brutal-stat-label">In Prizes</div>
+              <div className="brutal-stat-val">5</div>
+              <div className="brutal-stat-label">Hires After the Event</div>
             </div>
 
             {/* Sponsors */}
-            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderBottom: 'none' }}>
-              <h4 className="brutal-mono-title">CHALLENGES BY</h4>
-              <ul className="brutal-sponsor-list" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: '3rem' }}>
-                <li>n8n</li>
-                <li>Hugging Face</li>
-                <li>Normacore</li>
-                <li>ITQ</li>
+            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', borderBottom: 'none' }}>
+              <h4 className="brutal-mono-title">BACKED BY 14 SPONSORS, INCLUDING</h4>
+              <ul className="edition-partner-grid">
+                {EDITION1_PARTNERS.map(p => (
+                  <li key={p.name} title={p.name}>
+                    <img
+                      src={`/logos/${p.file}`}
+                      alt={p.name}
+                      className={p.mono ? 'edition-logo-mono' : undefined}
+                      style={'h' in p ? { maxHeight: `${p.h}px` } : undefined}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -219,7 +239,7 @@ export default function HomePage({
             {/* Stats */}
             <div className="brutal-stat-cell">
               <FileText size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">750+</div>
+              <div className="brutal-stat-val">1,100+</div>
               <div className="brutal-stat-label">Registrations</div>
             </div>
             <div className="brutal-stat-cell">
