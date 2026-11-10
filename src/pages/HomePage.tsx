@@ -81,12 +81,10 @@ const EDITION2_TRACKS = [
 
 export default function HomePage({ 
   onLegalClick, 
-  onRegisterClick,
-  onArticlesClick
+  onRegisterClick
 }: { 
   onLegalClick: (key: LegalKey) => void;
   onRegisterClick: () => void;
-  onArticlesClick?: () => void;
 }) {
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -353,16 +351,6 @@ export default function HomePage({
       <footer className="brutal-footer">
         <div className="brutal-footer-inner">
           <div className="brutal-footer-links">
-            <a 
-              href="#articles" 
-              onClick={(e) => { 
-                e.preventDefault(); 
-                if (onArticlesClick) onArticlesClick(); 
-              }}
-              style={{ color: 'var(--accent)', fontWeight: 'bold', textDecoration: 'underline', marginRight: '1rem' }}
-            >
-              📚 Articles & Insights
-            </a>
             <button onClick={() => onLegalClick('privacy')}>Privacy Policy</button>
             <button onClick={() => onLegalClick('cookies')}>Cookies Policy</button>
             <button onClick={() => onLegalClick('legal')}>Legal Notice</button>
