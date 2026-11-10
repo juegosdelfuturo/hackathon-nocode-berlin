@@ -34,7 +34,7 @@ The market context, from the [International Federation of Robotics World Robotic
 
 | Indicator (2024) | Figure |
 |---|---|
-| Industrial robot installations in Germany | 26,982 units, down 5% |
+| Industrial robot installations in Germany, 2024 | 26,982 units, down 5% |
 | Germany's position | Largest robot market in Europe, fifth largest in the world |
 | Installations in Europe | 85,000 units, down 8% |
 | Installations worldwide | 542,000 units |

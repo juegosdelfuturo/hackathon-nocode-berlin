@@ -112,7 +112,7 @@ function loadArticles() {
       ...fm,
       slug,
       date: String(fm.date || BUILD_DATE),
-      modified: fm.legacy ? BUILD_DATE : String(fm.date || BUILD_DATE),
+      modified: String(fm.updated || (fm.legacy ? '2026-11-11' : fm.date) || BUILD_DATE),
       faq: fm.faq || [],
       sources: fm.sources || [],
       related: fm.related || [],
