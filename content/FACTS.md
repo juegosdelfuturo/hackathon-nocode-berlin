@@ -27,7 +27,7 @@ names of participants, company names of hires, salaries, percentages, or process
   university researchers.
 
 ## Edition #2 — AI × Robotics Hackathon II
-- Dates: 21–22 November 2026 (Sat 09:00 – Sun 19:00 CET, confirmed on Luma). Venue: CIC Berlin, Lohmühlenstraße 65, Berlin. Format: 48 hours.
+- Dates: 21–22 November 2026 (confirmed on Luma). Format: 48 hours (owner-confirmed). Venue: CIC Berlin, Lohmühlenstraße 65, Berlin. Format: 48 hours.
 - Organised in collaboration with BRISA. Say only "in collaboration with BRISA": no link, no description of BRISA.
 - 1,100+ registrations (Luma); 200 builders selected. Applications are closed.
 - €10,000+ in prizes (cash, hardware and more); free credits from every technology partner.
