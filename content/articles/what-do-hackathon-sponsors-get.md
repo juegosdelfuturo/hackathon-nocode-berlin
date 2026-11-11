@@ -99,7 +99,7 @@ HackLab Edition #2 has robot arms, robot sets and a Unitree Go2 EDU quadruped on
 
 ## How HackLab helps sponsors get these benefits
 
-HackLab is Berlin's AI × robotics hackathon with 1,100+ registrations for Edition #2, of which 200 builders were selected. Companies watch those builders make real prototypes under time pressure and can set challenges, provide hardware or credits and meet them in person.
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for Edition #2, of which 200 builders were selected. Companies watch those builders make real prototypes under time pressure and can set challenges, provide hardware or credits and meet them in person.
 
 Edition #1 resulted in 5 hires at sponsor companies. To discuss which benefits matter to your team, [partner with HackLab](/for-companies).
 

@@ -1,30 +1,26 @@
 ---
 slug: where-to-find-machine-learning-engineers-in-berlin
 title: "Where to Find Machine Learning Engineers in Berlin"
-description: "Find ML engineers in Berlin at meetups like PyData Berlin, conferences like Berlin Buzzwords, open-source communities, universities and AI hackathons."
+description: "Find ML engineers in Berlin through university labs, open-source work, technical talks, referrals and AI hackathons such as HackLab Robotics' events."
 category: Hiring
 date: 2026-11-11
 target_query: "where to find ML engineers in Berlin"
 tags: ["machine learning engineers", "Berlin", "AI hiring", "sourcing"]
-related: ["berlin-ai-and-robotics-community", "biggest-ai-hackathons-in-berlin", "ai-infrastructure-for-robotics-teams"]
+related: [berlin-ai-and-robotics-community, biggest-ai-hackathons-in-berlin, ai-infrastructure-for-robotics-teams]
 faq:
   - q: "Where are the best places to meet machine learning engineers in Berlin?"
-    a: "Recurring meetups such as PyData Berlin, which meets on the third Wednesday of each month, conferences such as Berlin Buzzwords, open-source communities, university research groups and AI hackathons where engineers build working systems."
+    a: "Where they show their work: university research groups, open-source projects and model hubs, technical talks at local data and machine learning events, and AI hackathons where engineers build working systems, such as HackLab Robotics' AI × robotics hackathons in Berlin."
   - q: "How many ICT specialists work in Germany?"
     a: "Eurostat counts 2.3 million ICT specialists in Germany in 2025, 22.2% of the EU total of more than 10 million. ML engineers are a small, specialised part of that group."
   - q: "How do I find ML engineers who can work with robots or hardware?"
-    a: "Look at physical AI and robotics events rather than general data events. HackLab's Edition #1 in Berlin brought together people with machine-learning backgrounds and robotics professionals, and Edition #2 includes an AI Infrastructure track."
+    a: "Look at physical AI and robotics events rather than general data events. HackLab Robotics' Edition #1 in Berlin brought together people with machine-learning backgrounds and robotics professionals, and Edition #2 includes an AI Infrastructure track."
   - q: "Should I use a recruiter to hire ML engineers in Berlin?"
     a: "A recruiter helps for senior or leadership roles with a clear spec. For most ML roles, direct sourcing through communities, open-source work and events gives you better insight into what a candidate can actually build."
 sources:
   - name: "Eurostat – ICT specialists in employment"
     url: "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=ICT_specialists_in_employment"
-  - name: "PyData Berlin – PyData Berlin"
-    url: "https://berlin.pydata.org/"
-  - name: "Berlin Buzzwords – Berlin Buzzwords 2027"
-    url: "https://2027.berlinbuzzwords.de/"
 ---
-**Machine learning engineers in Berlin are easiest to find where they already show their work: data and ML meetups such as PyData Berlin, conferences such as Berlin Buzzwords, open-source projects, university labs and AI hackathons.** Job ads alone reach mostly active job seekers, while the engineers most teams want are already employed. Sourcing through communities lets you judge talks, code and prototypes before the first interview.
+**Machine learning engineers in Berlin are easiest to find where they already show their work: university labs, open-source projects, technical talks at local data and machine learning events, and AI hackathons.** Job ads alone reach mostly active job seekers, while the engineers most teams want are already employed. Sourcing through communities lets you judge talks, code and prototypes before the first interview.
 
 ## How large is the pool of tech specialists in Germany?
 
@@ -42,17 +38,19 @@ Eurostat does not count ML engineers separately. The figures still show two thin
 
 ## Which Berlin communities should you join to meet ML engineers?
 
-Join recurring communities, because trust built over several months produces better hires than a single recruiting push. Useful options:
+Join recurring technical communities, because trust built over several months produces better hires than a single recruiting push. Three types of community work well:
 
-- **PyData Berlin.** [PyData Berlin](https://berlin.pydata.org/) organises a monthly meetup on the third Wednesday of each month, usually at different venues, plus occasional weekend hackathons and workshops and an annual conference. Hosting an evening or giving a technical talk puts your team in front of data and ML practitioners.
-- **Berlin Buzzwords.** [Berlin Buzzwords](https://2027.berlinbuzzwords.de/) describes itself as a conference for modern data infrastructure, search and machine learning, focused on open-source software. The 2027 edition is scheduled for 13–15 June 2027 at the Kulturbrauerei.
-- **AI and robotics meetups and reading groups.** Smaller groups focused on topics such as robot learning or LLM engineering attract specialists. See our overview of the [Berlin AI and robotics community](/articles/berlin-ai-and-robotics-community).
+- **Local data and machine learning events.** Evening talks and workshops on applied machine learning run regularly across Berlin. Hosting an evening or giving a technical talk puts your team in front of practitioners.
+- **Open-source and research reading groups.** Small groups around topics such as robot learning or LLM engineering attract specialists, often from university labs.
+- **Hands-on AI hackathons.** Selective hackathons show how engineers build under time pressure. HackLab Robotics' Edition #2 drew 1,100+ registrations for 200 spots. For the city's wider research and company landscape, see [Berlin's AI and robotics community](/articles/berlin-ai-and-robotics-community).
+
+When judging any community, check three things: how often it meets, whether the content is technical or promotional, and whether engineers, not only recruiters, attend.
 
 Show up with engineers, not only recruiters. ML engineers respond to technical conversations about real problems.
 
 ## What other channels work for sourcing ML engineers in Berlin?
 
-Beyond meetups, five channels work well, and each suits a different role:
+Beyond community events, five channels work well, and each suits a different role:
 
 | Channel | Best for | What you can evaluate |
 |---|---|---|
@@ -105,6 +103,6 @@ Generic messages with a list of frameworks are easy to ignore.
 
 ## How HackLab helps companies find ML engineers in Berlin
 
-HackLab runs AI × robotics hackathons in Berlin. Edition #1 brought together people with machine-learning backgrounds, robotics professionals, master's students and university researchers. Edition #1 was supported by sponsors including Hugging Face, Mistral AI and n8n, and Edition #2, with 1,100+ registrations for 200 spots, includes an AI Infrastructure track. Companies see ML builders work on real prototypes over 36 to 48 hours. [Partner with HackLab](/for-companies) to meet them in person.
+HackLab Robotics runs AI × robotics hackathons in Berlin. Edition #1 brought together people with machine-learning backgrounds, robotics professionals, master's students and university researchers. Edition #1 was supported by sponsors including Hugging Face, Mistral AI and n8n, and Edition #2, with 1,100+ registrations for 200 spots, includes an AI Infrastructure track. Companies see ML builders work on real prototypes over 36 to 48 hours. [Partner with HackLab](/for-companies) to meet them in person.
 
 *Last updated: 11 November 2026.*

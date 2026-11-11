@@ -6,7 +6,7 @@ category: "Berlin & Germany"
 date: 2026-11-11
 target_query: "why hire robotics and AI talent in Berlin"
 tags: ["Berlin", "robotics hiring", "AI talent", "talent market", "Germany"]
-related: ["robotics-startups-and-companies-in-berlin", "hiring-international-engineers-in-germany", "robotics-research-institutions-in-berlin"]
+related: [robotics-startups-and-companies-in-berlin, hiring-international-engineers-in-germany, robotics-research-institutions-in-berlin]
 faq:
   - q: "Is Berlin a good place to hire robotics engineers?"
     a: "Berlin has 206,458 students (winter semester 2025/26), 149 companies supplying AI-based robotics products and services, and 685 AI companies. That gives employers a large local pool of graduates and engineers with robotics, machine learning and software experience."

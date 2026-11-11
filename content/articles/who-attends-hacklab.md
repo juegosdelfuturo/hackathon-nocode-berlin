@@ -11,7 +11,7 @@ faq:
   - q: "Who attends HackLab?"
     a: "HackLab Edition #1 participants included robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals across specialties, master's students building their first real prototypes, and university researchers."
   - q: "Are HackLab participants screened?"
-    a: "Yes. At Edition #1, HackLab reviewed every application and selected 130 builders from 600+. For Edition #2, 200 builders were selected from 1,100+ registrations."
+    a: "Yes. At Edition #1, HackLab selected 130 builders from 600+ applications. For Edition #2, 200 builders were selected from 1,100+ registrations."
   - q: "Does HackLab only attract students?"
     a: "No. At Edition #1, students and researchers attended, but so did robotics professionals across specialties and people with machine-learning backgrounds."
   - q: "How many builders does HackLab select?"
@@ -22,7 +22,7 @@ sources: []
 
 ## What profiles does HackLab attract?
 
-HackLab's Edition #1 Impact Report names five participant profiles. The table pairs each profile with the kind of hiring need a company might bring to it. That pairing is general guidance, not HackLab data about specific people.
+HackLab Robotics groups its Edition #1 participants into five profiles. The table pairs each profile with the kind of hiring need a company might bring to it. That pairing is general guidance, not HackLab data about specific people.
 
 | Participant profile (HackLab Ed. #1) | Typical hiring fit for a company |
 |---|---|
@@ -36,7 +36,7 @@ How many participants fall into each profile, and their gender or nationality mi
 
 ## How are HackLab participants selected?
 
-Participants are selected from a much larger pool of applicants. At Edition #1, HackLab reviewed every application and selected 130 builders from 600+. For Edition #2, it selected 200 builders from 1,100+ registrations on Luma.
+Participants are selected from a much larger pool of applicants. At Edition #1, HackLab selected 130 builders from 600+ applications. For Edition #2, it selected 200 builders from 1,100+ registrations on Luma.
 
 The exact selection criteria are not covered here. What a sponsor can rely on is that the people in the room have already been filtered from a larger pool.
 

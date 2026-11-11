@@ -65,7 +65,7 @@ RL work requires a different profile from imitation learning:
 
 - Designing rewards that do not get exploited.
 - Domain randomisation of friction, mass and latency to survive the move to hardware.
-- Running GPU-parallel simulation, covered in our guide to [simulation skills for robotics engineers](/articles/simulation-skills-for-robotics-engineers).
+- Running GPU-parallel simulation, covered in the guide to [simulation skills for robotics engineers](/articles/simulation-skills-for-robotics-engineers).
 - Fine-tuning on the real robot, for example with human-in-the-loop RL methods such as HIL-SERL, which LeRobot also supports.
 
 ## What is VLA fine-tuning and who can do it?
@@ -95,7 +95,7 @@ Engineers strong in this area can:
 
 ## How do you evaluate a robot learning candidate?
 
-Evaluate the loop, not the algorithm name. A practical assessment should show how the candidate collects data, chooses a policy, trains it, and reports results over repeated trials. Our guide on [assessing robotics engineers beyond the CV](/articles/how-to-assess-robotics-engineers-beyond-the-cv) covers formats in detail.
+Evaluate the loop, not the algorithm name. A practical assessment should show how the candidate collects data, chooses a policy, trains it, and reports results over repeated trials. The guide on [assessing robotics engineers beyond the CV](/articles/how-to-assess-robotics-engineers-beyond-the-cv) covers formats in detail.
 
 Questions that separate experience from reading:
 

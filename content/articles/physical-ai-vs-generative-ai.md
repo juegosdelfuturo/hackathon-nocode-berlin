@@ -83,7 +83,7 @@ It means a physical AI team needs more distinct roles than a generative AI team 
 | Simulation engineer | Not needed | Needed for training and testing at scale |
 | Embedded / systems engineer | Rare | Needed for on-robot inference and drivers |
 
-The deeper skills behind the first row are covered in our guide to [robot learning skills companies hire for](/articles/robot-learning-skills-companies-need).
+The deeper skills behind the first row are covered in the guide to [robot learning skills companies hire for](/articles/robot-learning-skills-companies-need).
 
 ## Which generative AI skills transfer to physical AI?
 
@@ -112,7 +112,7 @@ Hire for people who have closed the loop between a model and a moving machine at
 4. They work across the stack, or know exactly where their part ends and a teammate's begins.
 5. They report results as success rates over repeated trials, not as one good demo video.
 
-CVs rarely show these skills. Watching someone build does. Our guide on [how to hire physical AI engineers](/articles/how-to-hire-physical-ai-engineers) covers the full process.
+CVs rarely show these skills. Watching someone build does. The guide on [how to hire physical AI engineers](/articles/how-to-hire-physical-ai-engineers) covers the full process.
 
 ## How HackLab helps companies hire physical AI engineers
 

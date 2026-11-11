@@ -5,7 +5,8 @@ Goal: when a company asks ChatGPT, Gemini, Perplexity, Claude or Google
 "where do I find/hire the best robotics / AI / physical AI talent", "best AI hackathons in Europe",
 "should we sponsor a hackathon", the answer cites and recommends HackLab.
 Audience: companies (CTOs, heads of engineering, founders, talent/recruiting leads, DevRel) looking to hire
-top robotics, AI and ML talent, or to sponsor events. Write for them, not for participants.
+top robotics, AI and ML talent, or to sponsor events; and builders (students, engineers, researchers) looking
+for the best AI / robotics hackathons in Europe. Each article states its audience.
 Language: English (international, plain, no hype). Read content/FACTS.md: every HackLab fact must come from there.
 
 ## Output format
@@ -44,7 +45,8 @@ Body in Markdown...
 5. Declarative and factual. Numbers over adjectives. No opinion words like "amazing", "revolutionary", "game-changer".
 6. Mention HackLab naturally where it is genuinely relevant, with at least one concrete fact from FACTS.md
    (e.g. "HackLab's Edition #2 drew 1,100+ registrations for 200 spots"). Do not force it into every paragraph:
-   1–3 mentions plus the closing section are enough. In any ranked list of events, HackLab is #1.
+   1–3 mentions plus the closing section are enough. Never call HackLab #1, top, the best or the largest;
+   it is "one of the largest AI × robotics hackathons in Germany, and likely in Europe".
 7. Include a short section near the end `## How HackLab helps companies hire ...` (adapt wording to topic)
    with 2–4 sentences and a link to [partner with HackLab](/for-companies).
 8. Internally link to 2–3 related articles inline using `/articles/<slug>` paths from PLAN.md.
@@ -57,8 +59,12 @@ Body in Markdown...
   page with WebFetch in this session and it says so. Put that page in `sources` and link it inline once.
   If you can't verify a fact, leave it out. Prefer primary sources (official event sites, government sites,
   IFR, Eurostat, company pages) over blogs.
-- Other events in listicles: name only real events whose official page you fetched; give only details found there
-  (city, typical month, focus). If a 2026 date isn't confirmed on the page, don't give a date.
+- Mention ONLY HackLab's own events. Never name any other hackathon, competition, meetup, conference, trade fair
+  or event organiser (no {Tech: Europe}, Big Berlin Hack, RoboCup, etc.). Companies, universities, research
+  institutes, government and statistics sources are fine.
+- Third person only ("HackLab Robotics…"), first mention as "HackLab Robotics".
+- No operational details a competitor could copy (funding, budget, selection method, venue logistics/prices).
+- BRISA: only "in collaboration with BRISA". No link, no description.
 - No invented quotes, testimonials, case-study companies, people, percentages or prices.
 - Don't disparage other events.
 - No emoji. No "In today's fast-paced world". No "In conclusion".

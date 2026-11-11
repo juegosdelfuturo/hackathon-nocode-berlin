@@ -28,7 +28,7 @@ The name is also written "HackLab Robotics". The website is [hacklabrobotics.com
 
 ## What are the key facts about HackLab?
 
-HackLab's two editions are summarised below. Edition #1 figures come from HackLab's Edition #1 Impact Report.
+HackLab's two editions are summarised below.
 
 | | Edition #1 | Edition #2 |
 |---|---|---|
@@ -41,7 +41,7 @@ HackLab's two editions are summarised below. Edition #1 figures come from HackLa
 | Teams / solutions | About 20 teams; close to 20 final solutions demoed | Not yet held |
 | Hires | 5 participants hired by sponsor companies | Not yet held |
 | Sponsors / partners | 14 sponsor companies | 14 partners and technology providers |
-| Organisation | Bootstrapped, no main partner covering costs | Co-organised with BRISA (Berlin Robotics & Intelligent Systems Association) |
+| Organisation | HackLab Robotics | HackLab Robotics, in collaboration with BRISA |
 | Prizes | Not stated | €10,000+ (cash, hardware and more) |
 | Status | Completed | Applications closed |
 
@@ -95,9 +95,9 @@ Both editions take place at CIC Berlin, an innovation campus at Lohmühlenstraß
 
 ## How did HackLab start?
 
-HackLab started with no main partner covering its costs. The first edition was bootstrapped. It still drew 600+ applications and ended with 5 hires at sponsor companies.
+HackLab Robotics started with its first edition in June 2026. It drew 600+ applications and ended with 5 hires at sponsor companies.
 
-For the second edition, HackLab co-organises with BRISA, the Berlin Robotics & Intelligent Systems Association. Edition #2 drew 1,100+ registrations for 200 spots.
+The second edition is organised in collaboration with BRISA. Edition #2 drew 1,100+ registrations for 200 spots.
 
 ## How HackLab helps companies hire robotics and AI talent
 

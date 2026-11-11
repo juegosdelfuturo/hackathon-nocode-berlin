@@ -6,14 +6,14 @@ category: HackLab
 date: 2026-11-11
 target_query: "HackLab Edition 2 November 2026"
 tags: [HackLab, AI hackathon, robotics hackathon, Berlin, November 2026]
-related: [hacklab-edition-2-tracks-explained, hacklab-and-brisa, what-is-hacklab]
+related: [hacklab-edition-2-tracks-explained, hacklab-partners-and-sponsors, what-is-hacklab]
 faq:
   - q: "When is HackLab Edition #2?"
     a: "HackLab Edition #2, the AI × Robotics Hackathon II, takes place on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, Berlin. It is a 48-hour event."
   - q: "Can I still apply to HackLab Edition #2?"
     a: "No. Applications are closed. 200 builders were selected from 1,100+ registrations on Luma."
   - q: "Who organises HackLab Edition #2?"
-    a: "HackLab co-organises Edition #2 with BRISA, the Berlin Robotics & Intelligent Systems Association."
+    a: "HackLab organises Edition #2 in collaboration with BRISA."
   - q: "What are the prizes at HackLab Edition #2?"
     a: "Edition #2 offers €10,000+ in prizes, including cash and hardware, plus free credits from every technology partner."
   - q: "What hardware is available at HackLab Edition #2?"
@@ -21,10 +21,8 @@ faq:
 sources:
   - name: "Luma – ROBOTICS X AI - HACKLAB (HackLab #2) event page"
     url: "https://luma.com/h0mcaqio"
-  - name: "BRISA – Berlin Robotics & Intelligent Systems Association"
-    url: "https://brisa-robotics.de"
 ---
-**HackLab Edition #2, the AI × Robotics Hackathon II, takes place on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65. It is a 48-hour event, co-organised with BRISA, for 200 builders selected from 1,100+ registrations.** Applications are closed. Teams build across four tracks for €10,000+ in prizes, using robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
+**HackLab Edition #2, the AI × Robotics Hackathon II, takes place on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65. It is a 48-hour event, in collaboration with BRISA, for 200 builders selected from 1,100+ registrations.** Applications are closed. Teams build across four tracks for €10,000+ in prizes, using robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
 
 ## What are the key details of HackLab Edition #2?
 
@@ -36,7 +34,7 @@ The essentials fit in one table. The public event page is on [Luma](https://luma
 | Dates | 21–22 November 2026 |
 | Venue | CIC Berlin, Lohmühlenstraße 65, Berlin |
 | Format | 48 hours |
-| Co-organiser | BRISA (Berlin Robotics & Intelligent Systems Association) |
+| In collaboration with | BRISA |
 | Registrations | 1,100+ (Luma) |
 | Builders selected | 200 |
 | Application status | Closed |
@@ -85,20 +83,19 @@ Edition #2 has 14 partners and technology providers:
 
 [HackLab partners and sponsors](/articles/hacklab-partners-and-sponsors) describes each company and compares the Edition #1 and Edition #2 rosters.
 
-## What does BRISA's role add?
+## Who organises Edition #2?
 
-BRISA co-organises Edition #2 with HackLab. On [its website](https://brisa-robotics.de), BRISA describes itself as a Berlin-wide, student-led robotics association connecting talent, research and industry. The partnership is covered in [HackLab and BRISA](/articles/hacklab-and-brisa).
+HackLab Robotics organises Edition #2 in collaboration with BRISA.
 
 ## How is Edition #2 different from Edition #1?
 
-Edition #2 is larger, longer and co-organised. Both editions are held at CIC Berlin.
+Edition #2 is larger and longer. Both editions are held at CIC Berlin.
 
 | | Edition #1 (June 2026) | Edition #2 (November 2026) |
 |---|---|---|
 | Duration | 36 hours | 48 hours |
 | Demand | 600+ applications | 1,100+ registrations |
 | Selected | 130 | 200 |
-| Organisation | Bootstrapped | Co-organised with BRISA |
 | Tracks | Not stated | 4 tracks |
 | Prizes | Not stated | €10,000+ |
 

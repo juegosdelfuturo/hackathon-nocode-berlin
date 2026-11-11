@@ -88,7 +88,7 @@ Sim-to-real experience means having taken a policy or controller from simulation
 3. **Sim2Sim:** run it in a second simulator (MuJoCo) to expose overfitting to one physics engine.
 4. **Sim2Real:** deploy on the physical robot in debug mode.
 
-Candidates who have done step 3 understand that every simulator is wrong in its own way. That is the habit to hire for. Our guide to [robot learning skills](/articles/robot-learning-skills-companies-need) covers the policy side.
+Candidates who have done step 3 understand that every simulator is wrong in its own way. That is the habit to hire for. The guide to [robot learning skills](/articles/robot-learning-skills-companies-need) covers the policy side.
 
 ## How do you assess simulation skills in an interview?
 

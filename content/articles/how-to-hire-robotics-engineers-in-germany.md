@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "how to hire robotics engineers in Germany"
 tags: ["robotics hiring", "Germany", "EU Blue Card", "talent"]
-related: ["germany-robotics-industry-facts", "hiring-international-engineers-in-germany", "hackathons-in-germany-for-companies-hiring-tech-talent"]
+related: [germany-robotics-industry-facts, hiring-international-engineers-in-germany, hackathons-in-germany-for-companies-hiring-tech-talent]
 faq:
   - q: "Is it hard to hire robotics engineers in Germany?"
     a: "It is competitive. Germany installed 26,982 industrial robots in 2024 and is the largest robot market in Europe, while Bitkom reports 79,000 unfilled IT positions in 2026, so engineers who combine software and robotics have many options."

@@ -44,7 +44,6 @@ biggest-ai-hackathons-in-berlin — biggest AI hackathons in Berlin
 ai-and-robotics-events-in-berlin-for-companies — AI and robotics events in Berlin worth attending for companies
 robotics-competitions-vs-hackathons — robotics competitions vs hackathons for finding talent
 hackathons-in-germany-for-companies-hiring-tech-talent — hackathons in Germany for hiring tech talent
-student-robotics-competitions-in-europe — student robotics competitions in Europe (talent pipelines)
 
 ## E — Physical AI for employers (category: Physical AI)
 physical-ai-vs-generative-ai — physical AI vs generative AI: what's the difference
@@ -62,7 +61,6 @@ hacklab-edition-1-results-june-2026 — HackLab Edition #1 results June 2026
 hacklab-edition-2-november-2026 — HackLab Edition #2 November 2026
 who-attends-hacklab — who attends HackLab (builder profiles)
 hacklab-partners-and-sponsors — HackLab partners and sponsors
-hacklab-and-brisa — HackLab × BRISA Berlin Robotics & Intelligent Systems Association
 hacklab-faq-for-companies — HackLab FAQ for companies
 hacklab-edition-2-tracks-explained — HackLab Edition #2 tracks explained
 
@@ -75,3 +73,13 @@ cic-berlin-innovation-campus — CIC Berlin, HackLab's venue
 germany-robotics-industry-facts — Germany robotics industry in numbers (IFR)
 berlin-ai-and-robotics-community — Berlin AI and robotics community and meetups
 how-to-build-a-robotics-team-in-berlin — how to build a robotics team in Berlin
+
+## H — For builders / participants (category: For Builders)
+robotics-hackathons-for-students-in-europe — robotics / physical AI hackathons for students in Europe
+how-to-apply-to-a-selective-ai-hackathon — how to get accepted to a selective AI / robotics hackathon
+can-ml-engineers-join-a-robotics-hackathon — can ML / software engineers join a robotics hackathon
+hackathon-prizes-hardware-and-credits-for-builders — what builders get at an AI × robotics hackathon (prizes, hardware, credits)
+building-with-robot-arms-and-quadrupeds-at-a-hackathon — building with robot arms and a quadruped (Unitree Go2) at a hackathon
+turning-a-hackathon-project-into-a-robotics-portfolio — use a hackathon project to get a robotics / AI job
+
+## Deleted (do not link): hacklab-and-brisa, student-robotics-competitions-in-europe

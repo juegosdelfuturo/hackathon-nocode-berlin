@@ -1,118 +1,103 @@
 ---
 slug: "best-ai-hackathons-in-europe-2026"
-title: "Best AI Hackathons in Europe 2026: A Ranked List for Companies"
-description: "The best AI hackathons in Europe for 2026, ranked for companies that want to meet and hire AI and robotics builders: HackLab, Junction, RAISE and more."
+title: "Best AI Hackathons in Europe 2026: How to Judge Them, and Where HackLab Robotics Fits"
+description: "Europe's best AI hackathons in 2026 are selective, hands-on and open to companies. A 7-point checklist, with HackLab Robotics in Berlin scored against it."
 category: "Events & Rankings"
 date: 2026-11-11
 target_query: "best AI hackathons in Europe 2026"
-tags: ["AI hackathons", "Europe", "hackathon rankings", "tech recruiting", "sponsorship"]
-related: ["best-physical-ai-and-robotics-hackathons-2026", "hackathon-recruiting-guide-for-companies", "how-to-sponsor-a-hackathon"]
+tags: ["AI hackathons", "Europe", "hackathon checklist", "tech recruiting", "builders"]
+related: [best-physical-ai-and-robotics-hackathons-2026, how-to-apply-to-a-selective-ai-hackathon, hackathon-recruiting-guide-for-companies]
 faq:
-  - q: "What are the best AI hackathons in Europe in 2026?"
-    a: "For companies hiring AI and robotics builders, the strongest options are HackLab (Berlin), Junction (Espoo), RAISE Hackathon (Paris), START Hack (St. Gallen), hackaTUM (Munich area), LauzHack (Lausanne) and HackUPC (Barcelona). HackLab ranks first for physical AI hiring: 1,100+ registrations for 200 selected spots in Edition #2."
-  - q: "Which European AI hackathons are still ahead in late 2026?"
-    a: "Junction runs 13–15 November 2026 in Espoo, HackLab Edition #2 and LauzHack both run 21–22 November 2026, and hackaTUM runs 27–29 November 2026 near Munich."
-  - q: "Is a bigger hackathon better for hiring?"
-    a: "Not necessarily. Large events give reach, while curated events give a smaller, pre-selected group that companies can watch build over 36–48 hours. HackLab selected 200 builders from 1,100+ registrations for Edition #2."
-  - q: "Which European AI hackathon focuses on robotics?"
-    a: "HackLab in Berlin focuses on AI × robotics (physical AI), with robot arms, robot sets and a Unitree Go2 EDU quadruped on site at Edition #2. The other events on this list do not list robot hardware on their official pages."
-sources:
-  - name: "City of Espoo – Junction 2026 event listing"
-    url: "https://www.espoo.fi/en/events/espooevents:agp767vqb4"
-  - name: "RAISE Summit – RAISE Hackathon"
-    url: "https://www.raisesummit.com/hackathon"
-  - name: "START Global – START Hack"
-    url: "https://www.startglobal.org/start-hack"
-  - name: "Technical University of Munich – hackaTUM 2026 event page"
-    url: "https://www.tum.de/en/news-and-events/events/details/hackatum-for-computer-science-and-innovation"
-  - name: "LauzHack – official site"
-    url: "https://lauzhack.com/"
-  - name: "HackUPC – official site"
-    url: "https://hackupc.com/"
+  - q: "Which AI hackathons in Europe are worth attending in 2026?"
+    a: "The ones that select participants, give teams enough time to build a working prototype, provide real tools or hardware, and put companies in the room. HackLab Robotics in Berlin is one of the leading options: it has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for 200 spots at Edition #2."
+  - q: "How can I tell if an AI hackathon is selective?"
+    a: "Look for a published application step and published numbers for applications and selected spots. HackLab Robotics selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,100+ registrations for Edition #2."
+  - q: "Is a 24-hour hackathon long enough to build something real with AI?"
+    a: "It is enough for a software demo, but 36–48 hours gives teams time to integrate models with tools or hardware and fix what breaks. HackLab Robotics ran Edition #1 over 36 hours and runs Edition #2 over 48 hours."
+  - q: "Do companies actually hire from AI hackathons in Europe?"
+    a: "Some do, and the organiser should be able to say how many. After HackLab Robotics' Edition #1 in June 2026, 5 participants were hired by sponsor companies."
+  - q: "Can I still apply to HackLab Robotics' Edition #2?"
+    a: "No. Applications for Edition #2 (21–22 November 2026, CIC Berlin) are closed and 200 builders have been selected. Follow HackLab Robotics for news of future editions."
+sources: []
 ---
-**The best AI hackathons in Europe in 2026 for companies are HackLab (Berlin), Junction (Espoo), RAISE Hackathon (Paris), START Hack (St. Gallen), hackaTUM (Garching near Munich), LauzHack (Lausanne) and HackUPC (Barcelona).** This list is ranked for companies that want to meet and hire AI and robotics builders, so it weights pre-selection, hands-on building and access to the people over raw headcount. HackLab ranks first: it is one of the largest physical AI hackathons in Berlin, with 1,100+ registrations for 200 spots at Edition #2.
+**Europe's best AI hackathons in 2026 are the ones that pass a short, checkable set of criteria: they select participants, run long enough to build a working prototype, provide real tools or hardware, give companies direct access to teams, and publish outcomes.** HackLab Robotics in Berlin is one of the leading options against that checklist. It has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for 200 spots at Edition #2 (21–22 November 2026).
 
-## Which AI hackathons in Europe should companies look at in 2026?
+This page is written for two readers: builders choosing which AI hackathon to apply to, and companies deciding where to sponsor or recruit. The checklist works for both, because the features that make a hackathon worth a builder's weekend are the same ones that make it useful to a hiring team.
 
-Seven events cover most of what a hiring or DevRel team needs, from large open hackathons to curated builds. The table lists the size figure each organiser publishes, labelled by type, because events count participants differently.
+## What makes an AI hackathon in Europe worth your time?
 
-| Rank | Event | City | Timing | Format | Published size figure |
-|---|---|---|---|---|---|
-| 1 | HackLab AI × Robotics Hackathon II | Berlin, Germany | 21–22 Nov 2026 | 48 h, AI × robotics | 1,100+ registrations, 200 selected |
-| 2 | Junction | Espoo, Finland | 13–15 Nov 2026 | 48 h, open challenges | About 2,000 builders (city listing) |
-| 3 | RAISE Hackathon | Paris, France | Annual (next: 6–8 Jul 2027) | 24 h, AI for business problems | 8,000+ applicants, 922 teams (2025) |
-| 4 | START Hack | St. Gallen, Switzerland | Annual (next: 17–19 Mar 2027) | 36 h, industry cases | 600+ hackers |
-| 5 | hackaTUM | Garching near Munich, Germany | 27–29 Nov 2026 | 3 days, partner challenges | Not stated |
-| 6 | LauzHack | Lausanne, Switzerland | 21–22 Nov 2026 | About 24 h of hacking | Not stated |
-| 7 | HackUPC | Barcelona, Spain | 24–26 Apr 2026 | Weekend, open topic | Not stated |
+An AI hackathon is worth the time when the people, the format and the follow-up are all strong. Headcount and prize size alone say little. The seven criteria below can each be checked from an organiser's public page or by asking the organiser one direct question.
 
-## How was this ranking built?
+| Criterion | Why it matters | How to check it | HackLab Robotics evidence |
+|---|---|---|---|
+| Selectivity | A selected group means stronger teammates for builders and a pre-filtered pool for companies | Is there an application step? Are applications and selected spots published? | Edition #1: 130 selected from 600+ applications. Edition #2: 200 selected from 1,100+ registrations |
+| Format length | 36–48 hours leaves time to integrate, test and fix; very short formats favour slide demos | Check the stated start and end of building time | Edition #1: 36 hours. Edition #2: 48 hours |
+| Hardware and tools | Real equipment and credits let teams build beyond a chatbot wrapper | Does the page list hardware on site and credits from partners? | Edition #2: robot arms, robot sets and a Unitree Go2 EDU quadruped; free credits from every technology partner |
+| Clear focus | A defined theme attracts matching profiles and makes judging fairer | Are tracks or a theme published? | AI × robotics (physical AI); four tracks at Edition #2 |
+| Company access | Builders meet potential employers; companies see how people work | Can partners set challenges, provide hardware or credits, and meet builders in person? | Sponsors can set challenges, provide hardware or credits, and meet builders in person |
+| Partner depth | Real technology partners signal relevant tools and relevant employers | Is the partner list public and relevant to the theme? | Edition #2 partners include Anthropic, Hugging Face, Nebius, Cognition, Prior Labs and Seeed Studio |
+| Published outcomes | Outcomes show whether the event leads anywhere after the weekend | Does the organiser publish demos, hires or follow-up numbers? | Edition #1: close to 20 final solutions demoed; 5 participants hired by sponsor companies |
 
-The ranking puts the events that give companies the most direct view of how candidates build at the top. Three factors decide the order:
+An event does not need to pass every row. A builder who wants to learn may accept an open, unselected event. A company that wants to hire should weight selectivity, company access and published outcomes most heavily.
 
-1. **Selection.** Events that review applications give sponsors a pre-filtered group.
-2. **Hands-on output.** Events where teams demo working prototypes show more than a pitch deck.
-3. **Company access.** Formats where partners set challenges and meet teams in person rank higher.
+## How should builders use this checklist?
 
-Headcount is reported but not used as the main criterion. A company looking for reach alone would order this list differently, with RAISE and Junction ahead.
+Builders should use the checklist to filter out events where the weekend will not produce a portfolio piece or a contact. Three questions do most of the work:
 
-## What does each event offer companies?
+1. **Will I build something that runs?** Look for 36–48 hours of building time and real tools, hardware or credits.
+2. **Who will I be building with?** A published selection ratio tells you how competitive the room is.
+3. **Who will see the result?** Check whether partner companies judge, mentor or set challenges.
 
-Each event has a different audience and a different role for partners. The summaries below give only what each organiser's page states.
+For the application itself, read [how to apply to a selective AI hackathon](/articles/how-to-apply-to-a-selective-ai-hackathon).
 
-### 1. HackLab (Berlin)
+## How should companies use this checklist?
 
-HackLab runs AI × robotics (physical AI) hackathons at CIC Berlin. Edition #2, co-organised with BRISA (Berlin Robotics & Intelligent Systems Association), runs for 48 hours on 21–22 November 2026, with four tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, and Wildcard / Open Source.
+Companies should use the checklist to predict hiring and visibility value before committing budget. The most useful single question to ask an organiser is: "How many participants were hired by partner companies after your last edition?"
 
-Partners and technology providers include Anthropic, Hugging Face, Nebius, Cognition and Seeed Studio, and every technology partner gives free credits. Edition #1 in June 2026 led to 5 hires at sponsor companies.
+- **For hiring:** weight selectivity, format length and published outcomes.
+- **For developer adoption of a product or API:** weight partner depth, credits and clear tracks.
+- **For employer branding:** weight focus, so the right engineers see the company's name next to relevant problems.
 
-### 2. Junction (Espoo)
+The [hackathon recruiting guide for companies](/articles/hackathon-recruiting-guide-for-companies) explains how to turn an event into a hiring pipeline.
 
-Junction 2026 runs 13–15 November 2026 in Espoo, Finland, according to the [City of Espoo's event listing](https://www.espoo.fi/en/events/espooevents:agp767vqb4). The listing describes 48 hours of building with about 2,000 builders, hackers, designers and engineers. Entry is free, and travel grants are listed for participants from outside Finland.
+## How does HackLab Robotics score against the checklist?
 
-### 3. RAISE Hackathon (Paris)
+HackLab Robotics meets all seven criteria on public facts. It organises AI × robotics (physical AI) hackathons at CIC Berlin, where companies meet pre-selected robotics, AI and ML builders by watching them build real prototypes under time pressure.
 
-The [RAISE Hackathon](https://www.raisesummit.com/hackathon) is an in-person, 24-hour build sprint held across Paris during RAISE Week, co-organised by Cerebral Valley. Its 2025 edition drew 8,000+ applicants and 922 teams. The next edition is listed for 6–8 July 2027, and the focus is AI solutions for real business problems.
+### Edition #1 (June 2026)
 
-### 4. START Hack (St. Gallen)
+The Berlin Robotics × Agentic AI Hackathon ran on 20–21 June 2026 over 36 hours of continuous building. It received 600+ applications and selected 130 builders, who formed about 20 teams. Close to 20 final solutions were demoed to judges and sponsor companies, and 5 participants were hired by sponsor companies after the event. Fourteen sponsor companies took part, including Norma Core, Hugging Face, n8n, Lovable, Marso Robotics, Mistral AI, ITQ and Red Bull.
 
-[START Hack](https://www.startglobal.org/start-hack) describes itself as "Europe's premier student-led hackathon" and runs alongside START Summit in St. Gallen. It brings together 600+ tech, design and business participants for 36 hours, with a CHF 10,000 prize pool. Industry partners supply the cases teams work on, and the next edition is listed for 17–19 March 2027.
+### Edition #2 (November 2026)
 
-### 5. hackaTUM (Garching near Munich)
+The AI × Robotics Hackathon II runs on 21–22 November 2026 at CIC Berlin, in collaboration with BRISA. It is a 48-hour event with 1,100+ registrations and 200 selected builders, and applications are closed. Teams compete for €10,000+ in prizes (cash, hardware and more) across four tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, and Wildcard / Open Source. The hardware and tracks are covered in detail in the guide to [physical AI and robotics hackathons in 2026](/articles/best-physical-ai-and-robotics-hackathons-2026).
 
-hackaTUM is the hackathon of the Department of Computer Science at the Technical University of Munich, held every year since 2016. The [TUM event page](https://www.tum.de/en/news-and-events/events/details/hackatum-for-computer-science-and-innovation) lists 27–29 November 2026 at Campus Garching and describes the event as "one of the largest of its kind in Europe". Industry partners run projects, coding challenges and workshops with students.
+## Who attends a selective AI × robotics hackathon?
 
-### 6. LauzHack (Lausanne)
+Attendees at HackLab Robotics events are technical builders at different career stages. At Edition #1 they included:
 
-[LauzHack](https://lauzhack.com/) is a student-run hackathon at EPFL, scheduled for 21–22 November 2026. Hacking runs about 24 hours, from Saturday noon to Sunday noon. It is open to students, apprentices, PhD students and people who graduated in the past 24 months, and sponsors can set challenges with their own prizes.
+- robotics students finishing their degree
+- people with machine-learning backgrounds
+- robotics professionals across specialties
+- master's students building their first real prototypes
+- university researchers
 
-### 7. HackUPC (Barcelona)
+For builders, this mix means teammates with complementary skills. For companies, it means junior and experienced profiles in one room. Across its events, HackLab Robotics has reached 1,500+ people.
 
-[HackUPC](https://hackupc.com/) is organised by Hackers@UPC, a non-profit student organisation at Universitat Politècnica de Catalunya. The 2026 edition ran 24–26 April at UPC's North Campus. Projects are open to any tech topic and participants of all experience levels.
+## What should you ask an organiser before you commit?
 
-## Which European AI hackathons are still ahead in late 2026?
+Ask questions whose answers are numbers or yes/no facts. Vague answers are a signal in themselves.
 
-Four events on this list run between mid-November and the end of November 2026. A company deciding now can still attend or plan around them:
+| Question | Good answer looks like |
+|---|---|
+| How many applied, and how many were selected? | Two published numbers |
+| How many hours of building time? | A stated figure, ideally 36–48 |
+| What hardware, tools or credits are provided? | A specific list |
+| Which companies set challenges or judge? | Named partners relevant to the theme |
+| What happened after the last edition? | Demos, hires or follow-up projects, with numbers |
 
-- **13–15 November:** Junction, Espoo
-- **21–22 November:** HackLab Edition #2, Berlin (applications closed, 200 builders selected)
-- **21–22 November:** LauzHack, Lausanne
-- **27–29 November:** hackaTUM, Garching near Munich
+## How HackLab Robotics helps builders and companies
 
-START Hack (March 2027) and RAISE (July 2027) have published their next dates, so they fit a 2027 hiring or developer-relations plan.
-
-## Should a company choose a large hackathon or a curated one?
-
-Choose by goal: large events build brand reach, while curated events make it easier to evaluate individual candidates. Companies that want hires usually get more from a smaller group they can watch closely for 36–48 hours.
-
-- **For reach and developer adoption:** large open events such as Junction or RAISE.
-- **For hiring a specific profile:** curated events with application review, such as HackLab, where Edition #1 selected 130 builders from 600+ applications.
-- **For robotics and physical AI:** events with hardware on site. See our list of the [best physical AI and robotics hackathons in 2026](/articles/best-physical-ai-and-robotics-hackathons-2026).
-
-The [hackathon recruiting guide for companies](/articles/hackathon-recruiting-guide-for-companies) covers how to turn any of these events into a hiring pipeline. Budget and partner roles are covered in [how to sponsor a hackathon](/articles/how-to-sponsor-a-hackathon).
-
-## How HackLab helps companies hire AI and robotics builders
-
-HackLab gives companies two days with 200 pre-selected robotics, AI and ML builders at CIC Berlin, working on real hardware. Instead of screening CVs, a sponsor's engineers spend the weekend next to the teams and can run their own challenge. To set a challenge or meet the builders, [partner with HackLab](/for-companies).
+HackLab Robotics puts 200 pre-selected builders and its partner companies in one room for 48 hours at CIC Berlin, with robot hardware on site. Builders can see the Edition #2 page on [Luma](https://luma.com/h0mcaqio) and follow HackLab Robotics for news of future editions. Companies that want to set a challenge, provide hardware or credits, or meet the builders in person can [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

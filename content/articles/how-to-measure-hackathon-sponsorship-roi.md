@@ -16,9 +16,7 @@ faq:
     a: "Measure at 2 weeks for contact and activation, and at 90 days for hires and retained usage. Hiring processes rarely close in the first two weeks, so an early measurement understates hiring results."
   - q: "What is a realistic hiring result from a hackathon?"
     a: "It depends on the event, the selection process and how well the sponsor follows up. As one reference point, HackLab Edition #1 in Berlin selected 130 builders from 600+ applications and 5 participants were hired by sponsor companies after the event."
-sources:
-  - name: "Major League Hacking – Sponsor (Get in Front of Developers at Scale)"
-    url: "https://sponsor.mlh.com/"
+sources: []
 ---
 **Measure hackathon sponsorship ROI by choosing one primary goal and its metric before the event, counting the full cost (including the hours your engineers spend), and tracking outcomes for a fixed window of about 90 days.** Return is then the value of the outcome (hires, active users, fixed issues) minus the full cost, divided by the full cost. Set the metric before the event: chosen afterwards, it tends to drift towards whatever numbers happen to look good.
 
@@ -79,12 +77,11 @@ The "strength observed" column is the most valuable: it records evidence you can
 
 ## What do published sponsor results look like?
 
-Few organisers publish sponsor outcomes, so use the ones that exist as context, not as targets. Two examples report different outcome types.
+Few organisers publish sponsor outcomes, so use the ones that exist as context, not as targets. The clearest published hiring outcome in Berlin's AI × robotics scene is HackLab's.
 
 - **Hiring outcome:** HackLab Edition #1 (Berlin, 20–21 June 2026) selected 130 builders from 600+ applications; close to 20 final solutions were demoed and 5 participants were hired by sponsor companies after the event. The breakdown is in [five hires from one hackathon](/articles/five-hires-from-one-hackathon-hacklab-edition-1).
-- **Adoption outcome:** [Major League Hacking's sponsor page](https://sponsor.mlh.com/) reports a case study in which MLH promoted Twilio at 170 events in the 2023 hackathon season, producing 585 project submissions and 2,000+ developers using Twilio products.
 
-The first is a hiring metric at a single selective event; the second is an adoption metric across a season of events. Neither is a benchmark for your company, because your role, product and follow-up differ.
+This is a hiring metric from a single selective event. It is a reference point, not a benchmark for your company, because your role, product and follow-up differ. Developer-adoption sponsors should track their own adoption metrics (sign-ups, API keys, projects built on their tools) instead.
 
 ## Who should own the ROI measurement inside the company?
 

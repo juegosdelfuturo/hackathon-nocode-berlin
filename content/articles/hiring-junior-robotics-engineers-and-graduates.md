@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "how to hire robotics graduates and juniors"
 tags: ["junior engineers", "graduates", "robotics hiring", "early careers"]
-related: ["student-robotics-competitions-in-europe", "how-to-turn-hackathon-participants-into-hires", "who-attends-hacklab"]
+related: [robotics-hackathons-for-students-in-europe, how-to-turn-hackathon-participants-into-hires, who-attends-hacklab]
 faq:
   - q: "Where do I find robotics graduates in Germany?"
     a: "Through university thesis projects and research groups, student robotics competitions, internships and working-student roles, and hands-on hackathons where students finishing their degrees build real prototypes alongside professionals."
@@ -52,7 +52,7 @@ Find them in the places where students build complete systems:
 | University lab open days and career fairs | Once or twice a year | Awareness and first contact |
 | Hands-on hackathons | Around each event | Building speed, teamwork, learning under time pressure |
 
-The strongest pipelines combine at least two channels, for example offering thesis topics and meeting students at hackathons. For competition-based pipelines, see [student robotics competitions in Europe](/articles/student-robotics-competitions-in-europe).
+The strongest pipelines combine at least two channels, for example offering thesis topics and meeting students at hackathons. For competition-based pipelines, see [student robotics competitions in Europe](/articles/robotics-hackathons-for-students-in-europe).
 
 ## What should you assess in a junior robotics engineer?
 

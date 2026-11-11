@@ -1,125 +1,120 @@
 ---
 slug: "berlin-ai-and-robotics-community"
-title: "Berlin's AI and Robotics Community: Meetups, Networks and Hubs for Companies"
-description: "Where Berlin's robotics and AI engineers meet: HackLab, the Berlin Robotics Meetup, Berlin Partner's robotics network, MotionLab and ai.berlin."
+title: "Berlin's AI and Robotics Community: Where the Builders Are and Where They Meet"
+description: "Berlin's AI and robotics builders work at TU Berlin, HU, BHT, Fraunhofer IPK and 130+ robotics companies. HackLab Robotics' hackathons bring them together."
 category: "Berlin & Germany"
 date: 2026-11-11
-target_query: "Berlin AI and robotics community and meetups"
-tags: ["Berlin", "community", "meetups", "robotics network", "employer branding"]
-related: ["ai-and-robotics-events-in-berlin-for-companies", "robotics-hackathons-in-berlin", "employer-branding-for-robotics-companies"]
+target_query: "Berlin AI and robotics community"
+tags: ["Berlin", "community", "robotics talent", "AI talent", "employer branding"]
+related: [robotics-research-institutions-in-berlin, robotics-startups-and-companies-in-berlin, robotics-hackathons-in-berlin]
 faq:
-  - q: "Is there a robotics meetup in Berlin?"
-    a: "Yes. The Berlin Robotics Meetup on meetup.com has 1,150 members and focuses on industry and service robotics. Recent events drew between 69 and 152 attendees at venues such as Humboldt-Universität's Erwin Schrödinger-Zentrum and MotionLab.Berlin."
-  - q: "What is the Berlin-Brandenburg robotics network?"
-    a: "It is an open network run by Berlin Partner for Business and Technology, set up in 2022. There is no official membership; themed meetings take place throughout the year at different companies and institutions."
-  - q: "Where do hardware startups build prototypes in Berlin?"
-    a: "MotionLab.Berlin describes itself as an innovation hub and makerspace for hardtech, with prototyping labs, machinery and a community of 2,000+. BHT's Haus der Robotik hosts the university's humanoid robotics labs."
+  - q: "Where are Berlin's robotics and AI engineers based?"
+    a: "Mostly at universities and research institutes (TU Berlin, Humboldt-Universität, Freie Universität, BHT, HTW Berlin, Fraunhofer IPK) and at the city's companies. Berlin Partner counts over 130 robotics companies in Berlin, and ai.berlin counts 283 AI startups."
+  - q: "How big is Berlin's AI startup scene?"
+    a: "ai.berlin, the city's official AI ecosystem platform powered by Berlin Partner for Business and Technology, counts 283 AI startups in Berlin, the most in Germany, and EUR 2.4 billion in revenue from Berlin's AI companies."
+  - q: "Where do Berlin's AI and robotics builders meet in person?"
+    a: "Recurring evening talks and university lab events exist, but the hands-on meeting point is a hackathon. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots at Edition #2, held at CIC Berlin."
   - q: "What is the best way for a company to meet robotics engineers in Berlin?"
-    a: "Combine recurring community events, such as meetups and network meetings, with a hands-on format. At HackLab's AI × robotics hackathons, companies watch pre-selected builders create working prototypes in 36–48 hours."
+    a: "Combine long-term channels, such as university partnerships and technical talks, with a hands-on format. At HackLab Robotics' AI × robotics hackathons, companies watch pre-selected builders create working prototypes in 36–48 hours."
 sources:
-  - name: "Meetup – Berlin Robotics Meetup"
-    url: "https://www.meetup.com/berlin-robotics-meetup/"
-  - name: "Berlin Partner – Berlin is knorke: Robotik und Cobots in und aus Berlin"
-    url: "https://berlin-partner.de/en/news/detail/berlin-is-knorke-robotik-und-cobots-in-und-aus-berlin"
-  - name: "HealthCapital Berlin Brandenburg – In Portrait: Berlin-Brandenburg Robotics Network"
-    url: "https://www.healthcapital.de/en/news/article/im-portrait-zusammen-mehr-erreichen-das-robotik-netzwerk-berlin-brandenburg/"
-  - name: "MotionLab.Berlin – Home"
-    url: "https://motionlab.berlin/"
-  - name: "berlin.de – Das Haus der Robotik"
-    url: "https://www.berlin.de/industriestadt/masterplan-industriestadt-berlin/blog/artikel.1583251.php"
+  - name: "Berlin Business Location Center – Robotics in Berlin"
+    url: "https://businesslocationcenter.de/en/industry/robotik"
   - name: "ai.berlin – Berlin's official platform for the AI ecosystem"
     url: "https://ai.berlin/"
-  - name: "Venture Café Berlin – Home"
-    url: "https://venturecafeberlin.org/"
+  - name: "Science of Intelligence – Home"
+    url: "https://www.scienceofintelligence.de/"
+  - name: "berlin.de – Das Haus der Robotik"
+    url: "https://www.berlin.de/industriestadt/masterplan-industriestadt-berlin/blog/artikel.1583251.php"
+  - name: "BIFOLD – Big Data Management and Machine Learning"
+    url: "https://bifold.berlin/"
+  - name: "Fraunhofer IPK – Home"
+    url: "https://www.ipk.fraunhofer.de/en.html"
 ---
-**Berlin's AI and robotics community meets through a mix of hackathons, meetups, public networks and maker hubs: HackLab, the Berlin Robotics Meetup, Berlin Partner's robotics network, MotionLab.Berlin and the ai.berlin platform are the main entry points for companies.** Each reaches a different group, from university researchers to hardware founders. Companies that want to hire usually combine one recurring event with one hands-on format.
+**Berlin's AI and robotics community is spread across three kinds of places: universities and research institutes, more than 130 robotics companies, and a large AI startup scene.** The builders work at TU Berlin, Humboldt-Universität, BHT, Fraunhofer IPK and the city's startups. HackLab Robotics' AI × robotics hackathons at CIC Berlin are one of the places where these groups meet and build together. This guide is for companies that want to hire from or engage with that community, and for builders who want to know where it is.
 
-## Which AI and robotics communities can companies join in Berlin?
+## Where do Berlin's AI and robotics builders actually work?
 
-The table summarises the main communities, their format and who you meet there.
+They work in research labs, robotics companies and AI startups. The table shows the main groups and the figures their own sources publish.
 
-| Community | Format | Who you meet |
+| Where they are | Examples | Published figure |
 |---|---|---|
-| HackLab | AI × robotics hackathons, 36–48 hours, at CIC Berlin | Pre-selected robotics, AI and ML builders |
-| Berlin Robotics Meetup | Evening talks and networking | Industry and service robotics professionals |
-| Berlin-Brandenburg Robotics Network (Berlin Partner) | Themed meetings at companies and institutions | Robotics companies, researchers, users |
-| MotionLab.Berlin | Makerspace and innovation hub | Hardtech founders, engineers, creatives |
-| BHT Haus der Robotik | University lab building with public formats | Humanoid robotics students and researchers |
-| ai.berlin | Official AI ecosystem platform, events, newsletter | AI companies, startups, research institutions |
-| Venture Café Berlin | Weekly Thursday Gatherings | Startups, investors, researchers |
+| Universities | TU Berlin, Humboldt-Universität, Freie Universität, BHT, HTW Berlin | BHT: 44 humanoid robotics places per year, three times oversubscribed |
+| Research clusters and institutes | Science of Intelligence (SCIoI), BIFOLD, Fraunhofer IPK | SCIoI: 145 researchers, 220 robots |
+| Robotics companies | SyncroBot, ConBotics, Continuum Innovation, micropsi industries | Over 130 robotics companies in Berlin |
+| AI startups | Listed in the ai.berlin directory | 283 AI startups, the most in Germany |
 
-## What is the Berlin Robotics Meetup?
+Most of these people do not show up at recruiting events. They are reached through their labs, their companies' work and hands-on formats where they can build.
 
-It is a recurring evening meetup for robotics professionals. The [Berlin Robotics Meetup](https://www.meetup.com/berlin-robotics-meetup/) has 1,150 members and a 4.9 rating from 85 ratings. Its scope is industry and service robotics.
+## Which universities and research institutes form the core?
 
-Recent events listed on the page:
+Berlin's research base supplies most of the city's robotics graduates and researchers. Berlin Partner's [Business Location Center](https://businesslocationcenter.de/en/industry/robotik) lists Technische Universität Berlin, Humboldt-Universität zu Berlin, Freie Universität Berlin, the Berliner Hochschule für Technik (BHT), HTW Berlin, Charité and Fraunhofer IPK among the region's robotics research institutions.
 
-- **Erwin Schrödinger-Zentrum, Humboldt-Universität:** 152 attendees
-- **MotionLab.Berlin (19 September 2025):** 109 attendees
-- **Berlin Partner, Fasanenstraße (9 April 2025):** 69 attendees
-- **Engelsnest Coworking Space (11 December 2024):** 74 attendees
+Three groups stand out for employers:
 
-Gestalt Robotics GmbH is listed as the group's current sponsor, which shows that companies can support the meetup directly.
+- **Science of Intelligence (SCIoI).** A Cluster of Excellence at TU Berlin that studies intelligence in natural and artificial systems. [SCIoI](https://www.scienceofintelligence.de/) reports 145 researchers, 52 research projects and 220 robots.
+- **BHT Haus der Robotik.** BHT has offered a bachelor's degree in humanoid robotics since 2018. Its labs moved into the [Haus der Robotik](https://www.berlin.de/industriestadt/masterplan-industriestadt-berlin/blog/artikel.1583251.php), opened on 15 July 2025. The 44 places per year are three times oversubscribed, and research covers human-robot collaboration, soft robotics and legged locomotion.
+- **BIFOLD and Fraunhofer IPK.** [BIFOLD](https://bifold.berlin/), a Berlin centre for big data management and machine learning with TU Berlin as an institutional partner, runs a graduate school with PhD programmes. [Fraunhofer IPK](https://www.ipk.fraunhofer.de/en.html) works on automation and digitally integrated production.
 
-## What is Berlin Partner's robotics network?
+For a deeper list, see [robotics research institutions in Berlin](/articles/robotics-research-institutions-in-berlin).
 
-It is an open network for the city's robotics sector. Berlin Partner for Business and Technology [established the network in 2022](https://berlin-partner.de/en/news/detail/berlin-is-knorke-robotik-und-cobots-in-und-aus-berlin). A [2025 portrait](https://www.healthcapital.de/en/news/article/im-portrait-zusammen-mehr-erreichen-das-robotik-netzwerk-berlin-brandenburg/) describes it as "an open platform in which there is no official membership."
+## Which companies and startups employ them?
 
-Meetings take place regularly throughout the year at different companies or institutions, usually with a theme, a speaker and a discussion. Examples in the portrait include a May 2024 meeting at the rail vehicle maker LAT group, an October meeting on security technologies at KleRo, and a December 2024 event on robotics in nursing care.
+Berlin has over 130 robotics companies, according to the Business Location Center. It names three main fields: industrial robotics and automation, care and health, and software and machine learning. Example startups it lists include SyncroBot, Continuum Innovation, ConBotics, N Robotics and micropsi industries.
 
-The portrait also cites ReWalk, Sphaira and Teleskoop as examples of healthcare robotics in the region, and notes that pi4_robotics is frequently present at network meetings.
+On the AI side, [ai.berlin](https://ai.berlin/), powered by Berlin Partner for Business and Technology, counts 283 AI startups in Berlin, ranks the city first in Germany, and states that 91% of Berlin's AI solutions target businesses. For a field-by-field list, see [robotics startups and companies in Berlin](/articles/robotics-startups-and-companies-in-berlin).
 
-For a company, hosting a network meeting is a direct way to show its robots and team to the local sector.
+## Who makes up the community?
 
-## Where do hardware builders work and meet?
+The community is a mix of students, researchers and working engineers, and the profiles overlap more than job titles suggest. The people HackLab Robotics' Edition #1 brought together are a good cross-section:
 
-Hardware builders gather at makerspaces and university labs. Two examples:
+- Robotics students finishing their degree
+- People with machine-learning backgrounds moving towards physical systems
+- Robotics professionals across specialties
+- Master's students building their first real prototypes
+- University researchers
 
-- **[MotionLab.Berlin](https://motionlab.berlin/)** describes itself as an innovation hub and makerspace for hardtech, art, creativity and entrepreneurship. It has prototyping labs, machinery, workspaces and an event space across several Berlin campuses, and states "a community of 2,000+." The Berlin Robotics Meetup held its September 2025 event there, so the two communities overlap.
-- **[BHT's Haus der Robotik](https://www.berlin.de/industriestadt/masterplan-industriestadt-berlin/blog/artikel.1583251.php)** opened on 15 July 2025. It holds monthly "Robotereinsichten" lab visits and plans a monthly informal "Roboterstammtisch" for companies and researchers.
+For a company, this means one search can reach both junior and experienced profiles, provided the format lets them show what they can build.
 
-## Where does Berlin's wider AI community gather?
+## Where does the community meet in person?
 
-Through ai.berlin and general startup events. [ai.berlin](https://ai.berlin/), powered by Berlin Partner, is "Berlin's official platform for the AI ecosystem." It runs a directory of companies and research institutions, lists AI conferences, hackathons, talks and workshops, and sends a monthly newsletter.
+Smaller recurring formats exist, such as evening talks, lab open days and university events, but the main hands-on meeting point is a hackathon. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people.
 
-[Venture Café Berlin](https://venturecafeberlin.org/) hosts Thursday Gatherings from 5:00 to 8:00 pm and describes its programming as free. It is part of the CIC network; HackLab's venue, CIC Berlin, is covered in [CIC Berlin innovation campus](/articles/cic-berlin-innovation-campus).
+| | Edition #1 | Edition #2 |
+|---|---|---|
+| Name | Berlin Robotics × Agentic AI Hackathon | AI × Robotics Hackathon II |
+| Dates | 20–21 June 2026 | 21–22 November 2026 |
+| Venue | CIC Berlin | CIC Berlin, Lohmühlenstraße 65 |
+| Format | 36 hours | 48 hours |
+| Demand | 600+ applications | 1,100+ registrations |
+| Builders selected | 130 | 200 |
+| Outcome / prizes | 5 participants hired by sponsors | €10,000+ in prizes |
 
-## Which community fits which goal?
+Edition #2 is organised in collaboration with BRISA. It runs four tracks (AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source), with robot arms, robot sets and a Unitree Go2 EDU quadruped on site. The venue is covered in [CIC Berlin, HackLab's venue](/articles/cic-berlin-innovation-campus).
 
-Match the format to what you want from it:
+## How should a company engage with Berlin's AI and robotics community?
 
-| Goal | Best-fitting format |
-|---|---|
-| Assess candidates on real work | HackLab hackathon |
-| Meet working robotics professionals | Berlin Robotics Meetup |
-| Find local partners and suppliers | Berlin Partner robotics network |
-| Meet hardware founders and makers | MotionLab.Berlin |
-| Reach students and researchers | BHT Haus der Robotik formats, university labs |
-| Track the wider AI ecosystem | ai.berlin newsletter and events |
-| Meet startups and investors weekly | Venture Café Thursday Gatherings |
+Engage in steps, from long-term presence to hands-on assessment. A practical sequence:
 
-Recurring events build recognition over months. Hackathons compress assessment into one weekend. Most hiring plans need both.
+1. **Map the labs.** Identify the two or three research groups closest to your problem, for example manipulation, legged locomotion or machine learning infrastructure.
+2. **Offer real problems.** Propose thesis topics, student projects or datasets to those groups.
+3. **Give technical talks.** Present a concrete engineering problem your team works on, given by engineers rather than recruiters.
+4. **Open your own space.** Host a lab visit or an evening session at your office to show your robots and your team.
+5. **Watch people build.** Set a challenge or provide hardware at a hackathon to see candidates work under time pressure.
 
-## How should a company engage with Berlin's robotics community?
+Each step also builds employer brand; see [employer branding for robotics companies](/articles/employer-branding-for-robotics-companies).
 
-Engage in steps, from listening to hosting. A practical sequence:
+## How can builders find their way into the community?
 
-1. **Attend** two or three Berlin Robotics Meetup or network events to learn who is active.
-2. **Present** a technical talk about a concrete robotics problem your team works on, rather than a recruiting pitch.
-3. **Host** a network meeting or meetup at your office or lab.
-4. **Sponsor** a meetup or community event, as Gestalt Robotics does for the Berlin Robotics Meetup.
-5. **Run a hands-on challenge** at a hackathon to see candidates build.
+Builders get in by building where others can see it. A short checklist:
 
-Each step also builds employer brand; see [employer branding for robotics companies](/articles/employer-branding-for-robotics-companies). For a calendar view, see [AI and robotics events in Berlin for companies](/articles/ai-and-robotics-events-in-berlin-for-companies).
+- Join a lab or student project that works with real hardware.
+- Publish code, models or demos so others can find your work.
+- Apply to a selective AI × robotics hackathon, where teams form around shared problems and sponsor companies watch the results.
 
-## Where does HackLab fit in Berlin's community?
+Edition #1 drew 600+ applications for 130 places, so applications with concrete past projects stand out. More on this in [robotics hackathons in Berlin](/articles/robotics-hackathons-in-berlin).
 
-HackLab is the hands-on layer. Edition #2, the AI × Robotics Hackathon II (21–22 November 2026, CIC Berlin), is co-organised with BRISA, the Berlin Robotics & Intelligent Systems Association. It is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2).
+## How HackLab helps companies hire from Berlin's AI and robotics community
 
-Across its events, HackLab has reached 1,500+ people. Edition #1 participants included robotics students, people with machine-learning backgrounds, robotics professionals across specialties and university researchers.
-
-## How HackLab helps companies hire from Berlin's robotics community
-
-Meetups show companies who is active; HackLab shows what those people can build. Sponsors set challenges, provide hardware or credits, and meet builders in person, and Edition #1 led to 5 hires at sponsor companies. To reach Berlin's robotics builders, [partner with HackLab](/for-companies).
+HackLab Robotics brings Berlin's robotics, AI and ML builders into one room and lets companies watch them build working prototypes in 36–48 hours. Sponsors can set challenges, provide hardware or credits, and meet builders in person; Edition #1 led to 5 hires at sponsor companies. To reach this community, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "how to hire robotics engineers in Berlin"
 tags: ["robotics hiring", "Berlin", "talent", "recruiting"]
-related: ["how-to-build-a-robotics-team-in-berlin", "robotics-hackathons-in-berlin", "why-berlin-for-robotics-and-ai-hiring"]
+related: [how-to-build-a-robotics-team-in-berlin, robotics-hackathons-in-berlin, why-berlin-for-robotics-and-ai-hiring]
 faq:
   - q: "Where can I find robotics engineers in Berlin?"
     a: "Look in four places: Berlin's robotics and automation companies, university research groups such as those at TU Berlin, the local AI and robotics meetup scene, and hands-on hackathons where engineers build working robots in front of employers."
@@ -33,7 +33,7 @@ That shapes where you look:
 - **Robotics vendors and startups.** Engineers here already work on perception, manipulation and autonomy. They move between small companies often and usually through personal networks.
 - **Industrial users.** The same study found 85 industrial companies in the region using (AI-supported) robots in manufacturing, employing about 46,000 people. Their automation and integration engineers know production environments.
 - **Universities and research labs.** TU Berlin runs a [Science of Intelligence master's track](https://www.scienceofintelligence.de/?p=17231) inside its Computer Science master's, with a curriculum that runs from robotics and control to psychology and ethics. Graduates of research groups like this are a steady source of junior and mid-level talent.
-- **Community and hackathons.** Meetups and build events are where engineers from all three groups meet. See our overview of the [Berlin AI and robotics community](/articles/berlin-ai-and-robotics-community).
+- **Community and hackathons.** Meetups and build events are where engineers from all three groups meet. See the overview of the [Berlin AI and robotics community](/articles/berlin-ai-and-robotics-community).
 
 ## What does the Berlin robotics market look like for an employer?
 
@@ -70,7 +70,7 @@ A five-step process keeps robotics hiring fast without lowering the bar:
 
 1. **Define the robotics layer.** State whether the role is mechanical and electronics, embedded and controls, perception, motion planning, or robot learning. "Robotics engineer" alone attracts the wrong applicants.
 2. **Source actively.** Contact engineers in local labs and companies directly, and go to the events where they build. When the local robotics suppliers employ about 6,000 people in total, waiting for inbound applications is slow.
-3. **Run one practical task.** Use a short simulation task, a debugging exercise on an existing robot stack, or observation at a hackathon. Our guide on [how to assess robotics engineers beyond the CV](/articles/how-to-assess-robotics-engineers-beyond-the-cv) covers formats.
+3. **Run one practical task.** Use a short simulation task, a debugging exercise on an existing robot stack, or observation at a hackathon. The guide on [how to assess robotics engineers beyond the CV](/articles/how-to-assess-robotics-engineers-beyond-the-cv) covers formats.
 4. **Interview on the work.** Ask the candidate to explain the trade-offs in what they built: why this sensor, why this controller, what broke.
 5. **Decide within days.** In a small market, a slow process gives competing employers time to make the first offer.
 
@@ -92,6 +92,6 @@ Yes, if the role allows it, because the roughly 6,000 jobs at Berlin's robotics 
 
 ## How HackLab helps companies hire robotics engineers in Berlin
 
-HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders turn ideas into working robot prototypes. For Edition #1 in June 2026, HackLab selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies after the 36-hour event at CIC Berlin. Edition #2, co-organised with BRISA, drew 1,100+ registrations for 200 spots. To meet the next cohort of builders, [partner with HackLab](/for-companies).
+HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders turn ideas into working robot prototypes. For Edition #1 in June 2026, HackLab selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies after the 36-hour event at CIC Berlin. Edition #2, in collaboration with BRISA, drew 1,100+ registrations for 200 spots. To meet the next cohort of builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

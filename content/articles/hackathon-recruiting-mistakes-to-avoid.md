@@ -15,10 +15,8 @@ faq:
   - q: "Is it acceptable to pitch job openings during a hackathon?"
     a: "Short conversations and fixed office hours are fine. Long pitches during building time cost teams time they need and leave a poor impression."
   - q: "Do codes of conduct at hackathons apply to sponsors?"
-    a: "At some events, yes. Major League Hacking's code of conduct, for example, states that sponsors, judges and mentors at its events are subject to its anti-harassment policy. Read the code of conduct of any event you attend."
-sources:
-  - name: "MLH – Code of Conduct (mlh-policies on GitHub)"
-    url: "https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md"
+    a: "Usually, yes. Codes of conduct normally cover everyone at the event, including sponsors, judges and mentors. Read the code of conduct of any event you attend."
+sources: []
 ---
 **The most common hackathon recruiting mistakes are going without target roles, sending recruiters instead of engineers, setting a challenge teams cannot use, judging only the winners, and following up too late.** Each one turns a weekend with strong builders into a weekend of brand exposure with no hires. All of them are cheap to fix before the event.
 
@@ -68,7 +66,7 @@ Builders have a deadline. A 20-minute company presentation at a team's table tak
 
 ## Mistake 8: Why is ignoring the code of conduct a risk?
 
-Sponsors are part of the event's community, and some events say so explicitly. [Major League Hacking's code of conduct](https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md), for example, states that "sponsors, judges, mentors, volunteers, organizers, MLH staff, and anyone else participating in the event" are subject to its anti-harassment policy at its events.
+Sponsors are part of the event's community. A hackathon code of conduct normally applies to everyone on site, including sponsor staff, judges and mentors, and a single incident can damage an employer brand with the exact engineers a company wants to hire.
 
 **Fix:** read the code of conduct of the event you attend, brief everyone you send and name one person on your team as the contact if something goes wrong.
 

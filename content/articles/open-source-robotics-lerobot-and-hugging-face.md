@@ -99,7 +99,7 @@ Hire engineers who have taken a LeRobot-style project from assembly to a trained
 4. Measuring success over repeated trials and reporting failure modes.
 5. Contributing to or reading open-source code, not just running examples.
 
-Our guide to [robot learning skills companies need](/articles/robot-learning-skills-companies-need) goes deeper on the methods. If you plan to put arms like these in front of candidates, see [providing hardware to a robotics hackathon](/articles/providing-hardware-to-a-robotics-hackathon).
+The guide to [robot learning skills companies need](/articles/robot-learning-skills-companies-need) goes deeper on the methods. If you plan to put arms like these in front of candidates, see [providing hardware to a robotics hackathon](/articles/providing-hardware-to-a-robotics-hackathon).
 
 ## How HackLab helps companies hire open-source robotics engineers
 

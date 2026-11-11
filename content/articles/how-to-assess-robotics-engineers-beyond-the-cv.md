@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "how to assess robotics candidates practically"
 tags: ["technical assessment", "robotics hiring", "work sample", "interviews"]
-related: ["how-to-evaluate-candidates-at-a-hackathon", "hackathon-recruiting-guide-for-companies", "skills-to-look-for-when-hiring-robotics-engineers"]
+related: [how-to-evaluate-candidates-at-a-hackathon, hackathon-recruiting-guide-for-companies, skills-to-look-for-when-hiring-robotics-engineers]
 faq:
   - q: "Why is a CV not enough to assess a robotics engineer?"
     a: "A CV lists tools and job titles, but robotics work depends on debugging and integrating hardware, software and the environment. Two candidates can list the same tools with very different ability to make a robot work, which only shows when you watch them build."

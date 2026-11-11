@@ -1,120 +1,107 @@
 ---
 slug: "biggest-ai-hackathons-in-berlin"
-title: "Biggest AI Hackathons in Berlin: Ranked by Applicant Demand and Size"
-description: "The biggest AI hackathons in Berlin, ranked by published applicant demand and on-site size, with each figure labelled so companies can compare them."
+title: "Biggest AI Hackathons in Berlin: How to Read Hackathon Size Numbers"
+description: "Berlin's biggest AI hackathons are measured in different ways. How to read registrations, selected spots, demos and hires, with HackLab Robotics' funnel."
 category: "Events & Rankings"
 date: 2026-11-11
 target_query: "biggest AI hackathons in Berlin"
-tags: ["AI hackathons", "Berlin", "hackathon size", "rankings", "tech recruiting"]
-related: ["what-is-hacklab", "hacklab-edition-2-november-2026", "hackathons-vs-job-fairs-for-tech-recruiting"]
+tags: ["AI hackathons", "Berlin", "hackathon size", "hackathon metrics", "tech recruiting"]
+related: [hacklab-edition-1-results-june-2026, hacklab-edition-2-november-2026, robotics-hackathons-in-berlin]
 faq:
-  - q: "What is the biggest AI hackathon in Berlin?"
-    a: "It depends on the measure. By published applicant demand, HackLab ranks first, as Berlin's AI × robotics hackathon with 1,100+ registrations for 200 spots at Edition #2. By on-site builders claimed in an event title, Big Berlin Hack lists more than 300."
-  - q: "How many people apply to HackLab?"
+  - q: "Which AI hackathons in Berlin are biggest?"
+    a: "Size depends on the metric, so compare registrations, selected spots and outcomes separately. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: its Edition #2, which takes place at CIC Berlin on 21–22 November 2026, has drawn 1,100+ registrations for 200 spots."
+  - q: "How should hackathon size be measured?"
+    a: "By more than one number. Registrations or applications measure demand, selected spots measure who is in the room, demoed solutions measure output, and hires measure outcomes. A single headline figure rarely tells you which of these it is."
+  - q: "How many people apply to HackLab Robotics' hackathons?"
     a: "Edition #1 (June 2026) received 600+ applications and selected 130 builders. Edition #2 (November 2026) received 1,100+ registrations on Luma and selected 200 builders."
-  - q: "Are Berlin AI hackathons open or curated?"
-    a: "Most of the larger ones review applications. HackLab, BCX26 and the Factory Network x {Tech: Berlin} hackathon all select participants, while the {Tech: Europe} Berlin AI Hackathon used a 90-person cap with approval."
-  - q: "Does a bigger hackathon mean better hiring results?"
-    a: "Not by itself. Hiring depends on how many relevant builders a company can actually watch and meet. HackLab's Edition #1, with 130 builders, led to 5 hires at sponsor companies."
-sources:
-  - name: "Luma – Big Berlin Hack: >300 Builders & >50k in Prizes"
-    url: "https://luma.com/bigberlinhack"
-  - name: "Luma – Agents and Robotics HackXelerator Berlin Showcase & Awards"
-    url: "https://luma.com/ltzahbno"
-  - name: "Bosch ConnectedWorld – BCX26 Hackathon"
-    url: "https://bosch-connected-world.com/bcx26/"
-  - name: "Luma – {Tech: Europe} Berlin AI Hackathon"
-    url: "https://luma.com/berlin-ai-hack"
-  - name: "Luma – Factory Network x {Tech: Berlin} AI Hackathon"
-    url: "https://luma.com/royrg8gx"
-  - name: "Luma – Voice AI Hackathon Berlin"
-    url: "https://luma.com/t6vc9e3c"
-  - name: "Merantix AI Campus – official site"
-    url: "https://www.merantix-aicampus.com/"
+  - q: "Does a bigger hackathon lead to more hires?"
+    a: "Not by itself. Hiring depends on how many relevant builders a company can watch and meet. HackLab Robotics' Edition #1, with 130 selected builders, led to 5 hires at sponsor companies."
+sources: []
 ---
-**Ranked by published applicant demand, HackLab comes first among Berlin's AI hackathons: Berlin's AI × robotics hackathon with 1,100+ registrations for 200 spots at Edition #2 (21–22 November 2026).** By on-site headcount claimed in an event title, Big Berlin Hack lists more than 300 builders. The KXSB HackXelerator showcase lists 192 attendees, and other Berlin AI hackathons publish caps or selections of about 50 to 100 participants. This ranking orders events by demand first and on-site size second, and labels every figure by type.
+**Berlin's biggest AI hackathons cannot be compared on one headline number, because organisers count different things: registrations, applications, selected spots, demos or hires.** HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe. Its Edition #2, which takes place at CIC Berlin on 21–22 November 2026, has drawn 1,100+ registrations for 200 spots. This page explains how to read hackathon size figures and shows HackLab Robotics' full funnel for both editions.
 
-## How big are Berlin's AI hackathons?
+It is written for builders deciding where to apply and for companies deciding where to recruit or sponsor. Both need to know what a size figure actually measures before treating it as a reason to choose an event.
 
-Berlin's AI hackathons range from capped events of 50–100 people to events that claim several hundred builders. The table uses each organiser's own figure and states what kind of number it is.
+## What do hackathon size numbers actually measure?
 
-| Rank | Event | Organiser(s) | Published figure | Type of figure | Format |
-|---|---|---|---|---|---|
-| 1 | HackLab AI × Robotics Hackathon II | HackLab, co-organised with BRISA | 1,100+ registrations, 200 selected | Registrations and selected spots | 48 h, CIC Berlin |
-| 2 | Big Berlin Hack | {Tech: Europe}, CODE University, The Delta Campus | >300 builders, >50k in prizes | Claim in event title | Weekend |
-| 3 | KXSB Agents & Robotics HackXelerator (showcase) | KXSB | 192 | People who attended the Berlin showcase | 20-day programme |
-| 4 | BCX26 | Bosch, with AWS and MongoDB | Around 100 | Selected participants | 20 h |
-| 5 | {Tech: Europe} Berlin AI Hackathon | {Tech: Europe} | 90 | Participant cap | Weekend |
-| 6 | Factory Network x {Tech: Berlin} AI Hackathon | Factory Network, {Tech: Berlin} | 50–100 | Curated participant target | Two days |
-| 7 | Voice AI Hackathon Berlin | telli, ElevenLabs, {Tech: Europe} | Not stated | — | 1 day |
-| 8 | Merantix AI Campus AI Hackathons | Merantix AI Campus | Not stated per event | — | Recurring series |
+Each common size figure measures a different stage of an event, from interest to outcome. Reading the label is more important than reading the number.
 
-## Why are the figures labelled by type?
+| Metric | What it measures | What it tells a builder | What it tells a company |
+|---|---|---|---|
+| Registrations | Everyone who signed up on an event platform | How much interest the event attracts | How far the event's reach goes |
+| Applications | People who completed an application to be selected | How competitive selection is | How large the pool behind the selected group is |
+| Selected builders | People given a spot | How many peers will be in the room | How many candidates can realistically be met |
+| Teams | Groups that build together | How team formation is likely to work | How many projects to follow |
+| Solutions demoed | Projects shown to judges and partners | Whether teams usually finish | How much working output to evaluate |
+| Hires | Participants hired by partner companies after the event | Whether the event leads to jobs | Whether the event works as a hiring channel |
 
-A registration count, a participant cap and an attendance count measure different things. Treating them as the same number gives a misleading ranking.
+A registration count is usually the biggest number an event can publish, and a hire count is usually the smallest. Both are useful; they answer different questions.
 
-- **Registrations or applications** measure demand: how many people wanted a spot.
-- **Selected spots or caps** measure how many builders are in the room.
-- **"Went" or attendance counts** on event pages can include guests, mentors and visitors.
-- **Title claims** such as ">300 builders" are the organiser's own headline.
+## What is HackLab Robotics' funnel for both editions?
 
-HackLab is the only event on this list that publishes both demand and selection. That is why it ranks first even though Big Berlin Hack claims more builders on site.
+HackLab Robotics publishes figures for every stage of Edition #1 and for the selection stages of Edition #2. Edition #2 has not yet been held, so its later stages are not yet known.
 
-## How has HackLab grown between editions?
+| Stage | Edition #1 (20–21 June 2026) | Edition #2 (21–22 November 2026) |
+|---|---|---|
+| Name | Berlin Robotics × Agentic AI Hackathon | AI × Robotics Hackathon II |
+| Venue | CIC Berlin | CIC Berlin, in collaboration with BRISA |
+| Format | 36 hours | 48 hours |
+| Demand | 600+ applications | 1,100+ registrations (Luma) |
+| Selected builders | 130 | 200 |
+| Teams | About 20 | Not yet held |
+| Solutions demoed | Close to 20, to judges and sponsor companies | Not yet held |
+| Hires | 5 participants hired by sponsor companies | Not yet held |
+| Companies involved | 14 sponsor companies | Partners and technology providers include Anthropic, Hugging Face and Nebius |
 
-HackLab's applicant pool and its number of spots both grew between its two 2026 editions. Edition #1 in June received 600+ applications for 130 spots. Edition #2 in November received 1,100+ registrations for 200 spots.
+Across its events, HackLab Robotics has reached 1,500+ people. Full results for the first edition are in [HackLab Edition #1 results](/articles/hacklab-edition-1-results-june-2026), and the second edition is covered in [HackLab Edition #2, November 2026](/articles/hacklab-edition-2-november-2026).
 
-| Edition | Dates | Duration | Applications / registrations | Builders selected |
-|---|---|---|---|---|
-| #1 Berlin Robotics × Agentic AI Hackathon | 20–21 June 2026 | 36 h | 600+ applications | 130 |
-| #2 AI × Robotics Hackathon II | 21–22 November 2026 | 48 h | 1,100+ registrations | 200 |
+## Why are applications and registrations not the same number?
 
-Across its events, HackLab has reached 1,500+ people. Edition #2 also carries €10,000+ in prizes and free credits from every technology partner. Full details are in our [HackLab Edition #2 overview](/articles/hacklab-edition-2-november-2026).
+Applications and registrations measure different steps, so the jump from 600+ to 1,100+ is not a like-for-like growth figure. Edition #1 counted applications. Edition #2 counted registrations on Luma.
 
-## What do the other large Berlin AI hackathons look like?
+The like-for-like figures show the growth more precisely:
 
-Each of the other events has its own format and audience. The notes below use only what each official page states.
+- **Selected builders** rose from 130 to 200.
+- **Building time** rose from 36 to 48 hours.
+- **Demand stayed well above capacity:** fewer than 1 in 4 applicants were selected at Edition #1, and fewer than 1 in 5 registrants at Edition #2.
 
-### Big Berlin Hack
+When comparing any two hackathons, check that the figures are the same type. A registration count next to another event's attendance count is not a fair comparison, and neither is a selected-spots figure next to a total reach figure. The same rule applies within one organiser's history: compare applications with applications and registrations with registrations.
 
-[Big Berlin Hack](https://luma.com/bigberlinhack) is hosted by {Tech: Europe}, CODE University and The Delta Campus, and its listing is titled ">300 Builders & >50k in Prizes". The page describes its second edition, a weekend event focused on AI. Doors open Saturday at 10:00 and awards are on Sunday at 16:30.
+## Which number matters most for builders?
 
-### KXSB Agents & Robotics HackXelerator
+For builders, the most useful numbers are the selection ratio and the demo count. Together they show how strong the room is and whether teams usually finish what they start.
 
-The [KXSB HackXelerator](https://luma.com/ltzahbno) was a 20-day programme on agents and robotics that ended with a showcase and awards in Berlin on 17 April 2026. The showcase page lists 192 attendees and a £10,000 prize pool. It is the only entry here that runs over weeks.
+1. **Selection ratio:** a low ratio means strong teammates and competition.
+2. **Selected builders:** this number tells you how many potential teammates, and how many people competing for partners' attention, will be in the room.
+3. **Solutions demoed:** close to 20 demos from about 20 teams at Edition #1 suggests nearly every team reached the end.
 
-### BCX26
+Applications for Edition #2 are closed. Builders interested in future editions can follow HackLab Robotics and watch the [Edition #2 event page](https://luma.com/h0mcaqio).
 
-The [BCX26 hackathon](https://bosch-connected-world.com/bcx26/) ran on 9–10 June 2026 at the Amazon Tower with around 100 selected participants. Teams had 20 hours across four tracks: future mobility, industry and manufacturing, advanced robotics, and cognitive platforms.
+## Which number matters most for companies?
 
-### {Tech: Europe} Berlin AI Hackathon
+For companies, the most useful numbers are selected builders and hires. Registrations show reach, but only selected builders can be met, and only hires show whether the event works as a hiring channel.
 
-The [{Tech: Europe} Berlin AI Hackathon](https://luma.com/berlin-ai-hack) was the community's first Berlin edition of 2026. It was "Limited to 90 participants" with approval required, and it listed a prize pool of more than €5,000. {Tech: Europe} also runs hackathons in London, Paris, Munich and Stockholm.
+| Company goal | Number to look at | HackLab Robotics figure |
+|---|---|---|
+| Hire robotics, AI or ML engineers | Hires after the last edition | 5 at sponsor companies (Edition #1) |
+| Meet many candidates in person | Selected builders | 200 (Edition #2) |
+| See working output | Solutions demoed | Close to 20 (Edition #1) |
+| Brand reach among builders | Registrations and total reach | 1,100+ registrations (Edition #2); 1,500+ reached across events |
 
-### Factory Network x {Tech: Berlin} AI Hackathon
+Companies see candidates build working prototypes in 36–48 hours instead of reading CVs. Whether hackathons fit a hiring plan at all is covered in [are hackathons a good way to hire engineers](/articles/are-hackathons-a-good-way-to-hire-engineers).
 
-This [Factory Berlin Mitte hackathon](https://luma.com/royrg8gx) targeted 50 to 100 curated participants, including founders and experienced developers. Prizes were credits from Mistral AI, Weaviate and Luma AI, plus co-working space for the winners. The page does not state the year.
+## What should you ask when an event claims to be big?
 
-### Voice AI Hackathon Berlin
+Ask the organiser to label each figure and to give the full funnel. Clear answers to these questions make any two events comparable:
 
-The [Voice AI Hackathon Berlin](https://luma.com/t6vc9e3c) was a one-day event by telli, ElevenLabs and {Tech: Europe}, running from 11:00 to an award ceremony at 20:00. Teams built voice applications, and prizes included ElevenLabs credits.
+- Is this number registrations, applications, selected spots or attendees?
+- How many people were selected, and from how many?
+- How many teams finished and demoed?
+- How many participants were hired by partner companies afterwards?
+- How many hours did teams build for?
 
-### Merantix AI Campus AI Hackathons
+## How HackLab Robotics helps companies and builders in Berlin
 
-[Merantix AI Campus](https://www.merantix-aicampus.com/) lists AI Hackathons among its recurring community series. The campus hosts more than 300 events a year and is home to more than 80 AI teams.
-
-## Does size matter when a company wants to hire?
-
-Size matters less than selection and focus. A company hiring for a specific profile needs enough relevant builders in the room and enough time to watch them work.
-
-1. **Demand** tells you how selective the event can be.
-2. **Selected spots** tell you how many people you can realistically meet.
-3. **Focus** tells you whether those people match your roles. HackLab's builders are robotics, AI and ML profiles.
-
-A hackathon also differs from a job fair in what you can observe. See [hackathons vs job fairs for tech recruiting](/articles/hackathons-vs-job-fairs-for-tech-recruiting).
-
-## How HackLab helps companies hire AI and robotics builders in Berlin
-
-HackLab turns its 1,100+ registrations into 200 selected builders who work on real prototypes for 48 hours. Sponsors can set challenges, provide hardware or credits, and meet builders in person. Read [what HackLab is](/articles/what-is-hacklab), or [partner with HackLab](/for-companies).
+HackLab Robotics turns 1,100+ registrations into 200 selected robotics, AI and ML builders who build real prototypes for 48 hours at CIC Berlin. Sponsors can set challenges, provide hardware or credits, and meet builders in person; to do that, [partner with HackLab](/for-companies). Builders can follow HackLab Robotics for news of future editions.
 
 *Last updated: 11 November 2026.*

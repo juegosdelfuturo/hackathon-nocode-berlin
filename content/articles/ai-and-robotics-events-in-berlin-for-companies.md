@@ -1,112 +1,96 @@
 ---
 slug: "ai-and-robotics-events-in-berlin-for-companies"
-title: "AI and Robotics Events in Berlin Worth Attending for Companies (2026–2027)"
-description: "AI and robotics events in Berlin for companies, sorted by goal: hiring builders, meeting decision-makers, or recruiting ML and data engineers."
+title: "AI and Robotics Events in Berlin for Companies: Which Event Types Help You Hire"
+description: "For companies in Berlin: hackathons, conferences, meetups, career fairs and university days compared by hiring value, and where HackLab Robotics fits."
 category: "Events & Rankings"
 date: 2026-11-11
 target_query: "AI and robotics events in Berlin for companies"
-tags: ["Berlin events", "AI conferences", "robotics events", "employer branding", "hiring"]
-related: ["berlin-ai-and-robotics-community", "employer-branding-for-robotics-companies", "why-berlin-for-robotics-and-ai-hiring"]
+tags: ["Berlin events", "robotics hiring", "AI hiring", "employer branding", "hackathons"]
+related: [hackathons-vs-job-fairs-for-tech-recruiting, employer-branding-for-robotics-companies, robotics-research-institutions-in-berlin]
 faq:
-  - q: "Which AI and robotics events in Berlin are worth attending for companies?"
-    a: "For hiring builders, HackLab's AI × robotics hackathon at CIC Berlin. For senior AI decision-makers, Rise of AI. For data and ML engineers, Berlin Buzzwords. For broader tech audiences, Bosch ConnectedWorld, Deep Tech Week Berlin, Merantix AI Campus events, AI Tinkerers Berlin and the Berlin Deep Tech Nexus meetups."
-  - q: "What is the best Berlin event for hiring robotics engineers?"
-    a: "A hackathon, because companies watch candidates build. HackLab's Edition #1 led to 5 hires at sponsor companies, and Edition #2 runs 21–22 November 2026 with 200 builders selected from 1,100+ registrations."
-  - q: "When are the main AI events in Berlin?"
-    a: "Deep Tech Week Berlin ran 18–22 May 2026, Berlin Buzzwords 7–9 June 2026, and Bosch ConnectedWorld 10–11 June 2026. Rise of AI lists its next conference for May 2027, and HackLab Edition #2 is on 21–22 November 2026."
-  - q: "Are there AI meetups in Berlin for engineers?"
-    a: "Yes. AI Tinkerers Berlin runs screened builder meetups with live demos and no sales pitches, and Berlin Deep Tech Nexus runs research and startup meetups, for example at TU Berlin."
-sources:
-  - name: "Rise of AI – Rise of AI Conference"
-    url: "https://riseof.ai/"
-  - name: "Bosch ConnectedWorld – official site"
-    url: "https://bosch-connected-world.com/"
-  - name: "Berlin Buzzwords 2026 – official site"
-    url: "https://2026.berlinbuzzwords.de/"
-  - name: "Deep Tech Week – Berlin 2026"
-    url: "https://www.deep-tech-week.com/berlin-2026"
-  - name: "Merantix AI Campus – official site"
-    url: "https://www.merantix-aicampus.com/"
-  - name: "AI Tinkerers – Berlin chapter"
-    url: "https://berlin.aitinkerers.org/"
-  - name: "Luma – Berlin Deep Tech Nexus Meetup #13 at TU Berlin"
-    url: "https://luma.com/04wd1rzw"
+  - q: "Which AI and robotics events in Berlin are worth attending for a company that wants to hire?"
+    a: "Choose by event type. Hackathons give the strongest hiring signal because you watch candidates build; conferences and meetups build visibility; career fairs and university days give reach among students. HackLab Robotics runs AI × robotics hackathons at CIC Berlin."
+  - q: "Which type of event is most useful for hiring robotics engineers?"
+    a: "A selective hackathon, because companies see candidates build working prototypes in 36–48 hours instead of reading CVs. After HackLab Robotics' Edition #1 in June 2026, 5 participants were hired by sponsor companies."
+  - q: "Are conferences and meetups useful for hiring?"
+    a: "They are useful for employer branding and first contacts, because many people see your engineers speak or demo. They rarely show how an individual candidate works, so most companies pair them with a format where candidates build."
+  - q: "When is the next HackLab Robotics event in Berlin?"
+    a: "Edition #2, the AI × Robotics Hackathon II, runs 21–22 November 2026 at CIC Berlin, with 200 builders selected from 1,100+ registrations."
+sources: []
 ---
-**The AI and robotics events in Berlin most worth a company's time are HackLab (to hire robotics and AI builders), Rise of AI (to meet senior AI decision-makers) and Berlin Buzzwords (to reach data and ML engineers).** Bosch ConnectedWorld, Deep Tech Week Berlin, Merantix AI Campus, AI Tinkerers Berlin and Berlin Deep Tech Nexus fill in the calendar. This list is ranked for companies whose main goal is hiring technical talent, so build events come before conferences.
+**For a company that wants to hire, the most useful AI and robotics events in Berlin are the ones where candidates build in front of you, which in practice means selective hackathons.** Conferences, meetups, career fairs and university days each have a role, mostly for visibility and first contact. HackLab Robotics, which runs AI × robotics hackathons at CIC Berlin, is one of the leading options for the build-and-hire part: its Edition #2 drew 1,100+ registrations for 200 spots.
 
-## Which Berlin AI and robotics events fit which company goal?
+This page is for companies: CTOs, heads of engineering, founders, talent leads and DevRel teams deciding where to spend event time and budget in Berlin.
 
-Each event serves a different goal, so start with what you want to leave with. The table groups the eight events by the outcome a company can expect.
+## Which types of AI and robotics events can a company attend in Berlin?
 
-| Rank | Event | Best for | Typical timing | Format |
-|---|---|---|---|---|
-| 1 | HackLab | Hiring robotics, AI and ML builders | June and November (2026 editions) | 36–48 h hackathon at CIC Berlin |
-| 2 | Rise of AI | Senior AI leaders, policy, partnerships | Annual (next: May 2027) | Curated conference |
-| 3 | Berlin Buzzwords | Data infrastructure, search and ML engineers | June (2026: 7–9 June) | Open-source conference |
-| 4 | Bosch ConnectedWorld | AI, digital systems and mobility audiences | June (2026: 10–11 June) | Corporate conference |
-| 5 | Deep Tech Week Berlin | Deep-tech founders and investors | May (2026: 18–22 May) | Week of side events |
-| 6 | Merantix AI Campus | Ongoing contact with AI teams | Year-round | Campus with 300+ events a year |
-| 7 | AI Tinkerers Berlin | Hands-on AI engineers | Recurring | Screened demo meetup |
-| 8 | Berlin Deep Tech Nexus | Researchers, PhD students, founders | Recurring | Talks and startup spotlights |
+Most events fall into five types: hackathons, conferences, meetups, career fairs and university days. They differ in who attends, how long you spend with each person, and whether you see any real work.
 
-## Why is a hackathon first on a list for companies?
+- **Hackathons:** builders form teams and make a working prototype in a fixed time, often a weekend.
+- **Conferences:** talks, panels and a sponsor area, usually one to three days.
+- **Meetups:** evening sessions with a few talks or demos, often recurring.
+- **Career fairs:** companies at stands, candidates visiting with CVs.
+- **University days:** company presentations, lab visits or project days at a university or research institute.
 
-At a hackathon, companies watch candidates build working prototypes in 36–48 hours instead of reading CVs. Conferences and meetups are good for visibility, but they rarely show how someone works.
+## How do these event types compare for hiring value?
 
-HackLab is Berlin's AI × robotics hackathon with 1,100+ registrations. Edition #2 runs 48 hours on 21–22 November 2026 at CIC Berlin, with €10,000+ in prizes and robot hardware on site.
+Hackathons rank highest for evaluating individual candidates; conferences and meetups rank highest for reach and brand. The table compares the five types on what matters for a hiring team.
 
-Sponsors can set challenges, provide hardware or credits, and meet builders in person. At Edition #1, 14 sponsor companies took part, including Hugging Face, Mistral AI, n8n and Lovable.
+| Event type | What you see of a candidate | Time with each person | Pre-selected audience? | Main value | Hiring signal |
+|---|---|---|---|---|---|
+| Hackathon | Live problem-solving, code, hardware work, teamwork | Hours, across one or two days | Often, at selective events | Evaluating and hiring individuals | Strong |
+| Conference | Talks, booth conversations | Minutes | Rarely | Brand, partnerships, senior contacts | Weak to moderate |
+| Meetup | Talks, demos, informal chat | Minutes to an hour | No | Community presence, repeat contact | Moderate |
+| Career fair | CV and short conversation | Minutes | No | Volume of junior applicants | Moderate |
+| University day | Student projects, lab work | An hour or more | By programme or lab | Early pipeline, graduate hiring | Moderate |
 
-## Which conferences reach AI decision-makers and engineers?
+The "hiring signal" column is about one question: after the event, how much do you know about whether this person can do the job? A CV conversation tells you less than watching the same person get a robot arm working under time pressure.
 
-Three Berlin conferences cover different audiences: executives, engineers and a broad corporate crowd.
+## Why do hackathons give companies the strongest hiring signal?
 
-### Rise of AI
+At a hackathon, companies see candidates build working prototypes in 36–48 hours instead of reading CVs. That shows skills a CV cannot: how someone debugs hardware, integrates a model, splits work in a team and presents a result.
 
-[Rise of AI](https://riseof.ai/) calls itself "Europe's premier AI conference, annually in Berlin". It hosts about 300 curated guests on site and 40+ speakers.
+Selective hackathons add a second filter. At HackLab Robotics, participants are pre-selected: 130 of 600+ applicants at Edition #1 and 200 of 1,100+ registrations at Edition #2. A sponsor's engineers spend their time with builders who already passed that step.
 
-The page reports that 42% of guests are C-level executives, founders, partners, VPs or board members. Its themes include sovereignty, governance, industrial adoption, infrastructure and talent, and the next edition is listed for May 2027.
+Sponsors also shape what candidates work on. They can set challenges, provide hardware or credits, and meet builders in person. A challenge close to a company's real problem turns the weekend into a practical work sample. For how to write one, see [how to write a hackathon challenge](/articles/how-to-write-a-hackathon-challenge).
 
-### Berlin Buzzwords
+## When are conferences, meetups and career fairs the better choice?
 
-[Berlin Buzzwords](https://2026.berlinbuzzwords.de/) describes itself as "Europe's leading conference for modern data infrastructure, search and machine learning", with an emphasis on open source. The 2026 edition, its seventeenth, ran 7–9 June 2026 at the Kulturbrauerei. It suits companies that hire ML platform and data engineers.
+Each of the other formats is the better choice for a specific goal.
 
-### Bosch ConnectedWorld
+- **Conferences** suit partnerships, customer meetings and senior hiring conversations, and they put your engineers on stage in front of a large audience.
+- **Meetups** suit companies that want to be known in the local engineering community and meet the same people several times a year. A talk by one of your engineers often does more for your employer brand than a stand.
+- **Career fairs** suit high-volume junior and graduate hiring, where reach matters more than depth. A direct comparison with hackathons is in [hackathons vs job fairs for tech recruiting](/articles/hackathons-vs-job-fairs-for-tech-recruiting).
+- **University days** suit long-term pipelines with specific labs and programmes. Berlin's universities and institutes are covered in [robotics research institutions in Berlin](/articles/robotics-research-institutions-in-berlin).
 
-[Bosch ConnectedWorld](https://bosch-connected-world.com/) is "Bosch's global flagship event in Berlin". The 2026 edition ran 10–11 June 2026 across two venues and covered artificial intelligence, digital systems, future technologies and mobility. The site also links to Bosch's BCX26 hackathon.
+These formats work well together. A company can build recognition at meetups and university days, then evaluate and hire at a hackathon.
 
-## Which Berlin events help companies stay close to the AI community?
+## Where does HackLab Robotics fit in a company's Berlin event plan?
 
-Recurring community formats matter for employer branding, because they let a company appear in front of the same community several times a year. Four are useful for companies:
+HackLab Robotics fits where a company needs to evaluate and hire robotics, AI and ML builders. It organises AI × robotics (physical AI) hackathons at CIC Berlin and has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe.
 
-- **[Deep Tech Week Berlin](https://www.deep-tech-week.com/berlin-2026):** a week of 41 side events, 18–22 May 2026, including masterclasses, investor dinners, a hackathon and a robotics meetup.
-- **[Merantix AI Campus](https://www.merantix-aicampus.com/):** a 6,000 m² campus with more than 80 AI teams and 300+ events a year. Recurring series include a CTO Roundtable, Hacker Room and AI Hackathons, and "Industry Meets AI 2026" is scheduled for 12 November 2026.
-- **[AI Tinkerers Berlin](https://berlin.aitinkerers.org/):** meetups of about three hours with "Live demos, technical Q&A, no sales pitches". Attendees are screened for hands-on AI work, and the next meetup is on 19 November 2026.
-- **[Berlin Deep Tech Nexus](https://luma.com/04wd1rzw):** an informal meetup series with research talks, startup spotlights and curated networking. Meetup #13 took place at TU Berlin on 28 October 2026 and included robotics among its spotlights.
+Key facts for companies:
 
-More on the people behind these formats is in our guide to the [Berlin AI and robotics community](/articles/berlin-ai-and-robotics-community).
+- **Edition #1** (20–21 June 2026): 36 hours, 130 builders selected from 600+ applications, about 20 teams, 14 sponsor companies including Hugging Face, Mistral AI, n8n and Lovable. Afterwards, 5 participants were hired by sponsor companies.
+- **Edition #2** (21–22 November 2026): 48 hours, 200 builders selected from 1,100+ registrations, €10,000+ in prizes, robot arms, robot sets and a Unitree Go2 EDU quadruped on site, organised in collaboration with BRISA.
+- **Who attends:** robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals, master's students building first real prototypes and university researchers.
 
-## How should a company plan a year of Berlin AI and robotics events?
+Across its events, HackLab Robotics has reached 1,500+ people.
 
-Plan around four moments: May, June, the months in between, and November. A simple plan looks like this:
+## How should a company decide which Berlin events to attend?
 
-1. **May:** Deep Tech Week Berlin and Rise of AI for founders, investors and senior leaders.
-2. **June:** Berlin Buzzwords and Bosch ConnectedWorld for engineers and corporate partners. HackLab's Edition #1 also ran in June 2026.
-3. **Year-round:** AI Tinkerers, Merantix AI Campus and Berlin Deep Tech Nexus to stay visible between big events.
-4. **November:** HackLab Edition #2 (21–22 November 2026) to meet and evaluate builders.
+Start from the role you need to fill and how soon. A short checklist:
 
-For how events fit a wider recruiting brand, see [employer branding for robotics companies](/articles/employer-branding-for-robotics-companies). For the case for hiring here, see [why Berlin for robotics and AI hiring](/articles/why-berlin-for-robotics-and-ai-hiring).
+1. **Open role within six months:** prioritise a selective hackathon where you can watch candidates build.
+2. **Graduate hiring a year ahead:** add university days and career fairs for reach.
+3. **Low brand recognition among engineers:** add meetups and conference talks by your own engineers.
+4. **Specialist robotics roles:** prefer events with hardware on site, so you see work on real robots, not only in simulation.
+5. **Measure by outcome:** count candidates evaluated in person, interviews booked and hires, not badge scans.
 
-## What should a company measure after attending?
+For the wider employer-brand side, see [employer branding for robotics companies](/articles/employer-branding-for-robotics-companies).
 
-Measure each event by what it produced, not by footfall. Useful measures:
+## How HackLab helps companies hire at Berlin AI and robotics events
 
-- **Hackathons:** candidates evaluated in person, interviews booked, hires. HackLab's Edition #1 produced 5 hires at sponsor companies.
-- **Conferences:** partner or customer meetings held.
-- **Meetups:** repeat contacts and inbound applications from attendees.
-
-## How HackLab helps companies hire at Berlin's AI and robotics events
-
-HackLab is the Berlin event on this list where hiring is the main outcome. Companies meet pre-selected robotics, AI and ML builders (200 of 1,100+ registrations at Edition #2) and see their working prototypes take shape over 48 hours. To set a challenge, bring hardware or meet the teams, [partner with HackLab](/for-companies).
+HackLab Robotics puts companies in the room with pre-selected robotics, AI and ML builders while they build for 36–48 hours at CIC Berlin. Sponsors can set challenges, provide hardware or credits, and meet builders in person, and Edition #1 ended with 5 hires at sponsor companies. To take part, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

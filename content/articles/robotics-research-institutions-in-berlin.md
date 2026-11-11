@@ -6,7 +6,7 @@ category: "Berlin & Germany"
 date: 2026-11-11
 target_query: "robotics research institutions and universities in Berlin"
 tags: ["Berlin", "robotics research", "universities", "graduates", "talent pipeline"]
-related: ["hiring-junior-robotics-engineers-and-graduates", "why-berlin-for-robotics-and-ai-hiring", "berlin-ai-and-robotics-community"]
+related: [hiring-junior-robotics-engineers-and-graduates, why-berlin-for-robotics-and-ai-hiring, berlin-ai-and-robotics-community]
 faq:
   - q: "Which Berlin universities do robotics research?"
     a: "The main ones are Technische Universität Berlin (including its Robotics and Biology Laboratory and the Science of Intelligence cluster), Humboldt-Universität zu Berlin, Freie Universität Berlin, the Berliner Hochschule für Technik (BHT) and HTW Berlin. Fraunhofer IPK and Charité are also active in robotics."

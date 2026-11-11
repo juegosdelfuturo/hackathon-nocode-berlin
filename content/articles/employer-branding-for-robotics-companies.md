@@ -123,6 +123,6 @@ Engineers talk to each other, so an event where your company was invisible or un
 
 ## How HackLab helps robotics and AI companies build their employer brand
 
-HackLab is Berlin's AI × robotics hackathon with 1,100+ registrations, and across its events it has reached 1,500+ people. For a company, that is an audience of robotics, AI and ML builders who see your tools, your hardware and your engineers at work. To be part of it, [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations, and across its events it has reached 1,500+ people. For a company, that is an audience of robotics, AI and ML builders who see your tools, your hardware and your engineers at work. To be part of it, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

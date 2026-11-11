@@ -6,7 +6,7 @@ category: "Berlin & Germany"
 date: 2026-11-11
 target_query: "how to build a robotics team in Berlin"
 tags: ["robotics team", "Berlin", "team building", "hiring", "startups"]
-related: ["how-to-hire-robotics-engineers-in-berlin", "skills-to-look-for-when-hiring-robotics-engineers", "how-to-assess-robotics-engineers-beyond-the-cv"]
+related: [how-to-hire-robotics-engineers-in-berlin, skills-to-look-for-when-hiring-robotics-engineers, how-to-assess-robotics-engineers-beyond-the-cv]
 faq:
   - q: "What roles does a first robotics team need?"
     a: "Most early robotics teams cover robotics software (control, planning, ROS integration), perception and machine learning, embedded and electronics, mechanical design, and simulation and testing. One person often covers two of these at first."
@@ -40,7 +40,7 @@ A first team needs to cover software, perception, hardware and testing. Most ear
 
 | Role | Typical scope | Where to look in Berlin |
 |---|---|---|
-| Robotics software engineer | Control, motion planning, ROS integration | Robotics startups, Berlin Robotics Meetup |
+| Robotics software engineer | Control, motion planning, ROS integration | Robotics startups, hackathons |
 | Perception / ML engineer | Vision, sensor fusion, learning-based control | AI companies, university labs, hackathons |
 | Embedded / electronics engineer | Firmware, motor control, sensors | Hardware makerspaces, applied universities |
 | Mechanical engineer | Mechanism design, prototyping, manufacturing | Applied universities, hardware startups |
@@ -69,7 +69,7 @@ This means software, perception and ML candidates are easier to find locally tha
 Sourcing channels to combine:
 
 - **Universities and labs:** TU Berlin, Humboldt-Universität, BHT and Fraunhofer IPK, through thesis projects, student jobs and lab events.
-- **Community events:** the Berlin Robotics Meetup and Berlin Partner's robotics network meetings.
+- **Community events:** Berlin Partner's robotics network meetings and local robotics meetups.
 - **Hackathons:** HackLab's Edition #1 selected 130 builders from 600+ applications; Edition #2 selected 200 from 1,100+ registrations.
 - **International hiring:** the EU Blue Card for candidates from outside the EU.
 

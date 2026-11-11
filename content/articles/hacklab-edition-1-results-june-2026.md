@@ -18,7 +18,7 @@ faq:
     a: "HackLab reviewed every one of the 600+ applications and selected 130 builders. The exact selection criteria are not covered here."
 sources: []
 ---
-**HackLab Edition #1, the Berlin Robotics × Agentic AI Hackathon, ran on 20–21 June 2026 at CIC Berlin. It turned 600+ applications into 130 selected builders, about 20 teams, close to 20 demoed solutions and 5 hires at sponsor companies.** The event was bootstrapped, with no main partner covering costs from day one. All Edition #1 figures come from the HackLab Edition #1 Impact Report.
+**HackLab Edition #1, the Berlin Robotics × Agentic AI Hackathon, ran on 20–21 June 2026 at CIC Berlin. It turned 600+ applications into 130 selected builders, about 20 teams, close to 20 demoed solutions and 5 hires at sponsor companies.**
 
 ## What did HackLab Edition #1 produce, in numbers?
 
@@ -37,7 +37,7 @@ The format was 36 hours of continuous building. At the end, teams demoed their f
 
 ## How were the 130 builders chosen?
 
-HackLab reviewed every application and selected 130 builders from 600+. The exact selection criteria are not covered here.
+HackLab selected 130 builders from 600+ applications. The exact selection criteria are not covered here.
 
 For a company, what matters is that every builder in the room had already been through a review. Sponsors did not need to screen 600+ people. They met 130 who had passed selection.
 
@@ -94,11 +94,11 @@ What this article does not cover:
 
 The hiring mechanics are covered in [five hires from one hackathon](/articles/five-hires-from-one-hackathon-hacklab-edition-1).
 
-## Why does it matter that Edition #1 was bootstrapped?
+## What came after Edition #1?
 
-Edition #1 had no main partner covering costs from day one. Even so, it drew 600+ applications and 14 sponsor companies.
+Edition #1 drew 600+ applications and 14 sponsor companies, and HackLab Robotics built on that result for its second edition.
 
-The second edition is larger. Edition #2, co-organised with BRISA, received 1,100+ registrations for 200 spots and runs for 48 hours instead of 36.
+The second edition is larger. Edition #2, organised in collaboration with BRISA, received 1,100+ registrations for 200 spots and runs for 48 hours instead of 36.
 
 ## What should companies take from Edition #1?
 

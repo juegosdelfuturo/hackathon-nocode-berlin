@@ -3300,7 +3300,9 @@ section {
   gap: 2rem;
 }
 
-.brutal-footer-links button {
+.brutal-footer-links button,
+.brutal-footer-links a {
+  text-decoration: none;
   background: none;
   border: none;
   color: var(--muted);
@@ -3310,7 +3312,8 @@ section {
   padding: 0;
 }
 
-.brutal-footer-links button:hover {
+.brutal-footer-links button:hover,
+.brutal-footer-links a:hover {
   color: var(--fg);
 }
 
@@ -3380,7 +3383,7 @@ section {
   .brutal-footer-inner { flex-direction: column; gap: 1.25rem; align-items: flex-start; }
   .brutal-footer { padding: 1.75rem 1.5rem; }
   .brutal-footer-links { gap: 1rem; flex-wrap: wrap; }
-  .brutal-footer-links button { font-size: 0.75rem; }
+  .brutal-footer-links button, .brutal-footer-links a { font-size: 0.75rem; }
   .brutal-marquee-section { padding: 2rem 0; }
 }
 

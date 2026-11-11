@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "how to hire physical AI / embodied AI engineers"
 tags: ["physical AI", "embodied AI", "robot learning", "hiring"]
-related: ["what-is-physical-ai", "robot-learning-skills-companies-need", "embodied-ai-talent-market-2026"]
+related: [what-is-physical-ai, robot-learning-skills-companies-need, embodied-ai-talent-market-2026]
 faq:
   - q: "What is a physical AI engineer?"
     a: "A physical AI engineer builds AI systems that let machines perceive, understand and act in the physical world, such as robot arms, mobile robots and quadrupeds. The role combines machine learning with robotics hardware, simulation and real-time software."

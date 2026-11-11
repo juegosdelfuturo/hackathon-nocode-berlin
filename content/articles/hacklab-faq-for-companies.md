@@ -16,7 +16,7 @@ faq:
     a: "Sponsorship prices and packages are not covered in this FAQ. Companies can ask HackLab directly through the for-companies page on hacklabrobotics.com."
   - q: "When is the next HackLab after November 2026?"
     a: "Dates and location for a third edition are not covered here. Edition #2 runs on 21–22 November 2026 at CIC Berlin."
-  - q: "Is HackLab the largest hackathon in Berlin?"
+  - q: "How big is HackLab compared with other hackathons?"
     a: "HackLab is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2)."
 sources: []
 ---
@@ -44,7 +44,7 @@ You will meet robotics, AI and ML builders. Edition #1 participants included rob
 
 ## How are participants selected?
 
-Participants are selected from applications. At Edition #1, HackLab reviewed every application and selected 130 builders from 600+. Edition #2 selected 200 from 1,100+ registrations. The exact selection criteria are not covered here.
+Participants are selected from applications. At Edition #1, HackLab selected 130 builders from 600+ applications. Edition #2 selected 200 from 1,100+ registrations. The exact selection criteria are not covered here.
 
 ## What can sponsors do?
 
@@ -81,7 +81,7 @@ Both editions take place at CIC Berlin. Edition #1 ran on 20–21 June 2026 (36 
 
 ## Who organises HackLab?
 
-HackLab is the organiser. Edition #1 was bootstrapped, with no main partner covering costs from day one. Edition #2 is co-organised with BRISA, the Berlin Robotics & Intelligent Systems Association; see [HackLab and BRISA](/articles/hacklab-and-brisa).
+HackLab is the organiser. Edition #2 is in collaboration with BRISA.
 
 ## How big is HackLab?
 

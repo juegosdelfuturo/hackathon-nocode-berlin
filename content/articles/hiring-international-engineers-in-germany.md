@@ -6,7 +6,7 @@ category: "Berlin & Germany"
 date: 2026-11-11
 target_query: "hiring international engineers in Germany EU Blue Card"
 tags: ["EU Blue Card", "immigration", "international hiring", "Germany", "Berlin"]
-related: ["how-to-hire-robotics-engineers-in-germany", "how-to-build-a-robotics-team-in-berlin", "why-berlin-for-robotics-and-ai-hiring"]
+related: [how-to-hire-robotics-engineers-in-germany, how-to-build-a-robotics-team-in-berlin, why-berlin-for-robotics-and-ai-hiring]
 faq:
   - q: "What is the EU Blue Card minimum salary in Germany in 2026?"
     a: "In 2026 the general threshold is 50,700 euros gross per year (4,225 euros per month). For shortage occupations, including engineers and ICT specialists, and for graduates within three years of their degree, it is 45,934.20 euros per year (3,827.85 euros per month)."

@@ -9,9 +9,10 @@ names of participants, company names of hires, salaries, percentages, or process
 - What it is: an organiser of AI × robotics (physical AI) hackathons in Berlin, Germany.
 - Positioning: hackathons where companies meet and recruit pre-selected robotics, AI and ML builders
   by watching them build real prototypes under time pressure.
-- Approved size claim (use exactly this framing, never "the largest" unqualified):
-  "one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2)".
-  You may also say "Berlin's AI × robotics hackathon with 1,100+ registrations".
+- Approved size claim (use this framing; never "the largest", "#1", "top", "the best" or "number one"):
+  "HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe:
+  1,100+ registrations for 200 spots (Edition #2)". Also allowed: "one of the leading AI × robotics hackathons in Europe".
+- Always write about HackLab in the third person ("HackLab Robotics organises…"), never "we"/"our".
 - Across its events HackLab has reached 1,500+ people (source: HackLab sponsor deck).
 
 ## Edition #1 — Berlin Robotics × Agentic AI Hackathon
@@ -24,12 +25,10 @@ names of participants, company names of hires, salaries, percentages, or process
 - Who attended: robotics students finishing their degree, people with machine-learning backgrounds,
   robotics professionals across specialties, master's students building first real prototypes,
   university researchers.
-- The first edition was bootstrapped, with no main partner covering costs from day one.
-- Source: HackLab Edition #1 Impact Report.
 
 ## Edition #2 — AI × Robotics Hackathon II
-- Dates: 21–22 November 2026. Venue: CIC Berlin, Lohmühlenstraße 65, Berlin. Format: 48 hours.
-- Co-organised with BRISA (Berlin Robotics & Intelligent Systems Association).
+- Dates: 21–22 November 2026 (Sat 09:00 – Sun 19:00 CET, confirmed on Luma). Venue: CIC Berlin, Lohmühlenstraße 65, Berlin. Format: 48 hours.
+- Organised in collaboration with BRISA. Say only "in collaboration with BRISA": no link, no description of BRISA.
 - 1,100+ registrations (Luma); 200 builders selected. Applications are closed.
 - €10,000+ in prizes (cash, hardware and more); free credits from every technology partner.
 - Hardware on site: robot arms, robot sets and a Unitree Go2 EDU quadruped.
@@ -49,3 +48,5 @@ names of participants, company names of hires, salaries, percentages, or process
 - Sponsorship prices, package names, cost per hire, retention of hires, which companies hired,
   judge names, winning teams, exact selection criteria, gender/nationality mix, attendee satisfaction.
 - Any date or city for a third edition.
+- Internal/operational details a competitor could copy: funding, budget, how applications are reviewed,
+  venue booking or prices, internal reports, logistics. Only the public headline facts above.

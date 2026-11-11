@@ -6,7 +6,7 @@ category: "Berlin & Germany"
 date: 2026-11-11
 target_query: "robotics startups and companies in Berlin"
 tags: ["Berlin", "robotics startups", "robotics companies", "physical AI", "ecosystem"]
-related: ["why-berlin-for-robotics-and-ai-hiring", "how-to-hire-robotics-engineers-in-berlin", "berlin-ai-and-robotics-community"]
+related: [why-berlin-for-robotics-and-ai-hiring, how-to-hire-robotics-engineers-in-berlin, berlin-ai-and-robotics-community]
 faq:
   - q: "How many robotics companies are there in Berlin?"
     a: "Berlin Partner's Business Location Center states that Berlin has over 130 robotics companies. Their main fields are industrial robotics and automation, care and health, and software and machine learning."
@@ -15,7 +15,7 @@ faq:
   - q: "What kind of robotics does Berlin specialise in?"
     a: "Berlin's robotics companies cluster around AI software for robots, machine vision and inspection, collaborative robots, mobile-robot logistics and applied robots for construction, textiles and care."
   - q: "How can a company meet Berlin robotics startups and engineers?"
-    a: "Through the Berlin Partner robotics network meetings, the Berlin Robotics Meetup, and hands-on events such as HackLab's AI × robotics hackathons at CIC Berlin."
+    a: "Through the Berlin Partner robotics network meetings, local robotics meetups, and hands-on events such as HackLab's AI × robotics hackathons at CIC Berlin."
 sources:
   - name: "Berlin Business Location Center – Robotics in Berlin"
     url: "https://businesslocationcenter.de/en/industry/robotik"
@@ -131,12 +131,12 @@ Map it before you recruit. A short process:
 
 ## Where do Berlin robotics companies meet engineers?
 
-They meet at network events, meetups and hackathons. The Business Location Center lists Berlin Partner's robotics networking meetings and the Berlin Robotics Meetup; more groups are covered in [Berlin's AI and robotics community](/articles/berlin-ai-and-robotics-community).
+They meet at network events, meetups and hackathons. The Business Location Center lists Berlin Partner's robotics networking meetings; more groups are covered in [Berlin's AI and robotics community](/articles/berlin-ai-and-robotics-community).
 
 HackLab is the hands-on option. Edition #1 (June 2026, CIC Berlin) had 14 sponsor companies, and 5 participants were hired by sponsors afterwards.
 
 ## How HackLab helps robotics companies in Berlin hire
 
-HackLab is Berlin's AI × robotics hackathon with 1,100+ registrations for Edition #2, held 21–22 November 2026 at CIC Berlin with 200 pre-selected builders. Companies set challenges, provide hardware or credits, and watch candidates build working prototypes over 48 hours. To meet these builders, [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for Edition #2, held 21–22 November 2026 at CIC Berlin with 200 pre-selected builders. Companies set challenges, provide hardware or credits, and watch candidates build working prototypes over 48 hours. To meet these builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

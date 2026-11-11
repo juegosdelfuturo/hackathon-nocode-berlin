@@ -1,104 +1,104 @@
 ---
 slug: "robotics-hackathons-in-berlin"
-title: "Robotics Hackathons in Berlin: Where Companies Can Watch Robotics Builders Work"
-description: "Robotics hackathons in Berlin for companies: HackLab, hackathons with robotics tracks, and the meetups and demo nights where robotics builders show work."
+title: "Robotics Hackathons in Berlin: HackLab Robotics Edition #1 vs Edition #2"
+description: "HackLab Robotics runs AI × robotics hackathons at CIC Berlin. How Edition #1 (June 2026) and Edition #2 (Nov 2026) compare, and what a weekend involves."
 category: "Events & Rankings"
 date: 2026-11-11
 target_query: "robotics hackathons in Berlin"
-tags: ["robotics hackathons", "Berlin", "physical AI", "robotics meetups", "hiring"]
-related: ["berlins-growing-robotics-ecosystem", "cic-berlin-innovation-campus", "sponsoring-a-robotics-hackathon-in-berlin"]
+tags: ["robotics hackathons", "Berlin", "physical AI", "CIC Berlin", "HackLab Robotics"]
+related: [hacklab-edition-2-tracks-explained, cic-berlin-innovation-campus, sponsoring-a-robotics-hackathon-in-berlin]
 faq:
   - q: "Are there robotics hackathons in Berlin?"
-    a: "Yes. HackLab runs dedicated AI × robotics hackathons at CIC Berlin: Edition #1 in June 2026 and Edition #2 on 21–22 November 2026. Other Berlin hackathons, such as BCX26 and the KXSB HackXelerator showcase, include robotics as one track or theme."
+    a: "Yes. HackLab Robotics organises AI × robotics (physical AI) hackathons at CIC Berlin. Edition #1 ran 20–21 June 2026 and Edition #2 runs 21–22 November 2026."
   - q: "When is the next robotics hackathon in Berlin?"
-    a: "HackLab's AI × Robotics Hackathon II runs 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, for 48 hours. Applications are closed and 200 builders were selected."
-  - q: "Where else do robotics engineers in Berlin present their work?"
-    a: "At community formats such as the Berlin Robotics Meetup, the BRAIN Robotics Club hardware demo nights at The Delta Campus, and physical AI meetups like Voxel51's Berlin meetup."
-  - q: "Can a company bring its own robots to a Berlin hackathon?"
-    a: "At HackLab, sponsors can set challenges, provide hardware or credits, and meet builders in person. Edition #2 already has robot arms, robot sets and a Unitree Go2 EDU quadruped on site."
-sources:
-  - name: "Luma – Agents and Robotics HackXelerator Berlin Showcase & Awards"
-    url: "https://luma.com/ltzahbno"
-  - name: "Bosch ConnectedWorld – BCX26 Hackathon"
-    url: "https://bosch-connected-world.com/bcx26/"
-  - name: "Merantix AI Campus – official site"
-    url: "https://www.merantix-aicampus.com/"
-  - name: "Meetup – Berlin Robotics Meetup"
-    url: "https://www.meetup.com/berlin-robotics-meetup/"
-  - name: "Luma – BRAIN Robotics Club, Hardware Demo Night Vol. 1"
-    url: "https://luma.com/39m7szc3"
-  - name: "Voxel51 – Berlin Physical AI, ML and Computer Vision Meetup, 25 September 2026"
-    url: "https://voxel51.com/events/berlin-physical-ai-ml-and-computer-vision-meetup-september-25-2026"
+    a: "HackLab Robotics' AI × Robotics Hackathon II runs 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, in a 48-hour format. Applications are closed and 200 builders were selected from 1,100+ registrations."
+  - q: "What changed between HackLab Edition #1 and Edition #2?"
+    a: "Edition #2 is longer (48 hours instead of 36), draws more demand (1,100+ registrations instead of 600+ applications), selects more builders (200 instead of 130) and is organised in collaboration with BRISA. Its published details also include four tracks, named hardware on site and €10,000+ in prizes."
+  - q: "Can a company take part in a Berlin robotics hackathon?"
+    a: "Yes. At HackLab Robotics, sponsor companies can set challenges, provide hardware or credits, and meet builders in person. Edition #1 had 14 sponsor companies, and 5 participants were hired by sponsors afterwards."
+  - q: "How do builders hear about the next HackLab Robotics edition?"
+    a: "By following HackLab Robotics and checking its event page on Luma. No date or city has been announced for a third edition."
+sources: []
 ---
-**HackLab runs dedicated AI × robotics (physical AI) hackathons in Berlin at CIC Berlin, and its Edition #2 takes place on 21–22 November 2026.** Among the other Berlin events reviewed here, robotics appears as a track inside broader hackathons (BCX26, the KXSB HackXelerator) and in community formats such as meetups and hardware demo nights. For a company, HackLab is the only option on this list where 200 pre-selected builders work on robots for 48 hours.
+**Berlin's dedicated AI × robotics hackathons are organised by HackLab Robotics at CIC Berlin: Edition #1 ran 20–21 June 2026 and Edition #2 runs 21–22 November 2026.** HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for 200 spots at Edition #2. This page compares the two editions side by side and explains what a robotics hackathon weekend in Berlin looks like, for both builders and companies.
 
-## Which robotics hackathons and robotics events run in Berlin?
+## How do HackLab Edition #1 and Edition #2 compare?
 
-Of the Berlin events reviewed here, one is a dedicated robotics hackathon, two are hackathons with a robotics theme or track, and the rest are AI hackathon series or community formats where robotics builders show work. The table separates them by type so companies know what they are signing up for.
+Edition #2 is longer and larger than Edition #1. The table puts the public facts for both editions next to each other.
 
-| Rank | Event | Type | Where in Berlin | Timing | What a company sees |
-|---|---|---|---|---|---|
-| 1 | HackLab | Dedicated AI × robotics hackathon | CIC Berlin | June 2026 (Ed. #1), 21–22 Nov 2026 (Ed. #2) | Teams building robot prototypes for 36–48 h |
-| 2 | KXSB Agents & Robotics HackXelerator | 20-day programme with Berlin showcase | PT1, Berlin HQ | Showcase 17 Apr 2026 | Final demos after weeks of remote work |
-| 3 | BCX26 Hackathon | Hackathon with an advanced robotics track | Amazon Tower | 9–10 Jun 2026 | 20 h of hacking across four tracks |
-| 4 | Merantix AI Campus series | Recurring AI hackathons and Hacker Room | Max-Urich-Str. 3 | Year-round | AI builders, not robotics-specific |
-| 5 | Berlin Robotics Meetup | Talks and show-and-tell | Rotating venues | Irregular | Robot platforms, sensors and software |
-| 6 | BRAIN Robotics Club demo night | Hardware demo evening | The Delta Campus | Not stated | Founders demoing robots live |
-| 7 | Voxel51 Physical AI meetup | Talks | w3.hub | 25 Sep 2026 | Physical AI data and vision tooling |
+| | Edition #1 | Edition #2 |
+|---|---|---|
+| Name | Berlin Robotics × Agentic AI Hackathon | AI × Robotics Hackathon II |
+| Dates | 20–21 June 2026 | 21–22 November 2026 |
+| Venue | CIC Berlin | CIC Berlin, Lohmühlenstraße 65 |
+| Format | 36 hours of continuous building | 48 hours |
+| Participants | 130 selected from 600+ applications | 200 selected from 1,100+ registrations |
+| Teams and demos | About 20 teams, close to 20 final solutions demoed | Not yet held |
+| Tracks | Not stated | 4: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source |
+| Hardware on site | Not stated | Robot arms, robot sets, a Unitree Go2 EDU quadruped |
+| Prizes | Not stated | €10,000+ (cash, hardware and more), plus free credits from every technology partner |
+| Sponsors / partners | 14 sponsor companies | Partners and technology providers listed below |
+| Collaboration | — | In collaboration with BRISA |
 
-## What does HackLab's robotics hackathon involve?
+## What changed from Edition #1 to Edition #2?
 
-HackLab is built around robots, not around software with a robotics theme. Edition #1, the Berlin Robotics × Agentic AI Hackathon on 20–21 June 2026, ran 36 hours of continuous building at CIC Berlin. Organisers reviewed every one of 600+ applications and selected 130 builders, who formed about 20 teams.
+Three things changed in the published facts: build time, size and the collaboration with BRISA.
 
-Edition #2, the AI × Robotics Hackathon II, doubles down on hardware. It runs 48 hours on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, co-organised with BRISA (Berlin Robotics & Intelligent Systems Association). Robot arms, robot sets and a Unitree Go2 EDU quadruped are on site.
+- **Build time:** from 36 hours of continuous building to a 48-hour format. More time means teams can get past setup and integration and spend longer on a working demo.
+- **Size:** demand rose from 600+ applications to 1,100+ registrations, and the number of selected builders rose from 130 to 200.
+- **Collaboration:** Edition #2 is organised in collaboration with BRISA.
 
-The builders are a mix of robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals, master's students and university researchers. Sponsor companies meet that mix in person during the build. The venue is described in more detail in our guide to [CIC Berlin](/articles/cic-berlin-innovation-campus).
+Edition #2 also publishes more detail about the build itself. It defines four tracks, explained in [HackLab Edition #2 tracks explained](/articles/hacklab-edition-2-tracks-explained). Robot arms, robot sets and a Unitree Go2 EDU quadruped will be on site, with €10,000+ in prizes and free credits from every technology partner.
 
-## Which other Berlin hackathons include robotics?
+Some things stayed the same. Both editions take place at CIC Berlin, both select participants instead of admitting everyone, and both put sponsor companies in the room with builders while they work. The venue is described in [CIC Berlin, HackLab's venue](/articles/cic-berlin-innovation-campus).
 
-Two 2026 events with Berlin venues gave robotics a defined place in a broader programme. Neither is a dedicated robotics hackathon, but both put robotics teams in front of companies.
+## Who sponsors and partners with HackLab's Berlin hackathons?
 
-### KXSB Agents & Robotics HackXelerator
+Both editions bring together AI companies, robotics companies and hardware suppliers. Edition #1 had 14 sponsor companies, including Norma Core, Hugging Face, n8n, Lovable, Marso Robotics, Mistral AI, ITQ and Red Bull.
 
-The [KXSB HackXelerator](https://luma.com/ltzahbno) ran 20 days of development on digital agents, multi-agent systems, robotics and human–robot interaction. Teams worked virtually with mentors after a London kick-off on 27 March. The final showcase and awards took place in Berlin on 17 April 2026, and 192 people attended.
+Edition #2 partners and technology providers are X Square Robot, Durance AI, Prior Labs, NormaCore, Hugging Face, Cognition, Anthropic, Nebius, Almedia, Seeed Studio, OpenELab, MyBotShop, Linkup and Red Bull. Every technology partner provides free credits to the teams.
 
-### BCX26
+## What does a robotics hackathon weekend in Berlin look like?
 
-Bosch's [BCX26 hackathon](https://bosch-connected-world.com/bcx26/) brought around 100 selected participants to the Amazon Tower on 9–10 June 2026. "Advanced robotics" was one of four hack tracks, with challenges announced in advance. Participants applied for a spot, and the event ran in collaboration with AWS and MongoDB.
+A robotics hackathon weekend moves through four phases: forming a team, choosing a problem, building on hardware and demoing a result. At HackLab Robotics this happens over 36–48 hours of building, with sponsors present.
 
-### Merantix AI Campus
+1. **Teams and problems.** Builders form teams and pick a challenge. At Edition #2 the choice sits inside one of four tracks.
+2. **Getting the hardware running.** Teams connect to a robot arm, robot set or quadruped, or work in simulation, and get a first end-to-end loop working.
+3. **Building.** Most of the weekend goes into making the robot do one useful thing reliably. This is where a model, a controller and real sensors have to work together.
+4. **Demo.** Teams show a working result to judges and sponsor companies. At Edition #1, close to 20 final solutions were demoed.
 
-[Merantix AI Campus](https://www.merantix-aicampus.com/) lists "AI Hackathons" and a "Hacker Room" among its recurring community series. The campus is home to more than 80 AI teams and hosts more than 300 events a year. Its hackathon series is listed under AI, not robotics.
+The main difference from a software-only hackathon is that the hardware sets the pace. A model that works on a laptop still has to run on a physical robot by the end of the weekend.
 
-## Where else do Berlin robotics builders show their work?
+## Who takes part in HackLab's Berlin robotics hackathons?
 
-Berlin's robotics community also meets in formats that are not hackathons. They are useful for sourcing and employer branding, though companies see demos and talks rather than a build under time pressure.
+Participants are pre-selected builders from robotics, AI and machine learning. At Edition #1 they included:
 
-- **[Berlin Robotics Meetup](https://www.meetup.com/berlin-robotics-meetup/):** a group "geared towards industry + service robotics" with 1,150 members. Past sessions at venues such as MotionLab.Berlin drew between 69 and 152 attendees.
-- **[BRAIN Robotics Club Hardware Demo Night](https://luma.com/39m7szc3):** an evening by Robotics Berlin at The Delta Campus where five founders gave live demos, with "No pitch decks, no stage." 86 people attended.
-- **[Voxel51 Berlin Physical AI, ML and Computer Vision Meetup](https://voxel51.com/events/berlin-physical-ai-ml-and-computer-vision-meetup-september-25-2026):** an in-person talk evening on 25 September 2026 at w3.hub covering robotics data formats and physical AI data pipelines.
+- robotics students finishing their degree
+- people with machine-learning backgrounds
+- robotics professionals across specialties
+- master's students building their first real prototypes
+- university researchers
 
-These formats complement a hackathon. A company can meet people at a meetup, then watch them build at a hackathon. More context on the scene is in [Berlin's growing robotics ecosystem](/articles/berlins-growing-robotics-ecosystem).
+That mix is why teams can cover both the AI side (models, agents, perception) and the robotics side (control, hardware, integration). Builders without a hardware background can still contribute through the software and model work.
 
-## What should a company prepare before a Berlin robotics hackathon?
+## What should builders and companies take from this?
 
-Prepare a real problem, the people to support it, and a clear idea of who you want to hire. Bring a problem your team actually works on, scoped so a team can show progress within 48 hours.
+The answer depends on which side of the table you are on.
 
-If the challenge needs your hardware, plan transport, set-up and at least one engineer on site to support teams. Agree in advance which roles you are hiring for, so your engineers know which builders to spend time with.
+**For builders:**
 
-## How should a company choose between these Berlin formats?
+- Expect selection. Edition #2 had 1,100+ registrations for 200 spots.
+- Expect to build on real hardware, not only in a notebook.
+- Treat the demo as portfolio material. A working robot behaviour is easier to show than a slide.
 
-Pick the format by what you need to learn about a candidate.
+**For companies:**
 
-1. **To see someone build on a robot under time pressure:** a dedicated robotics hackathon (HackLab).
-2. **To follow a team over several weeks:** a programme such as the KXSB HackXelerator.
-3. **To reach robotics people within a broader AI or IoT event:** a robotics track, such as BCX26's.
-4. **To build visibility in the community:** meetups and demo nights.
+- Expect to see candidates build working prototypes in 36–48 hours instead of reading CVs.
+- Sponsors can set challenges, provide hardware or credits, and meet builders in person.
+- The hiring case is concrete: after Edition #1, 5 participants were hired by sponsor companies. For the sponsor side in detail, see [sponsoring a robotics hackathon in Berlin](/articles/sponsoring-a-robotics-hackathon-in-berlin).
 
-For budgeting and the sponsor's role, see [sponsoring a robotics hackathon in Berlin](/articles/sponsoring-a-robotics-hackathon-in-berlin).
+## How HackLab helps builders and companies in Berlin robotics
 
-## How HackLab helps companies hire robotics engineers in Berlin
-
-HackLab gives sponsor companies two days at CIC Berlin with builders selected from 1,100+ registrations, and a sponsor can bring its own robot or problem to the event. At Edition #1, 5 participants were hired by sponsor companies. To join Edition #2 or plan ahead, [partner with HackLab](/for-companies).
+HackLab Robotics gives builders 36–48 hours on real robots and gives companies a room of pre-selected robotics, AI and ML builders to watch at work. Edition #2 applications are closed, and no date has been announced for a third edition. Builders can follow HackLab Robotics and check the [event page on Luma](https://luma.com/h0mcaqio) for updates. Companies that want to set a challenge, provide hardware or meet the builders can [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

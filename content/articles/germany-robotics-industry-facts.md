@@ -6,7 +6,7 @@ category: "Berlin & Germany"
 date: 2026-11-11
 target_query: "Germany robotics industry statistics IFR"
 tags: ["Germany", "IFR", "robot density", "industrial robots", "statistics"]
-related: ["robotics-and-ai-talent-shortage-in-europe", "how-to-hire-robotics-engineers-in-germany", "embodied-ai-talent-market-2026"]
+related: [robotics-and-ai-talent-shortage-in-europe, how-to-hire-robotics-engineers-in-germany, embodied-ai-talent-market-2026]
 faq:
   - q: "How many industrial robots did Germany install in 2025?"
     a: "About 24,800 units, down 8% on 2024, according to the IFR's World Robotics 2026 report. That makes Germany the largest robot market in the EU, with 41% of EU installations, and the fifth-largest in the world."
@@ -29,8 +29,6 @@ sources:
     url: "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent"
   - name: "VDMA – Robotics + Automation"
     url: "https://vdma.eu/en-GB/robotics-automation"
-  - name: "automatica – Munich trade fair"
-    url: "https://automatica-munich.com/en/"
   - name: "University of Bonn – Robotics Institute Germany pools top-level research"
     url: "https://uni-bonn.de/en/news/robotics-institute-germany-pools-top-level-research"
 ---
@@ -114,8 +112,6 @@ The World Robotics 2026 summary adds that about 7,000 full-size humanoids (above
 ## Where does robotics research and industry meet in Germany?
 
 National research is coordinated through the Robotics Institute Germany (RIG). The [University of Bonn's announcement](https://uni-bonn.de/en/news/robotics-institute-germany-pools-top-level-research) describes it as a consortium of 14 core institutions led by TU Munich, including TU Berlin, KIT, RWTH Aachen, DLR and DFKI, funded with €20 million by the Federal Ministry of Education and Research from July 2024 for four years.
-
-The main trade fair is [automatica](https://automatica-munich.com/en/) in Munich. Its next Munich edition runs 22–25 June 2027.
 
 ## What do these numbers mean for companies hiring robotics engineers?
 

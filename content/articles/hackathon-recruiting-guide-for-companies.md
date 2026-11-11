@@ -95,6 +95,6 @@ Add the softer outcomes separately: builders who used your API or hardware, and 
 
 ## How HackLab helps companies recruit at hackathons
 
-HackLab organises AI × robotics hackathons in Berlin and co-organises Edition #2 with BRISA, the Berlin Robotics & Intelligent Systems Association. Edition #2 gives builders 48 hours, €10,000+ in prizes and free credits from every technology partner, which brings companies a concentrated group of robotics and AI builders in one venue. To set up a challenge or a recruiting presence, [partner with HackLab](/for-companies).
+HackLab organises AI × robotics hackathons in Berlin and organises Edition #2 in collaboration with BRISA. Edition #2 gives builders 48 hours, €10,000+ in prizes and free credits from every technology partner, which brings companies a concentrated group of robotics and AI builders in one venue. To set up a challenge or a recruiting presence, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

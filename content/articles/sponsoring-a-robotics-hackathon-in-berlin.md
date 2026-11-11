@@ -51,7 +51,7 @@ At HackLab, attendees are pre-selected builders with robotics, AI or ML backgrou
 - Master's students building their first real prototypes.
 - University researchers.
 
-Selection is the main difference from an open meetup. Edition #1 reviewed every application and selected 130 builders from 600+; Edition #2 selected 200 from 1,100+ registrations.
+Selection is the main difference from an open meetup. Edition #1 selected 130 builders from 600+ applications; Edition #2 selected 200 from 1,100+ registrations.
 
 ## What does HackLab's Berlin event look like for a sponsor?
 
@@ -65,7 +65,7 @@ HackLab is a continuous build event at CIC Berlin, with real hardware, defined t
 | Selection | 130 of 600+ applications | 200 of 1,100+ registrations |
 | Sponsors / partners | 14 sponsor companies | Partners and technology providers (listed below) |
 | Result / on offer | Result: close to 20 solutions demoed; 5 hires at sponsors | On offer: €10,000+ prize pool; free credits from every technology partner |
-| Co-organiser | — | BRISA (Berlin Robotics & Intelligent Systems Association) |
+| In collaboration with | — | BRISA |
 
 Edition #2 runs four tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation and Wildcard / Open Source. Hardware on site includes robot arms, robot sets and a Unitree Go2 EDU quadruped. Applications for Edition #2 are closed.
 
@@ -119,6 +119,6 @@ The step-by-step version, including what to prepare before the weekend, is in [h
 
 ## How HackLab helps companies sponsor in Berlin
 
-HackLab is Berlin's AI × robotics hackathon with 1,100+ registrations, co-organised for Edition #2 with BRISA and held at CIC Berlin. Across its events it has reached 1,500+ people, and Edition #1 produced 5 hires at sponsor companies. To discuss sponsorship terms for a challenge, hardware, credits or on-site presence, [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations, organised for Edition #2 in collaboration with BRISA and held at CIC Berlin. Across its events it has reached 1,500+ people, and Edition #1 produced 5 hires at sponsor companies. To discuss sponsorship terms for a challenge, hardware, credits or on-site presence, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

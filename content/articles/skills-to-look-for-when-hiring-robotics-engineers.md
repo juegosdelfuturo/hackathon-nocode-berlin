@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "what skills to look for in a robotics engineer"
 tags: ["robotics skills", "hiring", "ROS 2", "simulation"]
-related: ["simulation-skills-for-robotics-engineers", "how-to-assess-robotics-engineers-beyond-the-cv", "robot-learning-skills-companies-need"]
+related: [simulation-skills-for-robotics-engineers, how-to-assess-robotics-engineers-beyond-the-cv, robot-learning-skills-companies-need]
 faq:
   - q: "What are the most important skills for a robotics engineer?"
     a: "Systems thinking across hardware and software, strong programming in C++ and Python, robotics middleware such as ROS 2, a solid grasp of kinematics and control, and the ability to debug problems on a real robot. Specialist skills in perception, planning or robot learning come on top of that base."
@@ -51,7 +51,7 @@ Specialist skills depend on the layer of the robot the person owns. Use this mat
 | Simulation | Physics simulators, scene building, synthetic data | GPU-accelerated simulation | A simulated environment used to train or test a robot |
 | Embedded and hardware | Microcontrollers, motor drivers, communication buses | PCB design, power systems | Firmware running on a device they built |
 
-For simulation roles, know which tools your team uses. [MuJoCo](https://github.com/google-deepmind/mujoco) is a general-purpose physics simulator maintained by Google DeepMind. [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim) is an open-source framework for robotics simulation, testing and synthetic data generation. Our article on [simulation skills for robotics engineers](/articles/simulation-skills-for-robotics-engineers) goes deeper.
+For simulation roles, know which tools your team uses. [MuJoCo](https://github.com/google-deepmind/mujoco) is a general-purpose physics simulator maintained by Google DeepMind. [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim) is an open-source framework for robotics simulation, testing and synthetic data generation. The article on [simulation skills for robotics engineers](/articles/simulation-skills-for-robotics-engineers) goes deeper.
 
 ## What soft skills matter in robotics teams?
 
@@ -80,7 +80,7 @@ When you hire juniors, weight learning speed and fundamentals more heavily than 
 
 Debugging on real hardware, integration across subsystems and teamwork under pressure are the hardest skills to see on paper. A CV lists ROS 2, Python and "computer vision" in the same way for someone who built one tutorial and someone who shipped a robot.
 
-The way to separate them is to watch the work: a code walkthrough, a short practical task or a live build. Our guide on [how to assess robotics engineers beyond the CV](/articles/how-to-assess-robotics-engineers-beyond-the-cv) covers the formats.
+The way to separate them is to watch the work: a code walkthrough, a short practical task or a live build. The guide on [how to assess robotics engineers beyond the CV](/articles/how-to-assess-robotics-engineers-beyond-the-cv) covers the formats.
 
 ## Which skill signals carry the most weight?
 

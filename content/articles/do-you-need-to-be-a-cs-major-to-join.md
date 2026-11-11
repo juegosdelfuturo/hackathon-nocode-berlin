@@ -14,7 +14,7 @@ faq: []
 sources: []
 legacy: true
 ---
-<p>There is a persistent myth that to participate in a tech competition, you must be a computer science student with years of coding experience. When it comes to robotics and physical AI, this could not be further from the truth. Building a functional, compelling robot in 48 hours requires a diverse set of skills that go far beyond writing algorithms. In fact, some of the most impressive projects we have ever seen at hardware events were led by people whose primary background had nothing to do with software.</p>
+<p>There is a persistent myth that to participate in a tech competition, you must be a computer science student with years of coding experience. When it comes to robotics and physical AI, this could not be further from the truth. Building a functional, compelling robot in 48 hours requires a diverse set of skills that go far beyond writing algorithms. In fact, some of the most impressive projects at hardware events were led by people whose primary background had nothing to do with software.</p>
 
 <p>Think about what it actually takes to build a robot. The software is only one layer of a stack that includes physical structure, power systems, sensors, actuators, user interaction, and final presentation. A computer science major can write a brilliant control loop, but if the chassis holding the robot together is poorly designed, it will shake apart during the demo. If the wiring is incorrect, the brilliant code will never run. And if the pitch to the judges is unclear, even a working project might not win. Every layer of that stack needs someone who understands it.</p>
 

@@ -60,7 +60,7 @@ const EDITION2_PARTNERS = [
   { file: 'redbull.webp', name: 'Red Bull', mono: false },
 ];
 
-// Edition #1 sponsors, as listed in the Edition #1 impact report (8 of the 14 sponsors).
+// Edition #1 sponsors (8 of the 14).
 const EDITION1_PARTNERS = [
   { file: 'normacore.webp', name: 'Norma Core', mono: true, h: 52 },
   { file: 'huggingface.webp', name: 'Hugging Face', mono: false },
@@ -226,7 +226,7 @@ export default function HomePage({
               <span className="brutal-mono-tag" style={{ color: 'var(--accent)' }}>EDITION #2 • 21–22 NOVEMBER 2026</span>
               <h3 className="brutal-stat-title">AI × Robotics Hackathon II</h3>
               <p className="brutal-stat-desc">
-                48 hours at CIC Berlin, co-organized with BRISA, the Berlin Robotics &amp; Intelligent Systems Association. Teams build on robot arms, robot sets and a Unitree Go2 EDU, with free credits from every technology partner and <strong>€10,000+ in prizes</strong> (cash, hardware &amp; more).
+                48 hours at CIC Berlin, in collaboration with BRISA. Teams build on robot arms, robot sets and a Unitree Go2 EDU, with free credits from every technology partner and <strong>€10,000+ in prizes</strong> (cash, hardware &amp; more).
               </p>
             </div>
             <div className="brutal-stat-cell">
@@ -269,8 +269,8 @@ export default function HomePage({
             {/* Partners */}
             <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1' }}>
               <div className="edition-cohost">
-                <h4 className="brutal-mono-title" style={{ margin: 0 }}>CO-ORGANIZED WITH</h4>
-                <img src="/logos/brisa.png" alt="BRISA – Berlin Robotics & Intelligent Systems Association" className="edition-logo-mono" width={128} height={32} loading="lazy" decoding="async" />
+                <h4 className="brutal-mono-title" style={{ margin: 0 }}>IN COLLABORATION WITH</h4>
+                <img src="/logos/brisa.png" alt="BRISA" className="edition-logo-mono" width={128} height={32} loading="lazy" decoding="async" />
               </div>
               <h4 className="brutal-mono-title">PARTNERS &amp; TECHNOLOGY PROVIDERS</h4>
               <ul className="edition-partner-grid">
@@ -354,6 +354,7 @@ export default function HomePage({
             <button onClick={() => onLegalClick('privacy')}>Privacy Policy</button>
             <button onClick={() => onLegalClick('cookies')}>Cookies Policy</button>
             <button onClick={() => onLegalClick('legal')}>Legal Notice</button>
+            <a href="mailto:pedro@hacklabrobotics.com?subject=HackLab%20enquiry">Contact</a>
           </div>
           <div className="brutal-footer-copy">
             © 2026 HackLab. All rights reserved.

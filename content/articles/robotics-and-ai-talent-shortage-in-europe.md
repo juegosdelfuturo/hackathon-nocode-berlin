@@ -6,7 +6,7 @@ category: Hiring
 date: 2026-11-11
 target_query: "is there a robotics/AI talent shortage in Europe"
 tags: ["talent shortage", "Europe", "AI talent", "robotics talent"]
-related: ["embodied-ai-talent-market-2026", "why-berlin-for-robotics-and-ai-hiring", "are-hackathons-a-good-way-to-hire-engineers"]
+related: [embodied-ai-talent-market-2026, why-berlin-for-robotics-and-ai-hiring, are-hackathons-a-good-way-to-hire-engineers]
 faq:
   - q: "Is there a shortage of AI and tech specialists in Europe?"
     a: "Yes. Eurostat reports that 57.5% of EU enterprises that recruited or tried to recruit ICT specialists in 2023 had difficulty filling the vacancies. In Germany the figure was 72.41%."
@@ -108,7 +108,7 @@ Companies that hire well despite the shortage change their channels, not just th
 | Use channels where candidates build | Shows real ability and reaches engineers who ignore job ads |
 | Move fast once you find a fit | Other employers are competing for the same person |
 
-Hiring in a strong local hub also helps. Our article on [why Berlin works for robotics and AI hiring](/articles/why-berlin-for-robotics-and-ai-hiring) covers one example.
+Hiring in a strong local hub also helps. The article on [why Berlin works for robotics and AI hiring](/articles/why-berlin-for-robotics-and-ai-hiring) covers one example.
 
 ## How HackLab helps companies hire despite the talent shortage
 

@@ -24,7 +24,7 @@ This article looks at what that result does and does not show, and what a compan
 
 ## What exactly happened at HackLab Edition #1?
 
-Edition #1 was a 36-hour building event at CIC Berlin with a selected group of builders and 14 sponsor companies. The confirmed figures from the HackLab Edition #1 Impact Report:
+Edition #1 was a 36-hour building event at CIC Berlin with a selected group of builders and 14 sponsor companies. The confirmed figures:
 
 | Stage | Figure |
 |---|---|
@@ -35,7 +35,7 @@ Edition #1 was a 36-hour building event at CIC Berlin with a selected group of b
 | Sponsor companies | 14 |
 | Participants hired by sponsor companies after the event | 5 |
 
-Sponsors included Norma Core, Hugging Face, n8n, Lovable, Marso Robotics, Mistral AI, ITQ and Red Bull. The first edition was bootstrapped, with no main partner covering costs from day one.
+Sponsors included Norma Core, Hugging Face, n8n, Lovable, Marso Robotics, Mistral AI, ITQ and Red Bull.
 
 ## What does the number 5 actually show?
 
@@ -97,6 +97,6 @@ HackLab's Edition #2 on 21–22 November 2026 runs for 48 hours with 200 builder
 
 ## How HackLab helps companies hire from its hackathons
 
-HackLab reviewed every one of the 600+ applications to Edition #1 before selecting 130 builders, and the event was bootstrapped without a main partner covering costs from day one. Its 14 sponsor companies came away with 5 hires between them. To be part of the next opportunity, [partner with HackLab](/for-companies).
+HackLab Robotics selected 130 builders from 600+ applications to Edition #1. Its 14 sponsor companies came away with 5 hires between them. To be part of the next opportunity, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

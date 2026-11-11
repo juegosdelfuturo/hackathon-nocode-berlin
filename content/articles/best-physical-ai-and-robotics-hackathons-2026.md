@@ -1,110 +1,107 @@
 ---
 slug: "best-physical-ai-and-robotics-hackathons-2026"
-title: "Best Physical AI and Robotics Hackathons in 2026: Ranked by Hardware and Hiring Value"
-description: "The best physical AI and robotics hackathons of 2026, ranked for companies by real robot hardware on site and how clearly they show robotics skills."
+title: "Best Physical AI and Robotics Hackathons in 2026: What Sets Them Apart"
+description: "Strong physical AI hackathons put real robots, simulation and clear tracks in one room. What to look for, with HackLab Robotics' Edition #2 in detail."
 category: "Events & Rankings"
 date: 2026-11-11
 target_query: "best physical AI robotics hackathons 2026"
-tags: ["physical AI", "robotics hackathons", "embodied AI", "robot hardware", "talent"]
-related: ["what-is-physical-ai", "providing-hardware-to-a-robotics-hackathon", "hacklab-edition-2-tracks-explained"]
+tags: ["physical AI", "robotics hackathons", "embodied AI", "robot hardware", "simulation"]
+related: [what-is-physical-ai, hacklab-edition-2-tracks-explained, building-with-robot-arms-and-quadrupeds-at-a-hackathon]
 faq:
-  - q: "What are the best physical AI and robotics hackathons in 2026?"
-    a: "For companies, the strongest 2026 options are HackLab (Berlin), robo.innovate (Munich and Garmisch-Partenkirchen), the Europe Embodied Hackathon (Freising), the Leukerbad Hackathon (Switzerland), the Intel Physical AI Challenge (Zurich), the Unaite x GOSIM Robotics Hackathon (Paris), the KXSB Agents & Robotics HackXelerator (London/Berlin) and BCX26 (Berlin)."
-  - q: "Which robotics hackathons give teams real robots instead of simulation?"
-    a: "HackLab Edition #2 provides robot arms, robot sets and a Unitree Go2 EDU quadruped; robo.innovate uses industry hardware such as a Universal Robots cobot and a Doosan A0509; the Intel Physical AI Challenge gives each team an SO-101 arm; Unaite x GOSIM gives each team an OpenArm."
-  - q: "Which physical AI hackathons are still ahead in 2026?"
-    a: "The Leukerbad Hackathon runs 14–16 November 2026, HackLab Edition #2 runs 21–22 November 2026 in Berlin, and the Intel Physical AI Challenge runs 4–6 December 2026 in Zurich."
-  - q: "Why does hardware matter when hiring at a robotics hackathon?"
-    a: "On real hardware, companies see how candidates handle sensors, calibration and failures, which a software-only event cannot show. HackLab's builders produce working prototypes in 48 hours."
-sources:
-  - name: "TUM robo.innovate – robo.innovate hackathon 2026"
-    url: "https://roboinnovate.mirmi.tum.de/hackathon/"
-  - name: "Luma – EUROPE EMBODIED Hackathon, 48h Hardware Challenge"
-    url: "https://luma.com/ee26-hack"
-  - name: "Luma – Leukerbad Hackathon 2026 (Robotics, XR, and AI)"
-    url: "https://luma.com/vj13ns00"
-  - name: "Luma – Intel Physical AI Challenge, European Robotics House"
-    url: "https://luma.com/d3pjvggt"
-  - name: "Luma – Unaite x GOSIM Robotics Hackathon @ Station F"
-    url: "https://luma.com/11cjioey"
-  - name: "Luma – Agents and Robotics HackXelerator Berlin Showcase & Awards"
-    url: "https://luma.com/ltzahbno"
-  - name: "Bosch ConnectedWorld – BCX26 Hackathon"
-    url: "https://bosch-connected-world.com/bcx26/"
-  - name: "Hugging Face – LeRobot Worldwide Hackathon"
-    url: "https://huggingface.co/LeRobot-worldwide-hackathon"
+  - q: "What makes a physical AI hackathon different from a regular AI hackathon?"
+    a: "Teams have to make AI act in the physical world, so the event needs robot hardware on site, simulation for testing, and tracks built around real robotics problems. A software AI hackathon only needs laptops, APIs and credits."
+  - q: "Which physical AI and robotics hackathons are worth attending in 2026?"
+    a: "Look for events with real robots on site, 36–48 hours of building time, robotics-specific tracks and partner companies from the field. HackLab Robotics in Berlin is one of the leading AI × robotics hackathons in Europe, with 1,100+ registrations for 200 spots at Edition #2."
+  - q: "What hardware is available at HackLab Robotics' Edition #2?"
+    a: "Robot arms, robot sets and a Unitree Go2 EDU quadruped are on site at Edition #2, which runs on 21–22 November 2026 at CIC Berlin."
+  - q: "What are the tracks at HackLab Robotics' Edition #2?"
+    a: "There are four: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, and Wildcard / Open Source."
+  - q: "Do I need to bring my own robot to a robotics hackathon?"
+    a: "Usually not, if the organiser lists hardware on site. At HackLab Robotics' Edition #2, robot arms, robot sets and a quadruped are provided, and every technology partner gives free credits."
+sources: []
 ---
-**The best physical AI and robotics hackathons of 2026 are HackLab (Berlin), robo.innovate (Munich and Garmisch-Partenkirchen), the Europe Embodied Hackathon (Freising), the Leukerbad Hackathon, the Intel Physical AI Challenge (Zurich), Unaite x GOSIM (Paris), the KXSB HackXelerator and BCX26 (Berlin).** The ranking is built for companies hiring robotics and embodied AI engineers. It weighs real robot hardware on site, a dedicated robotics focus and direct access to builders. HackLab ranks first, with 1,100+ registrations for 200 spots at Edition #2 and a quadruped, robot arms and robot sets on site.
+**The strongest physical AI and robotics hackathons in 2026 share three features: real robot hardware on site, simulation that lets teams test before touching a robot, and tracks built around actual robotics problems.** HackLab Robotics in Berlin is one of the leading options with all three. It has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, and its Edition #2 (21–22 November 2026, CIC Berlin) drew 1,100+ registrations for 200 spots, with robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
 
-## Which robotics hackathons rank highest for companies in 2026?
+This page is for builders who want to work on robots rather than chat interfaces, and for companies that want to see how robotics and embodied AI candidates handle real systems. For background on the field itself, read [what is physical AI](/articles/what-is-physical-ai).
 
-Eight 2026 events have a robotics focus or a robotics track, and six of them list the hardware teams use. The table compares them on what each organiser states.
+## What makes a physical AI hackathon different from a software AI hackathon?
 
-| Rank | Event | Location | 2026 timing | Duration | Hardware listed |
-|---|---|---|---|---|---|
-| 1 | HackLab AI × Robotics Hackathon II | Berlin | 21–22 Nov | 48 h | Robot arms, robot sets, Unitree Go2 EDU |
-| 2 | robo.innovate Hackathon | Munich and Garmisch-Partenkirchen | 23–28 Oct | 6 days | UR cobot, Doosan A0509, GARMI robot |
-| 3 | Europe Embodied Hackathon | Freising (Munich area) | 24–26 Jun | 48 h | Humanoid, industrial and construction setups |
-| 4 | Leukerbad Hackathon | Leukerbad, Switzerland | 14–16 Nov | 3 days | Humanoids, quadrupeds, robotic arms |
-| 5 | Intel Physical AI Challenge | Zurich | 4–6 Dec | 40 h of hacking | SO-101 arm, cameras, Intel laptop |
-| 6 | Unaite x GOSIM Robotics Hackathon | Paris (Station F) | During GOSIM Paris 2026 | 48 h | OpenArm 7-DoF arm, teleoperation kit |
-| 7 | KXSB Agents & Robotics HackXelerator | London kick-off, Berlin showcase | 27 Mar – 17 Apr | 20 days | Not listed |
-| 8 | BCX26 Hackathon | Berlin | 9–10 Jun | 20 h | Not listed (has an advanced robotics track) |
+A physical AI hackathon asks teams to make AI perceive and act in the real world, not only produce text or images. That changes what the organiser has to provide and what the weekend shows about each builder.
 
-## What does each robotics hackathon involve?
+| Format | What teams need | What it shows about a builder | Typical failure points |
+|---|---|---|---|
+| Software-only AI hackathon | Laptops, APIs, cloud credits | Model use, product thinking, speed | Weak demos, unfinished integrations |
+| Simulation-based robotics hackathon | Simulators, compute, robot models | Control logic, testing discipline, modelling | Results that do not survive contact with hardware |
+| Hardware-on-site physical AI hackathon | Robots, sensors, power, safe test space, plus simulation and credits | Integration, debugging, calibration, teamwork under time pressure | Sensor noise, latency, mechanical limits, failed runs |
 
-Each entry below uses only the organiser's own page. The events differ most in duration, hardware and who sets the challenges.
+The hardware-on-site format asks the most of an organiser and shows the most about each builder. Teams find out within hours whether a policy that works in simulation still works on a real arm or a walking robot.
 
-### 1. HackLab (Berlin)
+## What hardware should a robotics hackathon provide?
 
-HackLab's Edition #2 runs 21–22 November 2026 at CIC Berlin, co-organised with BRISA, with four tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, and Wildcard / Open Source. Technology providers include X Square Robot, NormaCore, Hugging Face, Seeed Studio, OpenELab and MyBotShop, alongside €10,000+ in prizes.
+A robotics hackathon should list its hardware publicly before applications open. Builders need to know what they can plan for, and companies need to know which skills the event will surface.
 
-For what each track asks of builders, see [HackLab Edition #2 tracks explained](/articles/hacklab-edition-2-tracks-explained).
+Questions worth checking on the event page:
 
-### 2. robo.innovate Hackathon (Munich and Garmisch-Partenkirchen)
+- **Which robots are on site?** Arms, mobile robots and legged robots test different skills.
+- **Is the hardware provided, or must teams bring it?** Most builders cannot travel with a robot.
+- **Are credits included?** Compute and API credits let teams train or run models during the event.
+- **Is there simulation as well as hardware?** Teams that test in simulation first lose less time on the robot.
 
-The [robo.innovate hackathon](https://roboinnovate.mirmi.tum.de/hackathon/) is organised by TUM robo.innovate with TUM Venture Lab Robotics / AI and UnternehmerTUM MakerSpace. The 2026 edition ran over six days, 23–28 October, at Munich Urban Colab and TUM Campus Geriatronics. Teams build a working prototype with industry hardware, and partners include Universal Robots/Teradyne, Doosan, NEURA Robotics and Franka Robotics.
+At HackLab Robotics' Edition #2, the hardware on site is robot arms, robot sets and a Unitree Go2 EDU quadruped, and every technology partner provides free credits. Builders do not need to bring their own robot.
 
-### 3. Europe Embodied Hackathon (Freising)
+## Why does simulation matter at a physical AI hackathon?
 
-The [Europe Embodied Hackathon](https://luma.com/ee26-hack) was a 48-hour hardware challenge within Europe Embodied — Robotics Week Munich 2026, held 24–26 June. It took 100 participants in teams of 3–4 and stated that no robotics expertise was required. Tracks covered humanoid robots, industrial platforms and construction setups.
+Simulation lets a team iterate faster than on a physical robot and without risk to the equipment. A strong physical AI hackathon treats simulation as part of the build, not as a substitute for hardware.
 
-### 4. Leukerbad Hackathon (Switzerland)
+1. **Design and test in simulation** to get the logic right.
+2. **Transfer to hardware** to see what breaks: friction, lighting, sensor drift.
+3. **Fix and re-run** within the time limit.
 
-The [Leukerbad Hackathon 2026](https://luma.com/vj13ns00) runs 14–16 November 2026 in Leukerbad, Valais. It gives hands-on access to humanoids, quadrupeds and robotic arms, and also covers XR and AI. The page lists a CHF 50,000 cash prize pool, and the event is marked full with a waitlist.
+That loop, compressed into 36–48 hours, is close to day-to-day work on a robotics team. It is also why companies use these events to see candidates work.
 
-### 5. Intel Physical AI Challenge (Zurich)
+## What are the four tracks at HackLab Robotics' Edition #2?
 
-The [Intel Physical AI Challenge](https://luma.com/d3pjvggt) at European Robotics House runs 4–6 December 2026, with 40 hours of hacking. Each team of 3–4 gets an SO-101 arm, cameras and an Intel Core Ultra laptop. The task is a computer-vision system that finds defective objects and directs the arm to sort them.
+Edition #2 has four tracks, each pointing at a different part of physical AI. The descriptions below explain what each field covers in general and which on-site hardware fits it. The specific challenge briefs are covered in [HackLab Edition #2 tracks explained](/articles/hacklab-edition-2-tracks-explained).
 
-### 6. Unaite x GOSIM Robotics Hackathon (Paris)
+| Track | What the field covers | Skills it tends to reward | On-site hardware that fits |
+|---|---|---|---|
+| AI Infrastructure | The software, compute and data systems that let AI models run on and for robots | Systems engineering, ML operations, data pipelines | Any robot that needs models served to it |
+| Industrial Robotics Simulation | Modelling and testing robot behaviour for industrial tasks before deployment | Physics simulation, motion planning, testing | Robot arms |
+| Autonomous Navigation | Robots that perceive their surroundings and move through them without step-by-step control | Perception, localisation, path planning | Unitree Go2 EDU quadruped, robot sets |
+| Wildcard / Open Source | Open-ended projects, including open-source robotics tools and models | Range, initiative, community-ready code | Any |
 
-The [Unaite x GOSIM Robotics Hackathon](https://luma.com/11cjioey) is a 48-hour build at Station F during GOSIM Paris 2026, run by Unaite, which describes itself as the student federation uniting France's leading AI institutions. Ten teams of 3–5 each receive an OpenArm, an open-source 7-DoF arm, plus a teleoperation kit. The page does not give a date.
+### AI Infrastructure
 
-### 7. KXSB Agents & Robotics HackXelerator (London and Berlin)
+Infrastructure work is often the closest fit for software and ML engineers who are new to robots. Physical AI depends on infrastructure: getting models to run fast enough, moving data from sensors to models, and keeping systems reliable.
 
-The [KXSB HackXelerator](https://luma.com/ltzahbno) was a 20-day programme on agents, multi-agent systems, robotics and human–robot interaction. It started with a London kick-off on 27 March and ended with a Berlin showcase and awards on 17 April 2026, with a £10,000 prize pool. It suits companies that want to follow teams over weeks rather than one weekend.
+### Industrial Robotics Simulation
 
-### 8. BCX26 Hackathon (Berlin)
+This track rewards builders who can model a task and validate it before it reaches hardware. In industrial settings, testing in simulation first avoids errors on real equipment and production lines.
 
-The [BCX26 hackathon](https://bosch-connected-world.com/bcx26/) ran 9–10 June 2026 at the Amazon Tower in Berlin, with around 100 selected participants and 20 hours of hacking. "Advanced robotics" was one of four tracks, alongside automotive, industry and manufacturing, and cognitive platforms.
+### Autonomous Navigation
 
-## What about the LeRobot Worldwide Hackathon?
+This track is about robots that move. On a legged robot like the Unitree Go2 EDU, navigation also involves uneven ground and real-time perception, not only a route on a map. For hands-on detail, read [building with robot arms and quadrupeds at a hackathon](/articles/building-with-robot-arms-and-quadrupeds-at-a-hackathon).
 
-The [LeRobot Worldwide Hackathon](https://huggingface.co/LeRobot-worldwide-hackathon) is left out of the 2026 ranking because its official page confirms only the June 2025 edition (14–15 June 2025). That edition ran online and at local sites, with teams recording datasets on the SO-101 arm. If Hugging Face confirms a new edition, it belongs in this category.
+### Wildcard / Open Source
 
-## Why does real hardware matter for hiring robotics engineers?
+This track keeps room for projects that do not fit the other three. Open-source work is also easy for others to inspect after the event, which helps builders show their work and helps companies review it.
 
-Real hardware shows how a candidate handles the gap between a model and a physical system. On a robot, teams have to deal with calibration, latency, sensor noise and failed runs within hours.
+## Who are the partners behind Edition #2?
 
-- **Simulation-only events** show modelling and software skills.
-- **Hardware events** also show integration, debugging under time pressure and safe handling of equipment.
-- **Multi-day formats** (robo.innovate, KXSB) show persistence. 36–48 hour formats show speed and teamwork.
+Edition #2 is organised in collaboration with BRISA. Its partners and technology providers are X Square Robot, Durance AI, Prior Labs, NormaCore, Hugging Face, Cognition, Anthropic, Nebius, Almedia, Seeed Studio, OpenELab, MyBotShop, Linkup and Red Bull. Prizes total €10,000+ in cash, hardware and more.
 
-For background on the field, read [what is physical AI](/articles/what-is-physical-ai). Companies that want to supply robots themselves should read [providing hardware to a robotics hackathon](/articles/providing-hardware-to-a-robotics-hackathon).
+## What do companies get from a physical AI hackathon?
 
-## How HackLab helps companies hire physical AI and robotics engineers
+Companies get to see robotics, AI and ML builders work on real systems for 36–48 hours instead of reading CVs. At HackLab Robotics, participants are pre-selected: 130 of 600+ applicants at Edition #1, and 200 of 1,100+ registrations at Edition #2.
 
-HackLab puts sponsor companies next to 200 pre-selected builders for 48 hours at CIC Berlin, with robot hardware on site. At Edition #1, close to 20 final solutions were demoed to judges and sponsor companies, and 5 participants were later hired by sponsors. To set a challenge or bring hardware, [partner with HackLab](/for-companies).
+- **Set a challenge** tied to the problems the company works on.
+- **Provide hardware or credits**, so teams build on the company's stack.
+- **Meet builders in person** during the event.
+
+Edition #1 in June 2026, a 36-hour event, ended with close to 20 final solutions demoed to judges and sponsor companies. Afterwards, 5 participants were hired by sponsor companies.
+
+## How HackLab Robotics helps builders and companies in physical AI
+
+HackLab Robotics brings 200 pre-selected builders, robot hardware and partner companies together for 48 hours at CIC Berlin. Applications for Edition #2 are closed; builders can see the event on [Luma](https://luma.com/h0mcaqio) and follow HackLab Robotics for news of future editions. Companies that want to bring hardware, set a challenge or meet robotics builders can [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*
