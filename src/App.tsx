@@ -5,13 +5,12 @@ import { LEGAL_CONTENT, type LegalKey } from './data/legalContent';
 
 // Lazy-load heavy pages that are not needed on first paint
 const OpportunitiesPage = lazy(() => import('./pages/OpportunitiesPage'));
-const ArticlesPage = lazy(() => import('./pages/ArticlesPage'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
 const LoginModal = lazy(() => import('./components/LoginModal'));
 const RegistrationModal = lazy(() => import('./components/RegistrationModal'));
 
 
-type Page = 'home' | 'opportunities' | 'articles' | 'admin';
+type Page = 'home' | 'opportunities' | 'admin';
 
 interface AuthUser { email: string; }
 
@@ -29,21 +28,18 @@ function PlatformHeader({
     <header className="platform-header">
       <div className="container nav-inner">
         {/* Logo */}
-        <button className="logo-brand hacklab-logo-link" onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} aria-label="HackLab Home">
+        <a href="/" className="logo-brand hacklab-logo-link" onClick={(e) => { e.preventDefault(); onNavigate('home'); }} aria-label="HackLab Home">
           <img src="/logos/hacklab.webp" alt="HackLab" className="hacklab-logo-img" width={80} height={80} decoding="async" />
-        </button>
+        </a>
 
         {/* Desktop nav */}
         <nav className="platform-nav">
-          <button className={`platform-nav-link ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}>
+          <a href="/" className={`platform-nav-link ${currentPage === 'home' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); onNavigate('home'); }}>
             Hackathons
-          </button>
-          <button className={`platform-nav-link ${currentPage === 'opportunities' ? 'active' : ''}`} onClick={() => onNavigate('opportunities')}>
+          </a>
+          <a href="/#opportunities" className={`platform-nav-link ${currentPage === 'opportunities' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); onNavigate('opportunities'); }}>
             Opportunities
-          </button>
-          <button className={`platform-nav-link ${currentPage === 'articles' ? 'active' : ''}`} onClick={() => onNavigate('articles')}>
-            Articles & Insights
-          </button>
+          </a>
         </nav>
 
         <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
@@ -56,9 +52,8 @@ function PlatformHeader({
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="mobile-menu">
-          <button className="mobile-menu-item" onClick={() => { onNavigate('home'); setMobileOpen(false); }}>Hackathons</button>
-          <button className="mobile-menu-item" onClick={() => { onNavigate('opportunities'); setMobileOpen(false); }}>Opportunities</button>
-          <button className="mobile-menu-item" onClick={() => { onNavigate('articles'); setMobileOpen(false); }}>Articles & Insights</button>
+          <a href="/" className="mobile-menu-item" onClick={(e) => { e.preventDefault(); onNavigate('home'); setMobileOpen(false); }}>Hackathons</a>
+          <a href="/#opportunities" className="mobile-menu-item" onClick={(e) => { e.preventDefault(); onNavigate('opportunities'); setMobileOpen(false); }}>Opportunities</a>
         </div>
       )}
     </header>
@@ -87,7 +82,12 @@ function LoginWall({ onLoginClick }: { onLoginClick: () => void }) {
 // ─── ROOT APP ─────────────────────────────────────────────────────────────────
 const App: React.FC = () => {
   const getInitialPage = (): Page => {
-    if (window.location.hash === '#articles') return 'articles';
+    // Articles now live as static, crawlable pages at /articles
+    if (window.location.hash === '#articles') {
+      window.location.replace('/articles');
+      return 'home';
+    }
+    if (window.location.hash === '#opportunities') return 'opportunities';
     return 'home';
   };
 
@@ -181,22 +181,12 @@ const App: React.FC = () => {
         <HomePage 
           onLegalClick={setActiveLegalDoc} 
           onRegisterClick={() => setShowRegistration(true)}
-          onArticlesClick={() => navigateTo('articles')}
         />
       )}
       
       {currentPage === 'opportunities' && (
         <Suspense fallback={null}>
           <OpportunitiesPage onLegalClick={setActiveLegalDoc} />
-        </Suspense>
-      )}
-
-      {currentPage === 'articles' && (
-        <Suspense fallback={null}>
-          <ArticlesPage 
-            onLegalClick={setActiveLegalDoc} 
-            onRegisterClick={() => setShowRegistration(true)} 
-          />
         </Suspense>
       )}
 

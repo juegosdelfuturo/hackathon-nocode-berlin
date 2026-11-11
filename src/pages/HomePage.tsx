@@ -1,4 +1,4 @@
-import { ArrowRight, Zap, Users, Trophy, FileText } from 'lucide-react';
+import { ArrowRight, Zap, Users, Trophy, FileText, MapPin } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 type LegalKey = 'privacy' | 'cookies' | 'legal';
@@ -28,16 +28,63 @@ const PARTNER_LOGOS = [
   { file: 'mistral.webp', name: 'Mistral AI', width: 120, height: 27, needsBg: false },
   { file: 'aws_builder_center.webp', name: 'AWS Builder Center', width: 120, height: 19, needsBg: false },
   { file: 'ibc.webp', name: 'IBC', width: 40, height: 40, needsBg: false, style: { transform: 'scale(1.4)' } },
+  { file: 'anthropic.svg', name: 'Anthropic', width: 120, height: 13, needsBg: false },
+  { file: 'nebius.svg', name: 'Nebius', width: 120, height: 33, needsBg: false },
+  { file: 'cognition.svg', name: 'Cognition', width: 120, height: 26, needsBg: false },
+  { file: 'xsquare.svg', name: 'X Square Robot', width: 120, height: 23, needsBg: false },
+  { file: 'durance.svg', name: 'Durance AI', width: 120, height: 20, needsBg: false },
+  { file: 'priorlabs.svg', name: 'Prior Labs', width: 120, height: 22, needsBg: false },
+  { file: 'almedia.svg', name: 'Almedia', width: 120, height: 32, needsBg: false },
+  { file: 'seeedstudio.png', name: 'Seeed Studio', width: 120, height: 16, needsBg: false },
+  { file: 'openelab.png', name: 'OpenELab', width: 120, height: 35, needsBg: false },
+  { file: 'linkup.svg', name: 'Linkup', width: 120, height: 30, needsBg: false },
+];
+
+// Edition #2 partners, in the order of the official event poster (luma.com/h0mcaqio).
+// mono: render as white on the dark card; false keeps the brand colours.
+// h: max logo height in px for marks with lots of padding (default 28).
+const EDITION2_PARTNERS = [
+  { file: 'xsquare.svg', name: 'X Square Robot', mono: false },
+  { file: 'durance.svg', name: 'Durance AI', mono: false },
+  { file: 'priorlabs.svg', name: 'Prior Labs', mono: false },
+  { file: 'normacore.webp', name: 'NormaCore', mono: true, h: 52 },
+  { file: 'huggingface.webp', name: 'Hugging Face', mono: false },
+  { file: 'cognition.svg', name: 'Cognition', mono: false },
+  { file: 'anthropic.svg', name: 'Anthropic', mono: false },
+  { file: 'nebius.svg', name: 'Nebius', mono: false },
+  { file: 'almedia.svg', name: 'Almedia', mono: false },
+  { file: 'seeedstudio.png', name: 'Seeed Studio', mono: true },
+  { file: 'openelab.png', name: 'OpenELab', mono: true, h: 40 },
+  { file: 'mybotshop.webp', name: 'MyBotShop', mono: false, h: 34 },
+  { file: 'linkup.svg', name: 'Linkup', mono: false },
+  { file: 'redbull.webp', name: 'Red Bull', mono: false },
+];
+
+// Edition #1 sponsors (8 of the 14).
+const EDITION1_PARTNERS = [
+  { file: 'normacore.webp', name: 'Norma Core', mono: true, h: 52 },
+  { file: 'huggingface.webp', name: 'Hugging Face', mono: false },
+  { file: 'n8nlogo.webp', name: 'n8n', mono: true, h: 56 },
+  { file: 'lovable.webp', name: 'Lovable', mono: false },
+  { file: 'marso.webp', name: 'Marso Robotics', mono: false, h: 40 },
+  { file: 'mistral.webp', name: 'Mistral AI', mono: false },
+  { file: 'Logo ITQ con eslogan.webp', name: 'ITQ', mono: true, h: 26 },
+  { file: 'redbull.webp', name: 'Red Bull', mono: false },
+];
+
+const EDITION2_TRACKS = [
+  { name: 'AI Infrastructure', desc: 'Agents, pipelines and the infrastructure that connects models to machines.' },
+  { name: 'Industrial Robotics Simulation', desc: 'Train and test in simulation, then bring it to real hardware.' },
+  { name: 'Autonomous Navigation', desc: 'Perception, mapping and planning with real robots, including a Unitree Go2 EDU.' },
+  { name: 'Wildcard / Open Source', desc: 'Your idea, your rules. Build anything at the edge of robotics and AI.' },
 ];
 
 export default function HomePage({ 
   onLegalClick, 
-  onRegisterClick,
-  onArticlesClick
+  onRegisterClick
 }: { 
   onLegalClick: (key: LegalKey) => void;
   onRegisterClick: () => void;
-  onArticlesClick?: () => void;
 }) {
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -119,10 +166,10 @@ export default function HomePage({
           <div className="brutal-stats-grid">
             {/* Main Info */}
             <div className="brutal-stat-cell brutal-col-span-2">
-              <span className="brutal-mono-tag">EDITION #1 • JUNE 2026</span>
+              <span className="brutal-mono-tag">EDITION #1 • 20–21 JUNE 2026</span>
               <h3 className="brutal-stat-title">Berlin Robotics × Agentic AI Hackathon</h3>
               <p className="brutal-stat-desc">
-                A weekend of innovation where 100+ top robotics engineers, software devs, and designers converged in Berlin to build the future of physical autonomous systems.
+                36 hours of non-stop building at CIC Berlin. Out of 600+ applicants we selected 130 builders: robotics students, ML engineers, robotics professionals and university researchers. Around 20 teams went from idea to a working demo in front of judges and sponsors, and <strong>5 participants were hired by sponsor companies</strong> after the event.
               </p>
             </div>
 
@@ -134,28 +181,36 @@ export default function HomePage({
             </div>
             <div className="brutal-stat-cell">
               <Users size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">120+</div>
-              <div className="brutal-stat-label">Participants</div>
+              <div className="brutal-stat-val">130</div>
+              <div className="brutal-stat-label">Builders Selected</div>
             </div>
             <div className="brutal-stat-cell">
               <Zap size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">24</div>
-              <div className="brutal-stat-label">Projects Built</div>
+              <div className="brutal-stat-val">~20</div>
+              <div className="brutal-stat-label">Solutions Demoed</div>
             </div>
             <div className="brutal-stat-cell">
               <Trophy size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">€5K+</div>
-              <div className="brutal-stat-label">In Prizes</div>
+              <div className="brutal-stat-val">5</div>
+              <div className="brutal-stat-label">Hires After the Event</div>
             </div>
 
             {/* Sponsors */}
-            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderBottom: 'none' }}>
-              <h4 className="brutal-mono-title">CHALLENGES BY</h4>
-              <ul className="brutal-sponsor-list" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: '3rem' }}>
-                <li>n8n</li>
-                <li>Hugging Face</li>
-                <li>Normacore</li>
-                <li>ITQ</li>
+            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', borderBottom: 'none' }}>
+              <h4 className="brutal-mono-title">BACKED BY 14 SPONSORS, INCLUDING</h4>
+              <ul className="edition-partner-grid">
+                {EDITION1_PARTNERS.map(p => (
+                  <li key={p.name} title={p.name}>
+                    <img
+                      src={`/logos/${p.file}`}
+                      alt={p.name}
+                      className={p.mono ? 'edition-logo-mono' : undefined}
+                      style={'h' in p ? { maxHeight: `${p.h}px` } : undefined}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -164,27 +219,32 @@ export default function HomePage({
         {/* Edition #2 */}
         <div className="edition-widget edition-upcoming" style={{ marginTop: '2rem', position: 'relative', overflow: 'hidden' }}>
           {/* Upcoming glow badge */}
-          <div className="edition-upcoming-badge">COMING SOON</div>
+          <div className="edition-upcoming-badge">APPLICATIONS CLOSED</div>
           <div className="brutal-stats-grid">
             {/* Main Info */}
             <div className="brutal-stat-cell brutal-col-span-2">
-              <span className="brutal-mono-tag" style={{ color: 'var(--accent)' }}>EDITION #2 • NOVEMBER 2026</span>
-              <h3 className="brutal-stat-title">Berlin Robotics × Agentic AI Hackathon II</h3>
+              <span className="brutal-mono-tag" style={{ color: 'var(--accent)' }}>EDITION #2 • 21–22 NOVEMBER 2026</span>
+              <h3 className="brutal-stat-title">AI × Robotics Hackathon II</h3>
               <p className="brutal-stat-desc">
-                The second edition returns to Berlin with bigger challenges, <strong>€10,000+ in total prizes</strong> (cash, robotics hardware, cloud credits & more), and an expanded hardware playground. Push the limits of autonomous systems and agentic AI — applications open now.
+                48 hours at CIC Berlin, in collaboration with BRISA. Teams build on robot arms, robot sets and a Unitree Go2 EDU, with free credits from every technology partner and <strong>€10,000+ in prizes</strong> (cash, hardware &amp; more).
               </p>
             </div>
+            <div className="brutal-stat-cell">
+              <MapPin size={24} className="brutal-icon" />
+              <div className="brutal-stat-val">CIC Berlin</div>
+              <div className="brutal-stat-label">Lohmühlenstraße 65 · 48 hours</div>
+            </div>
 
-            {/* Stats / Targets */}
+            {/* Stats */}
             <div className="brutal-stat-cell">
               <FileText size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">1 000+</div>
-              <div className="brutal-stat-label">Expected Applications</div>
+              <div className="brutal-stat-val">1,100+</div>
+              <div className="brutal-stat-label">Registrations</div>
             </div>
             <div className="brutal-stat-cell">
               <Users size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">200+</div>
-              <div className="brutal-stat-label">Spots</div>
+              <div className="brutal-stat-val">200</div>
+              <div className="brutal-stat-label">Builders Selected</div>
             </div>
             <div className="brutal-stat-cell">
               <Trophy size={24} className="brutal-icon" />
@@ -192,20 +252,57 @@ export default function HomePage({
               <div className="brutal-stat-label">Cash, Hardware & Credits</div>
             </div>
 
+            {/* Tracks */}
+            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1' }}>
+              <h4 className="brutal-mono-title">TRACKS</h4>
+              <ul className="edition-tracks">
+                {EDITION2_TRACKS.map((track, i) => (
+                  <li key={track.name}>
+                    <span className="edition-track-num">0{i + 1}</span>
+                    <strong>{track.name}</strong>
+                    <span>{track.desc}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Partners */}
+            <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1' }}>
+              <div className="edition-cohost">
+                <h4 className="brutal-mono-title" style={{ margin: 0 }}>IN COLLABORATION WITH</h4>
+                <img src="/logos/brisa.png" alt="BRISA" className="edition-logo-mono" width={128} height={32} loading="lazy" decoding="async" />
+              </div>
+              <h4 className="brutal-mono-title">PARTNERS &amp; TECHNOLOGY PROVIDERS</h4>
+              <ul className="edition-partner-grid">
+                {EDITION2_PARTNERS.map(p => (
+                  <li key={p.name} title={p.name}>
+                    <img
+                      src={`/logos/${p.file}`}
+                      alt={p.name}
+                      className={p.mono ? 'edition-logo-mono' : undefined}
+                      style={'h' in p ? { maxHeight: `${p.h}px` } : undefined}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+
             {/* CTA */}
             <div className="brutal-stat-cell" style={{ gridColumn: '1 / -1', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1rem', borderBottom: 'none' }}>
               <p style={{ color: 'var(--muted)', fontSize: '0.9rem', margin: 0 }}>
-                Secure your spot before applications close. Limited seats available.
+                Applications are closed and selected builders have been notified. Not selected? Spots always open up on the day: come to the venue early on Saturday.
               </p>
-              <a 
-                href="https://luma.com/h0mcaqio" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="brutal-primary-btn" 
+              <a
+                href="https://luma.com/h0mcaqio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="brutal-primary-btn"
                 id="signup-edition2"
                 style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
               >
-                SIGN UP NOW <ArrowRight size={18} />
+                VIEW EVENT ON LUMA <ArrowRight size={18} />
               </a>
             </div>
           </div>
@@ -254,19 +351,10 @@ export default function HomePage({
       <footer className="brutal-footer">
         <div className="brutal-footer-inner">
           <div className="brutal-footer-links">
-            <a 
-              href="#articles" 
-              onClick={(e) => { 
-                e.preventDefault(); 
-                if (onArticlesClick) onArticlesClick(); 
-              }}
-              style={{ color: 'var(--accent)', fontWeight: 'bold', textDecoration: 'underline', marginRight: '1rem' }}
-            >
-              📚 Articles & Insights
-            </a>
             <button onClick={() => onLegalClick('privacy')}>Privacy Policy</button>
             <button onClick={() => onLegalClick('cookies')}>Cookies Policy</button>
             <button onClick={() => onLegalClick('legal')}>Legal Notice</button>
+            <a href="mailto:pedro@hacklabrobotics.com?subject=HackLab%20enquiry">Contact</a>
           </div>
           <div className="brutal-footer-copy">
             © 2026 HackLab. All rights reserved.

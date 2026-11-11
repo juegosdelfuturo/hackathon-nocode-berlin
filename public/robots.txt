@@ -1,15 +1,50 @@
+# HackLab — AI × robotics hackathons in Berlin. All crawlers, including AI search and AI agents, are welcome.
 User-agent: *
 Allow: /
 
-# Specifically allow major AI search bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
 Allow: /
 
 User-agent: Claude-SearchBot
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Googlebot
+User-agent: Perplexity-User
 Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://hacklabrobotics.com/sitemap.xml
