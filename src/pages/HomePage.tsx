@@ -223,16 +223,16 @@ export default function HomePage({
           <div className="brutal-stats-grid">
             {/* Main Info */}
             <div className="brutal-stat-cell brutal-col-span-2">
-              <span className="brutal-mono-tag" style={{ color: 'var(--accent)' }}>EDITION #2 • 21–22 NOVEMBER 2026</span>
+              <span className="brutal-mono-tag" style={{ color: 'var(--accent)' }}>EDITION #2 • 21–22 NOVEMBER 2026 • SAT 09:00 – SUN 19:00 (CET)</span>
               <h3 className="brutal-stat-title">AI × Robotics Hackathon II</h3>
               <p className="brutal-stat-desc">
-                48 hours at CIC Berlin, in collaboration with BRISA. Teams build on robot arms, robot sets and a Unitree Go2 EDU, with free credits from every technology partner and <strong>€10,000+ in prizes</strong> (cash, hardware &amp; more).
+                At CIC Berlin, in collaboration with BRISA. Teams build on robot arms, robot sets and a Unitree Go2 EDU, with free credits from every technology partner and <strong>€10,000+ in prizes</strong> (cash, hardware &amp; more).
               </p>
             </div>
             <div className="brutal-stat-cell">
               <MapPin size={24} className="brutal-icon" />
               <div className="brutal-stat-val">CIC Berlin</div>
-              <div className="brutal-stat-label">Lohmühlenstraße 65 · 48 hours</div>
+              <div className="brutal-stat-label">Lohmühlenstraße 65 · 21 Nov 09:00 – 22 Nov 19:00</div>
             </div>
 
             {/* Stats */}
