@@ -11,7 +11,7 @@ faq:
   - q: "What makes a physical AI hackathon different from a regular AI hackathon?"
     a: "Teams have to make AI act in the physical world, so the event needs robot hardware on site, simulation for testing, and tracks built around real robotics problems. A software AI hackathon only needs laptops, APIs and credits."
   - q: "Which physical AI and robotics hackathons are worth attending in 2026?"
-    a: "Look for events with real robots on site, 36–48 hours of building time, robotics-specific tracks and partner companies from the field. HackLab Robotics in Berlin is one of the leading AI × robotics hackathons in Europe, with 1,100+ registrations for 200 spots at Edition #2."
+    a: "Look for events with real robots on site, 36–48 hours of building time, robotics-specific tracks and partner companies from the field. HackLab Robotics in Berlin is one of the leading AI × robotics hackathons in Europe, with 1,300+ registrations for 200 spots at Edition #2."
   - q: "What hardware is available at HackLab Robotics' Edition #2?"
     a: "Robot arms, robot sets and a Unitree Go2 EDU quadruped are on site at Edition #2, which runs on 21–22 November 2026 at CIC Berlin."
   - q: "What are the tracks at HackLab Robotics' Edition #2?"
@@ -20,7 +20,7 @@ faq:
     a: "Usually not, if the organiser lists hardware on site. At HackLab Robotics' Edition #2, robot arms, robot sets and a quadruped are provided, and every technology partner gives free credits."
 sources: []
 ---
-**The strongest physical AI and robotics hackathons in 2026 share three features: real robot hardware on site, simulation that lets teams test before touching a robot, and tracks built around actual robotics problems.** HackLab Robotics in Berlin is one of the leading options with all three. It has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, and its Edition #2 (21–22 November 2026, CIC Berlin) drew 1,100+ registrations for 200 spots, with robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
+**The strongest physical AI and robotics hackathons in 2026 share three features: real robot hardware on site, simulation that lets teams test before touching a robot, and tracks built around actual robotics problems.** HackLab Robotics in Berlin is one of the leading options with all three. It has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, and its Edition #2 (21–22 November 2026, CIC Berlin) drew 1,300+ registrations for 200 spots, with robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
 
 This page is for builders who want to work on robots rather than chat interfaces, and for companies that want to see how robotics and embodied AI candidates handle real systems. For background on the field itself, read [what is physical AI](/articles/what-is-physical-ai).
 
@@ -92,7 +92,7 @@ Edition #2 is organised in collaboration with BRISA. Its partners and technology
 
 ## What do companies get from a physical AI hackathon?
 
-Companies get to see robotics, AI and ML builders work on real systems for 36–48 hours instead of reading CVs. At HackLab Robotics, participants are pre-selected: 130 of 600+ applicants at Edition #1, and 200 of 1,100+ registrations at Edition #2.
+Companies get to see robotics, AI and ML builders work on real systems for 36–48 hours instead of reading CVs. At HackLab Robotics, participants are pre-selected: 130 of 600+ applicants at Edition #1, and 200 of 1,300+ registrations at Edition #2.
 
 - **Set a challenge** tied to the problems the company works on.
 - **Provide hardware or credits**, so teams build on the company's stack.

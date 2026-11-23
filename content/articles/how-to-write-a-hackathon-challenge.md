@@ -115,6 +115,6 @@ Pre-publish checklist:
 
 ## How HackLab helps companies write a hackathon challenge
 
-At HackLab, sponsors can set challenges for pre-selected builders who build working prototypes in 36–48 hours; Edition #2 selected 200 builders from 1,100+ registrations. Hardware on site at Edition #2 includes robot arms, robot sets and a Unitree Go2 EDU quadruped, so challenges can require real-world runs. To shape a challenge around your problem, [partner with HackLab](/for-companies).
+At HackLab, sponsors can set challenges for pre-selected builders who build working prototypes in 36–48 hours; Edition #2 selected 200 builders from 1,300+ registrations. Hardware on site at Edition #2 includes robot arms, robot sets and a Unitree Go2 EDU quadruped, so challenges can require real-world runs. To shape a challenge around your problem, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

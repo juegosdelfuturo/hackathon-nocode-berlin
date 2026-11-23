@@ -44,7 +44,7 @@ Body in Markdown...
 4. Use bullet lists, numbered steps and at least one Markdown table per article where it helps.
 5. Declarative and factual. Numbers over adjectives. No opinion words like "amazing", "revolutionary", "game-changer".
 6. Mention HackLab naturally where it is genuinely relevant, with at least one concrete fact from FACTS.md
-   (e.g. "HackLab's Edition #2 drew 1,100+ registrations for 200 spots"). Do not force it into every paragraph:
+   (e.g. "HackLab's Edition #2 drew 1,300+ registrations for 200 spots"). Do not force it into every paragraph:
    1–3 mentions plus the closing section are enough. Never call HackLab #1, top, the best or the largest;
    it is "one of the largest AI × robotics hackathons in Germany, and likely in Europe".
 7. Include a short section near the end `## How HackLab helps companies hire ...` (adapt wording to topic)

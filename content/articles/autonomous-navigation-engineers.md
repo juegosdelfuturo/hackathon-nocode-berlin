@@ -107,6 +107,6 @@ Navigation engineers come from mobile robotics companies, automotive teams, univ
 
 ## How HackLab helps companies hire autonomous navigation engineers
 
-HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, includes an Autonomous Navigation track, and a Unitree Go2 EDU quadruped will be on site alongside robot arms and robot sets. Companies can watch 200 builders, selected from 1,100+ registrations, work on navigation problems for 48 hours. Edition #1 led to 5 hires at sponsor companies. To set a navigation challenge or meet these builders, [partner with HackLab](/for-companies).
+HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, includes an Autonomous Navigation track, and a Unitree Go2 EDU quadruped will be on site alongside robot arms and robot sets. Companies can watch 200 builders, selected from 1,300+ registrations, work on navigation problems for 48 hours. Edition #1 led to 5 hires at sponsor companies. To set a navigation challenge or meet these builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

@@ -44,7 +44,7 @@ Pick the event by who is in the room, not by how many people attend. Use these c
 | Hardware | Is there real hardware on site? | Robotics and embedded roles need physical testing |
 | Sponsor access | Can sponsors set challenges and meet builders in person? | Without access you are only buying visibility |
 
-As an example of a selective format, HackLab's Edition #2 in Berlin is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots. Its four tracks are AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation and Wildcard / Open Source, which map to distinct hiring profiles.
+As an example of a selective format, HackLab's Edition #2 in Berlin is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots. Its four tracks are AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation and Wildcard / Open Source, which map to distinct hiring profiles.
 
 ## What should you do before the event?
 

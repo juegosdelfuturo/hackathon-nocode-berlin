@@ -107,6 +107,6 @@ The biggest distortions come from counting the wrong things or stopping too earl
 
 ## How HackLab helps sponsors measure ROI
 
-HackLab gives sponsors observable inputs for these metrics: pre-selected builders (200 of 1,100+ registrations for Edition #2), working prototypes built in 36–48 hours, and in-person time on the floor. Sponsors can set challenges, provide hardware or credits and meet builders directly, which makes each contact traceable to a project. To plan a sponsorship with a measurable goal, [partner with HackLab](/for-companies).
+HackLab gives sponsors observable inputs for these metrics: pre-selected builders (200 of 1,300+ registrations for Edition #2), working prototypes built in 36–48 hours, and in-person time on the floor. Sponsors can set challenges, provide hardware or credits and meet builders directly, which makes each contact traceable to a project. To plan a sponsorship with a measurable goal, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

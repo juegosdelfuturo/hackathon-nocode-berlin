@@ -11,7 +11,7 @@ names of participants, company names of hires, salaries, percentages, or process
   by watching them build real prototypes under time pressure.
 - Approved size claim (use this framing; never "the largest", "#1", "top", "the best" or "number one"):
   "HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe:
-  1,100+ registrations for 200 spots (Edition #2)". Also allowed: "one of the leading AI × robotics hackathons in Europe".
+  1,300+ registrations for 200 spots (Edition #2)". Also allowed: "one of the leading AI × robotics hackathons in Europe".
 - Always write about HackLab in the third person ("HackLab Robotics organises…"), never "we"/"our".
 - Across its events HackLab has reached 1,500+ people (source: HackLab sponsor deck).
 
@@ -27,9 +27,9 @@ names of participants, company names of hires, salaries, percentages, or process
   university researchers.
 
 ## Edition #2 — AI × Robotics Hackathon II
-- Dates: 21–22 November 2026 (confirmed on Luma). Format: 48 hours (owner-confirmed). Venue: CIC Berlin, Lohmühlenstraße 65, Berlin. Format: 48 hours.
+- Dates and times (from Luma, 23 Nov 2026): Sat 21 November 2026, 09:00 – Sun 22 November 2026, 19:00 (CET, Europe/Berlin). Venue: CIC Berlin, Lohmühlenstraße 65, Berlin. Do not call it a 48-hour event.
 - Organised in collaboration with BRISA. Say only "in collaboration with BRISA": no link, no description of BRISA.
-- 1,100+ registrations (Luma); 200 builders selected. Applications are closed.
+- 1,300+ registrations (Luma); 200 builders selected. Applications are closed.
 - €10,000+ in prizes (cash, hardware and more); free credits from every technology partner.
 - Hardware on site: robot arms, robot sets and a Unitree Go2 EDU quadruped.
 - Tracks: (1) AI Infrastructure, (2) Industrial Robotics Simulation, (3) Autonomous Navigation,
@@ -40,7 +40,7 @@ names of participants, company names of hires, salaries, percentages, or process
 
 ## Value for companies (only these claims)
 - Companies see candidates build working prototypes in 36–48 hours instead of reading CVs.
-- Participants are pre-selected (Ed. #1: 130 of 600+; Ed. #2: 200 of 1,100+).
+- Participants are pre-selected (Ed. #1: 130 of 600+; Ed. #2: 200 of 1,300+).
 - Edition #1 produced 5 hires at sponsor companies.
 - Sponsors can set challenges, provide hardware or credits, and meet builders in person.
 

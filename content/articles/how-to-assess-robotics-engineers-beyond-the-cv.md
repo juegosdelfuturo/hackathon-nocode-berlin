@@ -99,6 +99,6 @@ A hackathon is the better option when you want to see many candidates build over
 
 ## How HackLab helps companies assess robotics engineers beyond the CV
 
-HackLab runs AI × robotics hackathons in Berlin where companies see candidates build working prototypes in 36 to 48 hours instead of reading CVs. Participants are pre-selected: 130 builders from 600+ applications at Edition #1, and 200 from 1,100+ registrations at Edition #2. After Edition #1, 5 participants were hired by sponsor companies. [Partner with HackLab](/for-companies) to assess builders on real work.
+HackLab runs AI × robotics hackathons in Berlin where companies see candidates build working prototypes in 36 to 48 hours instead of reading CVs. Participants are pre-selected: 130 builders from 600+ applications at Edition #1, and 200 from 1,300+ registrations at Edition #2. After Edition #1, 5 participants were hired by sponsor companies. [Partner with HackLab](/for-companies) to assess builders on real work.
 
 *Last updated: 11 November 2026.*

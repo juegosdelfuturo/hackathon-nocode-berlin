@@ -124,6 +124,6 @@ Quadruped projects reveal whether a candidate can integrate across the stack und
 
 ## How HackLab helps companies hire engineers who build on quadrupeds
 
-HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, will have a Unitree Go2 EDU quadruped on site alongside robot arms and robot sets, with an Autonomous Navigation track among its four tracks. Companies can watch 200 builders, selected from 1,100+ registrations, work with this hardware for 48 hours; details are in [HackLab Edition #2](/articles/hacklab-edition-2-november-2026). Sponsors can also provide their own hardware, as covered in [providing hardware to a robotics hackathon](/articles/providing-hardware-to-a-robotics-hackathon). To set a quadruped challenge, [partner with HackLab](/for-companies).
+HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, will have a Unitree Go2 EDU quadruped on site alongside robot arms and robot sets, with an Autonomous Navigation track among its four tracks. Companies can watch 200 builders, selected from 1,300+ registrations, work with this hardware for 48 hours; details are in [HackLab Edition #2](/articles/hacklab-edition-2-november-2026). Sponsors can also provide their own hardware, as covered in [providing hardware to a robotics hackathon](/articles/providing-hardware-to-a-robotics-hackathon). To set a quadruped challenge, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

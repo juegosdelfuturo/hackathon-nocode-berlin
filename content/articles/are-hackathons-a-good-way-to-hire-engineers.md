@@ -122,6 +122,6 @@ Then add the non-hiring returns, such as tool adoption, separately. A full metho
 
 ## How HackLab helps companies hire engineers through hackathons
 
-HackLab's hackathons address one of the limits above with selection: Edition #1 chose 130 builders from 600+ applications, and Edition #2 chose 200 from 1,100+ registrations. That gives companies a reviewed pool of robotics, AI and ML builders before the first hour of building. If you want to test the channel, [partner with HackLab](/for-companies).
+HackLab's hackathons address one of the limits above with selection: Edition #1 chose 130 builders from 600+ applications, and Edition #2 chose 200 from 1,300+ registrations. That gives companies a reviewed pool of robotics, AI and ML builders before the first hour of building. If you want to test the channel, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

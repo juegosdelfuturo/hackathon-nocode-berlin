@@ -42,7 +42,7 @@ Join recurring technical communities, because trust built over several months pr
 
 - **Local data and machine learning events.** Evening talks and workshops on applied machine learning run regularly across Berlin. Hosting an evening or giving a technical talk puts your team in front of practitioners.
 - **Open-source and research reading groups.** Small groups around topics such as robot learning or LLM engineering attract specialists, often from university labs.
-- **Hands-on AI hackathons.** Selective hackathons show how engineers build under time pressure. HackLab Robotics' Edition #2 drew 1,100+ registrations for 200 spots. For the city's wider research and company landscape, see [Berlin's AI and robotics community](/articles/berlin-ai-and-robotics-community).
+- **Hands-on AI hackathons.** Selective hackathons show how engineers build under time pressure. HackLab Robotics' Edition #2 drew 1,300+ registrations for 200 spots. For the city's wider research and company landscape, see [Berlin's AI and robotics community](/articles/berlin-ai-and-robotics-community).
 
 When judging any community, check three things: how often it meets, whether the content is technical or promotional, and whether engineers, not only recruiters, attend.
 
@@ -103,6 +103,6 @@ Generic messages with a list of frameworks are easy to ignore.
 
 ## How HackLab helps companies find ML engineers in Berlin
 
-HackLab Robotics runs AI × robotics hackathons in Berlin. Edition #1 brought together people with machine-learning backgrounds, robotics professionals, master's students and university researchers. Edition #1 was supported by sponsors including Hugging Face, Mistral AI and n8n, and Edition #2, with 1,100+ registrations for 200 spots, includes an AI Infrastructure track. Companies see ML builders work on real prototypes over 36 to 48 hours. [Partner with HackLab](/for-companies) to meet them in person.
+HackLab Robotics runs AI × robotics hackathons in Berlin. Edition #1 brought together people with machine-learning backgrounds, robotics professionals, master's students and university researchers. Edition #1 was supported by sponsors including Hugging Face, Mistral AI and n8n, and Edition #2, with 1,300+ registrations for 200 spots, includes an AI Infrastructure track. Companies see ML builders work on real prototypes over 36 to 48 hours. [Partner with HackLab](/for-companies) to meet them in person.
 
 *Last updated: 11 November 2026.*

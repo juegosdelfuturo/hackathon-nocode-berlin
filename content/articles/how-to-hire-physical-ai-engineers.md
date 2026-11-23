@@ -13,7 +13,7 @@ faq:
   - q: "What skills should a physical AI engineer have?"
     a: "Depending on the role: training policies with imitation or reinforcement learning, working in simulators such as MuJoCo or Isaac Sim, collecting robot datasets, deploying models on real hardware, and debugging the gap between simulation and the real robot."
   - q: "Where can I find embodied AI engineers?"
-    a: "In robot learning research groups, open-source robotics communities such as Hugging Face's LeRobot, robotics startups and hands-on physical AI hackathons. HackLab's Edition #2 in Berlin drew 1,100+ registrations for 200 spots."
+    a: "In robot learning research groups, open-source robotics communities such as Hugging Face's LeRobot, robotics startups and hands-on physical AI hackathons. HackLab's Edition #2 in Berlin drew 1,300+ registrations for 200 spots."
   - q: "How do I test a physical AI candidate?"
     a: "Give them a task that crosses from model to robot: train or fine-tune a policy on an existing dataset, evaluate it in simulation, and explain what would break on real hardware. Watching them build on real robots at a hackathon shows the same skills under time pressure."
 sources:
@@ -88,6 +88,6 @@ HackLab's Edition #2 provides robot arms, robot sets and a Unitree Go2 EDU quadr
 
 ## How HackLab helps companies hire physical AI engineers
 
-HackLab runs physical AI hackathons in Berlin where companies watch pre-selected builders train, simulate and deploy on real robots. Edition #2 is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots, 48 hours of building and €10,000+ in prizes. Sponsors can set challenges, provide hardware or credits, and meet builders in person. [Partner with HackLab](/for-companies) to meet physical AI engineers while they build.
+HackLab runs physical AI hackathons in Berlin where companies watch pre-selected builders train, simulate and deploy on real robots. Edition #2 is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots, 48 hours of building and €10,000+ in prizes. Sponsors can set challenges, provide hardware or credits, and meet builders in person. [Partner with HackLab](/for-companies) to meet physical AI engineers while they build.
 
 *Last updated: 11 November 2026.*

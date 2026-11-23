@@ -100,7 +100,7 @@ At HackLab Robotics' Edition #1, attendees included robotics students, robotics 
 
 ## How HackLab Robotics helps ML engineers build on real robots
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe (1,100+ registrations for 200 spots). Its events at CIC Berlin give pre-selected builders real hardware, defined tracks and free credits from every technology partner, and after Edition #1, 5 participants were hired by sponsor companies. Edition #2 takes place on 21–22 November 2026, in collaboration with BRISA, and its applications are closed. Event details are on the [Edition #2 page](https://luma.com/h0mcaqio); to hear about future editions, follow HackLab Robotics.
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe (1,300+ registrations for 200 spots). Its events at CIC Berlin give pre-selected builders real hardware, defined tracks and free credits from every technology partner, and after Edition #1, 5 participants were hired by sponsor companies. Edition #2 takes place on 21–22 November 2026, in collaboration with BRISA, and its applications are closed. Event details are on the [Edition #2 page](https://luma.com/h0mcaqio); to hear about future editions, follow HackLab Robotics.
 
 Companies that want to meet ML engineers building on robots can [partner with HackLab](/for-companies).
 

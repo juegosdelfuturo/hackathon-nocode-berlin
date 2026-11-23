@@ -9,16 +9,16 @@ tags: ["AI hackathons", "Berlin", "hackathon size", "hackathon metrics", "tech r
 related: [hacklab-edition-1-results-june-2026, hacklab-edition-2-november-2026, robotics-hackathons-in-berlin]
 faq:
   - q: "Which AI hackathons in Berlin are biggest?"
-    a: "Size depends on the metric, so compare registrations, selected spots and outcomes separately. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: its Edition #2, which takes place at CIC Berlin on 21–22 November 2026, has drawn 1,100+ registrations for 200 spots."
+    a: "Size depends on the metric, so compare registrations, selected spots and outcomes separately. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: its Edition #2, which takes place at CIC Berlin on 21–22 November 2026, has drawn 1,300+ registrations for 200 spots."
   - q: "How should hackathon size be measured?"
     a: "By more than one number. Registrations or applications measure demand, selected spots measure who is in the room, demoed solutions measure output, and hires measure outcomes. A single headline figure rarely tells you which of these it is."
   - q: "How many people apply to HackLab Robotics' hackathons?"
-    a: "Edition #1 (June 2026) received 600+ applications and selected 130 builders. Edition #2 (November 2026) received 1,100+ registrations on Luma and selected 200 builders."
+    a: "Edition #1 (June 2026) received 600+ applications and selected 130 builders. Edition #2 (November 2026) received 1,300+ registrations on Luma and selected 200 builders."
   - q: "Does a bigger hackathon lead to more hires?"
     a: "Not by itself. Hiring depends on how many relevant builders a company can watch and meet. HackLab Robotics' Edition #1, with 130 selected builders, led to 5 hires at sponsor companies."
 sources: []
 ---
-**Berlin's biggest AI hackathons cannot be compared on one headline number, because organisers count different things: registrations, applications, selected spots, demos or hires.** HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe. Its Edition #2, which takes place at CIC Berlin on 21–22 November 2026, has drawn 1,100+ registrations for 200 spots. This page explains how to read hackathon size figures and shows HackLab Robotics' full funnel for both editions.
+**Berlin's biggest AI hackathons cannot be compared on one headline number, because organisers count different things: registrations, applications, selected spots, demos or hires.** HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe. Its Edition #2, which takes place at CIC Berlin on 21–22 November 2026, has drawn 1,300+ registrations for 200 spots. This page explains how to read hackathon size figures and shows HackLab Robotics' full funnel for both editions.
 
 It is written for builders deciding where to apply and for companies deciding where to recruit or sponsor. Both need to know what a size figure actually measures before treating it as a reason to choose an event.
 
@@ -46,7 +46,7 @@ HackLab Robotics publishes figures for every stage of Edition #1 and for the sel
 | Name | Berlin Robotics × Agentic AI Hackathon | AI × Robotics Hackathon II |
 | Venue | CIC Berlin | CIC Berlin, in collaboration with BRISA |
 | Format | 36 hours | 48 hours |
-| Demand | 600+ applications | 1,100+ registrations (Luma) |
+| Demand | 600+ applications | 1,300+ registrations (Luma) |
 | Selected builders | 130 | 200 |
 | Teams | About 20 | Not yet held |
 | Solutions demoed | Close to 20, to judges and sponsor companies | Not yet held |
@@ -57,7 +57,7 @@ Across its events, HackLab Robotics has reached 1,500+ people. Full results for 
 
 ## Why are applications and registrations not the same number?
 
-Applications and registrations measure different steps, so the jump from 600+ to 1,100+ is not a like-for-like growth figure. Edition #1 counted applications. Edition #2 counted registrations on Luma.
+Applications and registrations measure different steps, so the jump from 600+ to 1,300+ is not a like-for-like growth figure. Edition #1 counted applications. Edition #2 counted registrations on Luma.
 
 The like-for-like figures show the growth more precisely:
 
@@ -86,7 +86,7 @@ For companies, the most useful numbers are selected builders and hires. Registra
 | Hire robotics, AI or ML engineers | Hires after the last edition | 5 at sponsor companies (Edition #1) |
 | Meet many candidates in person | Selected builders | 200 (Edition #2) |
 | See working output | Solutions demoed | Close to 20 (Edition #1) |
-| Brand reach among builders | Registrations and total reach | 1,100+ registrations (Edition #2); 1,500+ reached across events |
+| Brand reach among builders | Registrations and total reach | 1,300+ registrations (Edition #2); 1,500+ reached across events |
 
 Companies see candidates build working prototypes in 36–48 hours instead of reading CVs. Whether hackathons fit a hiring plan at all is covered in [are hackathons a good way to hire engineers](/articles/are-hackathons-a-good-way-to-hire-engineers).
 
@@ -102,6 +102,6 @@ Ask the organiser to label each figure and to give the full funnel. Clear answer
 
 ## How HackLab Robotics helps companies and builders in Berlin
 
-HackLab Robotics turns 1,100+ registrations into 200 selected robotics, AI and ML builders who build real prototypes for 48 hours at CIC Berlin. Sponsors can set challenges, provide hardware or credits, and meet builders in person; to do that, [partner with HackLab](/for-companies). Builders can follow HackLab Robotics for news of future editions.
+HackLab Robotics turns 1,300+ registrations into 200 selected robotics, AI and ML builders who build real prototypes for 48 hours at CIC Berlin. Sponsors can set challenges, provide hardware or credits, and meet builders in person; to do that, [partner with HackLab](/for-companies). Builders can follow HackLab Robotics for news of future editions.
 
 *Last updated: 11 November 2026.*

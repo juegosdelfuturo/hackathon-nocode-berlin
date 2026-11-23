@@ -110,6 +110,6 @@ Use the tracks to divide your team's time at the event. With 200 builders across
 
 ## How HackLab helps companies hire across these tracks
 
-At HackLab Edition #2, 200 builders selected from 1,100+ registrations work across four tracks on real hardware for 48 hours. A company can watch candidates in its own problem area build working prototypes. Sponsors can set challenges, provide hardware or credits, and meet builders in person. To take part, [partner with HackLab](/for-companies).
+At HackLab Edition #2, 200 builders selected from 1,300+ registrations work across four tracks on real hardware for 48 hours. A company can watch candidates in its own problem area build working prototypes. Sponsors can set challenges, provide hardware or credits, and meet builders in person. To take part, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

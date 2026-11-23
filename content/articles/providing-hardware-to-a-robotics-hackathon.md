@@ -119,7 +119,7 @@ Plan collection, inspection and the next step for each unit before the event sta
 
 ## How HackLab helps hardware sponsors
 
-HackLab runs AI × robotics hackathons in Berlin where sponsors can provide hardware to pre-selected builders: 200 selected from 1,100+ registrations for Edition #2. On-site hardware at Edition #2 includes robot arms, robot sets and a Unitree Go2 EDU quadruped, and teams build for 48 hours.
+HackLab runs AI × robotics hackathons in Berlin where sponsors can provide hardware to pre-selected builders: 200 selected from 1,300+ registrations for Edition #2. On-site hardware at Edition #2 includes robot arms, robot sets and a Unitree Go2 EDU quadruped, and teams build for 48 hours.
 
 To discuss bringing your hardware to builders, [partner with HackLab](/for-companies). For more on quadrupeds, read [Unitree Go2 for developers](/articles/quadruped-robots-for-developers-unitree-go2).
 

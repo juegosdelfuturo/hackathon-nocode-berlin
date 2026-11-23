@@ -84,11 +84,11 @@ Both HackLab Robotics editions are held at CIC Berlin.
 | Name | Berlin Robotics × Agentic AI Hackathon | AI × Robotics Hackathon II |
 | Dates | 20–21 June 2026 | 21–22 November 2026 |
 | Format | 36 hours of continuous building | 48 hours |
-| Demand | 600+ applications | 1,100+ registrations (Luma) |
+| Demand | 600+ applications | 1,300+ registrations (Luma) |
 | Builders selected | 130 | 200 |
 | Outcome / prizes | 5 participants hired by sponsors | €10,000+ in prizes |
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots (Edition #2).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots (Edition #2).
 
 At Edition #1, about 20 teams built for 36 hours, and close to 20 final solutions were demoed to judges and sponsor companies. The event had 14 sponsor companies, including Hugging Face, n8n, Lovable, Mistral AI and Red Bull.
 

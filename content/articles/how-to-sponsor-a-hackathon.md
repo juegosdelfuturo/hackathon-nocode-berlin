@@ -112,7 +112,7 @@ A sponsor timeline has four phases, and the weekend itself is only one of them. 
 
 ## How HackLab helps companies sponsor a hackathon
 
-HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders make working prototypes in 36–48 hours. Edition #1 selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies afterwards; Edition #2 drew 1,100+ registrations for 200 spots.
+HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders make working prototypes in 36–48 hours. Edition #1 selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies afterwards; Edition #2 drew 1,300+ registrations for 200 spots.
 
 Sponsors can set challenges, provide hardware or credits and meet builders in person. To discuss what fits your goal, [partner with HackLab](/for-companies).
 

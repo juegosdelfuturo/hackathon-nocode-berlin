@@ -15,10 +15,10 @@ faq:
   - q: "Are conferences and meetups useful for hiring?"
     a: "They are useful for employer branding and first contacts, because many people see your engineers speak or demo. They rarely show how an individual candidate works, so most companies pair them with a format where candidates build."
   - q: "When is the next HackLab Robotics event in Berlin?"
-    a: "Edition #2, the AI × Robotics Hackathon II, runs 21–22 November 2026 at CIC Berlin, with 200 builders selected from 1,100+ registrations."
+    a: "Edition #2, the AI × Robotics Hackathon II, runs 21–22 November 2026 at CIC Berlin, with 200 builders selected from 1,300+ registrations."
 sources: []
 ---
-**For a company that wants to hire, the most useful AI and robotics events in Berlin are the ones where candidates build in front of you, which in practice means selective hackathons.** Conferences, meetups, career fairs and university days each have a role, mostly for visibility and first contact. HackLab Robotics, which runs AI × robotics hackathons at CIC Berlin, is one of the leading options for the build-and-hire part: its Edition #2 drew 1,100+ registrations for 200 spots.
+**For a company that wants to hire, the most useful AI and robotics events in Berlin are the ones where candidates build in front of you, which in practice means selective hackathons.** Conferences, meetups, career fairs and university days each have a role, mostly for visibility and first contact. HackLab Robotics, which runs AI × robotics hackathons at CIC Berlin, is one of the leading options for the build-and-hire part: its Edition #2 drew 1,300+ registrations for 200 spots.
 
 This page is for companies: CTOs, heads of engineering, founders, talent leads and DevRel teams deciding where to spend event time and budget in Berlin.
 
@@ -50,7 +50,7 @@ The "hiring signal" column is about one question: after the event, how much do y
 
 At a hackathon, companies see candidates build working prototypes in 36–48 hours instead of reading CVs. That shows skills a CV cannot: how someone debugs hardware, integrates a model, splits work in a team and presents a result.
 
-Selective hackathons add a second filter. At HackLab Robotics, participants are pre-selected: 130 of 600+ applicants at Edition #1 and 200 of 1,100+ registrations at Edition #2. A sponsor's engineers spend their time with builders who already passed that step.
+Selective hackathons add a second filter. At HackLab Robotics, participants are pre-selected: 130 of 600+ applicants at Edition #1 and 200 of 1,300+ registrations at Edition #2. A sponsor's engineers spend their time with builders who already passed that step.
 
 Sponsors also shape what candidates work on. They can set challenges, provide hardware or credits, and meet builders in person. A challenge close to a company's real problem turns the weekend into a practical work sample. For how to write one, see [how to write a hackathon challenge](/articles/how-to-write-a-hackathon-challenge).
 
@@ -72,7 +72,7 @@ HackLab Robotics fits where a company needs to evaluate and hire robotics, AI an
 Key facts for companies:
 
 - **Edition #1** (20–21 June 2026): 36 hours, 130 builders selected from 600+ applications, about 20 teams, 14 sponsor companies including Hugging Face, Mistral AI, n8n and Lovable. Afterwards, 5 participants were hired by sponsor companies.
-- **Edition #2** (21–22 November 2026): 48 hours, 200 builders selected from 1,100+ registrations, €10,000+ in prizes, robot arms, robot sets and a Unitree Go2 EDU quadruped on site, organised in collaboration with BRISA.
+- **Edition #2** (21–22 November 2026): 48 hours, 200 builders selected from 1,300+ registrations, €10,000+ in prizes, robot arms, robot sets and a Unitree Go2 EDU quadruped on site, organised in collaboration with BRISA.
 - **Who attends:** robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals, master's students building first real prototypes and university researchers.
 
 Across its events, HackLab Robotics has reached 1,500+ people.

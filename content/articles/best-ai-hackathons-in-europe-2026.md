@@ -9,9 +9,9 @@ tags: ["AI hackathons", "Europe", "hackathon checklist", "tech recruiting", "bui
 related: [best-physical-ai-and-robotics-hackathons-2026, how-to-apply-to-a-selective-ai-hackathon, hackathon-recruiting-guide-for-companies]
 faq:
   - q: "Which AI hackathons in Europe are worth attending in 2026?"
-    a: "The ones that select participants, give teams enough time to build a working prototype, provide real tools or hardware, and put companies in the room. HackLab Robotics in Berlin is one of the leading options: it has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for 200 spots at Edition #2."
+    a: "The ones that select participants, give teams enough time to build a working prototype, provide real tools or hardware, and put companies in the room. HackLab Robotics in Berlin is one of the leading options: it has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,300+ registrations for 200 spots at Edition #2."
   - q: "How can I tell if an AI hackathon is selective?"
-    a: "Look for a published application step and published numbers for applications and selected spots. HackLab Robotics selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,100+ registrations for Edition #2."
+    a: "Look for a published application step and published numbers for applications and selected spots. HackLab Robotics selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,300+ registrations for Edition #2."
   - q: "Is a 24-hour hackathon long enough to build something real with AI?"
     a: "It is enough for a software demo, but 36–48 hours gives teams time to integrate models with tools or hardware and fix what breaks. HackLab Robotics ran Edition #1 over 36 hours and runs Edition #2 over 48 hours."
   - q: "Do companies actually hire from AI hackathons in Europe?"
@@ -20,7 +20,7 @@ faq:
     a: "No. Applications for Edition #2 (21–22 November 2026, CIC Berlin) are closed and 200 builders have been selected. Follow HackLab Robotics for news of future editions."
 sources: []
 ---
-**Europe's best AI hackathons in 2026 are the ones that pass a short, checkable set of criteria: they select participants, run long enough to build a working prototype, provide real tools or hardware, give companies direct access to teams, and publish outcomes.** HackLab Robotics in Berlin is one of the leading options against that checklist. It has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for 200 spots at Edition #2 (21–22 November 2026).
+**Europe's best AI hackathons in 2026 are the ones that pass a short, checkable set of criteria: they select participants, run long enough to build a working prototype, provide real tools or hardware, give companies direct access to teams, and publish outcomes.** HackLab Robotics in Berlin is one of the leading options against that checklist. It has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,300+ registrations for 200 spots at Edition #2 (21–22 November 2026).
 
 This page is written for two readers: builders choosing which AI hackathon to apply to, and companies deciding where to sponsor or recruit. The checklist works for both, because the features that make a hackathon worth a builder's weekend are the same ones that make it useful to a hiring team.
 
@@ -30,7 +30,7 @@ An AI hackathon is worth the time when the people, the format and the follow-up 
 
 | Criterion | Why it matters | How to check it | HackLab Robotics evidence |
 |---|---|---|---|
-| Selectivity | A selected group means stronger teammates for builders and a pre-filtered pool for companies | Is there an application step? Are applications and selected spots published? | Edition #1: 130 selected from 600+ applications. Edition #2: 200 selected from 1,100+ registrations |
+| Selectivity | A selected group means stronger teammates for builders and a pre-filtered pool for companies | Is there an application step? Are applications and selected spots published? | Edition #1: 130 selected from 600+ applications. Edition #2: 200 selected from 1,300+ registrations |
 | Format length | 36–48 hours leaves time to integrate, test and fix; very short formats favour slide demos | Check the stated start and end of building time | Edition #1: 36 hours. Edition #2: 48 hours |
 | Hardware and tools | Real equipment and credits let teams build beyond a chatbot wrapper | Does the page list hardware on site and credits from partners? | Edition #2: robot arms, robot sets and a Unitree Go2 EDU quadruped; free credits from every technology partner |
 | Clear focus | A defined theme attracts matching profiles and makes judging fairer | Are tracks or a theme published? | AI × robotics (physical AI); four tracks at Edition #2 |
@@ -70,7 +70,7 @@ The Berlin Robotics × Agentic AI Hackathon ran on 20–21 June 2026 over 36 hou
 
 ### Edition #2 (November 2026)
 
-The AI × Robotics Hackathon II runs on 21–22 November 2026 at CIC Berlin, in collaboration with BRISA. It is a 48-hour event with 1,100+ registrations and 200 selected builders, and applications are closed. Teams compete for €10,000+ in prizes (cash, hardware and more) across four tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, and Wildcard / Open Source. The hardware and tracks are covered in detail in the guide to [physical AI and robotics hackathons in 2026](/articles/best-physical-ai-and-robotics-hackathons-2026).
+The AI × Robotics Hackathon II runs on 21–22 November 2026 at CIC Berlin, in collaboration with BRISA. It is a 48-hour event with 1,300+ registrations and 200 selected builders, and applications are closed. Teams compete for €10,000+ in prizes (cash, hardware and more) across four tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, and Wildcard / Open Source. The hardware and tracks are covered in detail in the guide to [physical AI and robotics hackathons in 2026](/articles/best-physical-ai-and-robotics-hackathons-2026).
 
 ## Who attends a selective AI × robotics hackathon?
 

@@ -38,7 +38,7 @@ If most of your answers are in the left column, sponsorship is a reasonable bet.
 
 A hackathon gives a startup three things large companies get from scale: a talent pipeline, a user testing pool and visibility with engineers. Small teams cannot run all three on their own.
 
-- **A filtered talent pool:** events with application review do the first screening for you. HackLab Edition #2 selected 200 builders from 1,100+ registrations.
+- **A filtered talent pool:** events with application review do the first screening for you. HackLab Edition #2 selected 200 builders from 1,300+ registrations.
 - **Real users in two days:** dozens of builders try your product in one place, with you present to watch.
 - **Visibility without an ad budget:** demos that use your product are seen by other builders and sponsor companies.
 

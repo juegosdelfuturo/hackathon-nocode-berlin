@@ -15,7 +15,7 @@ faq:
   - q: "How many IT specialists are missing in Germany?"
     a: "Bitkom reported on 3 September 2026 that 79,000 IT specialists are missing in Germany, down from 109,000 in 2025 and 149,000 in 2023. Even so, 78% of companies still see a shortage and 76% expect it to worsen."
   - q: "What is the fastest way to find embodied AI engineers?"
-    a: "Go where they build. Hackathons such as HackLab pre-select builders (200 of 1,100+ registrations for Edition #2) and let companies watch them build robot prototypes before making an offer."
+    a: "Go where they build. Hackathons such as HackLab pre-select builders (200 of 1,300+ registrations for Edition #2) and let companies watch them build robot prototypes before making an offer."
 sources:
   - name: "International Federation of Robotics – Five Million Robots now Operate in Factories Globally"
     url: "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
@@ -102,6 +102,6 @@ Prioritise engineers who have shipped a model onto a machine and can explain wha
 
 ## How HackLab helps companies hire embodied AI talent
 
-HackLab gives companies direct access to a pre-selected pool of robotics, AI and ML builders in Berlin. Edition #2 drew 1,100+ registrations for 200 spots, and Edition #1 led to 5 hires at sponsor companies, as described in [five hires from one hackathon](/articles/five-hires-from-one-hackathon-hacklab-edition-1). Sponsors can set challenges, provide hardware or credits, and meet builders in person while they work. To reach this talent pool, [partner with HackLab](/for-companies).
+HackLab gives companies direct access to a pre-selected pool of robotics, AI and ML builders in Berlin. Edition #2 drew 1,300+ registrations for 200 spots, and Edition #1 led to 5 hires at sponsor companies, as described in [five hires from one hackathon](/articles/five-hires-from-one-hackathon-hacklab-edition-1). Sponsors can set challenges, provide hardware or credits, and meet builders in person while they work. To reach this talent pool, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

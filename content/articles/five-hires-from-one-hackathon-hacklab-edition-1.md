@@ -93,7 +93,7 @@ A company can follow the same path the 5 hires took: be present, watch the work,
 
 One event is enough to show that the channel works, but not enough to set expectations for your own hiring numbers. Treat your first hackathon as a test: record how many builders you scored, contacted and made offers to, and compare that with your other channels.
 
-HackLab's Edition #2 on 21–22 November 2026 runs for 48 hours with 200 builders selected from 1,100+ registrations. Its results are not yet known. A full summary of the first event is in [HackLab Edition #1 results](/articles/hacklab-edition-1-results-june-2026).
+HackLab's Edition #2 on 21–22 November 2026 runs for 48 hours with 200 builders selected from 1,300+ registrations. Its results are not yet known. A full summary of the first event is in [HackLab Edition #1 results](/articles/hacklab-edition-1-results-june-2026).
 
 ## How HackLab helps companies hire from its hackathons
 

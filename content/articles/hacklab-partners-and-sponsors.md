@@ -111,7 +111,7 @@ Sponsors get direct contact with pre-selected builders and a view of how they wo
 - Provide hardware or credits
 - Meet builders in person
 
-Builders are pre-selected: 130 of 600+ at Edition #1 and 200 of 1,100+ at Edition #2. Companies see them build working prototypes in 36–48 hours instead of reading CVs. A wider view of sponsor benefits is in [what do hackathon sponsors get](/articles/what-do-hackathon-sponsors-get). For credit-based sponsorship specifically, see [providing API credits to hackathon teams](/articles/providing-api-credits-to-hackathon-teams).
+Builders are pre-selected: 130 of 600+ at Edition #1 and 200 of 1,300+ at Edition #2. Companies see them build working prototypes in 36–48 hours instead of reading CVs. A wider view of sponsor benefits is in [what do hackathon sponsors get](/articles/what-do-hackathon-sponsors-get). For credit-based sponsorship specifically, see [providing API credits to hackathon teams](/articles/providing-api-credits-to-hackathon-teams).
 
 ## What sponsor details are not covered here?
 
@@ -126,6 +126,6 @@ For these, ask HackLab directly through its for-companies page.
 
 ## How HackLab helps sponsors hire robotics and AI talent
 
-HackLab puts sponsor companies in front of builders who were pre-selected from 600+ and 1,100+ candidates, while they build working prototypes. Sponsors can set challenges, provide hardware or credits, and meet builders in person. Edition #1 ended with 5 hires at sponsor companies. To join a future edition, [partner with HackLab](/for-companies).
+HackLab puts sponsor companies in front of builders who were pre-selected from 600+ and 1,300+ candidates, while they build working prototypes. Sponsors can set challenges, provide hardware or credits, and meet builders in person. Edition #1 ended with 5 hires at sponsor companies. To join a future edition, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

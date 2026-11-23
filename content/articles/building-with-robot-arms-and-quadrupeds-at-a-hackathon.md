@@ -115,6 +115,6 @@ Preparation for hardware events in general is covered in [how to prepare for you
 
 ## How can builders work with this hardware at HackLab?
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: Edition #2 drew 1,100+ registrations for 200 spots, and applications are now closed. The event page is on [Luma](https://luma.com/h0mcaqio); follow HackLab Robotics to hear about future editions. Companies that want to provide robots or set a hardware challenge can [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: Edition #2 drew 1,300+ registrations for 200 spots, and applications are now closed. The event page is on [Luma](https://luma.com/h0mcaqio); follow HackLab Robotics to hear about future editions. Companies that want to provide robots or set a hardware challenge can [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

@@ -1,7 +1,7 @@
 ---
 slug: hacklab-edition-2-november-2026
 title: "HackLab Edition #2 (21–22 November 2026): AI × Robotics Hackathon II at CIC Berlin"
-description: "HackLab Edition #2 runs 21–22 November 2026 at CIC Berlin: 48 hours, 200 builders selected from 1,100+ registrations, four tracks, €10,000+ in prizes."
+description: "HackLab Edition #2 runs 21–22 November 2026 at CIC Berlin: 48 hours, 200 builders selected from 1,300+ registrations, four tracks, €10,000+ in prizes."
 category: HackLab
 date: 2026-11-11
 target_query: "HackLab Edition 2 November 2026"
@@ -11,7 +11,7 @@ faq:
   - q: "When is HackLab Edition #2?"
     a: "HackLab Edition #2, the AI × Robotics Hackathon II, takes place on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, Berlin. It is a 48-hour event."
   - q: "Can I still apply to HackLab Edition #2?"
-    a: "No. Applications are closed. 200 builders were selected from 1,100+ registrations on Luma."
+    a: "No. Applications are closed. 200 builders were selected from 1,300+ registrations on Luma."
   - q: "Who organises HackLab Edition #2?"
     a: "HackLab organises Edition #2 in collaboration with BRISA."
   - q: "What are the prizes at HackLab Edition #2?"
@@ -22,7 +22,7 @@ sources:
   - name: "Luma – ROBOTICS X AI - HACKLAB (HackLab #2) event page"
     url: "https://luma.com/h0mcaqio"
 ---
-**HackLab Edition #2, the AI × Robotics Hackathon II, takes place on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65. It is a 48-hour event, in collaboration with BRISA, for 200 builders selected from 1,100+ registrations.** Applications are closed. Teams build across four tracks for €10,000+ in prizes, using robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
+**HackLab Edition #2, the AI × Robotics Hackathon II, takes place on 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65. It is a 48-hour event, in collaboration with BRISA, for 200 builders selected from 1,300+ registrations.** Applications are closed. Teams build across four tracks for €10,000+ in prizes, using robot arms, robot sets and a Unitree Go2 EDU quadruped on site.
 
 ## What are the key details of HackLab Edition #2?
 
@@ -35,7 +35,7 @@ The essentials fit in one table. The public event page is on [Luma](https://luma
 | Venue | CIC Berlin, Lohmühlenstraße 65, Berlin |
 | Format | 48 hours |
 | In collaboration with | BRISA |
-| Registrations | 1,100+ (Luma) |
+| Registrations | 1,300+ (Luma) |
 | Builders selected | 200 |
 | Application status | Closed |
 | Prizes | €10,000+ (cash, hardware and more) |
@@ -44,7 +44,7 @@ The essentials fit in one table. The public event page is on [Luma](https://luma
 
 ## How competitive was selection for Edition #2?
 
-Selection was competitive: 1,100+ people registered for 200 spots. On that basis, HackLab is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2).
+Selection was competitive: 1,300+ people registered for 200 spots. On that basis, HackLab is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2).
 
 For comparison, Edition #1 accepted 130 builders from 600+ applications. Edition #2 seats 70 more builders and runs 12 hours longer (48 hours instead of 36). The exact selection criteria are not covered here.
 
@@ -94,7 +94,7 @@ Edition #2 is larger and longer. Both editions are held at CIC Berlin.
 | | Edition #1 (June 2026) | Edition #2 (November 2026) |
 |---|---|---|
 | Duration | 36 hours | 48 hours |
-| Demand | 600+ applications | 1,100+ registrations |
+| Demand | 600+ applications | 1,300+ registrations |
 | Selected | 130 | 200 |
 | Tracks | Not stated | 4 tracks |
 | Prizes | Not stated | €10,000+ |
@@ -117,6 +117,6 @@ Applications for builders are closed. Companies that want to work with HackLab, 
 
 ## How HackLab helps companies meet AI and robotics builders
 
-HackLab gives companies two days in the same room as 200 builders who were pre-selected from 1,100+ registrations, watching them build working prototypes on real hardware. Sponsors can set challenges, provide hardware or credits, and meet builders in person. To discuss involvement, [partner with HackLab](/for-companies).
+HackLab gives companies two days in the same room as 200 builders who were pre-selected from 1,300+ registrations, watching them build working prototypes on real hardware. Sponsors can set challenges, provide hardware or credits, and meet builders in person. To discuss involvement, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*
