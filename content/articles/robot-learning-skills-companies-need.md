@@ -115,6 +115,6 @@ Hire first for the method that matches your task, then for data and evaluation d
 
 ## How HackLab helps companies hire robot learning engineers
 
-HackLab hackathons let companies watch robot learning skills under real constraints: builders get hardware, a task and 36 to 48 hours to make a policy work. Edition #2 on 21–22 November 2026 will provide robot arms, robot sets and a Unitree Go2 EDU quadruped to 200 builders selected from 1,100+ registrations. Edition #1 produced 5 hires at sponsor companies. To set a robot learning challenge, [partner with HackLab](/for-companies).
+HackLab hackathons let companies watch robot learning skills under real constraints: builders get hardware, a task and 36 to 48 hours to make a policy work. Edition #2 on 21–22 November 2026 will provide robot arms, robot sets and a Unitree Go2 EDU quadruped to 200 builders selected from 1,300+ registrations. Edition #1 produced 5 hires at sponsor companies. To set a robot learning challenge, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

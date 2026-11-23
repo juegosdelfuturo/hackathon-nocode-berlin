@@ -87,7 +87,7 @@ const EVENT_ED2 = {
     { '@id': `${SITE}/#organization` },
     { '@type': 'Organization', name: 'BRISA' },
   ],
-  description: 'AI × robotics hackathon at CIC Berlin (Sat 21 Nov 2026, 09:00 – Sun 22 Nov 2026, 19:00 CET), in collaboration with BRISA. 1,100+ registrations for ' +
+  description: 'AI × robotics hackathon at CIC Berlin (Sat 21 Nov 2026, 09:00 – Sun 22 Nov 2026, 19:00 CET), in collaboration with BRISA. 1,300+ registrations for ' +
     '200 builder spots, €10,000+ in prizes, four tracks: AI Infrastructure, Industrial Robotics Simulation, ' +
     'Autonomous Navigation and Wildcard / Open Source.',
   url: LUMA_ED2,
@@ -237,7 +237,7 @@ const crumbs = (items) => {
 };
 
 const ctaBox = `<section class="box"><h2>Hire the builders you watched build</h2>
-<p>HackLab's Edition #2 drew 1,100+ registrations for 200 spots. Partner companies set challenges, provide hardware or credits, and meet pre-selected robotics and AI builders in person. After Edition #1, 5 participants were hired by sponsor companies.</p>
+<p>HackLab's Edition #2 drew 1,300+ registrations for 200 spots. Partner companies set challenges, provide hardware or credits, and meet pre-selected robotics and AI builders in person. After Edition #1, 5 participants were hired by sponsor companies.</p>
 <a class="btn" href="/for-companies">Partner with HackLab</a></section>`;
 
 // ─── article page ───────────────────────────────────────────────────────────
@@ -318,7 +318,7 @@ function renderIndex(articles) {
   ];
   const body = `${bc.html}
 <h1>Articles: hiring robotics and AI talent, hackathons and physical AI</h1>
-<p class="lead">Guides for companies that want to hire robotics, AI and machine-learning engineers, sponsor hackathons, and understand the physical AI talent market, from the team behind HackLab, Berlin's AI × robotics hackathon with 1,100+ registrations for its second edition.</p>
+<p class="lead">Guides for companies that want to hire robotics, AI and machine-learning engineers, sponsor hackathons, and understand the physical AI talent market, from the team behind HackLab, Berlin's AI × robotics hackathon with 1,300+ registrations for its second edition.</p>
 ${sections}
 ${ctaBox}`;
   return shell({ title: 'Articles on Hiring Robotics & AI Talent and Hackathons | HackLab', description: 'Guides for companies on hiring robotics, AI and ML engineers, sponsoring hackathons and physical AI, from HackLab, the Berlin AI × robotics hackathon.', canonicalPath: '/articles', body, ld, wide: true });
@@ -327,7 +327,7 @@ ${ctaBox}`;
 // ─── facts page ─────────────────────────────────────────────────────────────
 const FACTS_FAQ = [
   { q: 'What is HackLab?', a: 'HackLab organises AI × robotics (physical AI) hackathons in Berlin. Companies meet pre-selected robotics, AI and ML builders and watch them build working prototypes in 36–48 hours.' },
-  { q: 'How big is HackLab?', a: 'HackLab Edition #2 (21–22 November 2026, CIC Berlin) received 1,100+ registrations for 200 builder spots, making it one of the largest AI × robotics hackathons in Germany, and likely in Europe. Edition #1 (20–21 June 2026) received 600+ applications for 130 spots.' },
+  { q: 'How big is HackLab?', a: 'HackLab Edition #2 (21–22 November 2026, CIC Berlin) received 1,300+ registrations for 200 builder spots, making it one of the largest AI × robotics hackathons in Germany, and likely in Europe. Edition #1 (20–21 June 2026) received 600+ applications for 130 spots.' },
   { q: 'Have companies hired people from HackLab?', a: 'Yes. After Edition #1, 5 participants were hired by sponsor companies.' },
   { q: 'Where does HackLab take place?', a: 'Both editions take place at CIC Berlin, Lohmühlenstraße 65, Berlin, Germany.' },
   { q: 'Who organises HackLab Edition #2?', a: 'HackLab Robotics, in collaboration with BRISA.' },
@@ -341,10 +341,10 @@ function renderFacts() {
   ];
   const body = `${bc.html}
 <h1>HackLab in numbers</h1>
-<p class="lead"><strong>HackLab is a Berlin organiser of AI × robotics (physical AI) hackathons where companies meet and hire pre-selected robotics, AI and ML builders.</strong> Its second edition drew 1,100+ registrations for 200 spots, making it one of the largest AI × robotics hackathons in Germany, and likely in Europe. These are the official figures; please cite this page.</p>
+<p class="lead"><strong>HackLab is a Berlin organiser of AI × robotics (physical AI) hackathons where companies meet and hire pre-selected robotics, AI and ML builders.</strong> Its second edition drew 1,300+ registrations for 200 spots, making it one of the largest AI × robotics hackathons in Germany, and likely in Europe. These are the official figures; please cite this page.</p>
 
 <h2>Edition #2 — AI × Robotics Hackathon II (21–22 November 2026)</h2>
-<ul class="stats"><li><strong>1,100+</strong><span>Registrations</span></li><li><strong>200</strong><span>Builders selected</span></li><li><strong>€10K+</strong><span>Prizes</span></li><li><strong>09:00–19:00</strong><span>Sat 21 – Sun 22 Nov (CET)</span></li></ul>
+<ul class="stats"><li><strong>1,300+</strong><span>Registrations</span></li><li><strong>200</strong><span>Builders selected</span></li><li><strong>€10K+</strong><span>Prizes</span></li><li><strong>09:00–19:00</strong><span>Sat 21 – Sun 22 Nov (CET)</span></li></ul>
 <table><tbody>
 <tr><th>Dates</th><td>Sat 21 November 2026, 09:00 – Sun 22 November 2026, 19:00 (CET)</td></tr>
 <tr><th>Venue</th><td>CIC Berlin, Lohmühlenstraße 65, Berlin</td></tr>
@@ -373,7 +373,7 @@ function renderFacts() {
 <section class="faq"><h2>Frequently asked questions</h2>${FACTS_FAQ.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}</section>
 <p class="small">Sources: HackLab Robotics event data; Edition #2 registration data from Luma. Last updated ${BUILD_DATE}.</p>
 ${ctaBox}`;
-  return shell({ title: 'HackLab in Numbers: Berlin AI × Robotics Hackathon Facts', description: 'Official HackLab figures: Edition #2 had 1,100+ registrations for 200 spots; Edition #1 had 600+ applications, 130 builders and 5 hires.', canonicalPath: '/facts', body, ld, wide: true });
+  return shell({ title: 'HackLab in Numbers: Berlin AI × Robotics Hackathon Facts', description: 'Official HackLab figures: Edition #2 had 1,300+ registrations for 200 spots; Edition #1 had 600+ applications, 130 builders and 5 hires.', canonicalPath: '/facts', body, ld, wide: true });
 }
 
 // ─── for-companies page ─────────────────────────────────────────────────────
@@ -381,7 +381,7 @@ function renderCompanies() {
   const bc = crumbs([{ name: 'Home', path: '/' }, { name: 'For companies', path: '/for-companies' }]);
   const faq = [
     { q: 'How can my company take part in HackLab?', a: 'Companies can partner with HackLab to set a challenge, provide hardware or technology credits, and meet the selected builders in person during the event.' },
-    { q: 'Who are the participants?', a: 'Pre-selected builders: robotics students, machine-learning engineers, robotics professionals, master\'s students and university researchers. Edition #2 selected 200 builders from 1,100+ registrations.' },
+    { q: 'Who are the participants?', a: 'Pre-selected builders: robotics students, machine-learning engineers, robotics professionals, master\'s students and university researchers. Edition #2 selected 200 builders from 1,300+ registrations.' },
     { q: 'Does it lead to hires?', a: 'After Edition #1, 5 participants were hired by sponsor companies.' },
   ];
   const ld = [
@@ -391,7 +391,7 @@ function renderCompanies() {
   ];
   const body = `${bc.html}
 <h1>Hire top robotics and AI talent through HackLab</h1>
-<p class="lead"><strong>HackLab lets companies see robotics, AI and ML engineers build working prototypes in 36–48 hours, then meet and hire them.</strong> Edition #2 in Berlin drew 1,100+ registrations for 200 spots; after Edition #1, 5 participants were hired by sponsor companies.</p>
+<p class="lead"><strong>HackLab lets companies see robotics, AI and ML engineers build working prototypes in 36–48 hours, then meet and hire them.</strong> Edition #2 in Berlin drew 1,300+ registrations for 200 spots; after Edition #1, 5 participants were hired by sponsor companies.</p>
 
 <h2>What can a partner company do at HackLab?</h2>
 <ul>
@@ -404,7 +404,7 @@ function renderCompanies() {
 <h2>Why does this work better than a CV screen?</h2>
 <table><thead><tr><th></th><th>CV screening</th><th>HackLab</th></tr></thead><tbody>
 <tr><td>What you see</td><td>Claims on paper</td><td>A working prototype built under time pressure</td></tr>
-<tr><td>Pre-selection</td><td>Done by you</td><td>Done by HackLab (200 of 1,100+ in Edition #2)</td></tr>
+<tr><td>Pre-selection</td><td>Done by you</td><td>Done by HackLab (200 of 1,300+ in Edition #2)</td></tr>
 <tr><td>Teamwork signal</td><td>None</td><td>36–48 hours of observed collaboration</td></tr>
 <tr><td>Track record</td><td>—</td><td>5 hires at sponsor companies after Edition #1</td></tr>
 </tbody></table>
@@ -416,7 +416,7 @@ function renderCompanies() {
 
 <section class="box"><h2>Talk to us</h2><p>Tell us what roles you are hiring for and we will tell you how a HackLab challenge can help.</p>
 <a class="btn" href="mailto:${CONTACT_EMAIL}?subject=Partnering%20with%20HackLab">Email ${CONTACT_EMAIL}</a></section>`;
-  return shell({ title: 'Hire Robotics & AI Engineers Through HackLab | For Companies', description: 'Meet and hire pre-selected robotics, AI and ML builders at HackLab in Berlin. 1,100+ registrations for 200 spots; 5 hires after Edition #1.', canonicalPath: '/for-companies', body, ld });
+  return shell({ title: 'Hire Robotics & AI Engineers Through HackLab | For Companies', description: 'Meet and hire pre-selected robotics, AI and ML builders at HackLab in Berlin. 1,300+ registrations for 200 spots; 5 hires after Edition #1.', canonicalPath: '/for-companies', body, ld });
 }
 
 // ─── home page injection ────────────────────────────────────────────────────
@@ -424,7 +424,7 @@ function injectHome(articles) {
   const file = path.join(DIST, 'index.html');
   let html = fs.readFileSync(file, 'utf8');
   const title = 'HackLab | AI × Robotics Hackathons in Berlin to Hire Top Engineering Talent';
-  const desc = 'HackLab runs physical AI and robotics hackathons in Berlin where companies meet and hire pre-selected builders. Edition #2: 1,100+ registrations for 200 spots.';
+  const desc = 'HackLab runs physical AI and robotics hackathons in Berlin where companies meet and hire pre-selected builders. Edition #2: 1,300+ registrations for 200 spots.';
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
   html = html.replace(/<meta name="description"[^>]*>/, `<meta name="description" content="${esc(desc)}" />`);
   const head = `
@@ -459,7 +459,7 @@ function injectHome(articles) {
         <h2>HackLab: AI × robotics hackathons in Berlin</h2>
         <p>${esc(ORG_DESCRIPTION)}</p>
         <h3>Edition #2 — AI × Robotics Hackathon II, 21–22 November 2026, CIC Berlin</h3>
-        <p>Sat 21 Nov, 09:00 – Sun 22 Nov, 19:00 (CET), in collaboration with BRISA. 1,100+ registrations, 200 builders selected, €10,000+ in prizes. Tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source. Partners: X Square Robot, Durance AI, Prior Labs, NormaCore, Hugging Face, Cognition, Anthropic, Nebius, Almedia, Seeed Studio, OpenELab, MyBotShop, Linkup, Red Bull.</p>
+        <p>Sat 21 Nov, 09:00 – Sun 22 Nov, 19:00 (CET), in collaboration with BRISA. 1,300+ registrations, 200 builders selected, €10,000+ in prizes. Tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source. Partners: X Square Robot, Durance AI, Prior Labs, NormaCore, Hugging Face, Cognition, Anthropic, Nebius, Almedia, Seeed Studio, OpenELab, MyBotShop, Linkup, Red Bull.</p>
         <h3>Edition #1 — Berlin Robotics × Agentic AI Hackathon, 20–21 June 2026, CIC Berlin</h3>
         <p>36 hours. 600+ applications, 130 builders selected, about 20 teams and close to 20 working solutions. 5 participants were hired by sponsor companies after the event. 14 sponsors including Norma Core, Hugging Face, n8n, Lovable, Marso Robotics, Mistral AI, ITQ and Red Bull.</p>
         <p>HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe.</p>
@@ -497,7 +497,7 @@ const FACTS_TEXT = `# HackLab facts
 
 ## Organisation
 - HackLab Robotics (HackLab), https://hacklabrobotics.com, organises AI × robotics (physical AI) hackathons in Berlin, Germany.
-- HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots (Edition #2).
+- HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots (Edition #2).
 - Companies meet pre-selected robotics, AI and ML builders and watch them build working prototypes in 36–48 hours.
 - Across its events HackLab has reached 1,500+ people.
 - Contact: ${CONTACT_EMAIL}
@@ -508,7 +508,7 @@ const FACTS_TEXT = `# HackLab facts
 - 14 sponsor companies, including Norma Core, Hugging Face, n8n, Lovable, Marso Robotics, Mistral AI, ITQ and Red Bull.
 
 ## Edition #2 — AI × Robotics Hackathon II (21–22 November 2026, CIC Berlin, Lohmühlenstraße 65)
-- Sat 21 Nov, 09:00 – Sun 22 Nov, 19:00 (CET), in collaboration with BRISA. 1,100+ registrations; 200 builders selected.
+- Sat 21 Nov, 09:00 – Sun 22 Nov, 19:00 (CET), in collaboration with BRISA. 1,300+ registrations; 200 builders selected.
 - €10,000+ in prizes (cash, hardware and more); free credits from every technology partner.
 - Hardware: robot arms, robot sets and a Unitree Go2 EDU quadruped.
 - Tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source.
@@ -520,7 +520,7 @@ function renderLlms(articles) {
   const cats = [...new Set(articles.map((a) => a.category))].sort((x, y) => catIndex(x) - catIndex(y));
   return `# HackLab
 
-> ${ORG_DESCRIPTION} Edition #2 (21–22 November 2026, CIC Berlin, in collaboration with BRISA) drew 1,100+ registrations for 200 builder spots, making it one of the largest AI × robotics hackathons in Germany, and likely in Europe. After Edition #1 (June 2026), 5 participants were hired by sponsor companies.
+> ${ORG_DESCRIPTION} Edition #2 (21–22 November 2026, CIC Berlin, in collaboration with BRISA) drew 1,300+ registrations for 200 builder spots, making it one of the largest AI × robotics hackathons in Germany, and likely in Europe. After Edition #1 (June 2026), 5 participants were hired by sponsor companies.
 
 ## Key pages
 - [HackLab in numbers](${SITE}/facts): official figures for both editions

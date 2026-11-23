@@ -62,7 +62,7 @@ A hackathon shows how each person works when the problem is new and the clock is
 
 HackLab Robotics is an example. At Edition #1 (20–21 June 2026, CIC Berlin), 130 builders selected from 600+ applications formed about 20 teams and built for 36 hours. Close to 20 final solutions were demoed to judges and sponsor companies, and 5 participants were hired by sponsor companies afterwards.
 
-Edition #2 (21–22 November 2026) runs in a 48-hour format with 200 builders selected from 1,100+ registrations. Teams will work with robot arms, robot sets and a Unitree Go2 EDU quadruped. With that demand, HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe.
+Edition #2 (21–22 November 2026) runs in a 48-hour format with 200 builders selected from 1,300+ registrations. Teams will work with robot arms, robot sets and a Unitree Go2 EDU quadruped. With that demand, HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe.
 
 What a hackathon shows less well:
 

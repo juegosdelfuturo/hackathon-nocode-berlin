@@ -137,6 +137,6 @@ HackLab is the hands-on option. Edition #1 (June 2026, CIC Berlin) had 14 sponso
 
 ## How HackLab helps robotics companies in Berlin hire
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for Edition #2, held 21–22 November 2026 at CIC Berlin with 200 pre-selected builders. Companies set challenges, provide hardware or credits, and watch candidates build working prototypes over 48 hours. To meet these builders, [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,300+ registrations for Edition #2, held 21–22 November 2026 at CIC Berlin with 200 pre-selected builders. Companies set challenges, provide hardware or credits, and watch candidates build working prototypes over 48 hours. To meet these builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

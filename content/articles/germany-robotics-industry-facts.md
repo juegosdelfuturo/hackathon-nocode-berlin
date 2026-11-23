@@ -123,6 +123,6 @@ They point to steady demand for integration and automation skills, despite falli
 
 ## How HackLab helps companies hire robotics engineers in Germany
 
-HackLab runs AI × robotics hackathons in Berlin where companies see pre-selected builders create working prototypes in 36–48 hours. Edition #2 (21–22 November 2026) received 1,100+ registrations for 200 places, with tracks in Industrial Robotics Simulation, Autonomous Navigation, AI Infrastructure and Wildcard / Open Source. To meet these builders, [partner with HackLab](/for-companies).
+HackLab runs AI × robotics hackathons in Berlin where companies see pre-selected builders create working prototypes in 36–48 hours. Edition #2 (21–22 November 2026) received 1,300+ registrations for 200 places, with tracks in Industrial Robotics Simulation, Autonomous Navigation, AI Infrastructure and Wildcard / Open Source. To meet these builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

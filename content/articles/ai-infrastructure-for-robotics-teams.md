@@ -116,6 +116,6 @@ Teams that receive cloud or API credits at events can test these skills cheaply;
 
 ## How HackLab helps companies hire AI infrastructure engineers for robotics
 
-AI Infrastructure is the first of four tracks at HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, as explained in [HackLab Edition #2 tracks explained](/articles/hacklab-edition-2-tracks-explained). Builders will receive free credits from every technology partner, and Edition #2 partners and technology providers include Nebius, Anthropic, Hugging Face and Cognition. Teams will work for 48 hours with robot arms, robot sets and a Unitree Go2 EDU on site. The 200 participants were selected from 1,100+ registrations. To set an infrastructure challenge or offer credits, [partner with HackLab](/for-companies).
+AI Infrastructure is the first of four tracks at HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, as explained in [HackLab Edition #2 tracks explained](/articles/hacklab-edition-2-tracks-explained). Builders will receive free credits from every technology partner, and Edition #2 partners and technology providers include Nebius, Anthropic, Hugging Face and Cognition. Teams will work for 48 hours with robot arms, robot sets and a Unitree Go2 EDU on site. The 200 participants were selected from 1,300+ registrations. To set an infrastructure challenge or offer credits, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

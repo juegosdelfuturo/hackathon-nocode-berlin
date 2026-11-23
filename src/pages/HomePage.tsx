@@ -238,7 +238,7 @@ export default function HomePage({
             {/* Stats */}
             <div className="brutal-stat-cell">
               <FileText size={24} className="brutal-icon" />
-              <div className="brutal-stat-val">1,100+</div>
+              <div className="brutal-stat-val">1,300+</div>
               <div className="brutal-stat-label">Registrations</div>
             </div>
             <div className="brutal-stat-cell">

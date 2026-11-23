@@ -13,7 +13,7 @@ faq:
   - q: "What is a robotics hackathon?"
     a: "A robotics hackathon is an intensive event, typically lasting 36 to 48 hours, where teams build physical machines, autonomous systems or embodied AI prototypes on real hardware to solve set challenges."
   - q: "Where can I find a robotics hackathon in Germany?"
-    a: "One of the leading options is HackLab Robotics in Berlin, which has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots at Edition #2. For other events, watch university robotics departments, lab channels and the public channels of robotics companies."
+    a: "One of the leading options is HackLab Robotics in Berlin, which has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots at Edition #2. For other events, watch university robotics departments, lab channels and the public channels of robotics companies."
   - q: "How do I tell if a robotics hackathon is worth applying to?"
     a: "Check whether hardware is provided on site, how long the format is, how selective it is, which companies take part and what happened to past participants. HackLab Robotics' Edition #1, for example, led to 5 participants being hired by sponsor companies."
   - q: "Does Berlin have a hardware startup scene?"
@@ -23,7 +23,7 @@ sources:
     url: "https://businesslocationcenter.de/en/industry/robotik"
 legacy: true
 ---
-<p><strong>Germany has few dedicated robotics hackathons, because physical builds need hardware, space and technical support that most software hackathons do not provide. One of the leading options is HackLab Robotics in Berlin, which has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots (Edition #2).</strong> This guide is written for builders: students, engineers and researchers looking for a robotics or physical AI hackathon. It covers HackLab Robotics' two Berlin editions and how to find and judge other robotics hackathons yourself.</p>
+<p><strong>Germany has few dedicated robotics hackathons, because physical builds need hardware, space and technical support that most software hackathons do not provide. One of the leading options is HackLab Robotics in Berlin, which has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots (Edition #2).</strong> This guide is written for builders: students, engineers and researchers looking for a robotics or physical AI hackathon. It covers HackLab Robotics' two Berlin editions and how to find and judge other robotics hackathons yourself.</p>
 
 <h2>Why are robotics hackathons rare in Germany?</h2>
 
@@ -46,7 +46,7 @@ legacy: true
 <tr><td>Dates</td><td>20–21 June 2026</td><td>21–22 November 2026</td></tr>
 <tr><td>Venue</td><td>CIC Berlin</td><td>CIC Berlin, Lohmühlenstraße 65</td></tr>
 <tr><td>Format</td><td>36 hours of continuous building</td><td>48 hours</td></tr>
-<tr><td>Demand</td><td>600+ applications</td><td>1,100+ registrations</td></tr>
+<tr><td>Demand</td><td>600+ applications</td><td>1,300+ registrations</td></tr>
 <tr><td>Builders selected</td><td>130</td><td>200</td></tr>
 <tr><td>Result / prizes</td><td>Close to 20 solutions demoed; 5 participants hired by sponsors</td><td>€10,000+ in prizes (cash, hardware and more)</td></tr>
 </tbody>
@@ -92,7 +92,7 @@ legacy: true
 <tbody>
 <tr><td>Hardware on site</td><td>Are robots and sensors provided, or must you bring your own?</td><td>Robot arms, robot sets and a Unitree Go2 EDU quadruped (Edition #2)</td></tr>
 <tr><td>Format length</td><td>Is there enough time for hardware to fail and be fixed?</td><td>36 hours (Edition #1), 48 hours (Edition #2)</td></tr>
-<tr><td>Selectivity</td><td>Are participants selected, and from how many applicants?</td><td>130 of 600+ (Edition #1); 200 of 1,100+ (Edition #2)</td></tr>
+<tr><td>Selectivity</td><td>Are participants selected, and from how many applicants?</td><td>130 of 600+ (Edition #1); 200 of 1,300+ (Edition #2)</td></tr>
 <tr><td>Tracks</td><td>Are the challenges clear and relevant to your skills?</td><td>4 tracks, from AI Infrastructure to Autonomous Navigation</td></tr>
 <tr><td>Companies present</td><td>Do sponsor companies build with you and watch the demos?</td><td>14 sponsor companies at Edition #1</td></tr>
 <tr><td>Past outcomes</td><td>Did earlier participants get jobs, projects or contacts?</td><td>5 participants hired by sponsor companies after Edition #1</td></tr>

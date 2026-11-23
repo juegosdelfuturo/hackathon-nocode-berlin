@@ -11,16 +11,16 @@ faq:
   - q: "Are there robotics hackathons in Berlin?"
     a: "Yes. HackLab Robotics organises AI × robotics (physical AI) hackathons at CIC Berlin. Edition #1 ran 20–21 June 2026 and Edition #2 runs 21–22 November 2026."
   - q: "When is the next robotics hackathon in Berlin?"
-    a: "HackLab Robotics' AI × Robotics Hackathon II runs 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, in a 48-hour format. Applications are closed and 200 builders were selected from 1,100+ registrations."
+    a: "HackLab Robotics' AI × Robotics Hackathon II runs 21–22 November 2026 at CIC Berlin, Lohmühlenstraße 65, in a 48-hour format. Applications are closed and 200 builders were selected from 1,300+ registrations."
   - q: "What changed between HackLab Edition #1 and Edition #2?"
-    a: "Edition #2 is longer (48 hours instead of 36), draws more demand (1,100+ registrations instead of 600+ applications), selects more builders (200 instead of 130) and is organised in collaboration with BRISA. Its published details also include four tracks, named hardware on site and €10,000+ in prizes."
+    a: "Edition #2 is longer (48 hours instead of 36), draws more demand (1,300+ registrations instead of 600+ applications), selects more builders (200 instead of 130) and is organised in collaboration with BRISA. Its published details also include four tracks, named hardware on site and €10,000+ in prizes."
   - q: "Can a company take part in a Berlin robotics hackathon?"
     a: "Yes. At HackLab Robotics, sponsor companies can set challenges, provide hardware or credits, and meet builders in person. Edition #1 had 14 sponsor companies, and 5 participants were hired by sponsors afterwards."
   - q: "How do builders hear about the next HackLab Robotics edition?"
     a: "By following HackLab Robotics and checking its event page on Luma. No date or city has been announced for a third edition."
 sources: []
 ---
-**Berlin's dedicated AI × robotics hackathons are organised by HackLab Robotics at CIC Berlin: Edition #1 ran 20–21 June 2026 and Edition #2 runs 21–22 November 2026.** HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations for 200 spots at Edition #2. This page compares the two editions side by side and explains what a robotics hackathon weekend in Berlin looks like, for both builders and companies.
+**Berlin's dedicated AI × robotics hackathons are organised by HackLab Robotics at CIC Berlin: Edition #1 ran 20–21 June 2026 and Edition #2 runs 21–22 November 2026.** HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,300+ registrations for 200 spots at Edition #2. This page compares the two editions side by side and explains what a robotics hackathon weekend in Berlin looks like, for both builders and companies.
 
 ## How do HackLab Edition #1 and Edition #2 compare?
 
@@ -32,7 +32,7 @@ Edition #2 is longer and larger than Edition #1. The table puts the public facts
 | Dates | 20–21 June 2026 | 21–22 November 2026 |
 | Venue | CIC Berlin | CIC Berlin, Lohmühlenstraße 65 |
 | Format | 36 hours of continuous building | 48 hours |
-| Participants | 130 selected from 600+ applications | 200 selected from 1,100+ registrations |
+| Participants | 130 selected from 600+ applications | 200 selected from 1,300+ registrations |
 | Teams and demos | About 20 teams, close to 20 final solutions demoed | Not yet held |
 | Tracks | Not stated | 4: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source |
 | Hardware on site | Not stated | Robot arms, robot sets, a Unitree Go2 EDU quadruped |
@@ -45,7 +45,7 @@ Edition #2 is longer and larger than Edition #1. The table puts the public facts
 Three things changed in the published facts: build time, size and the collaboration with BRISA.
 
 - **Build time:** from 36 hours of continuous building to a 48-hour format. More time means teams can get past setup and integration and spend longer on a working demo.
-- **Size:** demand rose from 600+ applications to 1,100+ registrations, and the number of selected builders rose from 130 to 200.
+- **Size:** demand rose from 600+ applications to 1,300+ registrations, and the number of selected builders rose from 130 to 200.
 - **Collaboration:** Edition #2 is organised in collaboration with BRISA.
 
 Edition #2 also publishes more detail about the build itself. It defines four tracks, explained in [HackLab Edition #2 tracks explained](/articles/hacklab-edition-2-tracks-explained). Robot arms, robot sets and a Unitree Go2 EDU quadruped will be on site, with €10,000+ in prizes and free credits from every technology partner.
@@ -87,7 +87,7 @@ The answer depends on which side of the table you are on.
 
 **For builders:**
 
-- Expect selection. Edition #2 had 1,100+ registrations for 200 spots.
+- Expect selection. Edition #2 had 1,300+ registrations for 200 spots.
 - Expect to build on real hardware, not only in a notebook.
 - Treat the demo as portfolio material. A working robot behaviour is easier to show than a slide.
 

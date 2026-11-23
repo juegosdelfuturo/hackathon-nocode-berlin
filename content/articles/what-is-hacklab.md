@@ -11,7 +11,7 @@ faq:
   - q: "What is HackLab?"
     a: "HackLab (also written HackLab Robotics) is an organiser of AI × robotics, or physical AI, hackathons in Berlin, Germany. Companies use its events to meet and recruit pre-selected robotics, AI and ML builders by watching them build real prototypes under time pressure."
   - q: "How big is HackLab?"
-    a: "HackLab is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people."
+    a: "HackLab is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people."
   - q: "Where does HackLab take place?"
     a: "Both editions are held at CIC Berlin. Edition #2 takes place at CIC Berlin, Lohmühlenstraße 65, Berlin, on 21–22 November 2026."
   - q: "Has anyone been hired through HackLab?"
@@ -22,7 +22,7 @@ sources:
   - name: "CIC – CIC Berlin Innovation Campus"
     url: "https://cic.com/berlin"
 ---
-**HackLab is an organiser of AI × robotics (physical AI) hackathons in Berlin, Germany, where companies meet and recruit pre-selected robotics, AI and ML builders by watching them build real prototypes under time pressure.** It ran Edition #1, a 36-hour event, at CIC Berlin in June 2026, and runs Edition #2, a 48-hour event, there on 21–22 November 2026. It is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2).
+**HackLab is an organiser of AI × robotics (physical AI) hackathons in Berlin, Germany, where companies meet and recruit pre-selected robotics, AI and ML builders by watching them build real prototypes under time pressure.** It ran Edition #1, a 36-hour event, at CIC Berlin in June 2026, and runs Edition #2, a 48-hour event, there on 21–22 November 2026. It is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2).
 
 The name is also written "HackLab Robotics". The website is [hacklabrobotics.com](https://hacklabrobotics.com).
 
@@ -36,7 +36,7 @@ HackLab's two editions are summarised below.
 | Dates | 20–21 June 2026 | 21–22 November 2026 |
 | Venue | CIC Berlin | CIC Berlin, Lohmühlenstraße 65, Berlin |
 | Format | 36 hours of continuous building | 48 hours |
-| Demand | 600+ applications | 1,100+ registrations (Luma) |
+| Demand | 600+ applications | 1,300+ registrations (Luma) |
 | Builders selected | 130 | 200 |
 | Teams / solutions | About 20 teams; close to 20 final solutions demoed | Not yet held |
 | Hires | 5 participants hired by sponsor companies | Not yet held |
@@ -70,7 +70,7 @@ HackLab participants are selected builders with robotics, AI or ML backgrounds. 
 - Master's students building their first real prototypes
 - University researchers
 
-Selection is competitive. Edition #1 accepted 130 builders from 600+ applications after reviewing every application, and Edition #2 accepted 200 from 1,100+ registrations. Profiles are described in more detail in [who attends HackLab](/articles/who-attends-hacklab).
+Selection is competitive. Edition #1 accepted 130 builders from 600+ applications after reviewing every application, and Edition #2 accepted 200 from 1,300+ registrations. Profiles are described in more detail in [who attends HackLab](/articles/who-attends-hacklab).
 
 ## Why do companies work with HackLab?
 
@@ -78,7 +78,7 @@ Companies work with HackLab to see candidates build before they hire. Instead of
 
 What HackLab offers companies:
 
-- **Pre-selected talent.** 130 of 600+ applicants at Edition #1, and 200 of 1,100+ registrants at Edition #2.
+- **Pre-selected talent.** 130 of 600+ applicants at Edition #1, and 200 of 1,300+ registrants at Edition #2.
 - **Evidence of skill.** Working prototypes built under time pressure, demoed to sponsors.
 - **A track record of hires.** Edition #1 led to 5 hires at sponsor companies.
 - **Direct involvement.** Sponsors can set challenges, provide hardware or credits, and meet builders in person.
@@ -97,7 +97,7 @@ Both editions take place at CIC Berlin, an innovation campus at Lohmühlenstraß
 
 HackLab Robotics started with its first edition in June 2026. It drew 600+ applications and ended with 5 hires at sponsor companies.
 
-The second edition is organised in collaboration with BRISA. Edition #2 drew 1,100+ registrations for 200 spots.
+The second edition is organised in collaboration with BRISA. Edition #2 drew 1,300+ registrations for 200 spots.
 
 ## How HackLab helps companies hire robotics and AI talent
 

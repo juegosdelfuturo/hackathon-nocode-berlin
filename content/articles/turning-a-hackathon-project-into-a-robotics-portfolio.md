@@ -119,6 +119,6 @@ If you are still choosing what to build, [building with robot arms and quadruped
 
 ## How can builders build a portfolio project at HackLab?
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: Edition #2 (21–22 November 2026, CIC Berlin) drew 1,100+ registrations for 200 spots, and applications are now closed. The event page is on [Luma](https://luma.com/h0mcaqio); follow HackLab Robotics to hear about future editions. Companies that want to meet builders through their projects can [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: Edition #2 (21–22 November 2026, CIC Berlin) drew 1,300+ registrations for 200 spots, and applications are now closed. The event page is on [Luma](https://luma.com/h0mcaqio); follow HackLab Robotics to hear about future editions. Companies that want to meet builders through their projects can [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

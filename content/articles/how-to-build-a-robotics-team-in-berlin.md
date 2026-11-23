@@ -70,7 +70,7 @@ Sourcing channels to combine:
 
 - **Universities and labs:** TU Berlin, Humboldt-Universität, BHT and Fraunhofer IPK, through thesis projects, student jobs and lab events.
 - **Community events:** Berlin Partner's robotics network meetings and local robotics meetups.
-- **Hackathons:** HackLab's Edition #1 selected 130 builders from 600+ applications; Edition #2 selected 200 from 1,100+ registrations.
+- **Hackathons:** HackLab's Edition #1 selected 130 builders from 600+ applications; Edition #2 selected 200 from 1,300+ registrations.
 - **International hiring:** the EU Blue Card for candidates from outside the EU.
 
 ## How long does hiring from outside the EU take?

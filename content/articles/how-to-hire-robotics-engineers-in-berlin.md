@@ -92,6 +92,6 @@ Yes, if the role allows it, because the roughly 6,000 jobs at Berlin's robotics 
 
 ## How HackLab helps companies hire robotics engineers in Berlin
 
-HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders turn ideas into working robot prototypes. For Edition #1 in June 2026, HackLab selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies after the 36-hour event at CIC Berlin. Edition #2, in collaboration with BRISA, drew 1,100+ registrations for 200 spots. To meet the next cohort of builders, [partner with HackLab](/for-companies).
+HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders turn ideas into working robot prototypes. For Edition #1 in June 2026, HackLab selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies after the 36-hour event at CIC Berlin. Edition #2, in collaboration with BRISA, drew 1,300+ registrations for 200 spots. To meet the next cohort of builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

@@ -112,6 +112,6 @@ Hiring in a strong local hub also helps. The article on [why Berlin works for ro
 
 ## How HackLab helps companies hire despite the talent shortage
 
-HackLab gives companies direct access to pre-selected robotics, AI and ML builders in Berlin. Demand to take part is high: Edition #1 selected 130 builders from 600+ applications, and Edition #2 is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots. After Edition #1, 5 participants were hired by sponsor companies. [Partner with HackLab](/for-companies) to meet builders the job market rarely reaches.
+HackLab gives companies direct access to pre-selected robotics, AI and ML builders in Berlin. Demand to take part is high: Edition #1 selected 130 builders from 600+ applications, and Edition #2 is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots. After Edition #1, 5 participants were hired by sponsor companies. [Partner with HackLab](/for-companies) to meet builders the job market rarely reaches.
 
 *Last updated: 11 November 2026.*

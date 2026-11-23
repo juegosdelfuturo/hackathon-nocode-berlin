@@ -11,7 +11,7 @@ faq:
   - q: "How do I get accepted to a selective AI hackathon?"
     a: "As general good practice: answer every question specifically, link to work you have built, explain what you want to build and why, show how you would help a team, and apply before the deadline. Organisers do not always publish their criteria, so focus on giving clear, checkable evidence."
   - q: "How selective are AI × robotics hackathons?"
-    a: "It varies by event. HackLab Robotics selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,100+ registrations for Edition #2."
+    a: "It varies by event. HackLab Robotics selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,300+ registrations for Edition #2."
   - q: "What are HackLab Robotics' selection criteria?"
     a: "HackLab Robotics does not publish its exact selection criteria. The advice in this guide is general good practice for any selective hackathon, not a description of HackLab's process."
   - q: "Should I link GitHub in a hackathon application?"
@@ -20,7 +20,7 @@ faq:
     a: "No. Applications for Edition #2 are closed. To hear about future editions, follow HackLab Robotics and check luma.com/h0mcaqio."
 sources: []
 ---
-**To get accepted to a selective AI or robotics hackathon, make your application specific and checkable: link to things you have built, state what you want to build at the event, show what you would bring to a team, and apply early.** Selective events usually receive far more applications than places. HackLab Robotics, for example, selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,100+ registrations for Edition #2.
+**To get accepted to a selective AI or robotics hackathon, make your application specific and checkable: link to things you have built, state what you want to build at the event, show what you would bring to a team, and apply early.** Selective events usually receive far more applications than places. HackLab Robotics, for example, selected 130 builders from 600+ applications for Edition #1 and 200 builders from 1,300+ registrations for Edition #2.
 
 This guide is for builders: students, engineers and researchers applying to AI, machine learning or robotics hackathons. HackLab Robotics does not publish its exact selection criteria, so everything below is general good practice for selective events, not a description of any organiser's process.
 
@@ -28,7 +28,7 @@ This guide is for builders: students, engineers and researchers applying to AI, 
 
 Some AI hackathons are selective because demand is higher than the number of places, hardware or mentors available. Robotics events have an extra limit: a fixed number of robots, and every team needs time on them.
 
-The demand can be large. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe (1,100+ registrations for 200 spots). When an event is this oversubscribed, a generic application is easy to pass over.
+The demand can be large. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe (1,300+ registrations for 200 spots). When an event is this oversubscribed, a generic application is easy to pass over.
 
 ## What do organisers of selective hackathons usually want to see?
 

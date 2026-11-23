@@ -5,7 +5,7 @@ The owner changed the rules. These override anything in the existing articles:
    hackathon, competition, meetup, conference, trade fair or event organiser: name, description, link AND its
    entry in `sources:`. Companies, universities, research institutes, government/statistics sources are fine.
 2. Size: "HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in
-   Europe (1,100+ registrations for 200 spots)". Never "the largest", "#1", "top", "the best", "number one".
+   Europe (1,300+ registrations for 200 spots)". Never "the largest", "#1", "top", "the best", "number one".
    HackLab is "one of" the leading options. No ranked lists of events.
 3. Third person ("HackLab Robotics…", first mention), never "we/our".
 4. Nothing a competitor could copy: no funding/"bootstrapped", no "Impact Report", no "reviewed every

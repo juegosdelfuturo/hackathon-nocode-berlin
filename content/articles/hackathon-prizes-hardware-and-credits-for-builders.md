@@ -101,10 +101,10 @@ Compare hackathons on what every participant gets, not only on the size of the p
 | Which companies attend, and do they hire? | Determines the career value of the weekend |
 | What is the prize pool made of? | Cash, hardware and credits have different value to you |
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: Edition #2 drew 1,100+ registrations for 200 spots. Details of the event are in [HackLab Edition #2](/articles/hacklab-edition-2-november-2026).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: Edition #2 drew 1,300+ registrations for 200 spots. Details of the event are in [HackLab Edition #2](/articles/hacklab-edition-2-november-2026).
 
 ## How can builders take part in a HackLab hackathon?
 
-Applications for Edition #2 are closed: 200 builders were selected from 1,100+ registrations. The event page is on [Luma](https://luma.com/h0mcaqio); follow HackLab Robotics to hear about future editions. Companies that want to provide prizes, hardware or credits to builders can [partner with HackLab](/for-companies).
+Applications for Edition #2 are closed: 200 builders were selected from 1,300+ registrations. The event page is on [Luma](https://luma.com/h0mcaqio); follow HackLab Robotics to hear about future editions. Companies that want to provide prizes, hardware or credits to builders can [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

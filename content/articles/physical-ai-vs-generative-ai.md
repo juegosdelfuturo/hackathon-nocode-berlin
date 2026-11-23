@@ -116,6 +116,6 @@ CVs rarely show these skills. Watching someone build does. The guide on [how to 
 
 ## How HackLab helps companies hire physical AI engineers
 
-HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders turn models into working robot prototypes in 36 to 48 hours. Edition #1 selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies afterwards. Edition #2 on 21–22 November 2026 at CIC Berlin will put 200 builders, selected from 1,100+ registrations, on robot arms, robot sets and a Unitree Go2 EDU quadruped. To set a challenge or meet these builders, [partner with HackLab](/for-companies).
+HackLab runs AI × robotics hackathons in Berlin where companies watch pre-selected builders turn models into working robot prototypes in 36 to 48 hours. Edition #1 selected 130 builders from 600+ applications, and 5 participants were hired by sponsor companies afterwards. Edition #2 on 21–22 November 2026 at CIC Berlin will put 200 builders, selected from 1,300+ registrations, on robot arms, robot sets and a Unitree Go2 EDU quadruped. To set a challenge or meet these builders, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

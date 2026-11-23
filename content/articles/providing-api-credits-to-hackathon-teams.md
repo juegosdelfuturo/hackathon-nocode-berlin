@@ -113,7 +113,7 @@ Follow up with every team that built on your product, within a week. Offer a cle
 
 ## How HackLab helps companies provide credits to builders
 
-At HackLab Edition #2 (21–22 November 2026, CIC Berlin), participants receive free credits from every technology partner, and 200 builders were selected from 1,100+ registrations. One of the four tracks is AI Infrastructure, alongside Industrial Robotics Simulation, Autonomous Navigation and Wildcard / Open Source.
+At HackLab Edition #2 (21–22 November 2026, CIC Berlin), participants receive free credits from every technology partner, and 200 builders were selected from 1,300+ registrations. One of the four tracks is AI Infrastructure, alongside Industrial Robotics Simulation, Autonomous Navigation and Wildcard / Open Source.
 
 Sponsors can provide hardware or credits, set challenges and meet builders in person. To put your product in builders' hands, [partner with HackLab](/for-companies).
 

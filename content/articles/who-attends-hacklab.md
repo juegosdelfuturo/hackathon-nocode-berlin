@@ -11,14 +11,14 @@ faq:
   - q: "Who attends HackLab?"
     a: "HackLab Edition #1 participants included robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals across specialties, master's students building their first real prototypes, and university researchers."
   - q: "Are HackLab participants screened?"
-    a: "Yes. At Edition #1, HackLab selected 130 builders from 600+ applications. For Edition #2, 200 builders were selected from 1,100+ registrations."
+    a: "Yes. At Edition #1, HackLab selected 130 builders from 600+ applications. For Edition #2, 200 builders were selected from 1,300+ registrations."
   - q: "Does HackLab only attract students?"
     a: "No. At Edition #1, students and researchers attended, but so did robotics professionals across specialties and people with machine-learning backgrounds."
   - q: "How many builders does HackLab select?"
     a: "HackLab selected 130 builders at Edition #1 and 200 builders at Edition #2, a 48-hour event on 21–22 November 2026 at CIC Berlin."
 sources: []
 ---
-**HackLab is attended by pre-selected robotics, AI and ML builders. At Edition #1, they were robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals across specialties, master's students building their first real prototypes, and university researchers.** Every one of them passed selection: 130 of 600+ applicants at Edition #1 and 200 of 1,100+ registrants at Edition #2. Companies meet them while they build, not through a CV pile.
+**HackLab is attended by pre-selected robotics, AI and ML builders. At Edition #1, they were robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals across specialties, master's students building their first real prototypes, and university researchers.** Every one of them passed selection: 130 of 600+ applicants at Edition #1 and 200 of 1,300+ registrants at Edition #2. Companies meet them while they build, not through a CV pile.
 
 ## What profiles does HackLab attract?
 
@@ -36,7 +36,7 @@ How many participants fall into each profile, and their gender or nationality mi
 
 ## How are HackLab participants selected?
 
-Participants are selected from a much larger pool of applicants. At Edition #1, HackLab selected 130 builders from 600+ applications. For Edition #2, it selected 200 builders from 1,100+ registrations on Luma.
+Participants are selected from a much larger pool of applicants. At Edition #1, HackLab selected 130 builders from 600+ applications. For Edition #2, it selected 200 builders from 1,300+ registrations on Luma.
 
 The exact selection criteria are not covered here. What a sponsor can rely on is that the people in the room have already been filtered from a larger pool.
 
@@ -77,6 +77,6 @@ Yes. After Edition #1, 5 participants were hired by sponsor companies. Which com
 
 ## How HackLab helps companies meet robotics and AI builders
 
-HackLab gives companies direct access to pre-selected builders: 130 from 600+ at Edition #1, and 200 from 1,100+ at Edition #2. Sponsors can set challenges, provide hardware or credits, and meet builders in person while they build. To reach these profiles at a future edition, [partner with HackLab](/for-companies).
+HackLab gives companies direct access to pre-selected builders: 130 from 600+ at Edition #1, and 200 from 1,300+ at Edition #2. Sponsors can set challenges, provide hardware or credits, and meet builders in person while they build. To reach these profiles at a future edition, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

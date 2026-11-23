@@ -102,6 +102,6 @@ Keep it as short as you can while still including one practical step. A typical 
 
 ## How HackLab helps companies hire robotics engineers in Germany
 
-HackLab runs AI × robotics hackathons in Berlin, where companies from across Germany meet pre-selected builders while they build working robot prototypes. Edition #2 is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots, with robot arms and a Unitree Go2 EDU quadruped on site. After Edition #1, 5 participants were hired by sponsor companies. [Partner with HackLab](/for-companies) to meet the next cohort.
+HackLab runs AI × robotics hackathons in Berlin, where companies from across Germany meet pre-selected builders while they build working robot prototypes. Edition #2 is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots, with robot arms and a Unitree Go2 EDU quadruped on site. After Edition #1, 5 participants were hired by sponsor companies. [Partner with HackLab](/for-companies) to meet the next cohort.
 
 *Last updated: 11 November 2026.*

@@ -97,7 +97,7 @@ Most come from universities, research labs and the local startup scene. [Berlin'
 
 Hackathons are another visible source. HackLab's Edition #1 (20–21 June 2026, CIC Berlin) received 600+ applications for 130 places. Its profile mix included robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals and university researchers.
 
-Edition #2 (21–22 November 2026) is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2). Demand on that scale shows how many builders want hands-on robotics work.
+Edition #2 (21–22 November 2026) is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2). Demand on that scale shows how many builders want hands-on robotics work.
 
 ## How HackLab helps companies hire robotics and AI talent in Berlin
 

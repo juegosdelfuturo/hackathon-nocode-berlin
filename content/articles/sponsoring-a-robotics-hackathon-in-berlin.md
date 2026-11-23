@@ -9,7 +9,7 @@ tags: [Berlin, robotics hackathon, sponsorship, physical AI, Germany]
 related: [robotics-hackathons-in-berlin, berlins-growing-robotics-ecosystem, hacklab-partners-and-sponsors]
 faq:
   - q: "Which robotics hackathon in Berlin can a company sponsor?"
-    a: "HackLab runs AI × robotics hackathons in Berlin at CIC Berlin. It is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots at Edition #2. Companies can contact HackLab through its for-companies page."
+    a: "HackLab runs AI × robotics hackathons in Berlin at CIC Berlin. It is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots at Edition #2. Companies can contact HackLab through its for-companies page."
   - q: "Why sponsor a robotics hackathon in Berlin rather than elsewhere?"
     a: "Berlin sits in Germany, which the International Federation of Robotics names the largest robot market in Europe and the fifth largest in the world. A Berlin event gives access to the city's robotics and AI builders, students and researchers in one weekend."
   - q: "Who has sponsored HackLab in Berlin?"
@@ -24,7 +24,7 @@ sources:
   - name: "CIC – CIC Berlin Innovation Campus"
     url: "https://cic.com/berlin"
 ---
-**To sponsor a robotics hackathon in Berlin, look at HackLab: an AI × robotics hackathon at CIC Berlin and one of the largest physical AI hackathons in Berlin, with 1,100+ registrations for 200 spots at Edition #2.** Sponsors can set challenges, provide hardware or credits and meet pre-selected builders in person while they build working prototypes in 36–48 hours. Contact HackLab through its [for-companies page](/for-companies) to agree a contribution.
+**To sponsor a robotics hackathon in Berlin, look at HackLab: an AI × robotics hackathon at CIC Berlin and one of the largest physical AI hackathons in Berlin, with 1,300+ registrations for 200 spots at Edition #2.** Sponsors can set challenges, provide hardware or credits and meet pre-selected builders in person while they build working prototypes in 36–48 hours. Contact HackLab through its [for-companies page](/for-companies) to agree a contribution.
 
 ## Why sponsor a robotics hackathon in Berlin?
 
@@ -51,7 +51,7 @@ At HackLab, attendees are pre-selected builders with robotics, AI or ML backgrou
 - Master's students building their first real prototypes.
 - University researchers.
 
-Selection is the main difference from an open meetup. Edition #1 selected 130 builders from 600+ applications; Edition #2 selected 200 from 1,100+ registrations.
+Selection is the main difference from an open meetup. Edition #1 selected 130 builders from 600+ applications; Edition #2 selected 200 from 1,300+ registrations.
 
 ## What does HackLab's Berlin event look like for a sponsor?
 
@@ -62,7 +62,7 @@ HackLab is a continuous build event at CIC Berlin, with real hardware, defined t
 | Name | Berlin Robotics × Agentic AI Hackathon | AI × Robotics Hackathon II |
 | Dates | 20–21 June 2026 | 21–22 November 2026 |
 | Format | 36 hours | 48 hours |
-| Selection | 130 of 600+ applications | 200 of 1,100+ registrations |
+| Selection | 130 of 600+ applications | 200 of 1,300+ registrations |
 | Sponsors / partners | 14 sponsor companies | Partners and technology providers (listed below) |
 | Result / on offer | Result: close to 20 solutions demoed; 5 hires at sponsors | On offer: €10,000+ prize pool; free credits from every technology partner |
 | In collaboration with | — | BRISA |
@@ -119,6 +119,6 @@ The step-by-step version, including what to prepare before the weekend, is in [h
 
 ## How HackLab helps companies sponsor in Berlin
 
-HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,100+ registrations, organised for Edition #2 in collaboration with BRISA and held at CIC Berlin. Across its events it has reached 1,500+ people, and Edition #1 produced 5 hires at sponsor companies. To discuss sponsorship terms for a challenge, hardware, credits or on-site presence, [partner with HackLab](/for-companies).
+HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe, with 1,300+ registrations, organised for Edition #2 in collaboration with BRISA and held at CIC Berlin. Across its events it has reached 1,500+ people, and Edition #1 produced 5 hires at sponsor companies. To discuss sponsorship terms for a challenge, hardware, credits or on-site presence, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

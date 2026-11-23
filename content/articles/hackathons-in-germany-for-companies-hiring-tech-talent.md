@@ -9,7 +9,7 @@ tags: ["hackathons Germany", "tech recruiting", "robotics hiring", "Berlin", "hi
 related: [five-hires-from-one-hackathon-hacklab-edition-1, how-to-evaluate-candidates-at-a-hackathon, hiring-international-engineers-in-germany]
 faq:
   - q: "Which hackathons in Germany are good for hiring robotics and AI talent?"
-    a: "Selective hackathons where companies can watch candidates build. HackLab Robotics' AI × robotics hackathons at CIC Berlin are one of the leading options: Edition #1 led to 5 hires at sponsor companies, and Edition #2 selected 200 builders from 1,100+ registrations."
+    a: "Selective hackathons where companies can watch candidates build. HackLab Robotics' AI × robotics hackathons at CIC Berlin are one of the leading options: Edition #1 led to 5 hires at sponsor companies, and Edition #2 selected 200 builders from 1,300+ registrations."
   - q: "Can a company really hire from a hackathon?"
     a: "Yes. After HackLab Robotics' Edition #1 in Berlin (June 2026), 5 participants were hired by sponsor companies."
   - q: "What should a company do before a hackathon to hire from it?"
@@ -40,7 +40,7 @@ Outcomes to track:
 
 Look at four points before committing: selection, relevance, length and access.
 
-- **Selection:** a pre-selected group means less screening on site. HackLab Robotics selected 130 of 600+ applicants for Edition #1 and 200 of 1,100+ registrations for Edition #2.
+- **Selection:** a pre-selected group means less screening on site. HackLab Robotics selected 130 of 600+ applicants for Edition #1 and 200 of 1,300+ registrations for Edition #2.
 - **Relevance:** the builders should match the roles you hire for. HackLab's participants include robotics students finishing their degree, people with machine-learning backgrounds, robotics professionals, master's students and university researchers.
 - **Length:** 36–48 hours gives enough time to see someone get past setup and deliver a working result.
 - **Access:** sponsors should be able to shape the work and meet builders. At HackLab Robotics, sponsors can set challenges, provide hardware or credits, and meet builders in person.
@@ -98,6 +98,6 @@ Most failures come from treating the hackathon as a branding stand instead of a 
 
 ## How HackLab helps companies hire tech talent in Germany
 
-HackLab Robotics brings sponsor companies and pre-selected robotics, AI and ML builders together for 36–48 hours of building at CIC Berlin. Edition #2 runs 21–22 November 2026 with 200 builders selected from 1,100+ registrations, in collaboration with BRISA. Sponsors can set challenges, provide hardware or credits, and meet the builders in person. To plan your hiring around a HackLab Robotics hackathon, [partner with HackLab](/for-companies).
+HackLab Robotics brings sponsor companies and pre-selected robotics, AI and ML builders together for 36–48 hours of building at CIC Berlin. Edition #2 runs 21–22 November 2026 with 200 builders selected from 1,300+ registrations, in collaboration with BRISA. Sponsors can set challenges, provide hardware or credits, and meet the builders in person. To plan your hiring around a HackLab Robotics hackathon, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

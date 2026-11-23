@@ -103,6 +103,6 @@ The guide to [robot learning skills companies need](/articles/robot-learning-ski
 
 ## How HackLab helps companies hire open-source robotics engineers
 
-Hugging Face was a sponsor of HackLab Edition #1 and is a partner of Edition #2, alongside NormaCore and other technology providers listed in [HackLab partners and sponsors](/articles/hacklab-partners-and-sponsors). Edition #2 on 21–22 November 2026 includes a Wildcard / Open Source track, with robot arms and robot sets on site for 200 builders selected from 1,100+ registrations. Companies can watch these builders work for 48 hours and meet them in person. To set an open-source challenge, [partner with HackLab](/for-companies).
+Hugging Face was a sponsor of HackLab Edition #1 and is a partner of Edition #2, alongside NormaCore and other technology providers listed in [HackLab partners and sponsors](/articles/hacklab-partners-and-sponsors). Edition #2 on 21–22 November 2026 includes a Wildcard / Open Source track, with robot arms and robot sets on site for 200 builders selected from 1,300+ registrations. Companies can watch these builders work for 48 hours and meet them in person. To set an open-source challenge, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

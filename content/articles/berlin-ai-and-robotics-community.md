@@ -13,7 +13,7 @@ faq:
   - q: "How big is Berlin's AI startup scene?"
     a: "ai.berlin, the city's official AI ecosystem platform powered by Berlin Partner for Business and Technology, counts 283 AI startups in Berlin, the most in Germany, and EUR 2.4 billion in revenue from Berlin's AI companies."
   - q: "Where do Berlin's AI and robotics builders meet in person?"
-    a: "Recurring evening talks and university lab events exist, but the hands-on meeting point is a hackathon. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots at Edition #2, held at CIC Berlin."
+    a: "Recurring evening talks and university lab events exist, but the hands-on meeting point is a hackathon. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots at Edition #2, held at CIC Berlin."
   - q: "What is the best way for a company to meet robotics engineers in Berlin?"
     a: "Combine long-term channels, such as university partnerships and technical talks, with a hands-on format. At HackLab Robotics' AI × robotics hackathons, companies watch pre-selected builders create working prototypes in 36–48 hours."
 sources:
@@ -77,7 +77,7 @@ For a company, this means one search can reach both junior and experienced profi
 
 ## Where does the community meet in person?
 
-Smaller recurring formats exist, such as evening talks, lab open days and university events, but the main hands-on meeting point is a hackathon. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people.
+Smaller recurring formats exist, such as evening talks, lab open days and university events, but the main hands-on meeting point is a hackathon. HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people.
 
 | | Edition #1 | Edition #2 |
 |---|---|---|
@@ -85,7 +85,7 @@ Smaller recurring formats exist, such as evening talks, lab open days and univer
 | Dates | 20–21 June 2026 | 21–22 November 2026 |
 | Venue | CIC Berlin | CIC Berlin, Lohmühlenstraße 65 |
 | Format | 36 hours | 48 hours |
-| Demand | 600+ applications | 1,100+ registrations |
+| Demand | 600+ applications | 1,300+ registrations |
 | Builders selected | 130 | 200 |
 | Outcome / prizes | 5 participants hired by sponsors | €10,000+ in prizes |
 

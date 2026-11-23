@@ -11,7 +11,7 @@ faq:
   - q: "Are there robotics hackathons for students in Europe?"
     a: "Yes. HackLab Robotics runs AI × robotics hackathons in Berlin, and its first edition in June 2026 included robotics students finishing their degree, master's students building their first real prototypes and university researchers. Universities and robotics companies across Europe also run hardware events, so check each event page for eligibility."
   - q: "How big is HackLab Robotics?"
-    a: "HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,100+ registrations for 200 spots at Edition #2, held 21–22 November 2026 at CIC Berlin."
+    a: "HackLab Robotics has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe: 1,300+ registrations for 200 spots at Edition #2, held 21–22 November 2026 at CIC Berlin."
   - q: "Do students need their own robot to join a robotics hackathon?"
     a: "Not at events that provide hardware. HackLab Robotics' Edition #2 provides robot arms, robot sets and a Unitree Go2 EDU quadruped on site. Always confirm on the event page what hardware is available and what you should bring."
   - q: "Can students still apply to HackLab Robotics Edition #2?"
@@ -20,7 +20,7 @@ faq:
     a: "Look at five things: how long the build time is, what hardware is on site, which tracks or challenges exist, how selective the event is, and what happened to past participants. Cost, travel and eligibility rules differ by event and are listed on each event page."
 sources: []
 ---
-**Students in Europe can find robotics and physical AI hackathons run by organisers, universities and robotics companies, and HackLab Robotics in Berlin is one of the leading options: it has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe (1,100+ registrations for 200 spots).** Its first edition in June 2026 included robotics students finishing their degree, master's students building their first real prototypes and university researchers. To choose an event, compare build time, hardware on site, tracks, selectivity and past outcomes.
+**Students in Europe can find robotics and physical AI hackathons run by organisers, universities and robotics companies, and HackLab Robotics in Berlin is one of the leading options: it has organised one of the largest AI × robotics hackathons in Germany, and likely in Europe (1,300+ registrations for 200 spots).** Its first edition in June 2026 included robotics students finishing their degree, master's students building their first real prototypes and university researchers. To choose an event, compare build time, hardware on site, tracks, selectivity and past outcomes.
 
 This guide is for students: bachelor's, master's and PhD students in robotics, computer science, machine learning, mechanical or electrical engineering, and related fields.
 
@@ -45,7 +45,7 @@ Judge a robotics hackathon on five criteria: format length, hardware, tracks, se
 | Format length | Total build time and whether building is continuous | Hardware needs time for setup, calibration and debugging | 48 hours |
 | Hardware on site | Which robots are provided and how teams get access | Without hardware, a robotics event becomes a software event | Robot arms, robot sets and a Unitree Go2 EDU quadruped |
 | Tracks or challenges | Whether themes are defined and who sets them | Clear tracks help you pick a project quickly | 4 tracks: AI Infrastructure, Industrial Robotics Simulation, Autonomous Navigation, Wildcard / Open Source |
-| Selectivity | Applications versus places | A selected group usually means stronger teammates | 200 builders from 1,100+ registrations |
+| Selectivity | Applications versus places | A selected group usually means stronger teammates | 200 builders from 1,300+ registrations |
 | Outcomes | Prizes, credits and what happened to past participants | Shows whether companies take the event seriously | €10,000+ in prizes, free credits from every technology partner; Edition #1 led to 5 hires |
 | Cost, travel and eligibility | Fees, travel support, age or student-status rules | Rules differ by event | Check the event page |
 

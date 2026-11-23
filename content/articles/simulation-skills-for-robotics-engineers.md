@@ -112,6 +112,6 @@ Hire for the workflow you run, plus the transferable fundamentals:
 
 ## How HackLab helps companies hire simulation engineers
 
-HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, includes an Industrial Robotics Simulation track among its four tracks. Companies can watch 200 pre-selected builders, chosen from 1,100+ registrations, build in simulation and on hardware such as robot arms and a Unitree Go2 EDU over 48 hours. Sponsors can set challenges, provide hardware or credits, and meet builders in person. To shape a simulation challenge, [partner with HackLab](/for-companies).
+HackLab Edition #2, on 21–22 November 2026 at CIC Berlin, includes an Industrial Robotics Simulation track among its four tracks. Companies can watch 200 pre-selected builders, chosen from 1,300+ registrations, build in simulation and on hardware such as robot arms and a Unitree Go2 EDU over 48 hours. Sponsors can set challenges, provide hardware or credits, and meet builders in person. To shape a simulation challenge, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

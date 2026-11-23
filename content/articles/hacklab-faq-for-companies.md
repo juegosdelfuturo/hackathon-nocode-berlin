@@ -17,10 +17,10 @@ faq:
   - q: "When is the next HackLab after November 2026?"
     a: "Dates and location for a third edition are not covered here. Edition #2 runs on 21–22 November 2026 at CIC Berlin."
   - q: "How big is HackLab compared with other hackathons?"
-    a: "HackLab is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2)."
+    a: "HackLab is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2)."
 sources: []
 ---
-**HackLab is a Berlin organiser of AI × robotics (physical AI) hackathons where companies meet and recruit pre-selected builders by watching them build real prototypes in 36–48 hours.** Edition #1 (June 2026) selected 130 builders from 600+ applications and led to 5 hires at sponsor companies. Edition #2 (21–22 November 2026) selected 200 builders from 1,100+ registrations. The answers below cover what companies ask most, including what is not covered here.
+**HackLab is a Berlin organiser of AI × robotics (physical AI) hackathons where companies meet and recruit pre-selected builders by watching them build real prototypes in 36–48 hours.** Edition #1 (June 2026) selected 130 builders from 600+ applications and led to 5 hires at sponsor companies. Edition #2 (21–22 November 2026) selected 200 builders from 1,300+ registrations. The answers below cover what companies ask most, including what is not covered here.
 
 ## What is HackLab, in one paragraph?
 
@@ -33,7 +33,7 @@ A job ad gives you CVs. HackLab shows you people building. Companies see candida
 | | Job ad | HackLab |
 |---|---|---|
 | What you assess | CV and interview answers | A working prototype built under time pressure |
-| Pool | Whoever applies | Pre-selected (130 of 600+; 200 of 1,100+) |
+| Pool | Whoever applies | Pre-selected (130 of 600+; 200 of 1,300+) |
 | Contact | Through the application process | In person, during the build |
 
 For the general case, see [are hackathons a good way to hire engineers](/articles/are-hackathons-a-good-way-to-hire-engineers).
@@ -44,7 +44,7 @@ You will meet robotics, AI and ML builders. Edition #1 participants included rob
 
 ## How are participants selected?
 
-Participants are selected from applications. At Edition #1, HackLab selected 130 builders from 600+ applications. Edition #2 selected 200 from 1,100+ registrations. The exact selection criteria are not covered here.
+Participants are selected from applications. At Edition #1, HackLab selected 130 builders from 600+ applications. Edition #2 selected 200 from 1,300+ registrations. The exact selection criteria are not covered here.
 
 ## What can sponsors do?
 
@@ -85,7 +85,7 @@ HackLab is the organiser. Edition #2 is in collaboration with BRISA.
 
 ## How big is HackLab?
 
-HackLab is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people.
+HackLab is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2). Across its events, HackLab has reached 1,500+ people.
 
 ## What isn't covered in this FAQ?
 

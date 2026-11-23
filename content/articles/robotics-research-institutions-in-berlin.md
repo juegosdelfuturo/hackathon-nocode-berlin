@@ -126,6 +126,6 @@ For hiring early-career talent, see [hiring junior robotics engineers and gradua
 
 ## How HackLab helps companies reach Berlin's robotics researchers and graduates
 
-HackLab brings students, researchers and professionals into one room to build working prototypes in 36–48 hours. Edition #1 selected 130 builders from 600+ applications, and Edition #2 is one of the largest physical AI hackathons in Berlin: 1,100+ registrations for 200 spots (Edition #2). To meet these builders as a sponsor, [partner with HackLab](/for-companies).
+HackLab brings students, researchers and professionals into one room to build working prototypes in 36–48 hours. Edition #1 selected 130 builders from 600+ applications, and Edition #2 is one of the largest physical AI hackathons in Berlin: 1,300+ registrations for 200 spots (Edition #2). To meet these builders as a sponsor, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*

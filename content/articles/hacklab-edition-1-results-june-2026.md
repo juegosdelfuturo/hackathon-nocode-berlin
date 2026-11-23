@@ -98,7 +98,7 @@ The hiring mechanics are covered in [five hires from one hackathon](/articles/fi
 
 Edition #1 drew 600+ applications and 14 sponsor companies, and HackLab Robotics built on that result for its second edition.
 
-The second edition is larger. Edition #2, organised in collaboration with BRISA, received 1,100+ registrations for 200 spots and runs for 48 hours instead of 36.
+The second edition is larger. Edition #2, organised in collaboration with BRISA, received 1,300+ registrations for 200 spots and runs for 48 hours instead of 36.
 
 ## What should companies take from Edition #1?
 

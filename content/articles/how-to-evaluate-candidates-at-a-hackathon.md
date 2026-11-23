@@ -102,6 +102,6 @@ Use them to decide whom to contact and what to talk about. The scores are the st
 
 ## How HackLab helps companies evaluate builders
 
-At HackLab events, companies see pre-selected candidates build working prototypes in 36–48 hours instead of reading CVs, and sponsors can meet builders in person throughout. For Edition #2, 200 builders were selected from 1,100+ registrations. To bring your rubric and engineers to the room, [partner with HackLab](/for-companies).
+At HackLab events, companies see pre-selected candidates build working prototypes in 36–48 hours instead of reading CVs, and sponsors can meet builders in person throughout. For Edition #2, 200 builders were selected from 1,300+ registrations. To bring your rubric and engineers to the room, [partner with HackLab](/for-companies).
 
 *Last updated: 11 November 2026.*
